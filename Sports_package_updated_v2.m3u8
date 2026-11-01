@@ -18,7 +18,7 @@ http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/38209.ts
 #EXTINF:-1 tvg-id="beINSPORTS3.fr" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX194O40LaLlx7ImsE4ArHdSkrXRX%2Fec0Fwf1i25ARr35stzOicIUb6%2BXGJ6EwG98PmlkvFi4CvSZjYCyt3seZc5HfcSGictqPLM%3D" group-title="GENERAL SPORTS",FR: BEIN SPORTS 3
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/52382.ts
 
-#EXTINF:-1 tvg-id="LaLigaTVBar2.es" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2Bx6gADmJWhAsEKLlg8vWuAYkYgG%2Fu%2B23CXt%2ByLEsapRMqEy1Mlkh5UHK3sB64Ds%2FqaQK7aTbbIZsrlDWf6B0Eu%2BtIUPxSJhJo%3D" group-title="LALIGA",ESP: LALIGA TV BAR 2
+#EXTINF:-1 tvg-id="LALIGATVBAR2.es" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2Bx6gADmJWhAsEKLlg8vWuAYkYgG%2Fu%2B23CXt%2ByLEsapRMqEy1Mlkh5UHK3sB64Ds%2FqaQK7aTbbIZsrlDWf6B0Eu%2BtIUPxSJhJo%3D" group-title="LALIGA",ESP: LALIGA TV BAR 2
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/27550.ts
 
 #EXTINF:-1 tvg-id="PremierLeagueHighlights.uk" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18gniSz2ZvYsCx1k7LWkbVt3Tfyqj1OL1hBOuxokga8%2BHa52KKyiJgCGo%2BKzXSNhapycoprTI9zNqLplXICC2OrQXugkpVyTjg%3D" group-title="EPL",PREMIER LEAGUE HIGHLIGHTS
@@ -49,7 +49,7 @@ http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/28490.ts
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/28502.ts
 
 # DAZN F1 Spain
-#EXTINF:-1 tvg-id="DAZNF1.uk@Spain" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BpFP8i7aROufs2ErHyxbEE9Qs%2Bprzv3ZBO0Q7VgAVPbVTmLHewCMOfvK5TlCttDZd%2BIURQvzxQrQ%3D%3D" group-title="GENERAL SPORTS",ESP: DAZN F1
+#EXTINF:-1 tvg-id="DAZNF1.es" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BpFP8i7aROufs2ErHyxbEE9Qs%2Bprzv3ZBO0Q7VgAVPbVTmLHewCMOfvK5TlCttDZd%2BIURQvzxQrQ%3D%3D" group-title="GENERAL SPORTS",ESP: DAZN F1
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/27716.ts
 
 # Canal+ Premier League
@@ -101,11 +101,11 @@ http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/31017.ts
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/31016.ts
 
 # Canal+ Sport 6 Poland
-#EXTINF:-1 tvg-id="CanalSport6.pl" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BjWHLSkzfC4BvOyixLveeFPslAlzc%2BAximP%2FMoj1V9Vxf2dnx%2BQW%2BXlUZ78nyqsgm6gzaytkolhFlwjeGL8wc7WGRYhk05O48%3D" group-title="GENERAL SPORTS",PL: CANAL+ SPORT 6
+#EXTINF:-1 tvg-id="Canal+Sport6.pl" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BjWHLSkzfC4BvOyixLveeFPslAlzc%2BAximP%2FMoj1V9Vxf2dnx%2BQW%2BXlUZ78nyqsgm6gzaytkolhFlwjeGL8wc7WGRYhk05O48%3D" group-title="GENERAL SPORTS",PL: CANAL+ SPORT 6
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1424889.ts
 
 # DAZN LaLiga Spain
-#EXTINF:-1 tvg-id="DAZNLaLiga.uk@Spain" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19kl6Cb5mN%2FrMjoKg1tEOO4Mjq6p0%2FlrMdW%2FWL8DRxXmoA7WMj9ua9GymPsGARsNMPUPn8hXzzQfw%3D%3D" group-title="LALIGA",ESP: DAZN LALIGA
+#EXTINF:-1 tvg-id="DAZNLaLiga.es" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19kl6Cb5mN%2FrMjoKg1tEOO4Mjq6p0%2FlrMdW%2FWL8DRxXmoA7WMj9ua9GymPsGARsNMPUPn8hXzzQfw%3D%3D" group-title="LALIGA",ESP: DAZN LALIGA
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1428764.ts
 
 # Match feed – no reliable permanent channel EPG ID
@@ -144,19 +144,19 @@ http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/26440.ts
 #EXTINF:-1 tvg-id="LaLigaTV.es@SD" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18MLGYUF9vcC9YUAclOqdyLgSFdWhYAGWSZaJ%2FJ9SIuU0%2Bthkg2uR31fNRs1vKYv1j7Oc3TgGdX3g%3D%3D" group-title="LALIGA",ESP: LALIGA REPLAY ENGLISH 1
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/28501.ts
 
-#EXTINF:-1 tvg-id="DAZN4.fr@SD" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BemlN3hEgts00PE8TP%2BhiLxk9kGccMXDuOzmzGPW2EGFxuLZwOFq41c5ZPU%2B8aIoZrEjI52R9ymHzI6d9nVqKgSCa59UnP%2F6U%3D" group-title="GENERAL SPORTS",FR: DAZN 4
+#EXTINF:-1 tvg-id="DAZN4.fr" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BemlN3hEgts00PE8TP%2BhiLxk9kGccMXDuOzmzGPW2EGFxuLZwOFq41c5ZPU%2B8aIoZrEjI52R9ymHzI6d9nVqKgSCa59UnP%2F6U%3D" group-title="GENERAL SPORTS",FR: DAZN 4
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1424019.ts
 
-#EXTINF:-1 tvg-id="DAZN10.fr@SD" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BuNd8U6Pzso7%2BPesz%2FkGsusdDoPnnSA2uGVdyb%2FcgE3e%2BfhqRlMvqt8ni4BB6dqxS2jFka8C8e5br8VgyDQNt46auwl3XNTXg%3D" group-title="SERIE A",FR: DAZN 10
+#EXTINF:-1 tvg-id="DAZN10.fr" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BuNd8U6Pzso7%2BPesz%2FkGsusdDoPnnSA2uGVdyb%2FcgE3e%2BfhqRlMvqt8ni4BB6dqxS2jFka8C8e5br8VgyDQNt46auwl3XNTXg%3D" group-title="SERIE A",FR: DAZN 10
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1424025.ts
 
-#EXTINF:-1 tvg-id="DAZN11.fr@SD" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FVRb21NiPA59pPFaDfbuEAVpeOgZtfUSyQRlQBZQlmSmjJXyC1SGqtj2sLRyxdK9%2FA9U0YKHHlBfiNrbziyx%2FlG7PtH96sdy0%3D" group-title="GENERAL SPORTS",FR: DAZN 11
+#EXTINF:-1 tvg-id="DAZN11.fr" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FVRb21NiPA59pPFaDfbuEAVpeOgZtfUSyQRlQBZQlmSmjJXyC1SGqtj2sLRyxdK9%2FA9U0YKHHlBfiNrbziyx%2FlG7PtH96sdy0%3D" group-title="GENERAL SPORTS",FR: DAZN 11
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1424026.ts
 
-#EXTINF:-1 tvg-id="DAZN12.fr@SD" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BHSLb8KYey2d3WQtKSMTCwwrUFTbBk6hc3c4rUsHaShREDzriLBcynirXoL5ECVgG1%2BDbTqSVWW%2BFr2FZb9R2kRUi9DZoBARI%3D" group-title="GENERAL SPORTS",FR: DAZN 12
+#EXTINF:-1 tvg-id="DAZN12.fr" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BHSLb8KYey2d3WQtKSMTCwwrUFTbBk6hc3c4rUsHaShREDzriLBcynirXoL5ECVgG1%2BDbTqSVWW%2BFr2FZb9R2kRUi9DZoBARI%3D" group-title="GENERAL SPORTS",FR: DAZN 12
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1424027.ts
 
-#EXTINF:-1 tvg-id="CanalPlusSport.fr@SD" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18NOBHPYozCiWAXis%2FYDDHkDxxywln7tAcIssp%2B6TscVoVLuSNezF%2BsnSEeeWsrPDKsKaf5yFhUwPDqsZZFJPWLFCaMM7AtwEk%3D" group-title="GENERAL SPORTS",FR: CANAL+ SPORT
+#EXTINF:-1 tvg-id="Canal+Sport.fr" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18NOBHPYozCiWAXis%2FYDDHkDxxywln7tAcIssp%2B6TscVoVLuSNezF%2BsnSEeeWsrPDKsKaf5yFhUwPDqsZZFJPWLFCaMM7AtwEk%3D" group-title="GENERAL SPORTS",FR: CANAL+ SPORT
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/52378.ts
 
 # Match feed – no reliable permanent channel EPG ID
@@ -170,7 +170,7 @@ http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/262323.ts
 #EXTINF:-1 tvg-id="SkySportBundesliga1.de@SD" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BZTvU1FjhiyBKnG5cha2FT33nRqgb%2FN2K1vqOcfFyVBUfcBM4iVhKN4%2FD6aWxdkeP73aXQBHt7ag%3D%3D" group-title="BUNDESLIGA",DE: SKY SPORT BUNDESLIGA
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/28741.ts
 
-#EXTINF:-1 tvg-id="SkySportBundesliga2.de@SD" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BkiQZLxeYP%2BImeQ4SbaFKCj11upoOmlwT5U57QbWHUzJyyBUFTI1WBwXEJ1V3V8MVaBN7E%2Fjbvjw%3D%3D" group-title="BUNDESLIGA",DE: SKY SPORT BUNDESLIGA 2
+#EXTINF:-1 tvg-id="SkySportBundesliga2.de" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BkiQZLxeYP%2BImeQ4SbaFKCj11upoOmlwT5U57QbWHUzJyyBUFTI1WBwXEJ1V3V8MVaBN7E%2Fjbvjw%3D%3D" group-title="BUNDESLIGA",DE: SKY SPORT BUNDESLIGA 2
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/28747.ts
 
 #EXTINF:-1 tvg-id="SkySportBundesliga3.de@SD" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2ByIaXljwnb5xEnBCMDFTXWch2zwa37OjiU3Er1TxASV9gWiMINEd%2B1vOa4i8q69MWs2TW8BiaOrQ%3D%3D" group-title="BUNDESLIGA",DE: SKY SPORT BUNDESLIGA 3
@@ -179,16 +179,16 @@ http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/28748.ts
 #EXTINF:-1 tvg-id="SkySportBundesliga4.de@SD" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2F3QOPrzGifs4WbsNF73aNgGr226%2BazY6iMhaUzmbFsk%2FXNIs%2Bt2644KdpVs46k9Ji2PW%2Bh6AcwOg%3D%3D" group-title="BUNDESLIGA",DE: SKY SPORT BUNDESLIGA 4
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/28749.ts
 
-#EXTINF:-1 tvg-id="CanalPlusSport.pl@SD" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19Cgj3ms9d3Pf64%2BQ5RUNpmjGl4vD3peXnxgSPuCssp6aiFQLoDNixk8TvY9M6EFvA7Syfr5mR6l4hubkjJM3H3xc2SekLZj9Y%3D" group-title="GENERAL SPORTS",PL: CANAL+ SPORT
+#EXTINF:-1 tvg-id="Canal+Sport.pl" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19Cgj3ms9d3Pf64%2BQ5RUNpmjGl4vD3peXnxgSPuCssp6aiFQLoDNixk8TvY9M6EFvA7Syfr5mR6l4hubkjJM3H3xc2SekLZj9Y%3D" group-title="GENERAL SPORTS",PL: CANAL+ SPORT
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/40492.ts
 
-#EXTINF:-1 tvg-id="CanalPlusSport2.pl@SD" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2F0OA5QaoREMyFj8vXZgB5rtDkXLl4iNPB3TlSHhivu6hC6osDfmbFuHIzMvtttkekL8mpdT4VjhFN73NQGqw4%2FbZs1JYxX4S0Vt9ofXfTmVGSAssKUq6kY" group-title="GENERAL SPORTS",PL: CANAL+ SPORT 2
+#EXTINF:-1 tvg-id="Canal+Sport2.pl" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2F0OA5QaoREMyFj8vXZgB5rtDkXLl4iNPB3TlSHhivu6hC6osDfmbFuHIzMvtttkekL8mpdT4VjhFN73NQGqw4%2FbZs1JYxX4S0Vt9ofXfTmVGSAssKUq6kY" group-title="GENERAL SPORTS",PL: CANAL+ SPORT 2
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/40494.ts
 
-#EXTINF:-1 tvg-id="CanalPlusSport3.pl@SD" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BpxZH4SB1WQOVKmMWz606LLXMa9rg1cadvoV%2Bp5Kymqu%2BoC9FIHZ5YYEdnJh%2FVAxZsuAvOEQzVHEJHwSa0tR20gGfF9WZwX1s1%2Bx%2Bd6l81LO65Iw%2BpR%2F7D" group-title="GENERAL SPORTS",PL: CANAL+ SPORT 3
+#EXTINF:-1 tvg-id="Canal+Sport3.pl" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BpxZH4SB1WQOVKmMWz606LLXMa9rg1cadvoV%2Bp5Kymqu%2BoC9FIHZ5YYEdnJh%2FVAxZsuAvOEQzVHEJHwSa0tR20gGfF9WZwX1s1%2Bx%2Bd6l81LO65Iw%2BpR%2F7D" group-title="GENERAL SPORTS",PL: CANAL+ SPORT 3
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/40496.ts
 
-#EXTINF:-1 tvg-id="CanalPlusSport4.pl@SD" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BrjwOA%2B%2Fz0tShp%2FEtem4D7eEzpLtvN3pPTQKDmS8AV4neBUp6TzFUW60Tpw9ZCnMUuz83Eqkgx%2FK%2B%2B%2F8SYvdHLZOKMedJ26%2BOF0F5FSli%2B%2BjFtXMms3QgK" group-title="GENERAL SPORTS",PL: CANAL+ SPORT 4
+#EXTINF:-1 tvg-id="Canal+Sport4.pl" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BrjwOA%2B%2Fz0tShp%2FEtem4D7eEzpLtvN3pPTQKDmS8AV4neBUp6TzFUW60Tpw9ZCnMUuz83Eqkgx%2FK%2B%2B%2F8SYvdHLZOKMedJ26%2BOF0F5FSli%2B%2BjFtXMms3QgK" group-title="GENERAL SPORTS",PL: CANAL+ SPORT 4
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/40498.ts
 
 #EXTINF:-1 tvg-id="CanalPlusSport5.pl@SD" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2F5NRgOgq36DuuBEWyLKGwK4sXJA5BmS4JMKrmpS%2FGHEY30%2BIIsxp6FaYP3ZbeaAlFj1o0wb1e0nEyLHoyb29Y46AmQSJGTd33vuPJRUhA49U5wE7Djsn6X" group-title="GENERAL SPORTS",PL: CANAL+ SPORT 5
