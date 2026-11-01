@@ -1,105 +1,161 @@
-
-#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg\_ripper\_ALL\_SOURCES1.xml.gz"
-
-
-#EXTINF:-1 tvg-id="beINSports1.qa" tvg-logo="..." group-title="GENERAL SPORTS",FR: BEIN SPORTS 1
-
-#EXTINF:-1 tvg-id="beINSports2.qa" tvg-logo="..." group-title="BUNDESLIGA",FR: BEIN SPORTS 2
-
-#EXTINF:-1 tvg-id="beINSports3.qa" tvg-logo="..." group-title="GENERAL SPORTS",FR: BEIN SPORTS 3
-
-#EXTINF:-1 tvg-id="CanalPlusPremierLeague.fr" tvg-logo="..." group-title="EPL",FR: CANAL+ PREMIER LEAGUE
-
-#EXTINF:-1 tvg-id="CanalPlusPremierLeague.fr" tvg-logo="..." group-title="EPL",FR: CANAL+PREMIER LEAGUE
-
-#EXTINF:-1 tvg-id="CanalPlusPremierLeague.fr" tvg-logo="..." group-title="EPL",FR: CANAL+ PREMIER LEAGUE
-
-#EXTINF:-1 tvg-id="CanalPlusSport.fr" tvg-logo="..." group-title="GENERAL SPORTS",FR: CANAL+ SPORT
-
-#EXTINF:-1 tvg-id="CanalPlusSport360.fr" tvg-logo="..." group-title="GENERAL SPORTS",FR: CANAL+ SPORT 1
-
-#EXTINF:-1 tvg-id="CanalPlusFoot.fr" tvg-logo="..." group-title="GENERAL SPORTS",FR: CANAL+ SPORT 2
-
-#EXTINF:-1 tvg-id="CanalPlusSport360.fr" tvg-logo="..." group-title="GENERAL SPORTS",FR: CANAL+ SPORT 3
-
-#EXTINF:-1 tvg-id="CanalPlusSport360.fr" tvg-logo="..." group-title="GENERAL SPORTS",FR: CANAL+ SPORT 4
-
-#EXTINF:-1 tvg-id="CanalPlusSport360.fr" tvg-logo="..." group-title="GENERAL SPORTS",FR: CANAL+ SPORT 5
-
-#EXTINF:-1 tvg-id="DAZN1.es" tvg-logo="..." group-title="EPL",ESP: DAZN 1
-
-#EXTINF:-1 tvg-id="DAZN2.es" tvg-logo="..." group-title="GENERAL SPORTS",ESP: DAZN 2
-
-#EXTINF:-1 tvg-id="DAZNF1.uk@Spain" tvg-logo="..." group-title="GENERAL SPORTS",ESP: DAZN F1
-
-#EXTINF:-1 tvg-id="DAZNMotoGP.es" tvg-logo="..." group-title="GENERAL SPORTS",ESP: DAZN MOTOGP
-
-#EXTINF:-1 tvg-id="DAZNLaLiga.uk@Spain" tvg-logo="..." group-title="LALIGA",ESP: DAZN LALIGA
-
-#EXTINF:-1 tvg-id="DAZNLaLiga.uk@Spain" tvg-logo="..." group-title="LALIGA",ESP: DAZN LALIGA
-
-#EXTINF:-1 tvg-id="DAZNLaLiga.uk@Spain" tvg-logo="..." group-title="LALIGA",ESP: DAZN LALIGA
-
-#EXTINF:-1 tvg-id="MovistarLaLiga.es" tvg-logo="..." group-title="LALIGA",ESP: M+ LALIGA TV
-
-#EXTINF:-1 tvg-id="MovistarLaLiga2.es" tvg-logo="..." group-title="LALIGA",ESP: M+ LALIGA TV 2
-
-#EXTINF:-1 tvg-id="MovistarLaLiga3.es" tvg-logo="..." group-title="LALIGA",ESP: M+ LALIGA TV 3
-
-#EXTINF:-1 tvg-id="LaLigaTVBar.es" tvg-logo="..." group-title="LALIGA",ESP: LALIGA TV BAR 1
-
-#EXTINF:-1 tvg-id="LaLigaTVBar2.es" tvg-logo="..." group-title="LALIGA",ESP: LALIGA TV BAR 2
-
-#EXTINF:-1 tvg-id="LaLigaTV.es" tvg-logo="..." group-title="LALIGA",ESP: LA LIGA 1
-
-#EXTINF:-1 tvg-id="LaLigaTV2.es" tvg-logo="..." group-title="LALIGA",ESP: LA LIGA 2
-
-#EXTINF:-1 tvg-id="LaLigaTV.es" tvg-logo="..." group-title="LALIGA",ESP: LA LIGA 1
-
-#EXTINF:-1 tvg-id="SkySportBundesliga.de" tvg-logo="..." group-title="BUNDESLIGA",DE: SKY SPORT BUNDESLIGA
-
-#EXTINF:-1 tvg-id="SkySportBundesliga2.de" tvg-logo="..." group-title="BUNDESLIGA",DE: SKY SPORT BUNDESLIGA 2
-
-#EXTINF:-1 tvg-id="SkySportBundesliga3.de" tvg-logo="..." group-title="BUNDESLIGA",DE: SKY SPORT BUNDESLIGA 3
-
-#EXTINF:-1 tvg-id="SkySportBundesliga4.de" tvg-logo="..." group-title="BUNDESLIGA",DE: SKY SPORT BUNDESLIGA 4
-
-#EXTINF:-1 tvg-id="SkySportPremierLeague.de" tvg-logo="..." group-title="EPL",DE: SKY SPORT PREMIER LEAGUE
-
-#EXTINF:-1 tvg-id="CanalSport.pl" tvg-logo="..." group-title="GENERAL SPORTS",PL: CANAL+ SPORT
-
-#EXTINF:-1 tvg-id="CanalSport2.pl" tvg-logo="..." group-title="GENERAL SPORTS",PL: CANAL+ SPORT 2
-
-#EXTINF:-1 tvg-id="CanalSport3.pl" tvg-logo="..." group-title="GENERAL SPORTS",PL: CANAL+ SPORT 3
-
-#EXTINF:-1 tvg-id="CanalSport4.pl" tvg-logo="..." group-title="GENERAL SPORTS",PL: CANAL+ SPORT 4
-
-#EXTINF:-1 tvg-id="CanalSport5.pl" tvg-logo="..." group-title="GENERAL SPORTS",PL: CANAL+ SPORT 5
-
-#EXTINF:-1 tvg-id="CanalSport6.pl" tvg-logo="..." group-title="LALIGA",PL: CANAL+ SPORT 6
-
-#EXTINF:-1 tvg-id="CanalSport7.pl" tvg-logo="..." group-title="GENERAL SPORTS",PL: CANAL+ SPORT 7
-
-#EXTINF:-1 tvg-id="Ligue1Plus1.fr" tvg-logo="..." group-title="LIGUE 1",FR: LIGUE 1+ 1
-
-#EXTINF:-1 tvg-id="Ligue1Plus2.fr" tvg-logo="..." group-title="LIGUE 1",FR: LIGUE 1+ 2
-
-#EXTINF:-1 tvg-id="Ligue1Plus3.fr" tvg-logo="..." group-title="LIGUE 1",FR: LIGUE 1+ 3
-
-#EXTINF:-1 tvg-id="Ligue1Plus4.fr" tvg-logo="..." group-title="LIGUE 1",FR: LIGUE 1+ 4
-
-#EXTINF:-1 tvg-id="Ligue1Plus5.fr" tvg-logo="..." group-title="LIGUE 1",FR: LIGUE 1+ 5
-
-#EXTINF:-1 tvg-id="DAZN1.fr" tvg-logo="..." group-title="LALIGA",FR: DAZN 1
-
-#EXTINF:-1 tvg-id="DAZN2.fr" tvg-logo="..." group-title="LALIGA",FR: DAZN 2
-
-#EXTINF:-1 tvg-id="DAZN4.fr" tvg-logo="..." group-title="GENERAL SPORTS",FR: DAZN 4
-
-#EXTINF:-1 tvg-id="DAZN6.fr" tvg-logo="..." group-title="LALIGA",FR: DAZN 6
-
-#EXTINF:-1 tvg-id="DAZN10.fr" tvg-logo="..." group-title="SERIE A",FR: DAZN 10
-
-#EXTINF:-1 tvg-id="DAZN11.fr" tvg-logo="..." group-title="GENERAL SPORTS",FR: DAZN 11
-
-#EXTINF:-1 tvg-id="DAZN12.fr" tvg-logo="..." group-title="GENERAL SPORTS",FR: DAZN 12
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19FskLVBxhZajvB%2BGoj%2FesdWMP7%2B19IrzZALqxaFPtQXQ0CgRB3Z%2BpfdIV5vEYVFWSuvfRHuX1pN9MAIHzajxzWNJHPOB3Qrnc%3D" group-title="GENERAL SPORTS",FR: BEIN SPORTS 1
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/52380.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18cT3u%2FEClIWxgQZRz5p31fKZweOPxMKpwf%2BcZISSFJ7fvD5WBzhEl8PlAVRvPAoVLHRcLyRFxpcUOczaOQxoiu21IogbxMHIY%3D" group-title="LALIGA",UK: PREMIER SPORT 2
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/26249.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FZVnPiObVGhmdHfV6k%2F%2BH6j36TzJQ35NIx1WCoeplcrAcI%2Fkfkv3VuJ2iiW60fP9CZrBxCO12uGIIKZxmwx0DmAUOAT0%2Bc6xY%3D" group-title="EPL",UK: ASTRO Premier League
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/38207.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2Bj2tbb9xffDE3R6sxm%2B4l%2Bgxt%2BUlU9SgFxO1%2BgrwrbNNktd7E20qwF5ukDC61ZbBw0dBwzxKIRo0Z2LdydbqGIl7757EsJrMA%3D" group-title="BUNDESLIGA",FR: BEIN SPORTS 2
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/52381.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19bt5sUeqaaTon1y3KPY0vEidZq0O6s6IXW9agMVVVc8cP8nbZiuORcw%2FA%2FG1kMwQtdFbHhElv6I2Zsw3FuowbaKbT4LXOF%2F5g%3D" group-title="EPL",UK: ASTRO Premier League
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/38209.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX194O40LaLlx7ImsE4ArHdSkrXRX%2Fec0Fwf1i25ARr35stzOicIUb6%2BXGJ6EwG98PmlkvFi4CvSZjYCyt3seZc5HfcSGictqPLM%3D" group-title="GENERAL SPORTS",FR: BEIN SPORTS 3
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/52382.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2Bx6gADmJWhAsEKLlg8vWuAYkYgG%2Fu%2B23CXt%2ByLEsapRMqEy1Mlkh5UHK3sB64Ds%2FqaQK7aTbbIZsrlDWf6B0Eu%2BtIUPxSJhJo%3D" group-title="LALIGA",ESP: LALIGA TV BAR 2
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/27550.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18gniSz2ZvYsCx1k7LWkbVt3Tfyqj1OL1hBOuxokga8%2BHa52KKyiJgCGo%2BKzXSNhapycoprTI9zNqLplXICC2OrQXugkpVyTjg%3D" group-title="EPL",Premier League HIGHLIGHTS
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/37788.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FZ2voHqMz9T5H7Z7Tf9%2FfCYD3kVaxabGNc7e6R5nkpncIq8Vmjf0okI%2BuW%2B0XrciQbSAuysL2AZEo2xZe9xdSMNJ8Si1kfyOY%3D" group-title="GENERAL SPORTS",UK: ASTRO Premier League 2
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/38208.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BoFfhjxjHo4nWSUqKZ614UMppbxBFOLwPKr4ns6M9rDkFR0gd656uS9U9X2D9SbdeAOa9w%2B%2BcPdw%3D%3D" group-title="EPL",ESP: DAZN 1
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/27714.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19rIIylSsO9qzL%2FzlYMCmuAi4rGiFHyg3OPYfUBsYiEwIE1%2BRogKIQhaNkiyXkVh7W3NpijPhSBYeGydeoRZ4wQPK6HF8uCJIY%3D" group-title="LALIGA",ESP: LALIGA TV BAR 1
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/27549.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2Bkgl43wxe3ANYvrOKo9M6e1shcEa3EquiLLZbZtX%2B4VdfacrwPVCV4H7C%2BiAfcsDEupt14sZJm3g%3D%3D" group-title="GENERAL SPORTS",ESP: DAZN MOTOGP
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1442475.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2Bp19gNQQbMiZ06OCjAmhOSqc9tUDfIYlqCNVxglvnaOcksXioGh8CXp58QgMxHFY8AKHjrv2pSEfE8BQ1gxn9oJkGL%2BELPSRg%3D" group-title="EPL",FR: CANAL+ PREMIER LEAGUE
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/26315.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18TpA%2FvL5k%2Blaw5O8prXdBsio4yK5AMPd9mwHAXVua6jj%2B0ilV9tjWll7FQqwkUCrI1%2FNLS1EbjEA%3D%3D" group-title="LALIGA",ESP: LALIGA HIGHLIGHTS
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/28490.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX183LGQbt%2Ft7kAi%2FpC5CETrHO9LBGASM2R1AdqwwbAzxnJDcg5ZlNhWFlHVSH%2BuB5elOonJQq69ouQ%3D%3D" group-title="LALIGA",ESP: LALIGA REPLAY ENGLISH 2
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/28502.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BpFP8i7aROufs2ErHyxbEE9Qs%2Bprzv3ZBO0Q7VgAVPbVTmLHewCMOfvK5TlCttDZd%2BIURQvzxQrQ%3D%3D" group-title="GENERAL SPORTS",ESP: DAZN F1
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/27716.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19ZPsSbhG1C6ashleBCbJwdTc2HD7og8vbFVKvNg9C%2FE4xyKZn7vqZJ0%2Ba54fMbPTyd9Z6Z61t5%2B3Wfk5PkV4fqteDhV85JlO%2B148hpx6xbj4kLhqSNJBVM" group-title="EPL",FR: CANAL+PREMIER LEAGUE
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/54244.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BMyhcJ7TbxfCN6IZZztdqYxUWhY5GkAzoiaG%2BWZYKzT%2FSXtrja%2Fhp%2Bf2h1fiQNlst0cNjCzQlzSQ%3D%3D" group-title="GENERAL SPORTS",ESP: DAZN 2
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/27715.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18lPBHE7PjLrRf9ZtM%2BouoCYB%2FWWqtS9xhUSMlA6%2FKtZQIwkK1MZia6M649ltdplZTRinGjZkcPbcNfE%2FPELmi%2FECZvuZcg6YU%3D" group-title="EPL",FR: CANAL+ PREMIER LEAGUE
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/52734.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2F3YuAno305HdWiNiacdzIFmllE9hIVev5M8P0GesVq9XRcQHxdrTCmGcvW6PE4F%2FemauY3SfJZZgPWfr1E3mqCD1JlmwCAufU%3D" group-title="SERIE A",Serie A: Lazio vs Cagliari @ Nov 1 8:50 AM :Paramount+ 04
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1400600.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BI9yJtJ3jF0YKwY5ZW4DvHr6%2BW5pyC%2BAdm1%2BMiCIlXxD%2FmSISINssLDXDMqXQe%2FV5NtJ8UuPuoRg%3D%3D" group-title="EPL",DE: SKY SPORT PREMIER LEAGUE
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/28744.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX186oTkdlOsgHZgSIvp87SMpjAGLkwf5%2BPFIHfcu9ENa%2FE4NwzL0T6ecXJzDNchxqb3LrS6lz6lwMESpxvP5wOoA9J12iON5IEE%3D" group-title="EPL",UK: PREMIER SPORT 1
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/26248.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2Bi3Kj8mDcH0dQ%2F74gumT5UpwKxpalD9mG4LRwvX7BLRI%2FL3797J7pJYpWe1HL5g6umZXwGdQemz6RhpRcNfJolhWD8u5K%2Bx8M%3D" group-title="SERIE A",Serie A: Como vs Venezia @ Nov 1 6:20 AM :Paramount+ 01
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1400597.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18rbsqutchLVY2E62RxjV6%2Fi2arAWGjFsiwqn9p8ULQBXUr7pmKxs6qaa%2BNmlAOIRzJwvZKL%2BNUlXiSM1fCAWTfZWLms7D3sVU%3D" group-title="LALIGA",FR: DAZN 1
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1424016.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18kVpLwKQKJ%2BhNyLUuY0HT0UBB51eX57PfKIiyVcw4l1Q8KuFtiaCfUQgjB2CS2HuSOvGn8TUZ0he%2ByFJ0uXQRH0kgkyGwTzL0%3D" group-title="LALIGA",FR: DAZN 2
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1424017.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FjxYWJA7Jd%2Fa1JZQj1UB19ohANpTLrtDMpzX2RdB%2Fek%2B2LiZ2tmttKpbF1KKw81ceUHNX9WI17j7RUWCo%2BFnNfPPFeNMDmL8A%3D" group-title="LALIGA",FR: DAZN 6
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1424021.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FD8AKVaR%2BLI1tzXnbLec%2FhMDnsqjLtLSGU3Utb37BCSFrFxOoaFz8lK8ZX8gjaTTx9agtWWFq%2FgA%3D%3D" group-title="BUNDESLIGA",DE: BUNDESLIGA HIGHLIGHTS
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/31017.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18rcNMZ461Cjf91MiXYHSQUTjb0T39ADFGpVZMjQ380B6gmiyN5jBV8dzHP7pwSYuE7XwXJ%2F%2BOxEQ%3D%3D" group-title="BUNDESLIGA",DE: BUNDESLIGA REPLAY INFO
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/31016.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BjWHLSkzfC4BvOyixLveeFPslAlzc%2BAximP%2FMoj1V9Vxf2dnx%2BQW%2BXlUZ78nyqsgm6gzaytkolhFlwjeGL8wc7WGRYhk05O48%3D" group-title="LALIGA",PL: CANAL+ SPORT 6
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1424889.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19kl6Cb5mN%2FrMjoKg1tEOO4Mjq6p0%2FlrMdW%2FWL8DRxXmoA7WMj9ua9GymPsGARsNMPUPn8hXzzQfw%3D%3D" group-title="LALIGA",ESP: DAZN LALIGA
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1428764.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2B6N49%2FH3JSzAvQq9RsSNgPka2qQm07fWufYQwQoCItsPjGIGM%2BIWkZiJrhmoSfaYc%2Fw70OtapTW2cLoMOKlwFQdZN6nDudZBk%3D" group-title="SERIE A",Serie A: Frosinone vs Torino @ Nov 1 8:50 AM :Paramount+ 05
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1400601.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18Z1M5RJS0d%2FvKarD2XHVTqgHV1t5xRsX2jmg%2BGfbnMIv0Lo5s5OaOhFEsihrLFe%2FLW2lHBMYANOg%3D%3D" group-title="LALIGA",ESP: DAZN LALIGA
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1428770.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BD13mmPfFgPjRtj7nQ2wj5xe9VpblbE65CUHyefPvEokxi37YJ3CjKkKmxvSlpAdiTaoGF%2BuxWmNFF7c0JNI%2FpY0zCMT5u9z4%3D" group-title="SERIE A",Serie A: Lecce vs Genoa @ Nov 1 11:50 AM :Paramount+ 13
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1400609.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2B6SqpJvlN59NBTFJEBplqWsNraSmZsBv4q6WiQ6IO7S2p6CQc8n%2BEhFVOAOZ43aD2R4JH%2Fs4%2BnAg%3D%3D" group-title="LALIGA",ESP: DAZN LALIGA
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1428776.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19xwZO1g1tL2OLREMrxUUn7u8nxNy%2Ft9hhcleGQZLwP%2Ff%2Bw8oNnRbehBOqNg4HUcd6Kj%2BmUrulDej7wEhn4rzdmKCJNfEIEOJE%3D" group-title="BUNDESLIGA",NEXT: BUNDESLIGA WETZLAR - MELSUNGEN: Sun 01 Nov 14:55 CET (DK): : DK: VIAPLAY 11
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1366596.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19%2BUDPYpMgxl%2Bg2q5Ueih3emTAklN1nkY5xirVPzB6P%2FFRWe7u5A67CDcQyNwJGkNaS2w%2BQQklNdoW5GZHnf027zNVWYXTsR8U%3D" group-title="LALIGA",ESP: LA LIGA 1
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/26438.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19ZQ3Mn5uhoB3ApNIL1MFubUBfoqVHIVudRf5DFc6fF0nDH1BhkYW%2BD7yNi%2FBltBj8iJdPzfYS55yzygSekqdp0Si%2Fuwz7U8ho%3D" group-title="SERIE A",Serie A: Juventus vs Napoli @ Nov 1 2:00 PM :Paramount+ 14
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1400610.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18Q7Gj7MqUXlU0fBHeZdxXHyUrhWvQ71Zobl%2B1piI68THWsYZ0SdW286ESiaySBBMaiU3kv7qi2q7Qhhi4TcVzG3XGavbKR3Ro%3D" group-title="LALIGA",ESP: LA LIGA 2
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/26439.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18IGlkMYJo9yZn6W3s0udvv3tFYEXeAOgD0sKITC5S8paZy47DO5aDtEfuIZHrM6K6DwD1f6wCD2m8zUvoJLA6aiqddEI2qjsM%3D" group-title="BUNDESLIGA",NEXT: BUNDESLIGA UNION BERLIN - KÖLN: Sun 01 Nov 15:25 CET (DK): : DK: VIAPLAY 15
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1366600.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19r4bRd7FYdFNlqEs61zCNmmjPUgu80G5mw1SFMVBgK%2BQrMfjwlXCiClXl%2BcI%2Bgy0ea7WAgpYUdmTfW2xk%2B45BwfXOwESfS%2B%2FA%3D" group-title="LALIGA",ESP: LA LIGA 1
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/26440.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18MLGYUF9vcC9YUAclOqdyLgSFdWhYAGWSZaJ%2FJ9SIuU0%2Bthkg2uR31fNRs1vKYv1j7Oc3TgGdX3g%3D%3D" group-title="LALIGA",ESP: LALIGA REPLAY ENGLISH 1
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/28501.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BemlN3hEgts00PE8TP%2BhiLxk9kGccMXDuOzmzGPW2EGFxuLZwOFq41c5ZPU%2B8aIoZrEjI52R9ymHzI6d9nVqKgSCa59UnP%2F6U%3D" group-title="GENERAL SPORTS",FR: DAZN 4
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1424019.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BuNd8U6Pzso7%2BPesz%2FkGsusdDoPnnSA2uGVdyb%2FcgE3e%2BfhqRlMvqt8ni4BB6dqxS2jFka8C8e5br8VgyDQNt46auwl3XNTXg%3D" group-title="SERIE A",FR: DAZN 10
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1424025.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FVRb21NiPA59pPFaDfbuEAVpeOgZtfUSyQRlQBZQlmSmjJXyC1SGqtj2sLRyxdK9%2FA9U0YKHHlBfiNrbziyx%2FlG7PtH96sdy0%3D" group-title="GENERAL SPORTS",FR: DAZN 11
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1424026.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BHSLb8KYey2d3WQtKSMTCwwrUFTbBk6hc3c4rUsHaShREDzriLBcynirXoL5ECVgG1%2BDbTqSVWW%2BFr2FZb9R2kRUi9DZoBARI%3D" group-title="GENERAL SPORTS",FR: DAZN 12
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1424027.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18NOBHPYozCiWAXis%2FYDDHkDxxywln7tAcIssp%2B6TscVoVLuSNezF%2BsnSEeeWsrPDKsKaf5yFhUwPDqsZZFJPWLFCaMM7AtwEk%3D" group-title="GENERAL SPORTS",FR: CANAL+ SPORT
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/52378.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BXT2ZQPhyu0Ji6Afg85HFmvTqmdJDGczNuxbHYFFO61H1e2qKN9Fx7WpKrGLBB02wm%2FUfmtfLgpeQgjQwjDR8SBGEp7j6InuWJacst8QM3u00xa%2FqEtNV8" group-title="LIGUE 1",Next: Strasbourg vs Auxerre : Arabic: Ligue 1: 01-11-2026: 13:40 (GMT): : MENA: AR 22
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1434084.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19qagOIwu%2FLaom224eM3%2B6vADTNpBNaNZNvxGxjvaW%2FUKyUViFseL7N3RfUBxoVKCxN96GxN65f0xJLNFTzFasMrJGAdHc7UkY%3D" group-title="CARABAO CUP",End: Mansfield - Sheffield United: Carabao Cup Ronde 1 2026: 2026-08-09: 14:50 (GMT): : NL: VIAPLAY 13
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/262323.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BZTvU1FjhiyBKnG5cha2FT33nRqgb%2FN2K1vqOcfFyVBUfcBM4iVhKN4%2FD6aWxdkeP73aXQBHt7ag%3D%3D" group-title="BUNDESLIGA",DE: SKY SPORT BUNDESLIGA
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/28741.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BkiQZLxeYP%2BImeQ4SbaFKCj11upoOmlwT5U57QbWHUzJyyBUFTI1WBwXEJ1V3V8MVaBN7E%2Fjbvjw%3D%3D" group-title="BUNDESLIGA",DE: SKY SPORT BUNDESLIGA 2
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/28747.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2ByIaXljwnb5xEnBCMDFTXWch2zwa37OjiU3Er1TxASV9gWiMINEd%2B1vOa4i8q69MWs2TW8BiaOrQ%3D%3D" group-title="BUNDESLIGA",DE: SKY SPORT BUNDESLIGA 3
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/28748.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2F3QOPrzGifs4WbsNF73aNgGr226%2BazY6iMhaUzmbFsk%2FXNIs%2Bt2644KdpVs46k9Ji2PW%2Bh6AcwOg%3D%3D" group-title="BUNDESLIGA",DE: SKY SPORT BUNDESLIGA 4
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/28749.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19Cgj3ms9d3Pf64%2BQ5RUNpmjGl4vD3peXnxgSPuCssp6aiFQLoDNixk8TvY9M6EFvA7Syfr5mR6l4hubkjJM3H3xc2SekLZj9Y%3D" group-title="GENERAL SPORTS",PL: CANAL+ SPORT
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/40492.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2F0OA5QaoREMyFj8vXZgB5rtDkXLl4iNPB3TlSHhivu6hC6osDfmbFuHIzMvtttkekL8mpdT4VjhFN73NQGqw4%2FbZs1JYxX4S0Vt9ofXfTmVGSAssKUq6kY" group-title="GENERAL SPORTS",PL: CANAL+ SPORT 2
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/40494.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BpxZH4SB1WQOVKmMWz606LLXMa9rg1cadvoV%2Bp5Kymqu%2BoC9FIHZ5YYEdnJh%2FVAxZsuAvOEQzVHEJHwSa0tR20gGfF9WZwX1s1%2Bx%2Bd6l81LO65Iw%2BpR%2F7D" group-title="GENERAL SPORTS",PL: CANAL+ SPORT 3
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/40496.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BrjwOA%2B%2Fz0tShp%2FEtem4D7eEzpLtvN3pPTQKDmS8AV4neBUp6TzFUW60Tpw9ZCnMUuz83Eqkgx%2FK%2B%2B%2F8SYvdHLZOKMedJ26%2BOF0F5FSli%2B%2BjFtXMms3QgK" group-title="GENERAL SPORTS",PL: CANAL+ SPORT 4
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/40498.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2F5NRgOgq36DuuBEWyLKGwK4sXJA5BmS4JMKrmpS%2FGHEY30%2BIIsxp6FaYP3ZbeaAlFj1o0wb1e0nEyLHoyb29Y46AmQSJGTd33vuPJRUhA49U5wE7Djsn6X" group-title="GENERAL SPORTS",PL: CANAL+ SPORT 5
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/40500.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX189yYDU6MAUqDcPqP9nIHca5ZxmKrsQezZ3i4L0NE2x9xlfHnu5kANLI4e3wRaRJvSmTgp9wa3urcofS%2FuGGZz7v0YbXLEGcng%3D" group-title="GENERAL SPORTS",PL: CANAL+ SPORT 7
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1424890.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FZP5P9A1PQM9Cihr47BtEHugjjLzsNv%2BNR20ORVL%2B2QWLaEYzxYWfdxNVUUotCgSQP1H2aABigrkTT2gEOjEMFvcMfj8dpueM%3D" group-title="GENERAL SPORTS",SP: CANAL+ SPORT
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/53773.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18HzRsj3X8i8hDPUKCbUYsnRvkWfxiJ9LNGak5lyv0hScUTExeKgVRRcDwJKkvbt9gl09mpnho12pHkZxXjtakis7WO92Hyc2c%3D" group-title="GENERAL SPORTS",FR: CANAL+ SPORT 1
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/53776.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BuL%2BVhxAeE%2BC4bueuWBpLUcC9YZX6FgOqaUVpnqZW5%2BGQiB4NmWbSGSdsafrze%2BAT4VjeguBMkoodcji9m2SVmM96Hbie2lN0%3D" group-title="GENERAL SPORTS",FR: CANAL+ SPORT 2
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/53777.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19yt03UjtbwfwFNvrTCxHvyAVCrQ8iS%2BXPsNv1N1b7n%2Btng1PU8E%2BibC%2BxPud4axJZPDxY5bv6rji%2B9c4XZgAOHji8uKgPXkGo%3D" group-title="GENERAL SPORTS",FR: CANAL+ SPORT 3
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/53778.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18AlL7XEtEWJ29csF5u809gUQVpYVeWf%2F2vsC%2BEcvdr2hXaY54Mq2AGAyy6f7ZnbUxXyDlTs2b77ldWZzlMvm6DZi%2Bvw%2FgVgto%3D" group-title="GENERAL SPORTS",FR: CANAL+ SPORT 4
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/53779.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2Bdxz64RKaUAIu%2FlM0EFuTzNmc7MgFv%2BNp941KFQyXdqImTVeL67i4ksE0%2B7BzmNbI9NzKUFW2VRfy8oePdSr4ycaz4FEYRTS8%3D" group-title="GENERAL SPORTS",FR: CANAL+ SPORT 5
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/53780.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18zXcGb1hcwSn4KmgGReZ8pNO4XT%2BIBOSgX36BpPQRc1mU37MYCnZ5h94C%2FlM8F2jYg%2B7PaBXfyAUs6%2F1X2nIKNHy1CkAQWzryszjPwprAAeyJVlht6EXuy" group-title="SERIE A",Live: Genoa - Juventus: Serie A: : ESP: DAZN 7
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1434207.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX187rSQlqQSdfHqd%2FcNbBEwUJCRrCA7WHNNFltzeVkUkgccul445oNmNZXZMk7rdVXZnL80i2S2zis3MYxBjua%2BNg3oz2bcXLiWMS%2B82iaAu1aZLQF2tmD95" group-title="SERIE A",Live: Monza - Napoli: Serie A: : ESP: DAZN 8
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1434208.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FRrrV0cm4icebS7UrFlxdW4fALYCqGFp0%3D" group-title="LIGUE 1",FR: LIGUE 1+ 1
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/26321.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BaZ9jw209t3%2B0CVlLI8MmO7J%2BfyNyYD5%2FXToBNeZlEii7uWy9vmw5SrghIhpPmeHaHFCuHeZbcfP5J%2Fxbg0tLwCdBBxighHXM%3D" group-title="LIGUE 1",FR: LIGUE 1+ 2
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/26322.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BSZqr%2Fi1kOqDLhQ2nQL2s3FtDr9IImrhGUWMbV3V6Sulen%2Fywp%2F1HpBzpdNwP4an%2BporDOX0yrX%2BBbt5352yZlSkPKXg%2FPiK8%3D" group-title="LIGUE 1",FR: LIGUE 1+ 3
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/26323.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19Fjqzwxmp9UantPYvMu53O9AjoHztFU%2FSlhGu0HHi2oxorHw%2B6wFx9hB%2BfQCvtID0hFHRBRRW8DNrGRuehHtarjNl0eLvaNM4%3D" group-title="LIGUE 1",FR: LIGUE 1+ 4
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/26324.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BWqfm9It0ZfTidbtDqeCxD%2BjPjFnZlwVB%2B42HcVRZmmtix5XoMYqOD8ngKglCwD2K%2BET7A%2FZtMK8ZzMABAuwPlkl%2Bvu7ptn7I%3D" group-title="LIGUE 1",FR: LIGUE 1+ 5
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/26325.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19n9EZpOBNMMYllaoNrnG4PQ6OgSsFSiCLG9jFPpfoEbFgb1%2F1AgZfUYEm7%2BpJeKbbUCyJbB0Gtb7YvWXOyndLFGIFVeavgup4%3D" group-title="LALIGA",ESP: M+ LALIGA TV
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/27005.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX183mmlKf7zfinTZRyPPHHuRcPbTmLPvk%2BX9ezgJLv4yzyjkRppm4gvpk2dGdayRdzmR84er4nDd52zYIW%2Bx83%2FMmfCcxKtFIpQ%3D" group-title="LALIGA",ESP: M+ LALIGA TV 2
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/27006.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BMpgj%2FceSe59Deaju7pqRSuvX8BmDXkf521QiQOrnlt4JI5x8b17V3T7sshMWoZ7unrSP2c2RDWX4qEUeAmOJlQhKUqbmOX9g%3D" group-title="LALIGA",ESP: M+ LALIGA TV 3
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/27007.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FgshPdefL%2BPsV4yAkV6NegI5lvoA5SifT7YQYnrMyM8kN6SQn9E0jbrG6JnwGSBnm3un771gPOfRCYbcxTGb6gY7gK064UxLU%3D" group-title="CHAMPIONS LEAGUE",UK: CHAMPIONS LEAGUE REPLAY 14
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/38140.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BpxpDqJaBtTicQ4zCGgU0ZJgFMG0FzAGgwXmK7sFBp9VoJ2yn0wJU8lwMzoSLhW6BVYz3MlJewdkmtKZmI5%2FipHQUY4JzIjKA%3D" group-title="CHAMPIONS LEAGUE",UK: CHAMPIONS LEAGUE REPLAY 15
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/38141.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18Ut0LPOzKMKpJwL7%2FgvDZSmj02%2BLypUPi28RQe33opUMWxnfoNbJvU%2FqSlEM%2FukVlTLbt0uJE%2BO3Xi1WCyz4Y6llmBE6DYUKY%3D" group-title="CHAMPIONS LEAGUE",UK: CHAMPIONS LEAGUE REPLAY 16
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/38142.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19lSjyyKKPcoaVWCjuUUw3BnlToedPngIFxynIOaT%2BDwt8ysNqNCrJ9g8jK3cx983Jl0aoov%2BydXQ%3D%3D" group-title="EUROPA LEAGUE",IT: DAZN DIRETTA GOL EUROPA LEAGUE
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/33037.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18YnhYM4Ij0hv3izZ%2Biw%2BzObAjlgwf1nFLKvyQZMINMrzY87nOhcNzBjoTwjX0T6Y1vHScFy3E0%2BQ%3D%3D" group-title="EUROPA LEAGUE",IT: DAZN DIRETTA GOL EUROPA LEAGUE
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/33038.ts
+#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX191snnAtGSCll%2BexcQZLK0z0pvvU36yZrlA0jiEIRid%2Bfgxof2iPFol89E4A14HLCxMBcYDblDlfg%3D%3D" group-title="EUROPA LEAGUE",IT: DAZN DIRETTA GOL EUROPA LEAGUE
+http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/33039.ts
