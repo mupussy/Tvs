@@ -1,33 +1,49 @@
-#EXTM3U
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19FskLVBxhZajvB%2BGoj%2FesdWMP7%2B19IrzZALqxaFPtQXQ0CgRB3Z%2BpfdIV5vEYVFWSuvfRHuX1pN9MAIHzajxzWNJHPOB3Qrnc%3D" group-title="GENERAL SPORTS",FR: BEIN SPORTS 1
+
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz,https://al7omed.github.io/bein-epg/guide.xml"
+
+#EXTINF:-1 tvg-id="beINSports1.qa@MENA" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19FskLVBxhZajvB%2BGoj%2FesdWMP7%2B19IrzZALqxaFPtQXQ0CgRB3Z%2BpfdIV5vEYVFWSuvfRHuX1pN9MAIHzajxzWNJHPOB3Qrnc%3D" group-title="GENERAL SPORTS",FR: BEIN SPORTS 1
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/52380.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18cT3u%2FEClIWxgQZRz5p31fKZweOPxMKpwf%2BcZISSFJ7fvD5WBzhEl8PlAVRvPAoVLHRcLyRFxpcUOczaOQxoiu21IogbxMHIY%3D" group-title="LALIGA",UK: PREMIER SPORT 2
+
+#EXTINF:-1 tvg-id="PremierSports2.uk" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18cT3u%2FEClIWxgQZRz5p31fKZweOPxMKpwf%2BcZISSFJ7fvD5WBzhEl8PlAVRvPAoVLHRcLyRFxpcUOczaOQxoiu21IogbxMHIY%3D" group-title="GENERAL SPORTS",UK: PREMIER SPORTS 2
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/26249.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FZVnPiObVGhmdHfV6k%2F%2BH6j36TzJQ35NIx1WCoeplcrAcI%2Fkfkv3VuJ2iiW60fP9CZrBxCO12uGIIKZxmwx0DmAUOAT0%2Bc6xY%3D" group-title="EPL",UK: ASTRO Premier League
+
+#EXTINF:-1 tvg-id="AstroPremierLeague.my" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FZVnPiObVGhmdHfV6k%2F%2BH6j36TzJQ35NIx1WCoeplcrAcI%2Fkfkv3VuJ2iiW60fP9CZrBxCO12uGIIKZxmwx0DmAUOAT0%2Bc6xY%3D" group-title="EPL",UK: ASTRO PREMIER LEAGUE
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/38207.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2Bj2tbb9xffDE3R6sxm%2B4l%2Bgxt%2BUlU9SgFxO1%2BgrwrbNNktd7E20qwF5ukDC61ZbBw0dBwzxKIRo0Z2LdydbqGIl7757EsJrMA%3D" group-title="BUNDESLIGA",FR: BEIN SPORTS 2
+
+#EXTINF:-1 tvg-id="beINSports2.qa@MENA" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2Bj2tbb9xffDE3R6sxm%2B4l%2Bgxt%2BUlU9SgFxO1%2BgrwrbNNktd7E20qwF5ukDC61ZbBw0dBwzxKIRo0Z2LdydbqGIl7757EsJrMA%3D" group-title="GENERAL SPORTS",FR: BEIN SPORTS 2
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/52381.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19bt5sUeqaaTon1y3KPY0vEidZq0O6s6IXW9agMVVVc8cP8nbZiuORcw%2FA%2FG1kMwQtdFbHhElv6I2Zsw3FuowbaKbT4LXOF%2F5g%3D" group-title="EPL",UK: ASTRO Premier League
+
+#EXTINF:-1 tvg-id="AstroPremierLeague.my" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19bt5sUeqaaTon1y3KPY0vEidZq0O6s6IXW9agMVVVc8cP8nbZiuORcw%2FA%2FG1kMwQtdFbHhElv6I2Zsw3FuowbaKbT4LXOF%2F5g%3D" group-title="EPL",UK: ASTRO PREMIER LEAGUE
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/38209.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX194O40LaLlx7ImsE4ArHdSkrXRX%2Fec0Fwf1i25ARr35stzOicIUb6%2BXGJ6EwG98PmlkvFi4CvSZjYCyt3seZc5HfcSGictqPLM%3D" group-title="GENERAL SPORTS",FR: BEIN SPORTS 3
+
+#EXTINF:-1 tvg-id="beINSports3.qa@MENA" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX194O40LaLlx7ImsE4ArHdSkrXRX%2Fec0Fwf1i25ARr35stzOicIUb6%2BXGJ6EwG98PmlkvFi4CvSZjYCyt3seZc5HfcSGictqPLM%3D" group-title="GENERAL SPORTS",FR: BEIN SPORTS 3
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/52382.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2Bx6gADmJWhAsEKLlg8vWuAYkYgG%2Fu%2B23CXt%2ByLEsapRMqEy1Mlkh5UHK3sB64Ds%2FqaQK7aTbbIZsrlDWf6B0Eu%2BtIUPxSJhJo%3D" group-title="LALIGA",ESP: LALIGA TV BAR 2
+
+#EXTINF:-1 tvg-id="LaLigaTVBar2.es" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2Bx6gADmJWhAsEKLlg8vWuAYkYgG%2Fu%2B23CXt%2ByLEsapRMqEy1Mlkh5UHK3sB64Ds%2FqaQK7aTbbIZsrlDWf6B0Eu%2BtIUPxSJhJo%3D" group-title="LALIGA",ESP: LALIGA TV BAR 2
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/27550.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18gniSz2ZvYsCx1k7LWkbVt3Tfyqj1OL1hBOuxokga8%2BHa52KKyiJgCGo%2BKzXSNhapycoprTI9zNqLplXICC2OrQXugkpVyTjg%3D" group-title="EPL",Premier League HIGHLIGHTS
+
+#EXTINF:-1 tvg-id="PremierLeagueHighlights.uk" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18gniSz2ZvYsCx1k7LWkbVt3Tfyqj1OL1hBOuxokga8%2BHa52KKyiJgCGo%2BKzXSNhapycoprTI9zNqLplXICC2OrQXugkpVyTjg%3D" group-title="EPL",PREMIER LEAGUE HIGHLIGHTS
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/37788.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FZ2voHqMz9T5H7Z7Tf9%2FfCYD3kVaxabGNc7e6R5nkpncIq8Vmjf0okI%2BuW%2B0XrciQbSAuysL2AZEo2xZe9xdSMNJ8Si1kfyOY%3D" group-title="GENERAL SPORTS",UK: ASTRO Premier League 2
+
+#EXTINF:-1 tvg-id="AstroPremierLeague2.my" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FZ2voHqMz9T5H7Z7Tf9%2FfCYD3kVaxabGNc7e6R5nkpncIq8Vmjf0okI%2BuW%2B0XrciQbSAuysL2AZEo2xZe9xdSMNJ8Si1kfyOY%3D" group-title="EPL",UK: ASTRO PREMIER LEAGUE 2
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/38208.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BoFfhjxjHo4nWSUqKZ614UMppbxBFOLwPKr4ns6M9rDkFR0gd656uS9U9X2D9SbdeAOa9w%2B%2BcPdw%3D%3D" group-title="EPL",ESP: DAZN 1
+
+#EXTINF:-1 tvg-id="DAZN1.es" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BoFfhjxjHo4nWSUqKZ614UMppbxBFOLwPKr4ns6M9rDkFR0gd656uS9U9X2D9SbdeAOa9w%2B%2BcPdw%3D%3D" group-title="GENERAL SPORTS",ESP: DAZN 1
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/27714.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19rIIylSsO9qzL%2FzlYMCmuAi4rGiFHyg3OPYfUBsYiEwIE1%2BRogKIQhaNkiyXkVh7W3NpijPhSBYeGydeoRZ4wQPK6HF8uCJIY%3D" group-title="LALIGA",ESP: LALIGA TV BAR 1
+
+#EXTINF:-1 tvg-id="LaLigaTVBar.es" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19rIIylSsO9qzL%2FzlYMCmuAi4rGiFHyg3OPYfUBsYiEwIE1%2BRogKIQhaNkiyXkVh7W3NpijPhSBYeGydeoRZ4wQPK6HF8uCJIY%3D" group-title="LALIGA",ESP: LALIGA TV BAR 1
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/27549.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2Bkgl43wxe3ANYvrOKo9M6e1shcEa3EquiLLZbZtX%2B4VdfacrwPVCV4H7C%2BiAfcsDEupt14sZJm3g%3D%3D" group-title="GENERAL SPORTS",ESP: DAZN MOTOGP
+
+#EXTINF:-1 tvg-id="DAZNMotoGP.es" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2Bkgl43wxe3ANYvrOKo9M6e1shcEa3EquiLLZbZtX%2B4VdfacrwPVCV4H7C%2BiAfcsDEupt14sZJm3g%3D%3D" group-title="GENERAL SPORTS",ESP: DAZN MOTOGP
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/1442475.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2Bp19gNQQbMiZ06OCjAmhOSqc9tUDfIYlqCNVxglvnaOcksXioGh8CXp58QgMxHFY8AKHjrv2pSEfE8BQ1gxn9oJkGL%2BELPSRg%3D" group-title="EPL",FR: CANAL+ PREMIER LEAGUE
+
+#EXTINF:-1 tvg-id="CanalPlusPremierLeague.fr@SD" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2Bp19gNQQbMiZ06OCjAmhOSqc9tUDfIYlqCNVxglvnaOcksXioGh8CXp58QgMxHFY8AKHjrv2pSEfE8BQ1gxn9oJkGL%2BELPSRg%3D" group-title="EPL",FR: CANAL+ PREMIER LEAGUE
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/26315.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18TpA%2FvL5k%2Blaw5O8prXdBsio4yK5AMPd9mwHAXVua6jj%2B0ilV9tjWll7FQqwkUCrI1%2FNLS1EbjEA%3D%3D" group-title="LALIGA",ESP: LALIGA HIGHLIGHTS
+
+#EXTINF:-1 tvg-id="LaLigaTV.es" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18TpA%2FvL5k%2Blaw5O8prXdBsio4yK5AMPd9mwHAXVua6jj%2B0ilV9tjWll7FQqwkUCrI1%2FNLS1EbjEA%3D%3D" group-title="LALIGA",ESP: LALIGA HIGHLIGHTS
 http://freeiptv.ottc.xyz:80/live/214238339384/017900299677/28490.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX183LGQbt%2Ft7kAi%2FpC5CETrHO9LBGASM2R1AdqwwbAzxnJDcg5ZlNhWFlHVSH%2BuB5elOonJQq69ouQ%3D%3D" group-title="LALIGA",ESP: LALIGA REPLAY ENGLISH #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
+
+#EXTINF:-1 tvg-id="LaLigaTV.es" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX183LGQbt%2Ft7kAi%2FpC5CETrHO9LBGASM2R1AdqwwbAzxnJDcg5ZlNhWFlHVSH%2BuB5elOonJQq69ouQ%3D%3D" group-title="LALIGA",ESP: LALIGA REPLAY ENGLISH 2
 
 # LaLiga Replay English 2
 #EXTINF:-1 tvg-id="LaLigaReplayEnglish2.es" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX183LGQbt%2Ft7kAi%2FpC5CETrHO9LBGASM2R1AdqwwbAzxnJDcg5ZlNhWFlHVSH%2BuB5elOonJQq69ouQ%3D%3D" group-title="LALIGA",ESP: LALIGA REPLAY ENGLISH 2
