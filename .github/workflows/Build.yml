@@ -1,7 +1,8 @@
-name: Build Playlist
-
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'config.txt'
 
 jobs:
   build:
