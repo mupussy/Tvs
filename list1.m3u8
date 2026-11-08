@@ -229,8 +229,8 @@ http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/47731.ts
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/47732.ts
 #EXTINF:-1 tvg-id="NOVASPORT6.cz"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19xCVzsc5dmVuEwdceNNp0ggTYbqmggMM%2FT4J9REoutx8PfUfLBjumJi2B6AEtn2Ljg8RwO%2B3%2BS0Ppt2H5UwP9FZhWciKwT2VM%3D" group-title="GENERAL SPORTS",NOVA SPORT 6  [1080p]
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/47733.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19u9D%2BL%2BXryVlv3p1gdtgTUxw860%2Fs0q0rJfj%2BVifaf2DtG5z4vwvQZ%2Fe4BC4BG2maV%2F8HqPPwUABwGKUpZ6UbdXxnZt0nyQ%2Fs%3D"
-tvg-id="LFCTV.uk" group-title="EPL",LFC TV [1080p]
+#EXTINF:-1 tvg-id="LFCTV.uk"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19u9D%2BL%2BXryVlv3p1gdtgTUxw860%2Fs0q0rJfj%2BVifaf2DtG5z4vwvQZ%2Fe4BC4BG2maV%2F8HqPPwUABwGKUpZ6UbdXxnZt0nyQ%2Fs%3D"
+ group-title="EPL",LFC TV [1080p]
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37632.ts
 #EXTINF:-1 tvg-id="MUTV.uk" group-title="EPL",MUTV [1080p]
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37634.ts
@@ -250,8 +250,8 @@ http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/31146.ts
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/31147.ts
 #EXTINF:-1 tvg-id="BlueSport4.ch" tvg-logo="https://rcp.scsstatic.ch/content/dam/assets/b2c/tv/zusatzpakete/bluesport/box-blue-sport-321x272-2x.png" group-title="GENERAL SPORTS",BLUE SPORT 4 
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/31148.ts
-#EXTINF:-1 tvg-id="BlueSport5.ch" tvg-logo="https://rcp.scsstatic.ch/content/dam/assets/b2c/tv/zusatzpakete/bluesport/box-blue-sport-321x272-2x.png" group-title="GENERAL SPORTS",BLUE SPORT 5 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/31149.ts
-http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/33299.ts
+#EXTINF:-1 tvg-id="BlueSport5.ch" tvg-logo="https://rcp.scsstatic.ch/content/dam/assets/b2c/tv/zusatzpakete/bluesport/box-blue-sport-321x272-2x.png" group-title="GENERAL SPORTS",BLUE SPORT 5 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/31149.ts
 #EXTINF:-1 tvg-id="SkySportItalia.it" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18%2BF5D7ZE97AOZT9g1SYS0piUAt7z8jlgLfxHE0kvMl7nOBWh1n74qAAk5VIo93%2FqcfpR4BeEwWTw%3D%3D" group-title="SERIE A",SKY SPORT ITALIA 
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/33302.ts
 #EXTINF:-1 tvg-id="ESPNPlus1.us" tvg-logo="https://m.media-amazon.com/images/I/41lChb5Q+KL.png" group-title="GENERAL SPORTS",ESPN+ 1 [1080p]
