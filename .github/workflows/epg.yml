@@ -22,40 +22,38 @@ concurrency:
 
 jobs:
   generate:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
       - name: Generate EPG
-        run: python generate_epg.py
+        run: python -u generate_epg.py
 
       - name: Validate generated XML
         run: |
           python -c "import xml.etree.ElementTree as ET; r=ET.parse('epg1.xml').getroot(); assert r.tag == 'tv'; assert r.find('channel') is not None; assert r.find('programme') is not None; print('EPG XML valid')"
 
-       - name: Commit and push updated EPG
+      - name: Commit and push updated EPG
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Preserve the newly generated EPG
           cp epg1.xml /tmp/epg1.xml
 
-          # Synchronise with the latest GitHub main branch
           git fetch origin main
           git reset --hard origin/main
 
-          # Restore the newly generated EPG
           cp /tmp/epg1.xml epg1.xml
 
-          # Commit and push
           git add epg1.xml
 
           if ! git diff --cached --quiet; then
