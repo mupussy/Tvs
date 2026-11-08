@@ -6,7 +6,7 @@ on:
   push:
     paths:
       - 'list1.m3u8'
-      - 'generate.py'
+      - 'generate1.py'
   schedule:
     - cron: '0 */6 * * *'
 
