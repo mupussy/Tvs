@@ -1,4 +1,5 @@
 
+
 name: Automatic EPG Generator
 
 on:
@@ -45,11 +46,11 @@ jobs:
           import xml.etree.ElementTree as ET
 
           path = "epg1.xml"
-          assert os.path.exists(path), "epg1.xml was not generated"
+          assert os.path.exists(path), "epg1.xml not found"
 
           root = ET.parse(path).getroot()
-
           assert root.tag == "tv", "Invalid XMLTV root"
+
           channels = root.findall("channel")
           programmes = root.findall("programme")
 
@@ -58,24 +59,24 @@ jobs:
               if (p.findtext("title") or "").strip()
           ]
 
-          assert channels, "No channels in EPG"
-          assert titled, "No programmes with titles"
+          assert channels, "No channels found"
+          assert titled, "No titled programmes found"
 
           channel_ids = {c.get("id") for c in channels}
           programme_ids = {p.get("channel") for p in programmes}
 
-          unmatched = programme_ids - channel_ids
-          assert not unmatched, f"Programme channel IDs missing: {unmatched}"
-
-          print(f"XMLTV valid")
-          print(f"Channels: {len(channels)}")
-          print(f"Programmes: {len(programmes)}")
-          print(f"Programmes with titles: {len(titled)}")
+          assert programme_ids <= channel_ids, (
+              "Some programme channel IDs have no matching channel entry"
+          )
 
           size = os.path.getsize(path)
-          print(f"EPG size: {size:,} bytes")
-
           assert size < 90 * 1024 * 1024, "EPG exceeds 90 MB"
+
+          print("EPG XML validation successful")
+          print(f"Channels: {len(channels)}")
+          print(f"Programmes: {len(programmes)}")
+          print(f"Titled programmes: {len(titled)}")
+          print(f"File size: {size:,} bytes")
           PY
 
       - name: Commit and push updated EPG
@@ -96,5 +97,5 @@ jobs:
             git commit -m "Automatically update EPG"
             git push origin HEAD:main
           else
-            echo "EPG has no changes; skipping push."
+            echo "No EPG changes to publish."
           fi
