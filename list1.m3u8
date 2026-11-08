@@ -27,13 +27,13 @@ http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/48981.ts
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/38208.ts
 #EXTINF:-1 tvg-id="PremierLeagueHighlights.uk" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18gniSz2ZvYsCx1k7LWkbVt3Tfyqj1OL1hBOuxokga8%2BHa52KKyiJgCGo%2BKzXSNhapycoprTI9zNqLplXICC2OrQXugkpVyTjg%3D" group-title="EPL",EPL HIGHLIGHTS
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37788.ts
-#EXTINF:-1 tvg-id="PLAYSPORTS1.be"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FU6MKjpdbehQZxX2Q3Jrkgp8kKle7s5TtZcCMuh8WLs%2Fscx3VU1qPHxrEsOR73nHkXIF7yCWhFDRxanjbF%2Fv%2F4RAbGkvuhvic%3D" group-title="EPL",PLAY SPORTS 1 [720p]
+#EXTINF:-1 tvg-id="PlaySports1.be"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FU6MKjpdbehQZxX2Q3Jrkgp8kKle7s5TtZcCMuh8WLs%2Fscx3VU1qPHxrEsOR73nHkXIF7yCWhFDRxanjbF%2Fv%2F4RAbGkvuhvic%3D" group-title="EPL",PLAY SPORTS 1 [720p]
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/36228.ts
-#EXTINF:-1 tvg-id="PLAYSPORTS2.be"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BuM4GJnuA4d%2BZnKnWX51sEjd93wE2oTbygr4V78IWYsOjYVwA%2FeeBsCKj5nWn5%2Ba6%2FyY4Gl%2FvS6Qvu%2F45VZ0tKEuWR64A6v6E%3D" group-title="EPL",PLAY SPORTS 2 [720p]
+#EXTINF:-1 tvg-id="PlaySports2.be"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BuM4GJnuA4d%2BZnKnWX51sEjd93wE2oTbygr4V78IWYsOjYVwA%2FeeBsCKj5nWn5%2Ba6%2FyY4Gl%2FvS6Qvu%2F45VZ0tKEuWR64A6v6E%3D" group-title="EPL",PLAY SPORTS 2 [720p]
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/36229.ts
-#EXTINF:-1 tvg-id="PLAYSPORTS3.be"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19CanwNEsbQrkqi678cHTuH1ZON1L%2B2zMF%2FWg%2Bg8Qnr%2BtL48Zg2hBy%2BhKlhFkTqskpWEthcpgXiOYzMOU4nAF2nQpqhAm7k5yU%3D" group-title="EPL",PLAY SPORTS 3 [720p]
+#EXTINF:-1 tvg-id="PlaySports3.be"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19CanwNEsbQrkqi678cHTuH1ZON1L%2B2zMF%2FWg%2Bg8Qnr%2BtL48Zg2hBy%2BhKlhFkTqskpWEthcpgXiOYzMOU4nAF2nQpqhAm7k5yU%3D" group-title="EPL",PLAY SPORTS 3 [720p]
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/36230.ts
-#EXTINF:-1 tvg-id="PLAYSPORTS4.be"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BQF8tUC4BhfDN6kSrTv2dFKJkJo1GYmX1KgFt7FJyQx%2BdDSC8lbQQchLkMiBAvtyg2wHascr6xX%2B32wiR9oSHttHp%2FMBdfPmo%3D" group-title="EPL",PLAY SPORTS 4 [720p
+#EXTINF:-1 tvg-id="PlaySports4.be"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BQF8tUC4BhfDN6kSrTv2dFKJkJo1GYmX1KgFt7FJyQx%2BdDSC8lbQQchLkMiBAvtyg2wHascr6xX%2B32wiR9oSHttHp%2FMBdfPmo%3D" group-title="EPL",PLAY SPORTS 4 [720p
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/36231.ts
 #EXTINF:-1 tvg-id="M+LaLigaTV.es"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19n9EZpOBNMMYllaoNrnG4PQ6OgSsFSiCLG9jFPpfoEbFgb1%2F1AgZfUYEm7%2BpJeKbbUCyJbB0Gtb7YvWXOyndLFGIFVeavgup4%3D" group-title="LALIGA",M+ 1
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/27005.ts
