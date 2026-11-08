@@ -25,8 +25,6 @@ http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/48980.ts
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/48981.ts
 #EXTINF:-1 tvg-id="AstroPremierLeague2.my" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FZ2voHqMz9T5H7Z7Tf9%2FfCYD3kVaxabGNc7e6R5nkpncIq8Vmjf0okI%2BuW%2B0XrciQbSAuysL2AZEo2xZe9xdSMNJ8Si1kfyOY%3D" group-title="EPL",ASTRO 
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/38208.ts
-#EXTINF:-1 tvg-id="PremierSports3.uk"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX186oTkdlOsgHZgSIvp87SMpjAGLkwf5%2BPFIHfcu9ENa%2FE4NwzL0T6ecXJzDNchxqb3LrS6lz6lwMESpxvP5wOoA9J12iON5IEE%3D" group-title="GENERAL SPORTS",PREMIER SPORTS 3
-http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/26250.ts
 #EXTINF:-1 tvg-id="PremierLeagueHighlights.uk" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18gniSz2ZvYsCx1k7LWkbVt3Tfyqj1OL1hBOuxokga8%2BHa52KKyiJgCGo%2BKzXSNhapycoprTI9zNqLplXICC2OrQXugkpVyTjg%3D" group-title="EPL",EPL HIGHLIGHTS
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37788.ts
 #EXTINF:-1 tvg-id="PLAYSPORTS1.be"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FU6MKjpdbehQZxX2Q3Jrkgp8kKle7s5TtZcCMuh8WLs%2Fscx3VU1qPHxrEsOR73nHkXIF7yCWhFDRxanjbF%2Fv%2F4RAbGkvuhvic%3D" group-title="EPL",PLAY SPORTS 1 [720p]
