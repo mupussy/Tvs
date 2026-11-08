@@ -13,7 +13,7 @@ OUTPUT = "epg1.xml"
 SOURCES = [
     "https://iptv-epg.org/files/epg-gb.xml",
     "https://iptv-epg.org/files/epg-ar.xml",
-    ""https://iptv-epg.org/files/epg-fr.xml",
+    "https://iptv-epg.org/files/epg-fr.xml",
     "https://iptv-epg.org/files/epg-cz.xml",
     "https://iptv-epg.org/files/epg-be.xml",
     "https://iptv-epg.org/files/epg-de.xml",
