@@ -1,0 +1,55 @@
+
+name: Automatic EPG Generator
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 3 */2 * *"
+
+  push:
+    paths:
+      - "list1.m3u8"
+      - "generate_epg.py"
+      - ".github/workflows/epg.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: automatic-epg
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate EPG
+        run: python generate_epg.py
+
+      - name: Validate generated XML
+        run: |
+          python -c "import xml.etree.ElementTree as ET; r=ET.parse('epg1.xml').getroot(); assert r.tag == 'tv'; assert r.find('channel') is not None; assert r.find('programme') is not None; print('EPG XML valid')"
+
+      - name: Commit updated EPG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add epg1.xml
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Automatically update EPG"
+            git push
+          else
+            echo "No EPG changes to commit."
+          fi
