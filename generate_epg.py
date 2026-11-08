@@ -1,21 +1,40 @@
-
+#!/usr/bin/env python3
 
 import os
 import re
 import sys
+import json
 import time
 import tempfile
 import urllib.request
+import urllib.parse
 import xml.etree.ElementTree as ET
+
 from pathlib import Path
+from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 from collections import defaultdict
 
+# --------------------------------------------------
+# SETTINGS
+# --------------------------------------------------
+
 PLAYLIST_FILE = Path("list1.m3u8")
-OUTPUT_FILE = Path("epg1.xml")
+OUTPUT_FILE = Path("epg.xml")
+CACHE_FILE = Path("football_fixtures_cache.json")
+
 MAX_OUTPUT_SIZE = 90 * 1024 * 1024
 TIMEOUT = 120
 
-# STAGE 1: These sources always have priority.
+WARSAW = ZoneInfo("Europe/Warsaw")
+
+API_KEY = os.environ.get("API_FOOTBALL_KEY", "").strip()
+API_BASE = "https://v3.football.api-sports.io"
+
+# --------------------------------------------------
+# INTERNATIONAL EPG SOURCES
+# --------------------------------------------------
+
 PRIMARY_SOURCES = [
     "https://iptv-epg.org/files/epg-gb.xml",
     "https://iptv-epg.org/files/epg-ar.xml",
@@ -28,7 +47,6 @@ PRIMARY_SOURCES = [
     "https://iptv-epg.org/files/epg-ch.xml",
 ]
 
-# STAGE 2: Only used for channels without usable primary data.
 FALLBACK_SOURCES = [
     "https://www.open-epg.com/files/belgium.xml",
     "https://www.open-epg.com/files/czech3.xml",
@@ -41,24 +59,55 @@ FALLBACK_SOURCES = [
     "https://www.open-epg.com/files/slovakia1.xml",
 ]
 
-USER_AGENT = "Mozilla/5.0 (compatible; XMLTV-EPG-Generator/1.0)"
+# --------------------------------------------------
+# FOOTBALL CLUBS
+# --------------------------------------------------
+
+# tvg-id : (club name, API-Football team ID)
+
+FOOTBALL_TEAMS = {
+    "Arsenal.FC": ("Arsenal", 42),
+    "Chelsea.FC": ("Chelsea", 49),
+    "Liverpool.FC": ("Liverpool", 40),
+    "ManCity.FC": ("Manchester City", 50),
+    "ManUnited.FC": ("Manchester United", 33),
+    "Tottenham.FC": ("Tottenham Hotspur", 47),
+
+    "AtleticoMadrid.FC": ("Atletico Madrid", 530),
+    "Barcelona.FC": ("Barcelona", 529),
+    "RealMadrid.FC": ("Real Madrid", 541),
+}
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0",
+    "Accept": "application/xml,text/xml,*/*",
+}
 
 
-def local_tag(element):
-    return element.tag.rsplit("}", 1)[-1]
+def log(message):
+    print(message, flush=True)
 
 
-def normalise(value):
+# --------------------------------------------------
+# GENERAL HELPERS
+# --------------------------------------------------
+
+def download(url):
+    request = urllib.request.Request(url, headers=HEADERS)
+
+    with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
+        return response.read()
+
+
+def normalize(value):
     value = (value or "").lower()
-    value = re.sub(r"\([^)]*\)", " ", value)
-    value = re.sub(r"\[[^]]*\]", " ", value)
-    value = re.sub(r"[^a-z0-9]+", " ", value)
-    return " ".join(value.split())
+    value = re.sub(r"\([^)]*\)|\[[^]]*\]", " ", value)
+    return re.sub(r"[^a-z0-9]", "", value)
 
 
-def read_playlist():
+def parse_playlist():
     if not PLAYLIST_FILE.exists():
-        raise FileNotFoundError("list1.m3u8 was not found.")
+        raise FileNotFoundError("list1.m3u8 was not found")
 
     channels = {}
     current = None
@@ -66,391 +115,794 @@ def read_playlist():
     with PLAYLIST_FILE.open(
         "r", encoding="utf-8-sig", errors="replace"
     ) as file:
-        for line in file:
-            line = line.strip()
+
+        for raw in file:
+            line = raw.strip()
 
             if line.startswith("#EXTINF:"):
-                id_match = re.search(r'tvg-id="([^"]*)"', line, re.I)
-                name_match = re.search(r'tvg-name="([^"]*)"', line, re.I)
 
-                tvg_id = id_match.group(1).strip() if id_match else ""
-                tvg_name = name_match.group(1).strip() if name_match else ""
-                display_name = line.rsplit(",", 1)[-1].strip()
+                id_match = re.search(
+                    r'\btvg-id="([^"]*)"', line
+                )
+
+                logo_match = re.search(
+                    r'\btvg-logo="([^"]*)"', line
+                )
+
+                group_match = re.search(
+                    r'\bgroup-title="([^"]*)"', line
+                )
+
+                name = (
+                    line.split(",", 1)[1].strip()
+                    if "," in line else ""
+                )
 
                 current = {
-                    "names": [
-                        name for name in (tvg_name, display_name) if name
-                    ]
+                    "id": id_match.group(1).strip()
+                    if id_match else "",
+
+                    "name": name,
+
+                    "logo": logo_match.group(1).strip()
+                    if logo_match else "",
+
+                    "group": group_match.group(1).strip()
+                    if group_match else "",
                 }
 
-                if tvg_id:
-                    channels.setdefault(tvg_id, current)
-
             elif line and not line.startswith("#"):
+
+                if current and current["id"]:
+                    channels.setdefault(
+                        current["id"], current
+                    )
+
                 current = None
 
     if not channels:
-        raise RuntimeError("No channels with tvg-id found in playlist.")
+        raise RuntimeError(
+            "No channels with tvg-id were found in list1.m3u8"
+        )
 
-    print(f"Playlist channels with tvg-id: {len(channels)}")
     return channels
 
 
-def build_name_index(channels):
-    index = defaultdict(set)
-
-    for playlist_id, channel in channels.items():
-        for name in channel["names"]:
-            key = normalise(name)
-            if key:
-                index[key].add(playlist_id)
-
-    return index
-
-
-def download_source(url, destination):
-    request = urllib.request.Request(
-        url,
-        headers={"User-Agent": USER_AGENT},
+def xmltv_stamp(dt):
+    return dt.astimezone(WARSAW).strftime(
+        "%Y%m%d%H%M%S %z"
     )
 
-    last_error = None
 
-    for attempt in range(1, 4):
-        try:
-            print(f"\nDownloading: {url} (attempt {attempt}/3)")
+# --------------------------------------------------
+# INTERNATIONAL XMLTV
+# --------------------------------------------------
 
-            with urllib.request.urlopen(
-                request, timeout=TIMEOUT
-            ) as response:
-                with destination.open("wb") as output:
-                    while True:
-                        chunk = response.read(1024 * 1024)
-                        if not chunk:
-                            break
-                        output.write(chunk)
+def read_source(url):
+    log(f"Downloading: {url}")
 
-            if destination.stat().st_size == 0:
-                raise RuntimeError("Downloaded file is empty.")
+    data = download(url)
+    root = ET.fromstring(data)
 
-            print(f"Downloaded: {destination.stat().st_size:,} bytes")
-            return
+    source_channels = {}
+    programmes = []
 
-        except Exception as error:
-            last_error = error
-            print(f"Download error: {error}")
+    for channel in root.findall("channel"):
+        channel_id = channel.get("id")
 
-            if attempt < 3:
-                time.sleep(attempt * 3)
+        if channel_id:
+            names = [
+                item.text or ""
+                for item in channel.findall("display-name")
+            ]
 
-    raise RuntimeError(f"Could not download source: {last_error}")
+            source_channels[channel_id] = names
+
+    for programme in root.findall("programme"):
+
+        channel_id = programme.get("channel")
+        start = programme.get("start", "")
+        stop = programme.get("stop", "")
+        title = (programme.findtext("title") or "").strip()
+
+        if channel_id and start and stop and title:
+            programmes.append(
+                (channel_id, programme)
+            )
+
+    return source_channels, programmes
 
 
-def read_source_mapping(xml_file, name_index, playlist_ids, claimed):
-    """Map source XMLTV IDs to unclaimed playlist IDs."""
-    mapping = {}
+def match_source_channels(
+    source_channels,
+    playlist_channels,
+    claimed
+):
+    matches = {}
 
-    context = ET.iterparse(xml_file, events=("start", "end"))
-    _, root = next(context)
+    for source_id, display_names in source_channels.items():
 
-    for event, element in context:
-        if event != "end" or local_tag(element) != "channel":
+        # Exact tvg-id match first.
+        if (
+            source_id in playlist_channels
+            and source_id not in claimed
+        ):
+            matches[source_id] = source_id
             continue
 
-        source_id = element.get("id", "").strip()
+        source_names = {
+            normalize(name)
+            for name in display_names
+            if name
+        }
 
-        if source_id:
-            if source_id in playlist_ids:
-                target = source_id
-                if target not in claimed:
-                    mapping[source_id] = target
-
-            else:
-                names = []
-
-                for child in element:
-                    if (
-                        local_tag(child) == "display-name"
-                        and child.text
-                    ):
-                        names.append(child.text.strip())
-
-                matches = set()
-
-                for name in names:
-                    key = normalise(name)
-                    if key:
-                        matches.update(name_index.get(key, set()))
-
-                matches -= claimed
-
-                if len(matches) == 1:
-                    mapping[source_id] = next(iter(matches))
-
-        element.clear()
-        root.clear()
-
-    return mapping
-
-
-def extract_source_programmes(xml_file, mapping):
-    """
-    Collect titled programmes by playlist ID.
-    A source only claims a channel if it supplies actual programme titles.
-    """
-    staged = defaultdict(list)
-    local_seen = set()
-    empty_titles = 0
-
-    context = ET.iterparse(xml_file, events=("start", "end"))
-    _, root = next(context)
-
-    for event, element in context:
-        if event != "end" or local_tag(element) != "programme":
-            continue
-
-        source_id = element.get("channel", "").strip()
-        playlist_id = mapping.get(source_id)
-
-        if playlist_id:
-            title = ""
-
-            for child in element:
-                if local_tag(child) == "title":
-                    title = (child.text or "").strip()
-                    if title:
-                        break
-
-            if not title:
-                empty_titles += 1
-            else:
-                start = element.get("start", "")
-                stop = element.get("stop", "")
-
-                key = (playlist_id, start, stop, title)
-
-                if key not in local_seen:
-                    copied = ET.fromstring(
-                        ET.tostring(element, encoding="utf-8")
-                    )
-                    copied.set("channel", playlist_id)
-
-                    staged[playlist_id].append(copied)
-                    local_seen.add(key)
-
-        element.clear()
-        root.clear()
-
-    return staged, empty_titles
-
-
-def process_source(url, source_number, temp_dir, channels,
-                   name_index, claimed, output_root, global_seen):
-    """Process one source without allowing it to overwrite prior sources."""
-    xml_file = Path(temp_dir) / f"source_{source_number}.xml"
-
-    try:
-        download_source(url, xml_file)
-
-        mapping = read_source_mapping(
-            xml_file,
-            name_index,
-            set(channels),
-            claimed,
-        )
-
-        if not mapping:
-            print("No unclaimed playlist channels matched.")
-            return 0
-
-        print(f"Matched source channel IDs: {len(mapping)}")
-
-        staged, empty_titles = extract_source_programmes(
-            xml_file, mapping
-        )
-
-        added = 0
-
-        for playlist_id, programmes in staged.items():
-            # Only claim the channel when this source has titled data.
-            if not programmes:
-                continue
+        for playlist_id, channel in playlist_channels.items():
 
             if playlist_id in claimed:
                 continue
 
-            channel_added = 0
+            playlist_name = normalize(channel["name"])
 
-            for programme in programmes:
-                key = (
-                    playlist_id,
-                    programme.get("start", ""),
-                    programme.get("stop", ""),
-                    (programme.findtext("title") or "").strip(),
-                )
-
-                if key not in global_seen:
-                    output_root.append(programme)
-                    global_seen.add(key)
-                    channel_added += 1
-
-            if channel_added:
-                claimed.add(playlist_id)
-                added += channel_added
-                print(
-                    f"Claimed {playlist_id}: "
-                    f"{channel_added} titled programmes"
-                )
-
-        print(f"Skipped empty titles: {empty_titles}")
-        print(f"Added from source: {added}")
-        return added
-
-    except Exception as error:
-        print(f"SOURCE ERROR: {url}")
-        print(error)
-        return 0
-
-
-def main():
-    channels = read_playlist()
-    name_index = build_name_index(channels)
-
-    output_root = ET.Element("tv", {
-        "source-info-name": "Automatic Two-Stage EPG",
-        "generator-info-name": "GitHub Actions",
-    })
-
-    claimed = set()
-    global_seen = set()
-    total_added = 0
-
-    with tempfile.TemporaryDirectory() as temp_dir:
-
-        print("\n========== STAGE 1: PRIMARY SOURCES ==========")
-
-        for number, url in enumerate(PRIMARY_SOURCES, start=1):
-            added = process_source(
-                url,
-                number,
-                temp_dir,
-                channels,
-                name_index,
-                claimed,
-                output_root,
-                global_seen,
-            )
-            total_added += added
-
-        primary_channels = set(claimed)
-
-        print("\n========== STAGE 2: FALLBACK SOURCES ==========")
-        print(
-            f"Channels already covered by primary sources: "
-            f"{len(primary_channels)}"
-        )
-
-        for number, url in enumerate(FALLBACK_SOURCES, start=101):
-            if len(claimed) == len(channels):
-                print("All playlist channels already have guide data.")
+            if playlist_name and playlist_name in source_names:
+                matches[source_id] = playlist_id
                 break
 
-            added = process_source(
-                url,
-                number,
-                temp_dir,
-                channels,
-                name_index,
-                claimed,
-                output_root,
-                global_seen,
+    return matches
+
+
+def add_xmltv_source(
+    root,
+    playlist_channels,
+    claimed,
+    seen,
+    url
+):
+    try:
+        source_channels, programmes = read_source(url)
+
+        matches = match_source_channels(
+            source_channels,
+            playlist_channels,
+            claimed
+        )
+
+        additions = []
+        counts = defaultdict(int)
+
+        for source_id, programme in programmes:
+
+            target_id = matches.get(source_id)
+
+            if not target_id:
+                continue
+
+            title = (programme.findtext("title") or "").strip()
+
+            key = (
+                target_id,
+                programme.get("start"),
+                programme.get("stop"),
+                title,
             )
-            total_added += added
 
-    if not output_root.findall("programme"):
+            if key in seen:
+                continue
+
+            seen.add(key)
+
+            copied = ET.fromstring(
+                ET.tostring(programme, encoding="utf-8")
+            )
+
+            copied.set("channel", target_id)
+
+            additions.append(copied)
+            counts[target_id] += 1
+
+        useful_channels = {
+            channel_id
+            for channel_id, count in counts.items()
+            if count
+        }
+
+        for channel_id in useful_channels:
+            claimed.add(channel_id)
+
+        for programme in additions:
+            if programme.get("channel") in useful_channels:
+                root.append(programme)
+
+        log(
+            f"Matched {len(useful_channels)} channels; "
+            f"added {len(additions)} programmes"
+        )
+
+    except Exception as error:
+        log(f"Source skipped: {error}")
+
+
+# --------------------------------------------------
+# API-FOOTBALL
+# --------------------------------------------------
+
+def api_request(params):
+    if not API_KEY:
         raise RuntimeError(
-            "No titled programmes found. Previous epg1.xml was preserved."
+            "API_FOOTBALL_KEY GitHub secret is missing"
         )
 
-    # Sort programmes chronologically.
-    programmes = output_root.findall("programme")
-    programmes.sort(
-        key=lambda p: (
-            p.get("start", ""),
-            p.get("channel", ""),
-        )
+    query = urllib.parse.urlencode(params)
+
+    url = f"{API_BASE}/fixtures?{query}"
+
+    request = urllib.request.Request(
+        url,
+        headers={
+            "x-apisports-key": API_KEY,
+            "User-Agent": "XMLTV-EPG-Generator",
+        }
     )
 
-    # Create only the channel entries that have programme data.
-    final_root = ET.Element("tv", output_root.attrib)
+    with urllib.request.urlopen(
+        request, timeout=TIMEOUT
+    ) as response:
 
-    for playlist_id in sorted(claimed):
-        channel_element = ET.SubElement(
-            final_root, "channel", {"id": playlist_id}
+        result = json.loads(
+            response.read().decode("utf-8")
         )
 
-        names = channels[playlist_id]["names"]
-        display_name = names[0] if names else playlist_id
+    if result.get("errors"):
+        raise RuntimeError(str(result["errors"]))
 
-        ET.SubElement(
-            channel_element, "display-name"
-        ).text = display_name
+    return result
 
-    for programme in programmes:
-        final_root.append(programme)
 
-    temporary_output = OUTPUT_FILE.with_name("epg1.tmp.xml")
+def current_season():
+    now = datetime.now(WARSAW)
 
-    ET.ElementTree(final_root).write(
-        temporary_output,
-        encoding="utf-8",
-        xml_declaration=True,
+    return (
+        now.year
+        if now.month >= 7
+        else now.year - 1
     )
 
-    # Validate the generated file before replacing the existing one.
-    check_root = ET.parse(temporary_output).getroot()
-    check_channels = check_root.findall("channel")
-    check_programmes = check_root.findall("programme")
 
-    channel_ids = {c.get("id") for c in check_channels}
+def load_cache():
+    if CACHE_FILE.exists():
+        try:
+            return json.loads(
+                CACHE_FILE.read_text(encoding="utf-8")
+            )
+        except Exception:
+            log("Cache unreadable; starting a new cache.")
 
-    titled = [
-        p for p in check_programmes
-        if (p.findtext("title") or "").strip()
+    return {
+        "season": None,
+        "updated": 0,
+        "teams": {},
+        "fixtures": {},
+    }
+
+
+def save_cache(cache):
+    CACHE_FILE.write_text(
+        json.dumps(
+            cache,
+            ensure_ascii=False,
+            separators=(",", ":")
+        ),
+        encoding="utf-8"
+    )
+
+
+def fetch_team_season(team_id, season):
+    fixtures = []
+    page = 1
+
+    while True:
+
+        result = api_request({
+            "team": team_id,
+            "season": season,
+            "timezone": "Europe/Warsaw",
+            "page": page,
+        })
+
+        fixtures.extend(result.get("response", []))
+
+        paging = result.get("paging", {})
+        total_pages = int(paging.get("total", 1))
+
+        if page >= total_pages:
+            break
+
+        page += 1
+
+    return fixtures
+
+
+def rebuild_fixture_index(cache):
+    indexed = {}
+
+    for rows in cache.get("teams", {}).values():
+
+        for row in rows:
+
+            fixture_id = (
+                row.get("fixture", {}).get("id")
+            )
+
+            if fixture_id is not None:
+                indexed[str(fixture_id)] = row
+
+    cache["fixtures"] = indexed
+
+
+def refresh_season_cache(cache):
+    season = current_season()
+    now = int(time.time())
+
+    cache_is_fresh = (
+        cache.get("season") == season
+        and now - int(cache.get("updated", 0)) < 86400
+    )
+
+    if cache_is_fresh:
+        log("Using cached season fixtures.")
+        return cache
+
+    log(
+        f"Refreshing {season}/{season + 1} "
+        "season fixtures..."
+    )
+
+    all_successful = True
+
+    for channel_id, (club, team_id) in FOOTBALL_TEAMS.items():
+
+        try:
+            rows = fetch_team_season(team_id, season)
+
+            cache.setdefault("teams", {})[channel_id] = rows
+
+            log(f"{club}: {len(rows)} fixtures")
+
+        except Exception as error:
+            all_successful = False
+            log(f"{club} season refresh failed: {error}")
+
+    cache["season"] = season
+
+    if all_successful:
+        cache["updated"] = now
+
+    rebuild_fixture_index(cache)
+
+    return cache
+
+
+def refresh_today_and_live(cache):
+    today = datetime.now(WARSAW).date().isoformat()
+
+    # Today's matches and results for each club.
+    for channel_id, (club, team_id) in FOOTBALL_TEAMS.items():
+
+        try:
+            result = api_request({
+                "team": team_id,
+                "date": today,
+                "timezone": "Europe/Warsaw",
+            })
+
+            for row in result.get("response", []):
+
+                fixture_id = row.get(
+                    "fixture", {}
+                ).get("id")
+
+                if fixture_id is not None:
+                    cache.setdefault(
+                        "fixtures", {}
+                    )[str(fixture_id)] = row
+
+        except Exception as error:
+            log(f"Today's fixtures for {club} failed: {error}")
+
+    # One request to refresh live matches and scores.
+    try:
+        result = api_request({
+            "live": "all",
+            "timezone": "Europe/Warsaw",
+        })
+
+        for row in result.get("response", []):
+
+            fixture_id = row.get(
+                "fixture", {}
+            ).get("id")
+
+            if fixture_id is not None:
+                cache.setdefault(
+                    "fixtures", {}
+                )[str(fixture_id)] = row
+
+    except Exception as error:
+        log(f"Live fixture refresh failed: {error}")
+
+    return cache
+
+
+# --------------------------------------------------
+# FOOTBALL XMLTV PROGRAMMES
+# --------------------------------------------------
+
+def create_football_programme(row, channel_id):
+
+    fixture = row.get("fixture") or {}
+    teams = row.get("teams") or {}
+    league = row.get("league") or {}
+    goals = row.get("goals") or {}
+
+    date_text = fixture.get("date")
+
+    if not date_text:
+        return None
+
+    try:
+        start = datetime.fromisoformat(
+            date_text.replace("Z", "+00:00")
+        ).astimezone(WARSAW)
+
+    except ValueError:
+        return None
+
+    home = (teams.get("home") or {}).get(
+        "name", "Home"
+    )
+
+    away = (teams.get("away") or {}).get(
+        "name", "Away"
+    )
+
+    home_goals = goals.get("home")
+    away_goals = goals.get("away")
+
+    score = ""
+
+    if home_goals is not None and away_goals is not None:
+        score = f"{home_goals}-{away_goals}"
+
+    status = (
+        fixture.get("status") or {}
+    ).get("short", "NS")
+
+    live_statuses = {
+        "1H", "HT", "2H", "ET", "BT", "P", "LIVE"
+    }
+
+    finished_statuses = {
+        "FT", "AET", "PEN"
+    }
+
+    cancelled_statuses = {
+        "PST", "CANC", "ABD", "AWD", "WO"
+    }
+
+    if status in live_statuses:
+
+        title = (
+            f"LIVE {score}: {home} vs {away}"
+            if score
+            else f"LIVE: {home} vs {away}"
+        )
+
+    elif status in finished_statuses:
+
+        title = (
+            f"{home} {score} {away}"
+            if score
+            else f"{home} vs {away} (FT)"
+        )
+
+    elif status in cancelled_statuses:
+
+        title = f"{home} vs {away} ({status})"
+
+    else:
+        title = f"{home} vs {away}"
+
+    competition = league.get("name") or "Football"
+    country = league.get("country") or ""
+    round_name = league.get("round") or ""
+
+    venue = (
+        fixture.get("venue") or {}
+    ).get("name", "")
+
+    status_long = (
+        fixture.get("status") or {}
+    ).get("long", status)
+
+    description = [
+        competition,
+        country,
+        round_name,
+        f"Status: {status_long}",
     ]
 
-    unmatched = {
-        p.get("channel") for p in check_programmes
-    } - channel_ids
+    if score:
+        description.append(f"Score: {score}")
 
-    if not check_channels or not titled or unmatched:
-        temporary_output.unlink(missing_ok=True)
-        raise RuntimeError("Generated EPG failed validation.")
+    if venue:
+        description.append(f"Venue: {venue}")
 
-    size = temporary_output.stat().st_size
+    programme = ET.Element(
+        "programme",
+        {
+            "start": xmltv_stamp(start),
+            "stop": xmltv_stamp(
+                start + timedelta(minutes=150)
+            ),
+            "channel": channel_id,
+        }
+    )
 
-    if size > MAX_OUTPUT_SIZE:
-        temporary_output.unlink(missing_ok=True)
-        raise RuntimeError(
-            f"Generated EPG is too large: {size:,} bytes. "
-            "Previous epg1.xml was preserved."
+    ET.SubElement(
+        programme, "title", {"lang": "en"}
+    ).text = title
+
+    ET.SubElement(
+        programme, "sub-title", {"lang": "en"}
+    ).text = competition
+
+    ET.SubElement(
+        programme, "desc", {"lang": "en"}
+    ).text = " | ".join(
+        part for part in description if part
+    )
+
+    ET.SubElement(
+        programme, "category", {"lang": "en"}
+    ).text = "Sports"
+
+    ET.SubElement(
+        programme, "category", {"lang": "en"}
+    ).text = "Football"
+
+    return programme
+
+
+def add_football_programmes(
+    root,
+    playlist_channels,
+    cache,
+    seen
+):
+    if not API_KEY:
+        log(
+            "API key missing: skipping football fixtures. "
+            "International EPG sources will still be processed."
+        )
+        return
+
+    for channel_id, (club, team_id) in FOOTBALL_TEAMS.items():
+
+        if channel_id not in playlist_channels:
+            log(
+                f"WARNING: {club} is missing tvg-id "
+                f'"{channel_id}" in list1.m3u8'
+            )
+            continue
+
+        club_fixtures = {}
+
+        # Full-season fixtures from the cache.
+        for row in cache.get(
+            "teams", {}
+        ).get(channel_id, []):
+
+            fixture_id = (
+                row.get("fixture", {}).get("id")
+            )
+
+            if fixture_id is not None:
+                club_fixtures[str(fixture_id)] = row
+
+        # Overlay today's and live updates.
+        for fixture_id, row in cache.get(
+            "fixtures", {}
+        ).items():
+
+            teams = row.get("teams") or {}
+
+            home_id = str(
+                (teams.get("home") or {}).get("id")
+            )
+
+            away_id = str(
+                (teams.get("away") or {}).get("id")
+            )
+
+            if str(team_id) in {home_id, away_id}:
+                club_fixtures[str(fixture_id)] = row
+
+        added = 0
+
+        for row in club_fixtures.values():
+
+            programme = create_football_programme(
+                row, channel_id
+            )
+
+            if programme is None:
+                continue
+
+            key = (
+                channel_id,
+                programme.get("start"),
+                programme.findtext("title"),
+            )
+
+            if key in seen:
+                continue
+
+            seen.add(key)
+            root.append(programme)
+            added += 1
+
+        log(f"{club}: added {added} football programmes")
+
+
+# --------------------------------------------------
+# MAIN
+# --------------------------------------------------
+
+def main():
+
+    playlist_channels = parse_playlist()
+
+    log(
+        f"Found {len(playlist_channels)} playlist "
+        "channels with tvg-id."
+    )
+
+    root = ET.Element(
+        "tv",
+        {"generator-info-name": "Automatic XMLTV EPG"}
+    )
+
+    # Create every playlist channel.
+    for channel_id, channel_data in playlist_channels.items():
+
+        channel = ET.SubElement(
+            root, "channel", {"id": channel_id}
         )
 
-    os.replace(temporary_output, OUTPUT_FILE)
+        ET.SubElement(
+            channel, "display-name"
+        ).text = channel_data["name"] or channel_id
 
-    print("\n========== GENERATION COMPLETE ==========")
-    print(f"Playlist channels: {len(channels)}")
-    print(f"Primary source channels: {len(primary_channels)}")
-    print(f"Fallback source channels: {len(claimed - primary_channels)}")
-    print(f"Total channels with guide data: {len(claimed)}")
-    print(f"Programmes with titles: {len(titled)}")
-    print(f"Output size: {size:,} bytes")
-    print(f"Saved as: {OUTPUT_FILE}")
+        if channel_data["logo"]:
+            ET.SubElement(
+                channel,
+                "icon",
+                {"src": channel_data["logo"]}
+            )
+
+    claimed = set()
+    seen = set()
+
+    # Primary sources first.
+    for url in PRIMARY_SOURCES:
+
+        add_xmltv_source(
+            root,
+            playlist_channels,
+            claimed,
+            seen,
+            url
+        )
+
+    # Fallback sources for channels still unmatched.
+    for url in FALLBACK_SOURCES:
+
+        if len(claimed) >= len(playlist_channels):
+            break
+
+        add_xmltv_source(
+            root,
+            playlist_channels,
+            claimed,
+            seen,
+            url
+        )
+
+    # Football data.
+    cache = load_cache()
+
+    if API_KEY:
+
+        try:
+            cache = refresh_season_cache(cache)
+            cache = refresh_today_and_live(cache)
+            save_cache(cache)
+
+        except Exception as error:
+            log(f"Football API refresh problem: {error}")
+
+    add_football_programmes(
+        root,
+        playlist_channels,
+        cache,
+        seen
+    )
+
+    # Sort all programmes chronologically.
+    programmes = root.findall("programme")
+
+    programmes.sort(
+        key=lambda item: (
+            item.get("start", ""),
+            item.get("channel", "")
+        )
+    )
+
+    for programme in programmes:
+        root.remove(programme)
+
+    root.extend(programmes)
+
+    # Write safely using a temporary file.
+    fd, temporary = tempfile.mkstemp(
+        prefix="epg-",
+        suffix=".xml",
+        dir="."
+    )
+
+    os.close(fd)
+
+    try:
+
+        tree = ET.ElementTree(root)
+        ET.indent(tree, space="  ")
+
+        tree.write(
+            temporary,
+            encoding="utf-8",
+            xml_declaration=True
+        )
+
+        size = os.path.getsize(temporary)
+
+        if size >= MAX_OUTPUT_SIZE:
+            raise RuntimeError(
+                f"EPG exceeds 90 MiB: {size:,} bytes"
+            )
+
+        # Confirm that the generated XML is valid.
+        ET.parse(temporary)
+
+        os.replace(temporary, OUTPUT_FILE)
+
+    finally:
+
+        if os.path.exists(temporary):
+            os.remove(temporary)
+
+    log("----------------------------------")
+    log("EPG GENERATION SUCCESSFUL")
+    log(f"Channels: {len(root.findall('channel'))}")
+    log(f"Programmes: {len(root.findall('programme'))}")
+    log(f"File size: {os.path.getsize(OUTPUT_FILE):,} bytes")
+    log(f"Output: {OUTPUT_FILE}")
+    log("----------------------------------")
 
 
 if __name__ == "__main__":
+
     try:
         main()
+
     except Exception as error:
-        print(f"\nFATAL ERROR: {error}", file=sys.stderr)
-        raise
+        log(f"ERROR: {error}")
+        sys.exit(1)
