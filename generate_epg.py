@@ -1,16 +1,18 @@
 
 import os
 import re
-import unicodedata
+import sys
+import time
 import tempfile
 import urllib.request
 import xml.etree.ElementTree as ET
 from collections import defaultdict
+from pathlib import Path
 
-PLAYLIST = "list1.m3u8"
-OUTPUT = "epg1.xml"
+PLAYLIST_FILE = Path("list1.m3u8")
+OUTPUT_FILE = Path("epg1.xml")
 
-SOURCES = [
+EPG_SOURCES = [
     "https://iptv-epg.org/files/epg-gb.xml",
     "https://iptv-epg.org/files/epg-ar.xml",
     "https://iptv-epg.org/files/epg-fr.xml",
@@ -20,293 +22,330 @@ SOURCES = [
     "https://iptv-epg.org/files/epg-us.xml",
     "https://iptv-epg.org/files/epg-es.xml",
     "https://iptv-epg.org/files/epg-ch.xml",
+
 ]
 
-
-def normalize(name):
-    name = unicodedata.normalize("NFKD", name)
-    name = name.encode("ascii", "ignore").decode().lower()
-    name = re.sub(r"^\s*[a-z]{2,3}\s*:\s*", "", name)
-    name = re.sub(r"\[[^\]]*\]|\([^)]*\)", " ", name)
-    name = re.sub(r"\b(720p|1080p|2160p|uhd|fhd|hd|sd)\b", " ", name)
-    name = re.sub(r"[^a-z0-9]", "", name)
-    return name
+USER_AGENT = "Mozilla/5.0 (compatible; XMLTV-EPG-Generator/1.0)"
+TIMEOUT = 90
 
 
-def get_playlist():
+def local_tag(element):
+    """Remove an optional XML namespace from a tag."""
+    return element.tag.rsplit("}", 1)[-1]
+
+
+def normalise(value):
+    """Normalise channel names for safe exact-name matching."""
+    value = (value or "").lower()
+    value = re.sub(r"\([^)]*\)", " ", value)
+    value = re.sub(r"\[[^]]*\]", " ", value)
+    value = re.sub(r"[^a-z0-9]+", " ", value)
+    return " ".join(value.split())
+
+
+def read_playlist(path):
+    if not path.exists():
+        raise FileNotFoundError(f"Playlist not found: {path}")
+
     channels = {}
+    current = None
 
-    with open(PLAYLIST, encoding="utf-8-sig", errors="replace") as f:
-        for line in f:
-            if not line.lstrip().upper().startswith("#EXTINF"):
-                continue
+    with path.open("r", encoding="utf-8-sig", errors="replace") as file:
+        for line in file:
+            line = line.strip()
 
-            match = re.search(
-                r'''tvg-id\s*=\s*["']([^"']+)["']''',
-                line,
-                re.I
-            )
+            if line.startswith("#EXTINF:"):
+                id_match = re.search(r'tvg-id="([^"]*)"', line, re.I)
+                name_match = re.search(r'tvg-name="([^"]*)"', line, re.I)
 
-            if not match:
-                continue
+                display_name = line.rsplit(",", 1)[-1].strip()
 
-            tvg_id = match.group(1).strip()
-            name = line.rsplit(",", 1)[-1].strip()
+                tvg_id = id_match.group(1).strip() if id_match else ""
+                tvg_name = name_match.group(1).strip() if name_match else ""
 
-            if tvg_id and name:
-                channels[tvg_id] = name
-
-    return channels
-
-
-def download(url, destination):
-    request = urllib.request.Request(
-        url,
-        headers={"User-Agent": "Mozilla/5.0"}
-    )
-
-    with urllib.request.urlopen(request, timeout=180) as response:
-        with open(destination, "wb") as f:
-            while True:
-                chunk = response.read(1024 * 1024)
-                if not chunk:
-                    break
-                f.write(chunk)
-
-
-def read_source_channels(filename):
-    channels = {}
-
-    context = ET.iterparse(filename, events=("start", "end"))
-    _, root = next(context)
-
-    for event, elem in context:
-        if event != "end":
-            continue
-
-        if elem.tag == "channel":
-            channel_id = elem.get("id")
-
-            if channel_id:
-                names = [
-                    (child.text or "").strip()
-                    for child in elem.findall("display-name")
-                    if (child.text or "").strip()
-                ]
-
-                channels[channel_id] = {
-                    "names": names,
+                current = {
+                    "id": tvg_id,
+                    "names": [x for x in (tvg_name, display_name) if x],
                 }
 
-            elem.clear()
-            root.clear()
+                if tvg_id:
+                    channels.setdefault(tvg_id, current)
 
+            elif line and not line.startswith("#"):
+                current = None
+
+    if not channels:
+        raise RuntimeError("No channels with tvg-id were found in list1.m3u8")
+
+    print(f"Playlist channels with tvg-id: {len(channels)}")
     return channels
+
+
+def build_playlist_name_index(channels):
+    index = defaultdict(set)
+
+    for playlist_id, channel in channels.items():
+        for name in channel["names"]:
+            key = normalise(name)
+            if key:
+                index[key].add(playlist_id)
+
+    return index
+
+
+def download_source(url, destination):
+    request = urllib.request.Request(
+        url,
+        headers={"User-Agent": USER_AGENT},
+    )
+
+    last_error = None
+
+    for attempt in range(1, 4):
+        try:
+            print(f"Downloading {url} (attempt {attempt}/3)")
+
+            with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
+                with destination.open("wb") as output:
+                    while True:
+                        chunk = response.read(1024 * 1024)
+                        if not chunk:
+                            break
+                        output.write(chunk)
+
+            if destination.stat().st_size == 0:
+                raise RuntimeError("Downloaded file is empty")
+
+            print(f"Downloaded {destination.stat().st_size:,} bytes")
+            return
+
+        except Exception as error:
+            last_error = error
+            print(f"Download failed: {error}")
+
+            if attempt < 3:
+                time.sleep(attempt * 3)
+
+    raise RuntimeError(f"Could not download {url}: {last_error}")
+
+
+def read_source_channel_mapping(xml_file, playlist_name_index, playlist_ids):
+    """Read XMLTV channel IDs and map them to playlist IDs."""
+    mapping = {}
+
+    for event, element in ET.iterparse(xml_file, events=("end",)):
+        if local_tag(element) == "channel":
+            source_id = element.get("id", "").strip()
+
+            if source_id:
+                # Exact ID match takes priority.
+                if source_id in playlist_ids:
+                    mapping[source_id] = source_id
+                else:
+                    names = []
+
+                    for child in element:
+                        if local_tag(child) == "display-name":
+                            if child.text:
+                                names.append(child.text.strip())
+
+                    matches = set()
+
+                    for name in names:
+                        key = normalise(name)
+                        if key:
+                            matches.update(playlist_name_index.get(key, set()))
+
+                    # Only use a name match when it is unambiguous.
+                    if len(matches) == 1:
+                        mapping[source_id] = next(iter(matches))
+
+            element.clear()
+
+    return mapping
+
+
+def extract_programmes(xml_file, source_mapping, output_root, seen):
+    """Copy complete programmes with non-empty titles."""
+    added = 0
+    skipped_empty_titles = 0
+
+    for event, element in ET.iterparse(xml_file, events=("end",)):
+        if local_tag(element) != "programme":
+            continue
+
+        source_id = element.get("channel", "").strip()
+        playlist_id = source_mapping.get(source_id)
+
+        if playlist_id:
+            title = ""
+
+            for child in element:
+                if local_tag(child) == "title":
+                    title = (child.text or "").strip()
+                    if title:
+                        break
+
+            if not title:
+                skipped_empty_titles += 1
+            else:
+                start = element.get("start", "")
+                stop = element.get("stop", "")
+
+                key = (playlist_id, start, stop, title)
+
+                if key not in seen:
+                    # Copy the entire programme before clearing its source.
+                    copied = ET.fromstring(
+                        ET.tostring(element, encoding="utf-8")
+                    )
+
+                    copied.set("channel", playlist_id)
+                    output_root.append(copied)
+                    seen.add(key)
+                    added += 1
+
+        # Clear only after processing the complete programme.
+        element.clear()
+
+    return added, skipped_empty_titles
 
 
 def main():
-    print("Starting EPG generator...")
+    playlist_channels = read_playlist(PLAYLIST_FILE)
+    playlist_ids = set(playlist_channels)
 
-    if not os.path.exists(PLAYLIST):
-        raise FileNotFoundError(PLAYLIST)
+    name_index = build_playlist_name_index(playlist_channels)
 
-    playlist = get_playlist()
+    output_root = ET.Element("tv", {
+        "source-info-name": "Automatic EPG Generator",
+        "generator-info-name": "GitHub Actions XMLTV Generator",
+    })
 
-    if not playlist:
-        raise RuntimeError("No playlist channels with tvg-id found.")
+    seen_programmes = set()
+    matched_playlist_ids = set()
+    total_programmes = 0
+    total_empty_titles = 0
 
-    print(f"Playlist channels with IDs: {len(playlist)}")
-
-    source_channels = {}
-    downloaded = []
-
-    with tempfile.TemporaryDirectory() as folder:
-
-        # Download all seven XMLTV sources.
-        for index, url in enumerate(SOURCES, 1):
-            filename = os.path.join(folder, f"source_{index}.xml")
-
-            print(f"\nDownloading source {index}/{len(SOURCES)}")
+    with tempfile.TemporaryDirectory() as temp_dir:
+        for number, url in enumerate(EPG_SOURCES, start=1):
+            xml_file = Path(temp_dir) / f"source_{number}.xml"
 
             try:
-                download(url, filename)
-                downloaded.append(filename)
-                print("Download successful.")
+                download_source(url, xml_file)
+
+                source_mapping = read_source_channel_mapping(
+                    xml_file,
+                    name_index,
+                    playlist_ids,
+                )
+
+                if not source_mapping:
+                    print("No playlist channels matched this source.")
+                    continue
+
+                matched_playlist_ids.update(source_mapping.values())
+
+                print(f"Matched source channels: {len(source_mapping)}")
+
+                added, empty_titles = extract_programmes(
+                    xml_file,
+                    source_mapping,
+                    output_root,
+                    seen_programmes,
+                )
+
+                total_programmes += added
+                total_empty_titles += empty_titles
+
+                print(f"Added programmes: {added}")
+                print(f"Skipped programmes with empty titles: {empty_titles}")
 
             except Exception as error:
-                print(f"Download failed: {error}")
-
-        if not downloaded:
-            raise RuntimeError("All EPG downloads failed. Old EPG preserved.")
-
-        # Read channel IDs and display names from every source.
-        for filename in downloaded:
-            print(f"Reading channels from {os.path.basename(filename)}")
-
-            try:
-                channels = read_source_channels(filename)
-                source_channels.update(channels)
-
-            except ET.ParseError as error:
-                print(f"Invalid source XML: {error}")
-
-        print(f"\nSource channel IDs found: {len(source_channels)}")
-
-        # Create exact ID matches first.
-        source_to_playlist = {}
-
-        for source_id in source_channels:
-            if source_id in playlist:
-                source_to_playlist[source_id] = source_id
-
-        print(f"Exact ID matches: {len(source_to_playlist)}")
-
-        # Build a name index for unmatched playlist channels.
-        name_index = defaultdict(list)
-
-        for source_id, info in source_channels.items():
-            for name in info["names"]:
-                normalized = normalize(name)
-
-                if normalized:
-                    name_index[normalized].append(source_id)
-
-        # Match unmatched playlist channels by exact normalized name.
-        for playlist_id, playlist_name in playlist.items():
-
-            if playlist_id in source_to_playlist.values():
+                print(f"ERROR processing {url}: {error}")
+                # Continue with other sources if one source fails.
                 continue
 
-            normalized = normalize(playlist_name)
+    # Create XMLTV channel entries only for channels with programmes.
+    channels_with_programmes = {
+        programme.get("channel")
+        for programme in output_root.findall("programme")
+    }
 
-            candidates = list(set(name_index.get(normalized, [])))
-
-            if len(candidates) == 1:
-                source_to_playlist[candidates[0]] = playlist_id
-
-        # Create output XML.
-        output_root = ET.Element("tv", {
-            "source-info-name": "Open-EPG",
-            "generator-info-name": "Custom Playlist EPG Generator"
-        })
-
-        matched_ids = set(source_to_playlist.values())
-
-        for playlist_id in sorted(matched_ids):
-            channel = ET.SubElement(
-                output_root,
-                "channel",
-                {"id": playlist_id}
-            )
-
-            ET.SubElement(
-                channel,
-                "display-name"
-            ).text = playlist[playlist_id]
-
-        programme_keys = set()
-        programme_count = 0
-
-        # Extract programmes from every downloaded source.
-        for filename in downloaded:
-
-            print(f"\nExtracting programmes: {os.path.basename(filename)}")
-
-            context = ET.iterparse(filename, events=("start", "end"))
-            _, root = next(context)
-
-            try:
-                for event, elem in context:
-
-                    if event != "end":
-                        continue
-
-                    if elem.tag == "programme":
-
-                        source_id = elem.get("channel")
-                        playlist_id = source_to_playlist.get(source_id)
-
-                        if playlist_id:
-
-                            title = (
-                                elem.findtext("title") or ""
-                            ).strip()
-
-                            start = elem.get("start", "")
-                            stop = elem.get("stop", "")
-
-                            key = (
-                                playlist_id,
-                                start,
-                                stop,
-                                title
-                            )
-
-                            if key not in programme_keys:
-
-                                programme = ET.fromstring(
-                                    ET.tostring(elem)
-                                )
-
-                                # Rewrite source ID to your playlist ID.
-                                programme.set("channel", playlist_id)
-
-                                output_root.append(programme)
-                                programme_keys.add(key)
-                                programme_count += 1
-
-                    elem.clear()
-                    root.clear()
-
-            except ET.ParseError as error:
-                print(f"Source parsing error: {error}")
-
-        # Check that we have useful programme data.
-        if not programme_count:
-            raise RuntimeError(
-                "No matching programmes found. Old EPG preserved."
-            )
-
-        # Write to a temporary file first.
-        output_temp = OUTPUT + ".tmp"
-
-        tree = ET.ElementTree(output_root)
-
-        try:
-            ET.indent(tree, space="  ")
-        except AttributeError:
-            pass
-
-        tree.write(
-            output_temp,
-            encoding="utf-8",
-            xml_declaration=True
+    for playlist_id in sorted(channels_with_programmes):
+        channel = playlist_channels[playlist_id]
+        channel_element = ET.SubElement(
+            output_root,
+            "channel",
+            {"id": playlist_id},
         )
 
-        # Validate before replacing the existing EPG.
-        ET.parse(output_temp)
+        display_name = channel["names"][0] if channel["names"] else playlist_id
+        ET.SubElement(channel_element, "display-name").text = display_name
 
-        os.replace(output_temp, OUTPUT)
+    # Sort programmes by start time.
+    programmes = output_root.findall("programme")
+    programmes.sort(key=lambda item: (
+        item.get("start", ""),
+        item.get("channel", ""),
+    ))
 
-        # Final report.
-        unmatched = set(playlist) - matched_ids
+    # Rebuild the root in a predictable order: channels, then programmes.
+    final_root = ET.Element("tv", output_root.attrib)
 
-        print("\n========== EPG REPORT ==========")
-        print(f"Playlist channels: {len(playlist)}")
-        print(f"Matched channels: {len(matched_ids)}")
-        print(f"Unmatched channels: {len(unmatched)}")
-        print(f"Programmes: {programme_count}")
-        print(f"Output: {OUTPUT}")
-        print(f"Size: {os.path.getsize(OUTPUT):,} bytes")
+    for channel in output_root.findall("channel"):
+        final_root.append(channel)
 
-        if unmatched:
-            print("\nUNMATCHED CHANNELS:")
+    for programme in programmes:
+        final_root.append(programme)
 
-            for channel_id in sorted(unmatched):
-                print(channel_id)
+    if not programmes:
+        raise RuntimeError(
+            "No titled programmes matched your playlist. "
+            "Existing epg1.xml has been left untouched."
+        )
 
-        print("\nEPG GENERATED SUCCESSFULLY!")
+    if not channels_with_programmes:
+        raise RuntimeError("No matched channels have programmes.")
+
+    temporary_output = OUTPUT_FILE.with_suffix(".xml.tmp")
+
+    ET.ElementTree(final_root).write(
+        temporary_output,
+        encoding="utf-8",
+        xml_declaration=True,
+    )
+
+    # Validate the new file before replacing the old one.
+    check_root = ET.parse(temporary_output).getroot()
+
+    check_programmes = check_root.findall("programme")
+    titled_programmes = [
+        p for p in check_programmes
+        if (p.findtext("title") or "").strip()
+    ]
+
+    if not titled_programmes:
+        temporary_output.unlink(missing_ok=True)
+        raise RuntimeError("Generated EPG contains no programme titles.")
+
+    # Replace old output only after successful validation.
+    os.replace(temporary_output, OUTPUT_FILE)
+
+    print("\n========== EPG GENERATION COMPLETE ==========")
+    print(f"Playlist channels: {len(playlist_channels)}")
+    print(f"Matched channels with programmes: {len(channels_with_programmes)}")
+    print(f"Programmes written: {len(titled_programmes)}")
+    print(f"Empty titles skipped: {total_empty_titles}")
+    print(f"Output: {OUTPUT_FILE}")
+    print(f"Output size: {OUTPUT_FILE.stat().st_size:,} bytes")
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as error:
+        print(f"\nFATAL ERROR: {error}", file=sys.stderr)
+        raise
+
+
