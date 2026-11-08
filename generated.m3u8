@@ -1,21 +1,21 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/mupussy/Tvs/main/epg1.xml"
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18XEwMvOz3%2F05tBkL4MDkrlhVlneCYw4cVJnVUKxSmoefydY3ZhOBxg1VfQE18rTp%2B8Q7YRBZnnjU1UtdtuUV1HI%2BG22Kjes7Y%3D" group-title="EPL",ARSENAL[1080p]
+#EXTINF:-1 tvg-id="Arsenal.FC" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18XEwMvOz3%2F05tBkL4MDkrlhVlneCYw4cVJnVUKxSmoefydY3ZhOBxg1VfQE18rTp%2B8Q7YRBZnnjU1UtdtuUV1HI%2BG22Kjes7Y%3D" group-title="EPL",ARSENAL[1080p]
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/37898.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BDphLhSwGp1MT1xg9FbK7gb308WKWEAiwlo44GiqH5ZdZa7KrtEvOdVl9xIf%2FenWKKvmhClfPgKesO4bRPJ9HhfFn8ied2k94%3D" group-title="EPL",CHELSEA[1080p]
+#EXTINF:-1 tvg-id="Chelsea.FC" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BDphLhSwGp1MT1xg9FbK7gb308WKWEAiwlo44GiqH5ZdZa7KrtEvOdVl9xIf%2FenWKKvmhClfPgKesO4bRPJ9HhfFn8ied2k94%3D" group-title="EPL",CHELSEA[1080p]
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/37903.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19u9D%2BL%2BXryVlv3p1gdtgTUxw860%2Fs0q0rJfj%2BVifaf2DtG5z4vwvQZ%2Fe4BC4BG2maV%2F8HqPPwUABwGKUpZ6UbdXxnZt0nyQ%2Fs%3D" group-title="EPL",LIVERPOOL [1080p]
+#EXTINF:-1 tvg-id="Liverpool.FC" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19u9D%2BL%2BXryVlv3p1gdtgTUxw860%2Fs0q0rJfj%2BVifaf2DtG5z4vwvQZ%2Fe4BC4BG2maV%2F8HqPPwUABwGKUpZ6UbdXxnZt0nyQ%2Fs%3D" group-title="EPL",LIVERPOOL [1080p]
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/37909.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX184Mec7qqk%2BjzUCFacjuzgmk2e4zbb3XP5OvufZkjB3ELZCOGWRdZUDdwYbNxHo3VdbCthPuwOOpC%2BVdQZZT4kgnRTVYbthMaY%3D" group-title="EPL",MAN CITY [1080p]
+#EXTINF:-1 tvg-id="ManCity.FC" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX184Mec7qqk%2BjzUCFacjuzgmk2e4zbb3XP5OvufZkjB3ELZCOGWRdZUDdwYbNxHo3VdbCthPuwOOpC%2BVdQZZT4kgnRTVYbthMaY%3D" group-title="EPL",MAN CITY [1080p]
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/37911.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19ww8IIsMvNCOTxtSXicLyeTq0jktzmviUchg4XeZYMSga65wDNMlyHTLtkEKLdj%2FfKqhvj2FRk7Qs1vonBU%2B5v13Mm7E2Ioo0%3D" group-title="EPL",MAN U  [1080p]
+#EXTINF:-1 tvg-id="ManUnited.FC" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19ww8IIsMvNCOTxtSXicLyeTq0jktzmviUchg4XeZYMSga65wDNMlyHTLtkEKLdj%2FfKqhvj2FRk7Qs1vonBU%2B5v13Mm7E2Ioo0%3D" group-title="EPL",MAN U  [1080p]
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/37912.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19k%2FFOyI%2F0%2Bu7VFqc1W9OkzLrxj%2F1t95VuxV%2Bjt9GD6sSMxJbh2uYt9eEin%2FK08CMI9RI3%2BddPKI10sGZLqCN%2BNyF6pHyi%2BbaM%3D" group-title="EPL",TOTTENHAM [1080p]
+#EXTINF:-1 tvg-id="Tottenham.FC" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19k%2FFOyI%2F0%2Bu7VFqc1W9OkzLrxj%2F1t95VuxV%2Bjt9GD6sSMxJbh2uYt9eEin%2FK08CMI9RI3%2BddPKI10sGZLqCN%2BNyF6pHyi%2BbaM%3D" group-title="EPL",TOTTENHAM [1080p]
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/37918.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18EwBJlvzK%2BCJYmI3V0ta0Guw4SVevezZvOP1hXYUzeZB8PKtV8EtIQGMQCzyoI6twAmUEHH5sI419t5esDPqs%2FYt9FYzL8lvI%3D" group-title="LALIGA",ATM [1080p]
+#EXTINF:-1 tvg-id="AtleticoMadrid.FC" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18EwBJlvzK%2BCJYmI3V0ta0Guw4SVevezZvOP1hXYUzeZB8PKtV8EtIQGMQCzyoI6twAmUEHH5sI419t5esDPqs%2FYt9FYzL8lvI%3D" group-title="LALIGA",ATM [1080p]
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/39220.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19lQeKkOUtpmEEG2Z72kdwsYxtwcCfzLCteIRn1b5NdJXer5dCmy2oivZE3AHW5FgMKbbxCnACGkzbwQrGhaaWlv6alSyF89Ko%3D" group-title="LALIGA",BARCA [1080p]
+#EXTINF:-1 tvg-id="Barcelona.FC" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19lQeKkOUtpmEEG2Z72kdwsYxtwcCfzLCteIRn1b5NdJXer5dCmy2oivZE3AHW5FgMKbbxCnACGkzbwQrGhaaWlv6alSyF89Ko%3D" group-title="LALIGA",BARCA [1080p]
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/39221.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FIRoPoHTKGqUtfGviqpZCU8Q6ZVnVCYm5NXSvloauzxZycCrjFCRwqYBMZS31UbrLrGJ%2FWTGU%2B05%2F3yKManXUFtWNcvzUJpBs%3D" group-title="LALIGA",REAL MADRID [1080p]
+#EXTINF:-1 tvg-id="RealMadrid.FC" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FIRoPoHTKGqUtfGviqpZCU8Q6ZVnVCYm5NXSvloauzxZycCrjFCRwqYBMZS31UbrLrGJ%2FWTGU%2B05%2F3yKManXUFtWNcvzUJpBs%3D" group-title="LALIGA",REAL MADRID [1080p]
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/39232.ts
 #EXTINF:-1 tvg-id="beINSPORTS1.us"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2Bj2tbb9xffDE3R6sxm%2B4l%2Bgxt%2BUlU9SgFxO1%2BgrwrbNNktd7E20qwF5ukDC61ZbBw0dBwzxKIRo0Z2LdydbqGIl7757EsJrMA%3D" group-title="GENERAL SPORTS",BEIN 1
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/48979.ts
