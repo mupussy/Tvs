@@ -40,7 +40,43 @@ jobs:
 
       - name: Validate generated XML
         run: |
-          python -c "import xml.etree.ElementTree as ET; r=ET.parse('epg1.xml').getroot(); assert r.tag == 'tv'; assert r.find('channel') is not None; assert r.find('programme') is not None; print('EPG XML valid')"
+          python - <<'PY'
+          import os
+          import xml.etree.ElementTree as ET
+
+          path = "epg1.xml"
+          assert os.path.exists(path), "epg1.xml was not generated"
+
+          root = ET.parse(path).getroot()
+
+          assert root.tag == "tv", "Invalid XMLTV root"
+          channels = root.findall("channel")
+          programmes = root.findall("programme")
+
+          titled = [
+              p for p in programmes
+              if (p.findtext("title") or "").strip()
+          ]
+
+          assert channels, "No channels in EPG"
+          assert titled, "No programmes with titles"
+
+          channel_ids = {c.get("id") for c in channels}
+          programme_ids = {p.get("channel") for p in programmes}
+
+          unmatched = programme_ids - channel_ids
+          assert not unmatched, f"Programme channel IDs missing: {unmatched}"
+
+          print(f"XMLTV valid")
+          print(f"Channels: {len(channels)}")
+          print(f"Programmes: {len(programmes)}")
+          print(f"Programmes with titles: {len(titled)}")
+
+          size = os.path.getsize(path)
+          print(f"EPG size: {size:,} bytes")
+
+          assert size < 90 * 1024 * 1024, "EPG exceeds 90 MB"
+          PY
 
       - name: Commit and push updated EPG
         run: |
