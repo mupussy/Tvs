@@ -4,7 +4,7 @@ from pathlib import Path
 
 # Input and output files
 source = Path("list1.m3u8")
-output = Path("generated.m3u8")
+output = Path("generated1.m3u8")
 
 # Read credentials from GitHub Secrets
 username = os.environ.get("IPTV_USERNAME")
