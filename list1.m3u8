@@ -25,36 +25,10 @@ http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/48980.ts
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/48981.ts
 #EXTINF:-1 tvg-id="AstroPremierLeague2.my" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FZ2voHqMz9T5H7Z7Tf9%2FfCYD3kVaxabGNc7e6R5nkpncIq8Vmjf0okI%2BuW%2B0XrciQbSAuysL2AZEo2xZe9xdSMNJ8Si1kfyOY%3D" group-title="EPL",ASTRO 
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/38208.ts
-#EXTINF:-1 tvg-id="PremierSports1.uk"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX186oTkdlOsgHZgSIvp87SMpjAGLkwf5%2BPFIHfcu9ENa%2FE4NwzL0T6ecXJzDNchxqb3LrS6lz6lwMESpxvP5wOoA9J12iON5IEE%3D" group-title="GENERAL SPORTS",PREMIER SPORTS 1
-http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/26248.ts
-#EXTINF:-1 tvg-id="PremierSports2.uk"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX186oTkdlOsgHZgSIvp87SMpjAGLkwf5%2BPFIHfcu9ENa%2FE4NwzL0T6ecXJzDNchxqb3LrS6lz6lwMESpxvP5wOoA9J12iON5IEE%3D" group-title="GENERAL SPORTS",PREMIER SPORTS 2
-http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/26249.ts
 #EXTINF:-1 tvg-id="PremierSports3.uk"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX186oTkdlOsgHZgSIvp87SMpjAGLkwf5%2BPFIHfcu9ENa%2FE4NwzL0T6ecXJzDNchxqb3LrS6lz6lwMESpxvP5wOoA9J12iON5IEE%3D" group-title="GENERAL SPORTS",PREMIER SPORTS 3
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/26250.ts
 #EXTINF:-1 tvg-id="PremierLeagueHighlights.uk" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18gniSz2ZvYsCx1k7LWkbVt3Tfyqj1OL1hBOuxokga8%2BHa52KKyiJgCGo%2BKzXSNhapycoprTI9zNqLplXICC2OrQXugkpVyTjg%3D" group-title="EPL",EPL HIGHLIGHTS
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37788.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18vSQsvS9w12tcd36Qe%2BiWTg5154f7lgM6l%2B1YUY5zyxhG%2BHGP9XollXbQojA77XeHzPYPaShp1XwXVPdJE%2FK3h0Ir3s0lT7cU%3D" group-title="EPL",EPL 1 [1080p]
-http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37922.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18evJN5WQMt3I3dgHTpR3YN4LB6it4A9wMJBVvKTTIXcNIjDGAsAUXUN495ThluaYChHlla24S26DcLMkIRa2cIYSbJoZb8bFc%3D" group-title="EPL",EPL2 [1080p]
-http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37923.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FdsND2MgaRWUznYDwF84odvcqJ4vbHU%2FhBWrFCrOehIxO1ayq840P8P1gI3EA1S9jl%2BVzX8tf75JazSeXzhwXZ5a%2FehuHskKo%3D" group-title="EPL",EPL 3 [1080p]
-http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37924.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FOLlz4Bm992X%2FsNZeh6d6eR%2FRp9Ma8EofYfT9D3n8wO%2Bb2BLYxHoi7qbMu%2F7uKYDzwBivo%2FmK1gBkIeRsQBcpDMJg0ip%2BIxcE%3D" group-title="EPL",EPL 4 [1080p]
-http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37925.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19SEKBlEk2%2B1bHN41F2KTvCijgqZGF7mXnvb1peaxNRY47lwM9IVckVWhIHBSk4b0MFE0TJO3cNjqAcFeydKwRnH1%2BTE5%2FBFpE%3D" group-title="EPL",EPL 5 [1080p]
-http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37926.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2B4xtV1f9jXiiayefJPPKfSo0jyk2V3WNYRp2Wm3HqsgRkQHnFIAq2i%2BO8Oiw3Z5ohIZbbY2QdGaNdjBObrtmx9id7Brok6624%3D" group-title="EPL",EPL 6 [1080p]
-http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37927.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18FMZvc3GPVEurQBTZXC3gWNndkwrtCOH4ldouDlFVny9hYX%2FF5rnHZaw%2BPyK5vOFIkBQMJglP2TBetbYAhKFOwTnxHRyzRTEw%3D" group-title="EPL",EPL 7 [1080p]
-http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37928.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2B1%2BXxXE32%2BnoQrW9RBQtxj01PWOgJfcTCzcnwuM8zEhsybyIsexcNlwEcAgQSeAbbJwvtCBYjVr%2FL4ZtFptRWVVfiCkzhTO%2Bo%3D" group-title="EPL",EPL 8 [1080p]
-http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37929.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FBhLBkwvHXkiMditG2NkwzDDTRVTUyi7leRCsd%2FrXxp3wGl%2BdAWfvTFEwhHsOW84hZaMktlWyVoes5ZG635fLAWHM4lY45QAg%3D" group-title="EPL",EPL 9 [1080p]
-http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37930.ts
-#EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BdW18KPXTtgd4BGsTEuDTUJiwdWWt6t1sh7vVgkH0mkRR6JrJtUmDYog2n6%2B2rxBt3fv3ZBIuKeRAGjAZSAAmNSIwGanH4StE%3D" group-title="EPL",EPL 10 [1080p]
-http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37931.ts
-#EXTINF:-1 tvg-id="PLAYSPORTSPL.be"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BOtCcvV4iXEKdbNnjg4zYD2Ejmha35SKbHQmnSUKoX14owlB4HY31ztj1UT6QhSrHzECmJ5W8FG8xCUUC5nLLN9h3NgKVMmoM%3D" group-title="EPL",PLAY SPORTS PL [720p]
-http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/36227.ts
 #EXTINF:-1 tvg-id="PLAYSPORTS1.be"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2FU6MKjpdbehQZxX2Q3Jrkgp8kKle7s5TtZcCMuh8WLs%2Fscx3VU1qPHxrEsOR73nHkXIF7yCWhFDRxanjbF%2Fv%2F4RAbGkvuhvic%3D" group-title="EPL",PLAY SPORTS 1 [720p]
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/36228.ts
 #EXTINF:-1 tvg-id="PLAYSPORTS2.be"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2BuM4GJnuA4d%2BZnKnWX51sEjd93wE2oTbygr4V78IWYsOjYVwA%2FeeBsCKj5nWn5%2Ba6%2FyY4Gl%2FvS6Qvu%2F45VZ0tKEuWR64A6v6E%3D" group-title="EPL",PLAY SPORTS 2 [720p]
@@ -209,8 +183,6 @@ http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/52952.ts
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/52953.ts
 #EXTINF:-1 tvg-id="beINSPORTSMAX9.fr"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX195T%2BSyv6pDfcJAoSSAER2wqh%2BKGe2UfHGK9Vv85WOxz%2B1e6nrbNjI3kOgFrnsqw3kY0e%2FwV1cYW9eqtawAtaEy7QBWZWJavDA%3D" group-title="GENERAL SPORTS",BEIN MAX 9
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/52954.ts
-#EXTINF:-1 tvg-id="MUTV.uk@SD"tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1834.png" group-title="EPL",MUTV (720p)
-https://fastly.live.brightcove.com/6374054671112/eu-west-1/6058004203001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiYXplMnp5LmVncmVzcy55ODN1ZWIiLCJhY2NvdW50X2lkIjoiNjA1ODAwNDIwMzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU4MDA0MjAzMDAxIl0sImp0aSI6IjYzNzQwNTQ2NzExMTIifQ.3FmuTna3DAmY7xlhK5fk6LMrosrtrR5VsU2QOgYO5y4/playlist-hls.m3u8
 #EXTINF:-1 tvg-id="ChelseaTV.uk"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19c5mNEzojEJGcpTuuqAT0ehUVaBjuwwthdyJOs7bqkGezUGCxaJ7yfK8%2BXAd4weNkBg23m8WsJ%2FpRsEr8qk02x9QBtnVCJYGA%3D" group-title="EPL",CHELSEA TV
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37631.ts
 #EXTINF:-1 tvg-id="KSA Sports 1.sa"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX1%2F11FeBAQwQmms%2BecYvgYkQrkkV%2FyYeN4sJy5enneFIRKTQ7zTFqGmnbAIsesTzzdoupi%2FKrYn%2FUtIrXEjAARX68u2o7bXWfZE%3D" group-title="GENERAL SPORTS",SAUDI 1
@@ -257,3 +229,194 @@ http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/47731.ts
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/47732.ts
 #EXTINF:-1 tvg-id="NOVASPORT6.cz"tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19xCVzsc5dmVuEwdceNNp0ggTYbqmggMM%2FT4J9REoutx8PfUfLBjumJi2B6AEtn2Ljg8RwO%2B3%2BS0Ppt2H5UwP9FZhWciKwT2VM%3D" group-title="GENERAL SPORTS",NOVA SPORT 6  [1080p]
 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/47733.ts
+
+#EXTINF:-1 tvg-id="TNTSports5.uk" group-title="GENERAL SPORTS",TNT SPORTS 5 [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37660.ts
+#EXTINF:-1 group-title="GENERAL SPORTS",BT BOX OFFICE [720p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37628.ts
+#EXTINF:-1 tvg-id="DAZN1.uk" group-title="GENERAL SPORTS",DAZN 1 [720p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37629.ts
+#EXTINF:-1 tvg-id="LFCTV.uk" group-title="EPL",LFC TV [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37632.ts
+#EXTINF:-1 tvg-id="MUTV.uk" group-title="EPL",MUTV [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37634.ts
+#EXTINF:-1 tvg-id="Eurosport1.uk" group-title="GENERAL SPORTS",EUROSPORT 1 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37635.ts
+#EXTINF:-1 tvg-id="Eurosport2.uk" group-title="GENERAL SPORTS",EUROSPORT 2
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37636.ts
+#EXTINF:-1 tvg-id="PremierSportsLaLigaTV.uk" group-title="LALIGA",PREMIER SPORTS LALIGA TV 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37681.ts
+#EXTINF:-1 tvg-id="PremierSports1.uk" group-title="GENERAL SPORTS",PREMIER SPORTS 1
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37682.ts
+#EXTINF:-1 tvg-id="PremierSports2.uk" group-title="GENERAL SPORTS",PREMIER SPORTS 2
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37683.ts
+#EXTINF:-1 tvg-id="SkySportsAction.uk" group-title="GENERAL SPORTS",SKY SPORTS 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37641.ts
+#EXTINF:-1 tvg-id="SkySportsAction.uk" group-title="GENERAL SPORTS",SKY SPORTS ACTION
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37642.ts
+#EXTINF:-1 group-title="GENERAL SPORTS",TNT BOX OFFICE
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37654.ts
+#EXTINF:-1 tvg-id="TNTSports4.uk" group-title="GENERAL SPORTS",TNT SPORTS 4
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/37659.ts
+#EXTINF:-1 tvg-id="beINSPORTS1.qa" group-title="GENERAL SPORTS",BEIN SPORTS 1 EN
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/10583.ts
+#EXTINF:-1 tvg-id="beINSPORTS2.qa" group-title="GENERAL SPORTS",BEIN SPORTS 2 EN
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/10584.ts
+#EXTINF:-1 group-title="GENERAL SPORTS",CYMRU FOOTBALL 1
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/1412083.ts
+#EXTINF:-1 group-title="GENERAL SPORTS",CYMRU FOOTBALL 2 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/1412084.ts
+#EXTINF:-1 group-title="GENERAL SPORTS",CYMRU FOOTBALL 3 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/1412085.ts
+#EXTINF:-1 group-title="GENERAL SPORTS",CYMRU FOOTBALL 4 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/1412086.ts
+#EXTINF:-1 group-title="GENERAL SPORTS",CYMRU FOOTBALL 5 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/1412087.ts
+#EXTINF:-1 group-title="GENERAL SPORTS",CYMRU FOOTBALL 6 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/1412088.ts
+#EXTINF:-1 group-title="GENERAL SPORTS",CYMRU FOOTBALL 7 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/1412089.ts
+#EXTINF:-1 group-title="GENERAL SPORTS",CYMRU FOOTBALL 8 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/1412090.ts
+#EXTINF:-1 group-title="GENERAL SPORTS",CYMRU FOOTBALL 9
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/1412091.ts
+#EXTINF:-1 group-title="GENERAL SPORTS",CYMRU FOOTBALL 10 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/1412092.ts
+#EXTINF:-1 group-title="GENERAL SPORTS",CYMRU FOOTBALL 11 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/1412093.ts
+#EXTINF:-1 group-title="GENERAL SPORTS",CYMRU FOOTBALL 12 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/1412094.ts
+#EXTINF:-1 group-title="GENERAL SPORTS",CYMRU FOOTBALL 13 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/1412095.ts
+#EXTINF:-1 group-title="GENERAL SPORTS",CYMRU FOOTBALL 14 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/1412096.ts
+#EXTINF:-1 group-title="GENERAL SPORTS",CYMRU FOOTBALL 15 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/1412097.ts
+#EXTINF:-1 group-title="GENERAL SPORTS",CYMRU FOOTBALL 16 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/1412098.ts
+#EXTINF:-1 tvg-id="BlueSport1.ch" group-title="GENERAL SPORTS",BLUE SPORT 1
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/31145.ts
+#EXTINF:-1 tvg-id="BlueSport2.ch" group-title="GENERAL SPORTS",BLUE SPORT 2 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/31146.ts
+#EXTINF:-1 tvg-id="BlueSport3.ch" group-title="GENERAL SPORTS",BLUE SPORT 3 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/31147.ts
+#EXTINF:-1 tvg-id="BlueSport4.ch" group-title="GENERAL SPORTS",BLUE SPORT 4 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/31148.ts
+#EXTINF:-1 tvg-id="BlueSport5.ch" group-title="GENERAL SPORTS",BLUE SPORT 5 http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/31149.ts
+#EXTINF:-1 tvg-id="MySports1.ch" group-title="GENERAL SPORTS",MY SPORT 1 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/31150.ts
+#EXTINF:-1 tvg-id="MySports2.ch" group-title="GENERAL SPORTS",MY SPORT 2 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/31151.ts
+#EXTINF:-1 tvg-id="MySports3.ch" group-title="GENERAL SPORTS",MY SPORT 3 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/31152.ts
+#EXTINF:-1 tvg-id="MySports4.ch" group-title="GENERAL SPORTS",MY SPORT 4 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/31153.ts
+#EXTINF:-1 tvg-id="MySports5.ch" group-title="GENERAL SPORTS",MY SPORT 5 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/31154.ts
+#EXTINF:-1 tvg-id="MySports6.ch" group-title="GENERAL SPORTS",MY SPORT 6 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/31155.ts
+#EXTINF:-1 tvg-id="MySports7.ch" group-title="GENERAL SPORTS",MY SPORT 7 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/31156.ts
+#EXTINF:-1 tvg-id="MySports8.ch" group-title="GENERAL SPORTS",MY SPORT 8 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/31157.ts
+#EXTINF:-1 tvg-id="MySports9.ch" group-title="GENERAL SPORTS",MY SPORT 9 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/31158.ts
+#EXTINF:-1 tvg-id="SkySportBarUno.it" group-title="SERIE A",SKY SPORT BAR UNO 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/33314.ts
+#EXTINF:-1 tvg-id="SkySportBarDue.it" group-title="SERIE A",SKY SPORT BAR DUE 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/33317.ts
+#EXTINF:-1 tvg-id="SkySportFootball.it" group-title="SERIE A",SKY IT FOOTBALL 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/33265.ts
+#EXTINF:-1 tvg-id="SkySportCalcio.it" group-title="SERIE A",SKY SPORT CALCIO 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/33275.ts
+#EXTINF:-1 tvg-id="SkyCalcio1.it" group-title="SERIE A",SKY CALCIO 1 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/33279.ts
+#EXTINF:-1 tvg-id="SkyCalcio2.it" group-title="SERIE A",SKY CALCIO 2 
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/33281.ts
+#EXTINF:-1 tvg-id="SkyCalcio3.it" group-title="SERIE A",SKY CALCIO 3 [4K-Q]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/33284.ts
+#EXTINF:-1 tvg-id="SkyCalcio4.it" group-title="SERIE A",SKY CALCIO 4 [4K-Q]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/33287.ts
+#EXTINF:-1 tvg-id="SkyCalcio5.it" group-title="SERIE A",SKY CALCIO 5 [4K-Q]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/33290.ts
+#EXTINF:-1 tvg-id="SkyCalcio6.it" group-title="SERIE A",SKY CALCIO 6 [4K-Q]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/33293.ts
+#EXTINF:-1 tvg-id="SkyCalcio7.it" group-title="SERIE A",SKY CALCIO 7 [4K-Q]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/33295.ts
+#EXTINF:-1 tvg-id="SkySportSoloCalcio.it" group-title="SERIE A",SKY SPORT SOLO CALCIO [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/33297.ts
+#EXTINF:-1 tvg-id="SkySportUno.it" group-title="SERIE A",SKY SPORT UNO [4K-Q]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/33299.ts
+#EXTINF:-1 tvg-id="SkySportItalia.it" group-title="SERIE A",SKY SPORT ITALIA [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/33302.ts
+#EXTINF:-1 tvg-id="SkySport.it" group-title="SERIE A",SKY SPORT [720p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/33303.ts
+#EXTINF:-1 tvg-id="ESPNPlus1.us" group-title="GENERAL SPORTS",ESPN+ 1 [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/1440085.ts
+#EXTINF:-1 tvg-id="ESPNPlus2.us" group-title="GENERAL SPORTS",ESPN+ 2 [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/1440086.ts
+#EXTINF:-1 tvg-id="ESPNPlus3.us" group-title="GENERAL SPORTS",ESPN+ 3 [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/1440087.ts
+#EXTINF:-1 tvg-id="ESPNPlus4.us" group-title="GENERAL SPORTS",ESPN+ 4 [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/1440088.ts
+#EXTINF:-1 tvg-id="ESPNPlus5.us" group-title="GENERAL SPORTS",ESPN+ 5 [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/1440089.ts
+#EXTINF:-1 tvg-id="ESPNPlus6.us" group-title="GENERAL SPORTS",ESPN+ 6 [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/1440090.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: ATLANTA HAWKS [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17225.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: BOSTON CELTICS [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17226.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: BROOKLYN NETS [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17227.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: CHARLOTTE HORNETS [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17228.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: CHICAGO BULLS [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17229.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: CLEVELAND CAVALIERS [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17230.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: DALLAS MAVERICKS [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17231.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: DENVER NUGGETS [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17232.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: DETROIT PISTONS [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17233.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: GOLDEN STATE WARRIORS [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17234.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: HOUSTON ROCKETS [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17235.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: INDIANA PACERS [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17236.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: LOS ANGELES CLIPPERS [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17237.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: LOS ANGELES LAKERS [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17238.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: MEMPHIS GRIZZLIES [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17239.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: MIAMI HEAT [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17240.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: MILWAUKEE BUCKS [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17241.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: MINNESOTA TIMBERWOLVES [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17242.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: NEW ORLEANS PELICANS [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17243.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: NEW YORK KNICKS [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17244.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: OKLAHOMA CITY THUNDER [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17245.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: ORLANDO MAGIC [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17246.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: PHILADELPHIA 76ERS [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17247.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: PHOENIX SUNS [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17248.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: PORTLAND TRAIL BLAZERS [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17249.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: SACRAMENTO KINGS [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17250.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: SAN ANTONIO SPURS [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17251.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: TORONTO RAPTORS [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17252.ts
+#EXTINF:-1 group-title="NBA",NBA TEAM: UTAH JAZZ [1080p]
+http://freeiptv.ottc.xyz:80/live/{{USERNAME}}/{{PASSWORD}}/17253.ts
