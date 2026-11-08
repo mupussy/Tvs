@@ -238,33 +238,33 @@ http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/37634.ts
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/37635.ts
 #EXTINF:-1 tvg-id="Eurosport2.uk" group-title="GENERAL SPORTS",EUROSPORT 2
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/37636.ts
-#EXTINF:-1 tvg-id="PremierSports1.uk" group-title="GENERAL SPORTS",PREMIER SPORTS 1
+#EXTINF:-1 tvg-id="PremierSports1.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8c/PS_Logo_STACKED_4.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="GENERAL SPORTS",PREMIER SPORTS 1
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/37682.ts
-#EXTINF:-1 tvg-id="PremierSports2.uk" group-title="GENERAL SPORTS",PREMIER SPORTS 2
+#EXTINF:-1 tvg-id="PremierSports2.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8c/PS_Logo_STACKED_4.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="GENERAL SPORTS",PREMIER SPORTS 2
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/37683.ts
-#EXTINF:-1 tvg-id="BlueSport1.ch" group-title="GENERAL SPORTS",BLUE SPORT 1
+#EXTINF:-1 tvg-id="BlueSport1.ch" tvg-logo="https://rcp.scsstatic.ch/content/dam/assets/b2c/tv/zusatzpakete/bluesport/box-blue-sport-321x272-2x.png" group-title="GENERAL SPORTS",BLUE SPORT 1
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/31145.ts
-#EXTINF:-1 tvg-id="BlueSport2.ch" group-title="GENERAL SPORTS",BLUE SPORT 2 
+#EXTINF:-1 tvg-id="BlueSport2.ch" tvg-logo="https://rcp.scsstatic.ch/content/dam/assets/b2c/tv/zusatzpakete/bluesport/box-blue-sport-321x272-2x.png" group-title="GENERAL SPORTS",BLUE SPORT 2 
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/31146.ts
-#EXTINF:-1 tvg-id="BlueSport3.ch" group-title="GENERAL SPORTS",BLUE SPORT 3 
+#EXTINF:-1 tvg-id="BlueSport3.ch" tvg-logo="https://rcp.scsstatic.ch/content/dam/assets/b2c/tv/zusatzpakete/bluesport/box-blue-sport-321x272-2x.png" group-title="GENERAL SPORTS",BLUE SPORT 3 
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/31147.ts
-#EXTINF:-1 tvg-id="BlueSport4.ch" group-title="GENERAL SPORTS",BLUE SPORT 4 
+#EXTINF:-1 tvg-id="BlueSport4.ch" tvg-logo="https://rcp.scsstatic.ch/content/dam/assets/b2c/tv/zusatzpakete/bluesport/box-blue-sport-321x272-2x.png" group-title="GENERAL SPORTS",BLUE SPORT 4 
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/31148.ts
-#EXTINF:-1 tvg-id="BlueSport5.ch" group-title="GENERAL SPORTS",BLUE SPORT 5 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/31149.ts
+#EXTINF:-1 tvg-id="BlueSport5.ch" tvg-logo="https://rcp.scsstatic.ch/content/dam/assets/b2c/tv/zusatzpakete/bluesport/box-blue-sport-321x272-2x.png" group-title="GENERAL SPORTS",BLUE SPORT 5 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/31149.ts
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/33299.ts
 #EXTINF:-1 tvg-id="SkySportItalia.it" tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX18%2BF5D7ZE97AOZT9g1SYS0piUAt7z8jlgLfxHE0kvMl7nOBWh1n74qAAk5VIo93%2FqcfpR4BeEwWTw%3D%3D" group-title="SERIE A",SKY SPORT ITALIA 
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/33302.ts
-#EXTINF:-1 tvg-id="ESPNPlus1.us" group-title="GENERAL SPORTS",ESPN+ 1 [1080p]
+#EXTINF:-1 tvg-id="ESPNPlus1.us" tvg-logo="https://m.media-amazon.com/images/I/41lChb5Q+KL.png" group-title="GENERAL SPORTS",ESPN+ 1 [1080p]
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/1440085.ts
-#EXTINF:-1 tvg-id="ESPNPlus2.us" group-title="GENERAL SPORTS",ESPN+ 2 [1080p]
+#EXTINF:-1 tvg-id="ESPNPlus2.us" tvg-logo="https://m.media-amazon.com/images/I/41lChb5Q+KL.png" group-title="GENERAL SPORTS",ESPN+ 2 [1080p]
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/1440086.ts
-#EXTINF:-1 tvg-id="ESPNPlus3.us" group-title="GENERAL SPORTS",ESPN+ 3 [1080p]
+#EXTINF:-1 tvg-id="ESPNPlus3.us" tvg-logo="https://m.media-amazon.com/images/I/41lChb5Q+KL.png" group-title="GENERAL SPORTS",ESPN+ 3 [1080p]
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/1440087.ts
-#EXTINF:-1 tvg-id="ESPNPlus4.us" group-title="GENERAL SPORTS",ESPN+ 4 [1080p]
+#EXTINF:-1 tvg-id="ESPNPlus4.us" tvg-logo="https://m.media-amazon.com/images/I/41lChb5Q+KL.png" group-title="GENERAL SPORTS",ESPN+ 4 [1080p]
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/1440088.ts
-#EXTINF:-1 tvg-id="ESPNPlus5.us" group-title="GENERAL SPORTS",ESPN+ 5 [1080p]
+#EXTINF:-1 tvg-id="ESPNPlus5.us" tvg-logo="https://m.media-amazon.com/images/I/41lChb5Q+KL.png" group-title="GENERAL SPORTS",ESPN+ 5 [1080p]
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/1440089.ts
-#EXTINF:-1 tvg-id="ESPNPlus6.us" group-title="GENERAL SPORTS",ESPN+ 6 [1080p]
+#EXTINF:-1 tvg-id="ESPNPlus6.us" tvg-logo="https://m.media-amazon.com/images/I/41lChb5Q+KL.png" group-title="GENERAL SPORTS",ESPN+ 6 [1080p]
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/1440090.ts
 #EXTINF:-1 tvg-logo="https://francoisa.win/channel-logo.php?k=U2FsdGVkX19dHDQeXz8fQW4%2BkJgpZr4cn%2BN2I%2BE33hk35u9aubbXdwpeFndku9%2BPNmN8TeI4o2HW8E9Kyw5Cq9YJx5P%2Br7Ywc0NF2tIJwSg%3D" group-title="NBA",ATLANTA HAWKS [1080p]
 http://freeiptv.ottc.xyz:80/live/860939616667/499010974403/17225.ts
