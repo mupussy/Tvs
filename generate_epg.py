@@ -11,13 +11,15 @@ PLAYLIST = "list1.m3u8"
 OUTPUT = "epg1.xml"
 
 SOURCES = [
-    "https://www.open-epg.com/files/belgium.xml",
-    "https://www.open-epg.com/files/czech3.xml",
-    "https://www.open-epg.com/files/france.xml",
-    "https://www.open-epg.com/files/italy1.xml",
-    "https://www.open-epg.com/files/saudiarabia.xml",
-    "https://www.open-epg.com/files/spain.xml",
-    "https://www.open-epg.com/files/unitedkingdom.xml",
+    "https://iptv-epg.org/files/epg-gb.xml",
+    "https://iptv-epg.org/files/epg-ar.xml",
+    ""https://iptv-epg.org/files/epg-fr.xml",
+    "https://iptv-epg.org/files/epg-cz.xml",
+    "https://iptv-epg.org/files/epg-be.xml",
+    "https://iptv-epg.org/files/epg-de.xml",
+    "https://iptv-epg.org/files/epg-us.xml",
+    "https://iptv-epg.org/files/epg-es.xml",
+    "https://iptv-epg.org/files/epg-ch.xml",
 ]
 
 
