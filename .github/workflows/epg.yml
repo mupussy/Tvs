@@ -1,12 +1,11 @@
 
-
 name: Automatic EPG Generator
 
 on:
   workflow_dispatch:
 
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 0,8,16 * * *"
 
   push:
     paths:
@@ -37,6 +36,8 @@ jobs:
           python-version: "3.12"
 
       - name: Generate EPG
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: python -u generate_epg.py
 
       - name: Validate generated XML
@@ -45,10 +46,12 @@ jobs:
           import os
           import xml.etree.ElementTree as ET
 
-          path = "epg1.xml"
-          assert os.path.exists(path), "epg1.xml not found"
+          path = "epg.xml"
+
+          assert os.path.exists(path), "epg.xml not found"
 
           root = ET.parse(path).getroot()
+
           assert root.tag == "tv", "Invalid XMLTV root"
 
           channels = root.findall("channel")
@@ -62,21 +65,29 @@ jobs:
           assert channels, "No channels found"
           assert titled, "No titled programmes found"
 
-          channel_ids = {c.get("id") for c in channels}
-          programme_ids = {p.get("channel") for p in programmes}
+          channel_ids = {
+              c.get("id") for c in channels
+          }
+
+          programme_ids = {
+              p.get("channel") for p in programmes
+          }
 
           assert programme_ids <= channel_ids, (
-              "Some programme channel IDs have no matching channel entry"
+              "Programme references a missing channel"
           )
 
           size = os.path.getsize(path)
-          assert size < 90 * 1024 * 1024, "EPG exceeds 90 MB"
 
-          print("EPG XML validation successful")
-          print(f"Channels: {len(channels)}")
-          print(f"Programmes: {len(programmes)}")
-          print(f"Titled programmes: {len(titled)}")
-          print(f"File size: {size:,} bytes")
+          assert size < 90 * 1024 * 1024, (
+              "EPG exceeds 90 MiB"
+          )
+
+          print(
+              f"Valid XMLTV: {len(channels)} channels, "
+              f"{len(programmes)} programmes, "
+              f"{size:,} bytes"
+          )
           PY
 
       - name: Commit and push updated EPG
@@ -84,18 +95,29 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          cp epg1.xml /tmp/epg1.xml
+          cp epg.xml /tmp/epg.xml
+
+          if [ -f football_fixtures_cache.json ]; then
+            cp football_fixtures_cache.json /tmp/football_fixtures_cache.json
+            HAS_CACHE=1
+          else
+            HAS_CACHE=0
+          fi
 
           git fetch origin main
           git reset --hard origin/main
 
-          cp /tmp/epg1.xml epg1.xml
+          cp /tmp/epg.xml epg.xml
 
-          git add epg1.xml
+          if [ "$HAS_CACHE" = "1" ]; then
+            cp /tmp/football_fixtures_cache.json football_fixtures_cache.json
+          fi
+
+          git add epg.xml football_fixtures_cache.json
 
           if ! git diff --cached --quiet; then
             git commit -m "Automatically update EPG"
             git push origin HEAD:main
           else
-            echo "No EPG changes to publish."
+            echo "No EPG or cache changes to publish."
           fi
