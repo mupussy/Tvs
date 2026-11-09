@@ -425,368 +425,20 @@
     <display-name>ESPN+ 6 [1080p]</display-name>
     <icon src="https://m.media-amazon.com/images/I/41lChb5Q+KL.png" />
   </channel>
-  <programme start="20261107162500 +0000" stop="20261107183000 +0000" channel="beINSPORTS3.us">
-    <category lang="en">Sports</category>
-    <category lang="en">Soccer</category>
-    <category lang="en">Series</category>
-    <desc lang="en">Górnik Zabrze vs. Wieczysta Kraków
-From the Ernest Pohl Stadium, Zabrze, Poland.</desc>
-    <icon src="https://iptv-epg.org/images/mHrMfYpThSBMJYMWaMLDIR49A4auS8mZlC4RjSzxWeNgBFvwXhTPG-OKWsQrJYQiQZ0xaAFVuHn-J8uHdpFHx9cgDTpRrjD9iaYt4MNw9YY" />
-    <title lang="en">Ekstraklasa Soccer</title>
-    <live />
-  </programme>
-  <programme start="20261107162500 +0000" stop="20261107191500 +0000" channel="blueSport2Live.ch">
-    <category lang="de">Sports</category>
-    <date>2026</date>
-    <desc lang="de">Brack Super League, 13. Spieltag - Deutsch/Italienisch.</desc>
-    <title lang="de">FC Vaduz - FC Sion</title>
-    <live />
-  </programme>
-  <programme start="20261107163000 +0000" stop="20261107174500 +0000" channel="SkySportBundesliga2.de">
-    <category lang="de">Sport</category>
-    <category>Sports</category>
-    <date>2026</date>
-    <desc lang="de">E56
-Die Zusammenfassung berichtet über alle Spiele und Tore des aktuellen Bundesliga-Spieltags.</desc>
-    <episode-num>E56</episode-num>
-    <icon src="https://iptv-epg.org/images/xfen9soC9N1HLuwlDcyb791BTd1a-2s1LKz7CT4CUk2jPVa2AmqI49DX-I1gWlf1FDgpzienppoiziVPs-nJ3FpiKX6NG7M6o4jz0WvA6aGBO5OezcRn2OzdoKUpxZkYD7lSSU0eMY7IXrQ4BKvKWQUiKj1I7W4" />
-    <title lang="de">Live BL Alle Spiele, alle Tore: Die Vodafone Highlight-Show, 9. Spieltag, Samstag</title>
-  </programme>
-  <programme start="20261107163000 +0000" stop="20261107173000 +0000" channel="beINSPORTSMAX4.fr">
-    <category lang="fr">Magazine sportif</category>
-    <desc lang="fr">beIN SPORTS, le plus grand des spectacles.</desc>
-    <icon src="https://iptv-epg.org/images/xi2HXQdD_Q4ifcDgw_IsADpT-e9gGeIUDK7C1Zt-HCqQZgZFkF_Wdc3-OwgO6Z95-NcdHGIdj-0-AauFnCsZLTcFaPPcIQcnSehl5nhEwU8ecJh6qpO7" />
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-  </programme>
-  <programme start="20261107163000 +0000" stop="20261107192500 +0000" channel="beINSPORTSMAX5.fr">
-    <category lang="fr">Magazine sportif</category>
-    <desc lang="fr">beIN SPORTS, le plus grand des spectacles.</desc>
-    <icon src="https://iptv-epg.org/images/xi2HXQdD_Q4ifcDgw_IsADpT-e9gGeIUDK7C1Zt-HCqQZgZFkF_Wdc3-OwgO6Z95-NcdHGIdj-0-AauFnCsZLTcFaPPcIQcnSehl5nhEwU8ecJh6qpO7" />
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-  </programme>
-  <programme start="20261107163000 +0000" stop="20261107170000 +0000" channel="beINSPORTSMAX6.fr">
-    <category lang="fr">Magazine sportif</category>
-    <desc lang="fr">beIN SPORTS, le plus grand des spectacles.</desc>
-    <icon src="https://iptv-epg.org/images/xi2HXQdD_Q4ifcDgw_IsADpT-e9gGeIUDK7C1Zt-HCqQZgZFkF_Wdc3-OwgO6Z95-NcdHGIdj-0-AauFnCsZLTcFaPPcIQcnSehl5nhEwU8ecJh6qpO7" />
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-  </programme>
-  <programme start="20261107165000 +0000" stop="20261107190000 +0000" channel="blueSport3Live.ch">
-    <category lang="de">Sports</category>
-    <date>2026</date>
-    <desc lang="de">dieci Challenge League, 13. Spieltag - Deutsch\r\nStadion-Ton - ohne Kommentar.</desc>
-    <title lang="de">FC Winterthur - Etoile Carouge FC</title>
-    <live />
-  </programme>
-  <programme start="20261107170000 +0000" stop="20261107172400 +0000" channel="M+LaLigaTV.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <date>2026</date>
-    <desc lang="es">CA Osasuna - Athletic Club
-Previa Liga Española. 1ª División.</desc>
-    <icon src="https://iptv-epg.org/images/IjnY7hwAkxahijHQwe4JulBwqdR5Cyfgk1EXp79wJ3yYzw2MtVx6oYn1dvfebekt-Y58Fh_9ouINN5XtRdcqcaMrkZXAbn273uBugzef4yE51BHj" />
-    <title lang="es">La Casa del Fútbol Previa (T26/27)</title>
-    <live />
-  </programme>
-  <programme start="20261107170000 +0000" stop="20261107200000 +0000" channel="beINSPORTSMAX6.fr">
-    <category lang="fr">Football américain</category>
-    <desc lang="fr">Utah v BYU
-Diffusion d'un match de NCAA, le championnat universitaire de football américain aux Etats-Unis.</desc>
-    <icon src="https://iptv-epg.org/images/q60g46K8VRQayNY0Or2RD60hBCFO0m2mdADiHCdoaQFAZEz19EhDW1qPLtlHRVttln9ZEhDIKERNRbc5VhegRKc-DFNH2LAS8sQZ70DOJP6s9eLtELc7" />
-    <title lang="fr">Football américain : NCAA</title>
-    <new />
-  </programme>
-  <programme start="20261107170000 +0000" stop="20261107200000 +0000" channel="beINSPORTSMAX9.fr">
-    <category lang="fr">Magazine sportif</category>
-    <desc lang="fr">beIN SPORTS, le plus grand des spectacles.</desc>
-    <icon src="https://iptv-epg.org/images/xi2HXQdD_Q4ifcDgw_IsADpT-e9gGeIUDK7C1Zt-HCqQZgZFkF_Wdc3-OwgO6Z95-NcdHGIdj-0-AauFnCsZLTcFaPPcIQcnSehl5nhEwU8ecJh6qpO7" />
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-  </programme>
-  <programme start="20261107172000 +0000" stop="20261107193000 +0000" channel="SkySportPremierLeague.de">
-    <category lang="de">Sport</category>
-    <category>Sports</category>
-    <date>2026</date>
-    <desc lang="de">Aus dem The City Ground in Nottingham, England.</desc>
-    <icon src="https://iptv-epg.org/images/p6RWf7iFEcvl7JnezrPjg8htovVcCAy9FD4GwOVsYR_wKQhKs_KEhZq4THsSH5Dkhqga1fNDAeerNYbLJsLDN-3gFaG3fvvXxn2jMbMHOxM7HrXyUNdLz9WUtCSEWclT8EDSMWo4lFVBm7DjonhlKHSf6J8vTJ0" />
-    <title lang="de">Live PL: Nottingham Forest - Manchester City, 10. Spieltag</title>
-    <live />
-  </programme>
-  <programme start="20261107172400 +0000" stop="20261107193000 +0000" channel="M+LaLigaTV.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <desc lang="es">Los mejores clubes del país protagonizan LaLiga, el campeonato de la regularidad del fútbol español. El torneo es una carrera de fondo en la que los equipos pelean por sus metas: la salvación, Europa, la Champions o el título. El Barcelona defiende corona.</desc>
-    <icon src="https://iptv-epg.org/images/HbebP_XclXi0A3IJvxqgVAZG6Tx1nzPogtn9Skhkh4PhXIueAkaCDwCtmNHCKu3teeFPDF73nGT2xSiU4JAbvyHuLJk-ElQvgs6UArEfruooywnt" />
-    <title lang="es">LALIGA EA SPORTS (T26/27): CA Osasuna - Athletic Club</title>
-    <live />
-  </programme>
-  <programme start="20261107173000 +0000" stop="20261107180000 +0000" channel="Ligue1+3.fr">
-    <category lang="en">Magazine sportif</category>
-    <category lang="en">Sports</category>
-    <icon src="https://iptv-epg.org/images/HkJYEeN5i7Hsupb-8gDjUbRYxn5q7ol_5DYbB7ru7oJeR4EWSE-n483uDAWbIElR4XjyLoN9kiyfiwzw5Tak9FhoBgwWO5LfhUaor_eCYpY-1AL9eNXY" />
-    <title lang="en">Ligue 1+ 3</title>
-  </programme>
-  <programme start="20261107173000 +0000" stop="20261107203000 +0000" channel="beINSPORTSMAX4.fr">
-    <category lang="fr">Hockey sur glace</category>
-    <desc lang="fr">Washington Capitals v Florida Panthers
-Retransmission d'un match de NHL, la prestigieuse ligue nord-américaine de hockey sur glace.</desc>
-    <icon src="https://iptv-epg.org/images/s5gOCTAJtECaCr6ELsdB8zMx7xsYqAeigARHsI2eaHb0kXT7O00UWLXhBTbnNLSbp7BOcwZRefUnAkhWw4nHBMlwPlSwA6dtteXaUDNEIRNKY4I6jmQU" />
-    <title lang="fr">Hockey sur glace : NHL</title>
-    <new />
-  </programme>
   <programme start="20261107174000 +0000" stop="20261107192000 +0000" channel="CanalPlusSport.fr">
     <title>Grand Prix de Sao Paulo</title>
     <desc>En Direct.</desc>
-  </programme>
-  <programme start="20261107174500 +0000" stop="20261107180000 +0000" channel="SkySportBundesliga2.de">
-    <category lang="de">Sport</category>
-    <category>Sports</category>
-    <date>2026</date>
-    <desc lang="de">Die besten Szenen aus der Bundesliga und 2. Bundesliga: Highlights XXL zeigt die großen Momente der vergangenen Partien.</desc>
-    <icon src="https://iptv-epg.org/images/WpZXqQs2y0y4Ut249Uc1kzmRIkN_Z4FzklaUms4nbsgTkO29wmuQkges0TrCQg9agFVxoD2mlwnSLo46_1160O3ucaEamTdFWr-0S1WawNelT17LjBDLoByh9LDopBsXYM2E7U_vRTeLgHRXJjqAVc7frM4XZEc" />
-    <title lang="de">BL: Highlights XXL: HSV - BMG, 9. Spieltag</title>
-  </programme>
-  <programme start="20261107175000 +0000" stop="20261107185000 +0000" channel="Willow2.us">
-    <category lang="en">Cricket</category>
-    <category lang="en">Series</category>
-    <category>Sports</category>
-    <desc lang="en">India Women vs Zimbabwe Women: 2nd T20I
-Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
-    <icon src="https://iptv-epg.org/images/hk4j4pBFSU5U06Ck4vlSBYOp97MpW8cNKzh5--Je622cf-2DsmyOG5sR6qBLVmAZAU5fp-4L1RwDJGU84atP-FjW9XJm683NRR8lBr4IcRA" />
-    <previously-shown />
-    <title lang="en">Cricket Highlights</title>
-  </programme>
-  <programme start="20261107180000 +0000" stop="20261107203700 +0000" channel="Ligue1+2.fr">
-    <category lang="en">Magazine sportif</category>
-    <category lang="en">Sports</category>
-    <icon src="https://iptv-epg.org/images/QBrlJsXjelqoGc5yxRd-UOPNixzYmMqQXrNUFlxhXqdphOYe8fZaYBIKmH83CMQ_3bKEYY5gaYr89E6NViB19SFFrRGb8Qq88w30yygsaI7pCOJMCws4" />
-    <title lang="en">Ligue 1+ 2</title>
-  </programme>
-  <programme start="20261107180000 +0000" stop="20261107210000 +0000" channel="Ligue1+3.fr">
-    <category lang="en">Magazine sportif</category>
-    <category lang="en">Sports</category>
-    <icon src="https://iptv-epg.org/images/HkJYEeN5i7Hsupb-8gDjUbRYxn5q7ol_5DYbB7ru7oJeR4EWSE-n483uDAWbIElR4XjyLoN9kiyfiwzw5Tak9FhoBgwWO5LfhUaor_eCYpY-1AL9eNXY" />
-    <title lang="en">Ligue 1+ 3</title>
-  </programme>
-  <programme start="20261107180000 +0000" stop="20261107190000 +0000" channel="SkySportBundesliga2.de">
-    <category lang="de">Sport</category>
-    <category>Sports</category>
-    <date>2026</date>
-    <desc lang="de">Das Magazin zeigt aktuelle Berichte zu allen Spielen und Toren aus der 2. Bundesliga.</desc>
-    <icon src="https://iptv-epg.org/images/5EFf_A-73ZcYiAjOAdypLedmlJNi072Fo4tEk_gkUuKC2wgCmYDJ0-m60a6XrFgkTy7gfLnQAkP-xeDPFaHUFREoiTo8uawuHXd1jJblXszm9EiBm-znZfiFWtfMhvAtAB79ATnw1wPja81FfedJzDkMZ6U11Z1M" />
-    <title lang="de">2. BL Alle Spiele, alle Tore: Die Vodafone Highlight-Show, 11. Spieltag, Samstag</title>
-  </programme>
-  <programme start="20261107180000 +0000" stop="20261107191000 +0000" channel="blueSport4Live.ch">
-    <category lang="de">Sports</category>
-    <title lang="de">blue Sport 4 Live</title>
-  </programme>
-  <programme start="20261107181000 +0000" stop="20261107184000 +0000" channel="WillowSports.us">
-    <category lang="en">Cricket</category>
-    <category lang="en">Series</category>
-    <category>Sports</category>
-    <desc lang="en">USA Seniors Cricket NPL 2026 - Austin Hunters vs NY X-Factor - 10th Match
-Action from cricket matches around the world.</desc>
-    <icon src="https://iptv-epg.org/images/58PenteVA3IaazCl5uyBo6rPmrn1ksq46zRNq3nLSydcv8zUx5iJee4jN5cxClfvdWTn3ktQWzSDbTvxO99aaFfGXpWdEj48voglvQF9kXA" />
-    <title lang="en">Cricket Review</title>
-    <live />
-  </programme>
-  <programme start="20261107181000 +0000" stop="20261107220000 +0000" channel="blueSport1Live.ch">
-    <category lang="de">Sports</category>
-    <title lang="de">blue Sport 1 Live</title>
-  </programme>
-  <programme start="20261107183000 +0000" stop="20261107195500 +0000" channel="beINSPORTS3.us">
-    <category lang="en">Entertainment</category>
-    <category lang="en">Special</category>
-    <date>2005</date>
-    <desc lang="en">Sign off.</desc>
-    <icon src="https://iptv-epg.org/images/gJStwgQ29iOJa0EbAiG_dfz2dxmhtN0-DWOzqc1XLjyV96HmokwkZwjkxWojf5SPW6Kc8EjenXv9b63NXOGmPlnjAit2VGCHR90aHQKrSTU" />
-    <title lang="en">SIGN OFF</title>
-  </programme>
-  <programme start="20261107183000 +0000" stop="20261107230000 +0000" channel="beINSPORTSMAX8.fr">
-    <category lang="fr">Magazine sportif</category>
-    <desc lang="fr">beIN SPORTS, le plus grand des spectacles.</desc>
-    <icon src="https://iptv-epg.org/images/xi2HXQdD_Q4ifcDgw_IsADpT-e9gGeIUDK7C1Zt-HCqQZgZFkF_Wdc3-OwgO6Z95-NcdHGIdj-0-AauFnCsZLTcFaPPcIQcnSehl5nhEwU8ecJh6qpO7" />
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-  </programme>
-  <programme start="20261107184000 +0000" stop="20261107185000 +0000" channel="WillowSports.us">
-    <category lang="en">Cricket</category>
-    <category>Sports</category>
-    <date>2011</date>
-    <desc lang="en">Filler cricket programming.</desc>
-    <icon src="https://iptv-epg.org/images/beTB07l2S_7SngWrVgsOV4DWok1pDna2HVopQPlnq5mEA90e_r_s5Mi0gBN2fwK2XD6KEt7zFKF3WHHOY-mI4tVQcH1m6jrUKU43P8kajo8" />
-    <title lang="en">Cricket Filler</title>
-  </programme>
-  <programme start="20261107185000 +0000" stop="20261107195000 +0000" channel="Willow2.us">
-    <category lang="en">Cricket</category>
-    <category lang="en">Series</category>
-    <category>Sports</category>
-    <desc lang="en">Australia vs. Bangladesh: 2nd Test, Day 1
-Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
-    <icon src="https://iptv-epg.org/images/hk4j4pBFSU5U06Ck4vlSBYOp97MpW8cNKzh5--Je622cf-2DsmyOG5sR6qBLVmAZAU5fp-4L1RwDJGU84atP-FjW9XJm683NRR8lBr4IcRA" />
-    <previously-shown />
-    <title lang="en">Cricket Highlights</title>
-  </programme>
-  <programme start="20261107185000 +0000" stop="20261107192000 +0000" channel="WillowSports.us">
-    <category lang="en">Cricket</category>
-    <category lang="en">Series</category>
-    <category>Sports</category>
-    <desc lang="en">Afghanistan vs. Zimbabwe: 1st Test, Day 2
-Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
-    <icon src="https://iptv-epg.org/images/hk4j4pBFSU5U06Ck4vlSBYOp97MpW8cNKzh5--Je622cf-2DsmyOG5sR6qBLVmAZAU5fp-4L1RwDJGU84atP-FjW9XJm683NRR8lBr4IcRA" />
-    <previously-shown />
-    <title lang="en">Cricket Highlights</title>
   </programme>
   <programme start="20261107190000 +0000" stop="20261107230000 +0000" channel="CANAL+ Sport 4 HD.sk">
     <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
     <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
   </programme>
-  <programme start="20261107190000 +0000" stop="20261107220000 +0000" channel="SkySportBundesliga2.de">
-    <category lang="de">Sport</category>
-    <category>Sports</category>
-    <date>2026</date>
-    <desc lang="de">Aus dem Olympiastadion Berlin, Berlin, Deutschland.</desc>
-    <icon src="https://iptv-epg.org/images/nGyW0M7m6w7VeTmMigxlrPHyHz3Oog1_UQcZRndll93wFMjfXGAKiP_ApytARKc3wZHK2Id5Q3w1qTo6_BQc61mgQdbuIANizSp3MJAZpjA_efOv5E_ebRjhQQo6DWaqBBmv5U7_lPV-6bOpW-UKWtJ_Qm9xBao" />
-    <title lang="de">Live 2. BL: Hertha BSC - VfL Wolfsburg, tipico Topspiel der Woche, 11. Spieltag</title>
-    <live />
-  </programme>
-  <programme start="20261107190000 +0000" stop="20261107230000 +0000" channel="beINSPORTSMAX7.fr">
-    <category lang="fr">Padel</category>
-    <desc lang="fr">Les matchs phares du championnat mondial de padel qui mettent en lumière les meilleurs athlètes internationaux dans des confrontations décisives pour le classement mondial.</desc>
-    <icon src="https://iptv-epg.org/images/1LvHUYMbIIMiOn_Z47kSslsKhfpQrsNtHj_CrEUTw-kVC2cZH7q4WQU2cX--Qxbb9bw6QyOoB5PBeP5aZYZVnEfdR6wOgByywrO0W0hCqFm_yit7bwLf" />
-    <title lang="fr">Padel : Coupe du monde</title>
-    <new />
-  </programme>
-  <programme start="20261107190000 +0000" stop="20261107230000 +0000" channel="blueSport3Live.ch">
-    <category lang="de">Sports</category>
-    <title lang="de">blue Sport 3 Live</title>
-  </programme>
-  <programme start="20261107190000 +0000" stop="20261107195000 +0000" channel="blueSport5Live.ch">
-    <category lang="de">Sports</category>
-    <title lang="de">blue Sport 5 Live</title>
-  </programme>
-  <programme start="20261107191000 +0000" stop="20261107203800 +0000" channel="Ligue1+.fr">
-    <category lang="en">Magazine sportif</category>
-    <category lang="en">Sports</category>
-    <desc lang="en">Le Club - Journée 10 du Championnat de France de Ligue 1 McDonald's 2026/27 - Partie 1.</desc>
-    <icon src="https://iptv-epg.org/images/-ocII8c8FSTp9qBLbNMPRCp41CtunDD1OQGplKuN1QmHjhtJMVXPJ9-HdkGWJRahtowyJxR2xgfpA-xX0Xa78JFx5Y1Zj9eNJLNlMBIwfegXeKrUCcsW" />
-    <title lang="en">Le Club</title>
-  </programme>
-  <programme start="20261107191000 +0000" stop="20261107221500 +0000" channel="blueSport4Live.ch">
-    <category lang="de">Sports</category>
-    <date>2026</date>
-    <desc lang="de">Brack Super League, 13. Spieltag - Deutsch/Italienisch\r\nAlle Spiele, alle Tore folgt im Anschluss.</desc>
-    <title lang="de">Grasshopper Club Zürich - FC Lausanne-Sport</title>
-    <live />
-  </programme>
-  <programme start="20261107191500 +0000" stop="20261107230000 +0000" channel="blueSport2Live.ch">
-    <category lang="de">Sports</category>
-    <title lang="de">blue Sport 2 Live</title>
-  </programme>
   <programme start="20261107192000 +0000" stop="20261107193200 +0000" channel="CanalPlusSport.fr">
     <title>La compile Zapsport 360</title>
-  </programme>
-  <programme start="20261107192000 +0000" stop="20261107193000 +0000" channel="WillowSports.us">
-    <category lang="en">Cricket</category>
-    <category lang="en">Series</category>
-    <category>Sports</category>
-    <desc lang="en">USA Seniors Cricket NPL 2026 -- Dallas Lions vs. Washington Eagles -- 11th Match
-A preview of a cricket match.</desc>
-    <icon src="https://iptv-epg.org/images/SYIdosE93vOqeoeGZCTM8B2cVGe3T7QQZa-OYytbMobmKXMiaSCavr31o_IdYi00ZIUehoColtBN1SZ8OETTx-opnvtiAiCwgLowYpNAr6I" />
-    <title lang="en">Cricket Preview</title>
-    <live />
-  </programme>
-  <programme start="20261107192500 +0000" stop="20261107213000 +0000" channel="beINSPORTSMAX5.fr">
-    <category lang="fr">Football</category>
-    <category>Sports</category>
-    <desc lang="fr">Hertha Berlin v Wolfsburg
-Diffusion de matchs de Bundesliga 2, championnat antichambre de l'élite du football en Allemagne.</desc>
-    <icon src="https://iptv-epg.org/images/_gQm-o29yuJWfROMr2QeTCfzjhMLhULSJhe4Nk3x9a14htpF8lOKA6AB39mPgZ9CMvtUoT7SZucmixJsyhBc4sBAMzwC2R2856dLizsBU0PVCUYXeUIn" />
-    <title lang="fr">Football : Bundesliga 2</title>
-    <live />
-  </programme>
-  <programme start="20261107193000 +0000" stop="20261107195800 +0000" channel="M+LaLigaTV.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <desc lang="es">Postpartido Liga.</desc>
-    <icon src="https://iptv-epg.org/images/5iFP76Kh2XXTlUN0eJh4jK0PYSVI0ImfZNaSoos-vKVpx73wvFpBagx21aJjUeCrEUjiwb6FQmGFBBt3SWb8r9PQ7Djs-s3MlubYUGO7H1_Uzlfc" />
-    <title lang="es">La Casa del Fútbol Post (T26/27): CA Osasuna - Athletic Club</title>
-    <live />
-  </programme>
-  <programme start="20261107193000 +0000" stop="20261107195000 +0000" channel="SkySportPremierLeague.de">
-    <category lang="de">Sport</category>
-    <category>Sports</category>
-    <date>2026</date>
-    <desc lang="de">S2026
-Die Highlights der Premier League in kompakter Form.</desc>
-    <episode-num>S2026</episode-num>
-    <icon src="https://iptv-epg.org/images/PyIdxUQF0mX_28H2OW0wJGSnxkZ-pVEyZsg20bf3RKwmwtbQ-LeVx_2xI7Zll9JJge4D07b1cvcfIv49GVgwvbE1nNEIL5q5NVH6vH_PdeZOZuGNyEQVmT5l2-iF7zl8jKjzcPmbE06EDiC8xcEuDOjlA0sfPE8" />
-    <title lang="de">PL: Highlights Samstag, 10. Spieltag</title>
-  </programme>
-  <programme start="20261107193000 +0000" stop="20261107224000 +0000" channel="WillowSports.us">
-    <category lang="en">Sports</category>
-    <category lang="en">Soccer</category>
-    <category lang="en">Series</category>
-    <desc lang="en">Dallas Lions vs. Washington Eagles
-From Grand Prairie Stadium in Grand Prairie, Texas.</desc>
-    <icon src="https://iptv-epg.org/images/mU1TDb-UKC_VaHtenQCZnVTbWR87uvMOhJ_fFWwj5UlRdGOnsl2xsHzp_B547KZZLp4UR4VXBbWLoUGZxTvBhu4JatLlC8Lbi_-hENOQshY" />
-    <title lang="en">National Premier League Cricket</title>
-    <live />
   </programme>
   <programme start="20261107193200 +0000" stop="20261107200000 +0000" channel="CanalPlusSport.fr">
     <title>Joanna Klatten</title>
     <desc>Un portrait de la golfeuse professionnelle française Joanna Klatten, qui a remporté son premier titre sur le circuit professionnel en 2012 au Women's Victorian Open.</desc>
-  </programme>
-  <programme start="20261107194500 +0000" stop="20261107210000 +0000" channel="Ligue1+4.fr">
-    <category lang="en">Magazine sportif</category>
-    <category lang="en">Sports</category>
-    <icon src="https://iptv-epg.org/images/DlqhsYZyJzbC_7H--qyv8onP5-nMtf3vYQaHWOvyQ058QsThrF3vhWUjc5u6onoup7WvKnarSDGP82q5lwt691-llnqh09Av9Ho14GMGxVbmdoWF7pZP" />
-    <title lang="en">Ligue 1+ 4</title>
-  </programme>
-  <programme start="20261107194500 +0000" stop="20261107210000 +0000" channel="Ligue1+5.fr">
-    <category lang="en">Magazine sportif</category>
-    <category lang="en">Sports</category>
-    <icon src="https://iptv-epg.org/images/9nvOX4eLlxEczSpgzpZ0br3ivfyC1SM9-iZOrAZCOFxF2XwnMHsF6y-dksz6FMQXwaNq9rXgx5BUp4kK_vu3rEAlw7dYi7bSpwCli-mOd9Krc3EKf8kF" />
-    <title lang="en">Ligue 1+ 5</title>
-  </programme>
-  <programme start="20261107195000 +0000" stop="20261107215000 +0000" channel="SkySportPremierLeague.de">
-    <category lang="de">Sport</category>
-    <category>Sports</category>
-    <date>2026</date>
-    <desc lang="de">Aus dem Emirates Stadium in London, Großbritannien.</desc>
-    <icon src="https://iptv-epg.org/images/MFFJsgANElHiYTNE2RlOVrH6WUsNZPoQXHK1FdIwrBvLyam3dbDgeXsHhZKuqw08JnBo4xO42Xas6B7luAwm_WvjBpDopMCILCvlNlU0Up9g9RcigzXBLwqSgnG4QrEMOHlGXVqps3xruasqErVbdKw4cNAqebE" />
-    <title lang="de">PL: FC Arsenal - Hull City, 10. Spieltag</title>
-  </programme>
-  <programme start="20261107195000 +0000" stop="20261107205000 +0000" channel="Willow2.us">
-    <category lang="en">Cricket</category>
-    <category lang="en">Series</category>
-    <category>Sports</category>
-    <desc lang="en">Afghanistan vs Bangladesh: Only Test, Day 4
-Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
-    <icon src="https://iptv-epg.org/images/hk4j4pBFSU5U06Ck4vlSBYOp97MpW8cNKzh5--Je622cf-2DsmyOG5sR6qBLVmAZAU5fp-4L1RwDJGU84atP-FjW9XJm683NRR8lBr4IcRA" />
-    <previously-shown />
-    <title lang="en">Cricket Highlights</title>
-  </programme>
-  <programme start="20261107195000 +0000" stop="20261107220000 +0000" channel="blueSport5Live.ch">
-    <category lang="de">Sports</category>
-    <date>2026</date>
-    <desc lang="de">Première Ligue, 8. Spieltag - Englisch/Französisch.</desc>
-    <title lang="de">US Saint-Malo - Olympique de Marseille</title>
-    <live />
-  </programme>
-  <programme start="20261107195500 +0000" stop="20261107220000 +0000" channel="beINSPORTS3.us">
-    <category lang="en">Sports</category>
-    <category lang="en">Soccer</category>
-    <category lang="en">Series</category>
-    <desc lang="en">Paris Saint-Germain vs. ESTAC Troyes
-From Parc des Princes in Paris, Ile-de-France, France.</desc>
-    <icon src="https://iptv-epg.org/images/EtIfBchbShRPMVEmNtCpjhDfTuftOozxJZQ6lnzluolwFCIo-wBxVIVsiPNhbOMGqHd_O3IzROa89mm4FF2pQNy0OFZxUF1qHV4NYaWFvek" />
-    <title lang="en">French Ligue 1 Soccer</title>
-    <live />
-  </programme>
-  <programme start="20261107195800 +0000" stop="20261107205800 +0000" channel="M+LaLigaTV.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <desc lang="es">En década de los 90 Marbella vivió una época marcada por el lujo, la fama y el poder, pero también por el escándalo y la corrupción. Su equipo de fútbol disfrutó de sus mejores momentos en aquellos años.</desc>
-    <icon src="https://iptv-epg.org/images/D0vNExCyIAy72vGWZRijUXzNpg-IPUeEDLtqglLKu358pfeqj_p7z3UuMSSkQKhu6v38G3n9rXN9Zf_GxHUGAuz4f-VSdVALZAjHCSHR5dD9rtsbKst9f6ng1D_aC4GTKS8L" />
-    <title lang="es">Informe Plus+. Atlético Marbella. Aquel Fútbol de los 90</title>
   </programme>
   <programme start="20261107200000 +0000" stop="20261107230000 +0000" channel="CANAL+ Sport 3 HD.sk">
     <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
@@ -812,178 +464,9 @@ From Parc des Princes in Paris, Ile-de-France, France.</desc>
     <title>Open de Los Cabos</title>
     <desc>En Direct.</desc>
   </programme>
-  <programme start="20261107200000 +0000" stop="20261107203000 +0000" channel="beINSPORTSMAX6.fr">
-    <category lang="fr">Magazine sportif</category>
-    <desc lang="fr">beIN SPORTS, le plus grand des spectacles.</desc>
-    <icon src="https://iptv-epg.org/images/xi2HXQdD_Q4ifcDgw_IsADpT-e9gGeIUDK7C1Zt-HCqQZgZFkF_Wdc3-OwgO6Z95-NcdHGIdj-0-AauFnCsZLTcFaPPcIQcnSehl5nhEwU8ecJh6qpO7" />
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-  </programme>
-  <programme start="20261107200000 +0000" stop="20261108000000 +0000" channel="beINSPORTSMAX9.fr">
-    <category lang="fr">Magazine sportif</category>
-    <desc lang="fr">beIN SPORTS, le plus grand des spectacles.</desc>
-    <icon src="https://iptv-epg.org/images/xi2HXQdD_Q4ifcDgw_IsADpT-e9gGeIUDK7C1Zt-HCqQZgZFkF_Wdc3-OwgO6Z95-NcdHGIdj-0-AauFnCsZLTcFaPPcIQcnSehl5nhEwU8ecJh6qpO7" />
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-  </programme>
-  <programme start="20261107203000 +0000" stop="20261108000000 +0000" channel="beINSPORTSMAX4.fr">
-    <category lang="fr">Magazine sportif</category>
-    <desc lang="fr">beIN SPORTS, le plus grand des spectacles.</desc>
-    <icon src="https://iptv-epg.org/images/xi2HXQdD_Q4ifcDgw_IsADpT-e9gGeIUDK7C1Zt-HCqQZgZFkF_Wdc3-OwgO6Z95-NcdHGIdj-0-AauFnCsZLTcFaPPcIQcnSehl5nhEwU8ecJh6qpO7" />
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-  </programme>
-  <programme start="20261107203000 +0000" stop="20261107233000 +0000" channel="beINSPORTSMAX6.fr">
-    <category lang="fr">Football américain</category>
-    <desc lang="fr">LSU v Alabama
-Diffusion d'un match de NCAA, le championnat universitaire de football américain aux Etats-Unis.</desc>
-    <icon src="https://iptv-epg.org/images/q60g46K8VRQayNY0Or2RD60hBCFO0m2mdADiHCdoaQFAZEz19EhDW1qPLtlHRVttln9ZEhDIKERNRbc5VhegRKc-DFNH2LAS8sQZ70DOJP6s9eLtELc7" />
-    <title lang="fr">Football américain : NCAA</title>
-    <new />
-  </programme>
-  <programme start="20261107205000 +0000" stop="20261107215000 +0000" channel="Willow2.us">
-    <category lang="en">Cricket</category>
-    <category lang="en">Series</category>
-    <category>Sports</category>
-    <desc lang="en">Asian Games 2026: Pakistan vs. India - Final
-Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
-    <icon src="https://iptv-epg.org/images/hk4j4pBFSU5U06Ck4vlSBYOp97MpW8cNKzh5--Je622cf-2DsmyOG5sR6qBLVmAZAU5fp-4L1RwDJGU84atP-FjW9XJm683NRR8lBr4IcRA" />
-    <previously-shown />
-    <title lang="en">Cricket Highlights</title>
-  </programme>
-  <programme start="20261107205800 +0000" stop="20261107220000 +0000" channel="M+LaLigaTV.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <date>2020</date>
-    <desc lang="es">S4 — Koke
-Una mirada futbolística con los ojos de Jorge Valdano. El argentino es una de las voces más autorizadas y respetadas del mundo del balompié. En este espacio, conversa con personajes que ya son historia de este deporte.</desc>
-    <episode-num>S4</episode-num>
-    <icon src="https://iptv-epg.org/images/LtoGay3k5-s5WrrExaX_a1k3epAlZLE6_hdtdUxzQ8J8ywQGBxqFMrjjUcpxvzG9eOk8gQ2eKv4AW78G9Qq0J3GeQmlcV2mIt_g03pcvZgJJcO680a3v9h2uVZhQfwdsPW7hV0jV" />
-    <title lang="es">Universo Valdano</title>
-  </programme>
   <programme start="20261107210000 +0000" stop="20261108000000 +0000" channel="CANAL+ Sport 2 HD.sk">
     <title>WTA 500 Ningbo: Jovic - Shnaider, 3. čtvrtfinále</title>
     <desc>WTA 500 Ningbo: Jovic - Shnaider, 3. čtvrtfinále</desc>
-  </programme>
-  <programme start="20261107210000 +0000" stop="20261108000000 +0000" channel="Ligue1+3.fr">
-    <category lang="en">Magazine sportif</category>
-    <category lang="en">Sports</category>
-    <icon src="https://iptv-epg.org/images/HkJYEeN5i7Hsupb-8gDjUbRYxn5q7ol_5DYbB7ru7oJeR4EWSE-n483uDAWbIElR4XjyLoN9kiyfiwzw5Tak9FhoBgwWO5LfhUaor_eCYpY-1AL9eNXY" />
-    <title lang="en">Ligue 1+ 3</title>
-  </programme>
-  <programme start="20261107210000 +0000" stop="20261108000000 +0000" channel="Ligue1+4.fr">
-    <category lang="en">Magazine sportif</category>
-    <category lang="en">Sports</category>
-    <icon src="https://iptv-epg.org/images/DlqhsYZyJzbC_7H--qyv8onP5-nMtf3vYQaHWOvyQ058QsThrF3vhWUjc5u6onoup7WvKnarSDGP82q5lwt691-llnqh09Av9Ho14GMGxVbmdoWF7pZP" />
-    <title lang="en">Ligue 1+ 4</title>
-  </programme>
-  <programme start="20261107210000 +0000" stop="20261108000000 +0000" channel="Ligue1+5.fr">
-    <category lang="en">Magazine sportif</category>
-    <category lang="en">Sports</category>
-    <icon src="https://iptv-epg.org/images/9nvOX4eLlxEczSpgzpZ0br3ivfyC1SM9-iZOrAZCOFxF2XwnMHsF6y-dksz6FMQXwaNq9rXgx5BUp4kK_vu3rEAlw7dYi7bSpwCli-mOd9Krc3EKf8kF" />
-    <title lang="en">Ligue 1+ 5</title>
-  </programme>
-  <programme start="20261107213000 +0000" stop="20261108000000 +0000" channel="beINSPORTSMAX5.fr">
-    <category lang="fr">Magazine sportif</category>
-    <desc lang="fr">beIN SPORTS, le plus grand des spectacles.</desc>
-    <icon src="https://iptv-epg.org/images/xi2HXQdD_Q4ifcDgw_IsADpT-e9gGeIUDK7C1Zt-HCqQZgZFkF_Wdc3-OwgO6Z95-NcdHGIdj-0-AauFnCsZLTcFaPPcIQcnSehl5nhEwU8ecJh6qpO7" />
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-  </programme>
-  <programme start="20261107215000 +0000" stop="20261107221000 +0000" channel="SkySportPremierLeague.de">
-    <category lang="de">Sport</category>
-    <category>Sports</category>
-    <date>2026</date>
-    <desc lang="de">S2026
-Die Highlights der Premier League in kompakter Form.</desc>
-    <episode-num>S2026</episode-num>
-    <icon src="https://iptv-epg.org/images/PyIdxUQF0mX_28H2OW0wJGSnxkZ-pVEyZsg20bf3RKwmwtbQ-LeVx_2xI7Zll9JJge4D07b1cvcfIv49GVgwvbE1nNEIL5q5NVH6vH_PdeZOZuGNyEQVmT5l2-iF7zl8jKjzcPmbE06EDiC8xcEuDOjlA0sfPE8" />
-    <title lang="de">PL: Highlights Samstag, 10. Spieltag</title>
-  </programme>
-  <programme start="20261107215000 +0000" stop="20261107225000 +0000" channel="Willow2.us">
-    <category lang="en">Cricket</category>
-    <category lang="en">Series</category>
-    <category>Sports</category>
-    <desc lang="en">England Women vs Ireland Women: 3rd ODI
-Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
-    <icon src="https://iptv-epg.org/images/hk4j4pBFSU5U06Ck4vlSBYOp97MpW8cNKzh5--Je622cf-2DsmyOG5sR6qBLVmAZAU5fp-4L1RwDJGU84atP-FjW9XJm683NRR8lBr4IcRA" />
-    <previously-shown />
-    <title lang="en">Cricket Highlights</title>
-  </programme>
-  <programme start="20261107220000 +0000" stop="20261107231400 +0000" channel="M+LaLigaTV.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <date>2026</date>
-    <desc lang="es">07/11/2026
-El programa Deporte Plus+ se emite en directo todos los sábados de esta nueva temporada con la última hora de la información deportiva.</desc>
-    <icon src="https://iptv-epg.org/images/BqNoZDGBaAncqQHRdXO0bLyaCCPewIrV0JbAt_npJmsEt2_z3flt2J_5RW5-owb6VVHEtYwF4sdfQm59AClo92FHnaefB66R6xm6_1lJdv6V_0Xa" />
-    <title lang="es">DeportePlus (T26/27)</title>
-    <live />
-  </programme>
-  <programme start="20261107220000 +0000" stop="20261107230000 +0000" channel="SkySportBundesliga2.de">
-    <category lang="de">Sport</category>
-    <category>Sports</category>
-    <date>2026</date>
-    <desc lang="de">Das Magazin zeigt aktuelle Berichte zu allen Spielen und Toren aus der 2. Bundesliga.</desc>
-    <icon src="https://iptv-epg.org/images/5EFf_A-73ZcYiAjOAdypLedmlJNi072Fo4tEk_gkUuKC2wgCmYDJ0-m60a6XrFgkTy7gfLnQAkP-xeDPFaHUFREoiTo8uawuHXd1jJblXszm9EiBm-znZfiFWtfMhvAtAB79ATnw1wPja81FfedJzDkMZ6U11Z1M" />
-    <title lang="de">2. BL Alle Spiele, alle Tore: Die Vodafone Highlight-Show,11. Spieltag, Samstag komplett</title>
-  </programme>
-  <programme start="20261107220000 +0000" stop="20261108030000 +0000" channel="beINSPORTS3.us">
-    <category lang="en">Entertainment</category>
-    <category lang="en">Special</category>
-    <date>2005</date>
-    <desc lang="en">Sign off.</desc>
-    <icon src="https://iptv-epg.org/images/gJStwgQ29iOJa0EbAiG_dfz2dxmhtN0-DWOzqc1XLjyV96HmokwkZwjkxWojf5SPW6Kc8EjenXv9b63NXOGmPlnjAit2VGCHR90aHQKrSTU" />
-    <title lang="en">SIGN OFF</title>
-  </programme>
-  <programme start="20261107220000 +0000" stop="20261108020000 +0000" channel="blueSport1Live.ch">
-    <category lang="de">Sports</category>
-    <title lang="de">blue Sport 1 Live</title>
-  </programme>
-  <programme start="20261107220000 +0000" stop="20261108020000 +0000" channel="blueSport5Live.ch">
-    <category lang="de">Sports</category>
-    <title lang="de">blue Sport 5 Live</title>
-  </programme>
-  <programme start="20261107221000 +0000" stop="20261108001000 +0000" channel="SkySportPremierLeague.de">
-    <category lang="de">Sport</category>
-    <category>Sports</category>
-    <date>2026</date>
-    <desc lang="de">Aus dem The City Ground in Nottingham, England.</desc>
-    <icon src="https://iptv-epg.org/images/p6RWf7iFEcvl7JnezrPjg8htovVcCAy9FD4GwOVsYR_wKQhKs_KEhZq4THsSH5Dkhqga1fNDAeerNYbLJsLDN-3gFaG3fvvXxn2jMbMHOxM7HrXyUNdLz9WUtCSEWclT8EDSMWo4lFVBm7DjonhlKHSf6J8vTJ0" />
-    <title lang="de">PL: Nottingham Forest - Manchester City, 10. Spieltag</title>
-  </programme>
-  <programme start="20261107221500 +0000" stop="20261108020000 +0000" channel="blueSport4Live.ch">
-    <category lang="de">Sports</category>
-    <title lang="de">blue Sport 4 Live</title>
-  </programme>
-  <programme start="20261107224000 +0000" stop="20261108000000 +0000" channel="Ligue1+.fr">
-    <category lang="en">Magazine sportif</category>
-    <category lang="en">Sports</category>
-    <desc lang="en">Le Club - Journée 10 du Championnat de France de Ligue 1 McDonald's 2026/27 - Partie 2.</desc>
-    <icon src="https://iptv-epg.org/images/PdvE3phFG7DjyjmmYPEF6wLqIH3ILIYSbzYBYZ29hWMW6E4Xhqr7tuelDfAxvCnuS4tYaCd9THk4PGlYcY4OO-Hj3HkgBAD5CMUNdvwiOsLzF64tF5x8" />
-    <title lang="en">Le Club</title>
-  </programme>
-  <programme start="20261107224000 +0000" stop="20261108000000 +0000" channel="Ligue1+2.fr">
-    <category lang="en">Magazine sportif</category>
-    <category lang="en">Sports</category>
-    <icon src="https://iptv-epg.org/images/QBrlJsXjelqoGc5yxRd-UOPNixzYmMqQXrNUFlxhXqdphOYe8fZaYBIKmH83CMQ_3bKEYY5gaYr89E6NViB19SFFrRGb8Qq88w30yygsaI7pCOJMCws4" />
-    <title lang="en">Ligue 1+ 2</title>
-  </programme>
-  <programme start="20261107224000 +0000" stop="20261107230000 +0000" channel="WillowSports.us">
-    <category lang="en">Cricket</category>
-    <category lang="en">Series</category>
-    <category>Sports</category>
-    <desc lang="en">USA Seniors Cricket NPL 2026 - Dallas Lions vs Washington Eagles - 11th Match
-Action from cricket matches around the world.</desc>
-    <icon src="https://iptv-epg.org/images/58PenteVA3IaazCl5uyBo6rPmrn1ksq46zRNq3nLSydcv8zUx5iJee4jN5cxClfvdWTn3ktQWzSDbTvxO99aaFfGXpWdEj48voglvQF9kXA" />
-    <title lang="en">Cricket Review</title>
-    <live />
-  </programme>
-  <programme start="20261107225000 +0000" stop="20261108000000 +0000" channel="Willow2.us">
-    <category lang="en">Cricket</category>
-    <category lang="en">Series</category>
-    <category>Sports</category>
-    <desc lang="en">England vs Sri Lanka: 2nd ODI
-Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
-    <icon src="https://iptv-epg.org/images/hk4j4pBFSU5U06Ck4vlSBYOp97MpW8cNKzh5--Je622cf-2DsmyOG5sR6qBLVmAZAU5fp-4L1RwDJGU84atP-FjW9XJm683NRR8lBr4IcRA" />
-    <previously-shown />
-    <title lang="en">Cricket Highlights</title>
   </programme>
   <programme start="20261107225800 +0000" stop="20261108004000 +0000" channel="CanalPlusSport.fr">
     <title>Grand Prix de Sao Paulo</title>
@@ -1012,281 +495,9 @@ Highlights of all the action from international cricket tournaments, where teams
     <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
     <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
   </programme>
-  <programme start="20261107230000 +0000" stop="20261108070000 +0000" channel="M+LaLigaTV2.es">
-    <desc lang="es">M+ LALIGA 2.</desc>
-    <title lang="es">M+ LALIGA 2</title>
-  </programme>
-  <programme start="20261107230000 +0000" stop="20261108110000 +0000" channel="M+LaLigaTV3.es">
-    <desc lang="es">M+ LALIGA 3.</desc>
-    <title lang="es">M+ LALIGA 3</title>
-  </programme>
-  <programme start="20261107230000 +0000" stop="20261107231000 +0000" channel="WillowSports.us">
-    <category lang="en">Sports</category>
-    <category lang="en">Soccer</category>
-    <category lang="en">Series</category>
-    <desc lang="en">Chicago Cavaliers vs. Seattle Moose
-From Grand Prairie Stadium in Grand Prairie, Texas.</desc>
-    <icon src="https://iptv-epg.org/images/mU1TDb-UKC_VaHtenQCZnVTbWR87uvMOhJ_fFWwj5UlRdGOnsl2xsHzp_B547KZZLp4UR4VXBbWLoUGZxTvBhu4JatLlC8Lbi_-hENOQshY" />
-    <title lang="en">National Premier League Cricket</title>
-    <live />
-  </programme>
-  <programme start="20261107230000 +0000" stop="20261108040000 +0000" channel="beINSPORTSMAX7.fr">
-    <category lang="fr">Magazine sportif</category>
-    <desc lang="fr">beIN SPORTS, le plus grand des spectacles.</desc>
-    <icon src="https://iptv-epg.org/images/xi2HXQdD_Q4ifcDgw_IsADpT-e9gGeIUDK7C1Zt-HCqQZgZFkF_Wdc3-OwgO6Z95-NcdHGIdj-0-AauFnCsZLTcFaPPcIQcnSehl5nhEwU8ecJh6qpO7" />
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-  </programme>
-  <programme start="20261107230000 +0000" stop="20261108040000 +0000" channel="beINSPORTSMAX8.fr">
-    <category lang="fr">Magazine sportif</category>
-    <desc lang="fr">beIN SPORTS, le plus grand des spectacles.</desc>
-    <icon src="https://iptv-epg.org/images/xi2HXQdD_Q4ifcDgw_IsADpT-e9gGeIUDK7C1Zt-HCqQZgZFkF_Wdc3-OwgO6Z95-NcdHGIdj-0-AauFnCsZLTcFaPPcIQcnSehl5nhEwU8ecJh6qpO7" />
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-  </programme>
-  <programme start="20261107230000 +0000" stop="20261108030000 +0000" channel="blueSport2Live.ch">
-    <category lang="de">Sports</category>
-    <title lang="de">blue Sport 2 Live</title>
-  </programme>
-  <programme start="20261107230000 +0000" stop="20261108030000 +0000" channel="blueSport3Live.ch">
-    <category lang="de">Sports</category>
-    <title lang="de">blue Sport 3 Live</title>
-  </programme>
-  <programme start="20261107231000 +0000" stop="20261107232000 +0000" channel="WillowSports.us">
-    <category lang="en">Cricket</category>
-    <category>Sports</category>
-    <date>2011</date>
-    <desc lang="en">Filler cricket programming.</desc>
-    <icon src="https://iptv-epg.org/images/beTB07l2S_7SngWrVgsOV4DWok1pDna2HVopQPlnq5mEA90e_r_s5Mi0gBN2fwK2XD6KEt7zFKF3WHHOY-mI4tVQcH1m6jrUKU43P8kajo8" />
-    <title lang="en">Cricket Filler</title>
-  </programme>
-  <programme start="20261107231400 +0000" stop="20261108011300 +0000" channel="M+LaLigaTV.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <desc lang="es">Los mejores clubes del país protagonizan LaLiga, el campeonato de la regularidad del fútbol español. El torneo es una carrera de fondo en la que los equipos pelean por sus metas: la salvación, Europa, la Champions o el título. El Barcelona defiende corona.</desc>
-    <title lang="es">LALIGA EA SPORTS (T26/27): Levante UD - Atlético de Madrid</title>
-  </programme>
-  <programme start="20261107231500 +0000" stop="20261108050000 +0000" channel="SkySportBundesliga2.de">
-    <date>2005</date>
-    <desc lang="de">Aktuell liegt eine Sendepause vor und alle Übertragungen sind vorübergehend eingestellt.</desc>
-    <icon src="https://iptv-epg.org/images/JM2JU9mePoFGHNriITcIYXrXVPPcuH7-YAko3cyRr7zjhQ8JFMHUFjX0ifAYKE6JIMo741qzIDh8rOra0lEGnEcvE6JgYqNdmGgl7Y7X5fV2Xnnwj8beaHTOPe0lj3Wj6VScI9yWmknqUMasiiCR_Byj5No1" />
-    <title lang="de">Sendepause</title>
-  </programme>
-  <programme start="20261107232000 +0000" stop="20261107233000 +0000" channel="WillowSports.us">
-    <category lang="en">Cricket</category>
-    <category lang="en">Series</category>
-    <category>Sports</category>
-    <desc lang="en">USA Seniors Cricket NPL 2026 - Chicago Cavaliers vs Seattle Moose - 12th Match
-A preview of a cricket match.</desc>
-    <icon src="https://iptv-epg.org/images/SYIdosE93vOqeoeGZCTM8B2cVGe3T7QQZa-OYytbMobmKXMiaSCavr31o_IdYi00ZIUehoColtBN1SZ8OETTx-opnvtiAiCwgLowYpNAr6I" />
-    <title lang="en">Cricket Preview</title>
-    <live />
-  </programme>
-  <programme start="20261107233000 +0000" stop="20261108013500 +0000" channel="NOVASPORT5.cz">
-    <desc lang="cs">Záznam utkání 4. kola ligové fáze Ligy mistrů UEFA.</desc>
-    <title lang="cs">FC Porto - SSC Neapol</title>
-  </programme>
-  <programme start="20261107233000 +0000" stop="20261108024000 +0000" channel="WillowSports.us">
-    <category lang="en">Sports</category>
-    <category lang="en">Soccer</category>
-    <category lang="en">Series</category>
-    <desc lang="en">Chicago Cavaliers vs. Seattle Moose
-From Grand Prairie Stadium in Grand Prairie, Texas.</desc>
-    <icon src="https://iptv-epg.org/images/mU1TDb-UKC_VaHtenQCZnVTbWR87uvMOhJ_fFWwj5UlRdGOnsl2xsHzp_B547KZZLp4UR4VXBbWLoUGZxTvBhu4JatLlC8Lbi_-hENOQshY" />
-    <title lang="en">National Premier League Cricket</title>
-    <live />
-  </programme>
-  <programme start="20261107233000 +0000" stop="20261108003000 +0000" channel="beINSPORTSMAX6.fr">
-    <category lang="fr">Magazine sportif</category>
-    <desc lang="fr">beIN SPORTS, le plus grand des spectacles.</desc>
-    <icon src="https://iptv-epg.org/images/xi2HXQdD_Q4ifcDgw_IsADpT-e9gGeIUDK7C1Zt-HCqQZgZFkF_Wdc3-OwgO6Z95-NcdHGIdj-0-AauFnCsZLTcFaPPcIQcnSehl5nhEwU8ecJh6qpO7" />
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-  </programme>
-  <programme start="20261107235500 +0000" stop="20261108010000 +0000" channel="NOVASPORT6.cz">
-    <desc lang="cs">Záznam sprintového závodu třídy MotoGP (Lusail International Circuit, Katar).</desc>
-    <title lang="cs">Qatar Airways Grand Prix of Qatar (Sprint race MotoGP)</title>
-  </programme>
   <programme start="20261108000000 +0000" stop="20261108020000 +0000" channel="CANAL+ Sport 2 HD.sk">
     <title>WTA Finals Indian Wells: Siniaková, Townsend - Errani, Paolini, čtyřhra</title>
     <desc>WTA Finals Indian Wells: Siniaková, Townsend - Errani, Paolini, čtyřhra</desc>
-  </programme>
-  <programme start="20261108000000 +0000" stop="20261108003000 +0000" channel="LFCTV.uk">
-    <category lang="en">Sports</category>
-    <category lang="en">Football</category>
-    <date>2026</date>
-    <desc lang="en">We analyse the action from the latest round of UEFA Champions League fixtures.</desc>
-    <icon src="https://iptv-epg.org/images/7v7Kxf4SEbo3mjOKZoqCbhlbe_fqKtdSB-9JE4V5xChhnA9YR2cu593eyJfQVkXx5eXK1KKNwr2oVCnUnntjK7-YN2AE1Xw4V7OB88QTd6DGKov7c1pseR3eUhXJYmcNQka36M7h7ahi88KA0RVwSfTIXdZI8oRCtPIVnd-cdaU2nyS-Kaoyg56buT2hM4jf-0SogEolEWeevZ0RDW7LoB4N9onYwNonWmeU4SIxMeUlZjZ1ntwtgolwrRDVSF0SDkeJYjN1XSAhSifpZ08YAyFXpUgB9fBYNfP_LyW1FtvTwFVuXWcCYbRFj-HG5ela017om4kL" />
-    <title lang="en">The Champions League Review Show</title>
-  </programme>
-  <programme start="20261108000000 +0000" stop="20261108030000 +0000" channel="Ligue1+2.fr">
-    <category lang="en">Magazine sportif</category>
-    <category lang="en">Sports</category>
-    <desc lang="en">Les canaux événements pour suivre tous vos matches en direct et en intégralité.</desc>
-    <icon src="https://iptv-epg.org/images/BHX6PCE5eXkNbQdzurxRiU6_hSWxBIcVgmjHejqDTrVcIZaDHBlnlAWCJO3YpwZ3i2KXzAqx3dOalSd38_vZrrsruw7uzxqGwpx8nZIVie9C2E5Lbg" />
-    <title lang="en">Ligue 1+ 2</title>
-  </programme>
-  <programme start="20261108000000 +0000" stop="20261108030000 +0000" channel="Ligue1+3.fr">
-    <category lang="en">Magazine sportif</category>
-    <category lang="en">Sports</category>
-    <desc lang="en">Les canaux événements pour suivre tous vos matches en direct et en intégralité.</desc>
-    <icon src="https://iptv-epg.org/images/c1ylYblOyfMfxpVRCI6fV-qh9S6O_dtor3wtmKEplUMvth29mQFP-5KXoCL-v4CEb1Wp-MdGiRZuiD4xciNRlyyd4hxT05GAmfw9JtNP0YONF1M4OQ" />
-    <title lang="en">Ligue 1+ 3</title>
-  </programme>
-  <programme start="20261108000000 +0000" stop="20261108030000 +0000" channel="Ligue1+4.fr">
-    <category lang="en">Magazine sportif</category>
-    <category lang="en">Sports</category>
-    <icon src="https://iptv-epg.org/images/DlqhsYZyJzbC_7H--qyv8onP5-nMtf3vYQaHWOvyQ058QsThrF3vhWUjc5u6onoup7WvKnarSDGP82q5lwt691-llnqh09Av9Ho14GMGxVbmdoWF7pZP" />
-    <title lang="en">Ligue 1+ 4</title>
-  </programme>
-  <programme start="20261108000000 +0000" stop="20261108030000 +0000" channel="Ligue1+5.fr">
-    <category lang="en">Magazine sportif</category>
-    <category lang="en">Sports</category>
-    <desc lang="en">Les canaux événements pour suivre tous vos matches en direct et en intégralité.</desc>
-    <icon src="https://iptv-epg.org/images/vGuPSbsNn0KVfOeeMZxMK_obMIV8EbbR_W4GNtiLOQ5GDIDt30Iypkgv7D0T6rqoR-SXcNFREXcsosmCtQkbiQDRMY3NLjXeBPQSy7rPrkz7ll3C7A" />
-    <title lang="en">Ligue 1+ 5</title>
-  </programme>
-  <programme start="20261108000000 +0000" stop="20261108060000 +0000" channel="NOVASPORT4.cz">
-    <desc lang="cs">Záznam 11. kola německé fotbalové 2. Bundesligy.</desc>
-    <title lang="cs">Dynamo Drážďany - Greuther Fürth</title>
-  </programme>
-  <programme start="20261108000000 +0000" stop="20261108010000 +0000" channel="PremierSports1.uk">
-    <category lang="en">Sports</category>
-    <category lang="en">Ice Hockey</category>
-    <date>2026</date>
-    <desc lang="en">E542 — Top 50 Players 10-1
-Watch all the best NHL post-season action, as The NHL Awards Show and Draft Day bring the season to its conclusion.</desc>
-    <episode-num>E542</episode-num>
-    <icon src="https://iptv-epg.org/images/FnDjm9m2umpfkEtVXOAaWNITfEK_sg0PCMhctilF8vsuuZLQ2Z5VhvVVOtBrmDhZzjeRpHDpmViwYE8nH6TI0L8hMWZMZG6FV1QO2ICxAdikm2KI6Ux7S8weVNjQKtErJKiUBRoaY25CU5O2alRGB5ibHXIgnT36414lYfR2MLplnyceciQNqobX3tELl2PLEqvni0zWSWElHWW7M7RAgHp06r3AEvKJRSU8UfhtkTk3PP6BNbVzuUMkbufHnx0kArX-qzDoVcOjs1REjGgooXAGgsTs2PZ6eHM3cPrSJ-jnrude0xanyu1BTaw7iCuPynQmDEBD" />
-    <title lang="en">NHL Hockey</title>
-  </programme>
-  <programme start="20261108000000 +0000" stop="20261108010000 +0000" channel="SkySportsCricket.uk">
-    <category lang="en">Sports</category>
-    <category lang="en">Cricket</category>
-    <date>2026</date>
-    <desc lang="en">Melbourne Stars v Sydney Sixers
-Melbourne Stars meet Sydney Sixers in the WBBL.</desc>
-    <icon src="https://iptv-epg.org/images/F9cd3SyUN-h-6Kmn8476vSC1O1q7YfnqfnlLuy-3LHlxC7KiR23m4VtHaZc1HzTNX9MO2QF6IIr-C6fWrY4MEGw2IykUaihSL6Y27BM6cze3wDRcAI4GGc1MdBlCkUdgoNaVapfjtnYlYGF1hMIm0U1QdBsE4beuxA5BEYzN8qvWXt9VoBqu4mprD-bog13eaU3S6rkJctY9y0xFx0FKHu42v0kQDKMc3R_CnVTHG1BjJB4geJ7QJ4SSPMM4lperVov0hmL_tFueLJ_2YlHua3rPZhd6sdqxQNxDO4WQVGdFyPg-cTJgHD371e7y6cs8KV1VhMg_" />
-    <title lang="en">Women's Big Bash</title>
-  </programme>
-  <programme start="20261108000000 +0000" stop="20261108001500 +0000" channel="SkySportsFootball.uk">
-    <category lang="en">Sports</category>
-    <category lang="en">Football</category>
-    <date>2026</date>
-    <desc lang="en">Cardiff City v Burnley
-Cardiff City play host to Burnley at the Cardiff City Stadium in the Sky Bet Championship.</desc>
-    <icon src="https://iptv-epg.org/images/p2d490DRsI8_AnASVHGIjpafFFuDRZZSxDO9rvNBzrasi7eROofi8EjAS1pgNp0Us_WOb4WyJd__bptUwT1N2FfLOPFhhJPkvFB7J8Nl_2PwWL0NyhKsSV6HbEWSP1T6ib06E0X3f7ZvB3fHkiKqQ3zgkKhTPdvxw_1lXknJAtjOHNExaYbpUWufSUMptg58iv3ZZHIKoAUfjmVfzhjOsz9f6wBt-K-g2hF23dP4BqRdR4TJaVzZXUvBhjiRAUnAIoitGL2CwWkOgYsKEJrBg3maJht2fAa0rqB8AJFCnZcPM2qrLjW_BqksVEJdpHsRYRNagwiB" />
-    <title lang="en">EFL Championship</title>
-  </programme>
-  <programme start="20261108000000 +0000" stop="20261108010000 +0000" channel="SkySportsGolf.uk">
-    <category lang="en">Sports</category>
-    <category lang="en">Golf</category>
-    <date>2026</date>
-    <desc lang="en">Portugal Legends Championship
-Highlights from the 2026 Legends Tour, as the Portugal Legends Championship came next on the calendar - taking place at Pinheirinho Golf Course in Comporta.</desc>
-    <icon src="https://iptv-epg.org/images/dh_dQpr1SrDhjwrtzXwKapZb59FleqKbQKNP5kXCCxipPzhD8qqbIyoi13hu5zKmELTx613LPHxF2bkaOFkPBNzn2J_WrSxYmmBKOaAdEiUgWSEzQfrvEdl_LBGaIhTchic7mjnLGzcCg6Bpi00rXiRfr0BizLJfDadtEPBpFPSG18YRYourMzL5CmQk-QqCK3dbYm8Yh47-Mbj3ZzRRC4niXGRSB21YgeQaX8rpb7yr7DoOjj8WCrrteJL0Rfc8Q55PwaV7mGbojum1kBJaVf61BZhOTK-NUueWwd7Tlwfes0OLKQY0JV-7I2egCX0is1qzQdSm" />
-    <title lang="en">Legends Tour Golf</title>
-  </programme>
-  <programme start="20261108000000 +0000" stop="20261108010000 +0000" channel="SkySportsMainEvent.uk">
-    <category lang="en">Sports</category>
-    <category lang="en">Sports Talk</category>
-    <desc lang="en">Round-up of the sports news with live analysis and comments, plus extended interviews with the headline makers.</desc>
-    <icon src="https://iptv-epg.org/images/8VqwGFSBAPLHoJ904MXUhM2UZCY11iq1LJuPq_JRxlq3dDtEP2N370lJf6sr9jLzk_HRSgnGdcdl1kNchOFIRSM_NFyqxuvvG9lnB6uiTVsxtuAdjU96i0x0nzO9oWC0e00thOa3PG4c7OaNAaEzF0o9ybSLxGYEWn0cEHhJj2UInn1xjYtU21sC5NUBsmFBDtEOixOM_8aOYnOSqhHu4eTCiJisXOvXkwjeHsHvYkwpa9jjRT6vpaCU33ydwgWyrA_Vbp9rUAKI1jWwFCQp4M5xIwHsyH1CC_9LiN_ssBVINfxZ1nE-CB5sk1vxOZ8kFi4WNqrCdI4E4DycMhCb-QeQ" />
-    <title lang="en">Sky Sports News</title>
-  </programme>
-  <programme start="20261108000000 +0000" stop="20261108001500 +0000" channel="SkySportsMix.uk">
-    <category lang="en">Sports</category>
-    <category lang="en">Interview</category>
-    <date>2017</date>
-    <desc lang="en">S1 E21 — Jeanette Kwakye
-Former British sprinter Jeanette Kwakye speaks about the individuals that have been an inspiration to her over the course of her career.</desc>
-    <episode-num>S1 E21</episode-num>
-    <icon src="https://iptv-epg.org/images/2384q_e1qqjua85CrKCBXVGQtjRo72ikFnFAlr7_b7cI4_fp8brY2XdLzkq9Jmqa2SbGqZ7MS767Fb4_ALRRmMlPAYXTI0MD2j8_oYI42hGl5whpSb8cerIXEcg13pq8glV8_iO91BMPW-TVfHK7m4cqPJBWwKaVLe6MLYsfUg9VAddl7BTGvsiGC9GZexOHlk732-p7dlRXlJZx6nUHaWmk_tBg60BR_edKIAPfdvUwMGViGDHyqzqNUfM5fPoTdLB2OU0ctXbFmQtbl-TjS9-MADOu3fTHNGIRxyx_fS_m7Nxrbmq489IgT2qFVjcLnTnqbXbE" />
-    <title lang="en">My Icon</title>
-  </programme>
-  <programme start="20261108000000 +0000" stop="20261108010000 +0000" channel="SkySportsNews.uk">
-    <category lang="en">Sports</category>
-    <category lang="en">Sports Talk</category>
-    <desc lang="en">Round-up of the sports news with live analysis and comments, plus extended interviews with the headline makers.</desc>
-    <icon src="https://iptv-epg.org/images/LdQgFFfxjus-qayb1KHZQJ3Mb88naZGA1XcEqrI_8bQo0LSoeOj8BfLKb1pYrQS60XrwnBrCaeojAsqOfgDDxMCEwe7iydXvI1X8SfAxnN4Qp_Sc43skEIRpgAfVAV_SMu9fJHsXuAsH9QDBUeoDuAKpRBaotUdxin3ByEjP4V9pnIQhFzI-P2YucVmUmlfEQjgZsggenqy3oFLhut_C-w-nS3_PoDQ5Bd202qX8sYpQSWNEh-XSvk70Nv9-IGp8pmvEQN8NkXVGGzmjGPAbsJGGymajnP9DERrJgBHSlYHGwh5orSRpQUrHGJIEdpW-PRN9KXXPpK8ilDd3cjHFINoK" />
-    <title lang="en">Sky Sports News</title>
-  </programme>
-  <programme start="20261108000000 +0000" stop="20261108003000 +0000" channel="SkySportsPremierLeague.uk">
-    <category lang="en">Sports</category>
-    <category lang="en">Football</category>
-    <date>2026</date>
-    <desc lang="en">Nottingham Forest v Manchester City
-On Saturday Night Football, Nottingham Forest play host to Manchester City at the City Ground in the Premier League.</desc>
-    <icon src="https://iptv-epg.org/images/7L-b4KlaQAY__83mUOGzohASOZ_FPrdyAOtk7CebQKjks1CtG6Z7deIRcwxv5N9IybLnOiy4uSUps-vhOtL9QV2kS4cQMoYg2zI5zTJL2U-2RNUSXpJH6YlvVH9uc7fnoGY0g9qZaMOzV4w6vnZuWaRT90gZWaCT2i7huW-l3Z5Q6NKOQDko5RFlqtr9s4D_5DTwcdCJlOYXO28VXkDX4iiJECHs40yna08bxHMAHQ9aGBhdgCgx_CJS77cEk8cGKNe_D58nCYiw3eo1yfyoZACYYFWKOXixJzWk87Ce6VysUJRklzIn8pgs8aKBufDjSpi_hNgy" />
-    <title lang="en">Saturday Night Football</title>
-  </programme>
-  <programme start="20261108000000 +0000" stop="20261108010000 +0000" channel="SkySportsTennis.uk">
-    <category lang="en">Sports</category>
-    <category lang="en">Tennis</category>
-    <date>2026</date>
-    <desc lang="en">Review
-An in-depth review of all the men's singles action from the 2026 edition of the Erste Bank Open in Vienna, Austria.</desc>
-    <icon src="https://iptv-epg.org/images/rv7pGW1SFMECD5TJCiS-3kxs2TDDIHvZlCa5_DdHfknsOtYypdZhhjxSHf0n5vGr4PcILqZpUyotVd8bgQEQLg7dA2HVoVW5qkON5YyM9VmrKihCQEBDUWSYkgxSYYbe9XkoRio5EkHdiVdevgqt-H7pzHggPLBZKIT6X8UsHjj0BvGjNavmx4zq8qCA03f7PbmAgmIBfkTcr8OvVg0Xy8F8GZar2PZJzmUnlZIgcYYGxrZI6zHrJgOKcnmdGn0D8p3_Wz1CoZjOvVXC4WzZvAV2F4pyTa4Jf4MC1dUNMOGX_0vBilMD61so57UsxCQTdISn0oOn" />
-    <title lang="en">Tennis: ATP Vienna Open 2026</title>
-  </programme>
-  <programme start="20261108000000 +0000" stop="20261108010000 +0000" channel="TNTSports2.uk">
-    <category lang="en">Sports</category>
-    <category lang="en">Football</category>
-    <date>2026</date>
-    <desc lang="en">First Round
-Action from the Emirates FA Cup.</desc>
-    <icon src="https://iptv-epg.org/images/zXhOlrYfZdLpF2KTqwauB1hy-kFmEectlCUvglljoXQoCOBmPkeWM4F0Faw_SNmz96Z31nHBi5cJSrrY-n1kaZc6JgS-G3oAe_5fEO09s7jE_KBC7sAxauxmts7gXl657U2SPvnpqO9q3ZG5qGxJPXsEvoNLBEkvTAsM8iytQ6jBJbGJP28Do1emplN0o5QmX0bEb9AmUH7JR6DMWPTTYbbvUe0_2pP30FUOc68eBrExVp6ughcFCPoCnWoZt4m1GPq3kauY0SNhCVvYEAEkSBbvJy8GFluMe1TDLTiTZFAoti4eRt45i3sK5YcHa7TJfvy7HOgs" />
-    <title lang="en">FA Cup Football</title>
-    <live />
-  </programme>
-  <programme start="20261108000000 +0000" stop="20261108010000 +0000" channel="TNTSports3.uk">
-    <category lang="en">Sports</category>
-    <category lang="en">Motorsport</category>
-    <date>2026</date>
-    <desc lang="en">E191 — 6 Hours of Barcelona
-Highlights from the 6 Hours of Barcelona, part of the 2026 FIA World Endurance Championship.</desc>
-    <episode-num>E191</episode-num>
-    <icon src="https://iptv-epg.org/images/mdQcfoGeVssumq9NHaOmiMmPNA1HmFJc5grvtKGHw0J0IzAwj4KNb7XZtf7jQKHJYUoeXuyWYMUKzlfQgYDdN--2_ZIkhluWOPpbXW0EsezYVzAGGmRHOR5y5CuwEFmSN4xg2PxrJ7JKcRD26jlnR2PAixOGEDEBh4F8NLidTJGCJMBhkUOzNYAhJ_Qx184b01hx_1T49le6nCHN8a320I0TGHrV4-9YWeXdbGF0DaaoDnKWU6uO-e0oTgfyLZWRRntRsAqOmiHd6NdchDi_WRlfnIf2y1DOFQzboSPrEaNZfZ2JSq02Cc_Ox0fLn1PKHUwISM8B" />
-    <title lang="en">FIA World Endurance Championship Motor Racing</title>
-  </programme>
-  <programme start="20261108000000 +0000" stop="20261108010000 +0000" channel="Willow2.us">
-    <category lang="en">Cricket</category>
-    <category lang="en">Series</category>
-    <category>Sports</category>
-    <desc lang="en">South Africa vs Australia: 3rd ODI
-Highlights of all the action from international cricket tournaments, where teams compete to win the title.</desc>
-    <icon src="https://iptv-epg.org/images/scpQ9rzLQmlQIpjKzjbkSPMJH6f16YQSSALkBAbhnvFiHqAnhz_8XoYhwhDGyXhaZwJe62bxoFGltMZsTLp1Ix5UO1S5KetPd0uDq3CM5Ws" />
-    <previously-shown />
-    <title lang="en">Cricket Highlights</title>
-  </programme>
-  <programme start="20261108000000 +0000" stop="20261108040000 +0000" channel="beINSPORTSMAX4.fr">
-    <category lang="fr">Magazine sportif</category>
-    <desc lang="fr">beIN SPORTS, le plus grand des spectacles.</desc>
-    <icon src="https://iptv-epg.org/images/xi2HXQdD_Q4ifcDgw_IsADpT-e9gGeIUDK7C1Zt-HCqQZgZFkF_Wdc3-OwgO6Z95-NcdHGIdj-0-AauFnCsZLTcFaPPcIQcnSehl5nhEwU8ecJh6qpO7" />
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-  </programme>
-  <programme start="20261108000000 +0000" stop="20261108040000 +0000" channel="beINSPORTSMAX5.fr">
-    <category lang="fr">Magazine sportif</category>
-    <desc lang="fr">beIN SPORTS, le plus grand des spectacles.</desc>
-    <icon src="https://iptv-epg.org/images/xi2HXQdD_Q4ifcDgw_IsADpT-e9gGeIUDK7C1Zt-HCqQZgZFkF_Wdc3-OwgO6Z95-NcdHGIdj-0-AauFnCsZLTcFaPPcIQcnSehl5nhEwU8ecJh6qpO7" />
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-  </programme>
-  <programme start="20261108000000 +0000" stop="20261108040000 +0000" channel="beINSPORTSMAX9.fr">
-    <category lang="fr">Magazine sportif</category>
-    <desc lang="fr">beIN SPORTS, le plus grand des spectacles.</desc>
-    <icon src="https://iptv-epg.org/images/xi2HXQdD_Q4ifcDgw_IsADpT-e9gGeIUDK7C1Zt-HCqQZgZFkF_Wdc3-OwgO6Z95-NcdHGIdj-0-AauFnCsZLTcFaPPcIQcnSehl5nhEwU8ecJh6qpO7" />
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-  </programme>
-  <programme start="20261108000200 +0000" stop="20261108015200 +0000" channel="PlaySports1.be">
-    <category lang="nl">Sport</category>
-    <category lang="nl">Voetbal</category>
-    <category>Sports</category>
-    <date>2026</date>
-    <desc lang="nl">Eintracht Frankfurt - HSV
-Vanuit de Frankfurt Arena in Frankfurt, Duitsland.</desc>
-    <icon src="https://iptv-epg.org/images/oQRu-70UPPqlS3y1OwXT5-ZSkPRkJdLw9QhrRHJd-etTq_iJl0-NFj7rxDO8K9yQLI9Hshb5cfJDgNljmO-5qKHNJmcE_zq5JLORtKc_Z58zFOg6dbC5ZWfz8aHINacTGirJXWmmqvx00IJvjqhpqMiK3IAd-f4alar3S0ZWjsroiipKRRnhrYDLC5f-DSynDibxRg9sR0y6MWSMO57rW_KijdvZ0NFe7KDqhaOty-at5OrhK08rZPRjAL927SLpptXZrwUzPPVv6Ib6rBnvEy4mmddmHLesL3oAIdG4T07VFZMDYfA" />
-    <title lang="nl">Bundesliga</title>
-  </programme>
-  <programme start="20261108000500 +0000" stop="20261108030500 +0000" channel="NOVASPORT1.cz">
-    <desc lang="cs">Přímý přenos utkání zámořské hokejové ligy NHL (v přest.: NHL News).</desc>
-    <title lang="cs">Toronto Maple Leafs - Montreal Canadiens</title>
   </programme>
   <programme start="20261108001000 +0000" stop="20261108060000 +0000" channel="NOVASPORT3.cz">
     <desc lang="cs">Záznam 11. kola německé fotbalové 2. Bundesligy.</desc>
@@ -5385,11 +4596,6 @@ Previa Liga Española. 1ª División.</desc>
     <desc lang="cs">(7) Sestřih 7. závodu offroad Mistrovství ČR (Most).</desc>
     <title lang="cs">OffROAD Maraton 2026</title>
   </programme>
-  <programme start="20261108150000 +0000" stop="20261108160000 +0000" channel="LALIGATVBAR2.es">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261108150000 +0000" stop="20261108180000 +0000" channel="Ligue1+2.fr">
     <category lang="en">Magazine sportif</category>
     <category lang="en">Sports</category>
@@ -5682,11 +4888,6 @@ De carrière van Petr Čech, één van de beste keepers ooit in de Premier Leagu
   <programme start="20261108160000 +0000" stop="20261108164000 +0000" channel="CANAL+ Sport 2 HD.sk">
     <title>KANÁR+: E40</title>
     <desc>KANÁR+: E40</desc>
-  </programme>
-  <programme start="20261108160000 +0000" stop="20261108170000 +0000" channel="LALIGATVBAR2.es">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261108160000 +0000" stop="20261108165000 +0000" channel="NOVASPORT5.cz">
     <desc lang="cs">Přímý přenos studia před závodem Velké ceny Sao Paula 2026.</desc>
@@ -6002,11 +5203,6 @@ It's lights out for the Sao Paulo Grand Prix. A year since Lando Norris came out
     <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
     <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
   </programme>
-  <programme start="20261108170000 +0000" stop="20261108180000 +0000" channel="LALIGATVBAR2.es">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261108170000 +0000" stop="20261108171500 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
     <category lang="en">Football</category>
@@ -6188,13 +5384,6 @@ Action from the National Women's Soccer League quarter-final showdown between Go
     <category lang="de">Sports</category>
     <title lang="de">blue Sport 3 Live</title>
   </programme>
-  <programme start="20261108173000 +0100" stop="20261108200000 +0100" channel="ManUnited.FC">
-    <title lang="en">LIVE 2-4: Manchester United vs Aston Villa</title>
-    <sub-title lang="en">Premier League</sub-title>
-    <desc lang="en">Premier League | England | Regular Season - 10 | Status: Second Half | Score: 2-4 | Venue: Old Trafford</desc>
-    <category lang="en">Sports</category>
-    <category lang="en">Football</category>
-  </programme>
   <programme start="20261108174000 +0000" stop="20261108180500 +0000" channel="NOVASPORT1.cz">
     <desc lang="cs">Speciální předzápasové studio s hosty.</desc>
     <title lang="cs">Studio NHL</title>
@@ -6293,11 +5482,6 @@ Retransmission d'un match du championnat de Turquie de football, appelé Süper 
   <programme start="20261108180000 +0000" stop="20261108200000 +0000" channel="CANAL+ Sport 8 HD.sk">
     <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
     <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261108180000 +0000" stop="20261108190000 +0000" channel="LALIGATVBAR2.es">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261108180000 +0000" stop="20261108210000 +0000" channel="Ligue1+2.fr">
     <category lang="en">Magazine sportif</category>
@@ -6529,11 +5713,6 @@ We onthullen de meest iconische rivaliteiten tussen managers in de Premier Leagu
   <programme start="20261108190000 +0000" stop="20261108193000 +0000" channel="CANAL+ Sport 2 HD.sk">
     <title>Daniela Hantuchová: Můj tenisový ráj</title>
     <desc>Daniela Hantuchová: Můj tenisový ráj</desc>
-  </programme>
-  <programme start="20261108190000 +0000" stop="20261108200000 +0000" channel="LALIGATVBAR2.es">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261108190000 +0000" stop="20261108194500 +0000" channel="LFCTV.uk">
     <category lang="en">Football</category>
@@ -6955,11 +6134,6 @@ The top two in LALIGA go head-to-head as Atlético de Madrid welcome Barcelona t
     <title>Open de Los Cabos</title>
     <desc>En Direct.</desc>
   </programme>
-  <programme start="20261108200000 +0000" stop="20261108210000 +0000" channel="LALIGATVBAR2.es">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261108200000 +0000" stop="20261108220000 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
     <category lang="en">Football</category>
@@ -7228,11 +6402,6 @@ Coverage of a fixture from the Professional Development League for under-23 age 
     <title lang="en">Premier League 2</title>
     <live />
   </programme>
-  <programme start="20261108210000 +0000" stop="20261108220000 +0000" channel="LALIGATVBAR2.es">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261108210000 +0000" stop="20261109000000 +0000" channel="Ligue1+2.fr">
     <category lang="en">Magazine sportif</category>
     <category lang="en">Sports</category>
@@ -7438,11 +6607,6 @@ Look back as Real Madrid went in search of their seventh European Cup against Ju
   <programme start="20261108220000 +0000" stop="20261109000000 +0000" channel="CANAL+ Sport 2 HD.sk">
     <title>Match Point: Pegula - Gauff, dvouhra</title>
     <desc>Match Point: Pegula - Gauff, dvouhra</desc>
-  </programme>
-  <programme start="20261108220000 +0000" stop="20261108230000 +0000" channel="LALIGATVBAR2.es">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261108220000 +0000" stop="20261108223000 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
@@ -28599,6 +27763,11 @@ A look back at some of Darwin Núñez greatest goals.</desc>
     <icon src="https://iptv-epg.org/images/5cYS2t8Xa4R96KvvzP9WHgLNmLFaWn90D6uHDVvu4AFYrTazXCQnFZZYvzhOtLUCJmiOTkzn3eYgtcSyo7WudfMzUyCj7ltsvnrl5YC9H84qj_5VcU5hyg7OYOWsKtONqCKwXMPmpTD1y0mJn9lroCx__T08NZNSa6LfTXi3evpHxnNyjQccMJ1b-YtOwAatc_iWOLVQfl9ZstG6iq6sFdVp8D3y_7eYAJt5ROOiDLQTslQqswI3SXrbHqiLKP6iAshiMqedy09B3v6QFN-wjrL8AeRYMB_ZYFGFb2-Y6XxnZ-Gr8NNXqB1gyOhDWdhPIecV-9BhTRTiQRxI0yFXpuo" />
     <title lang="en">Simon &amp; Naomi with Liam Lawson</title>
   </programme>
+  <programme start="20261111150000 +0000" stop="20261111160000 +0000" channel="LALIGATVBAR2.es">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261111150000 +0000" stop="20261111153000 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
     <category lang="en">Football</category>
@@ -28920,6 +28089,11 @@ Trent Rockets face London Spirit in the Men's Hundred.</desc>
     <desc lang="en">Portrait du nouvel entraîneur toulousain, aux principes (et au discours) très offensifs.</desc>
     <icon src="https://iptv-epg.org/images/Qi67ec_BxbF7vCYbvhgL6XIEVJI0x25U63HfW32LPrVqir1LR4ahzZmKnTYN5c4yDqI7lwWUAv07hwHQYA6yr0o_TYgpDwJcVAwAZusG9D7_EHdaQQVB" />
     <title lang="en">Askou veut secouer Toulouse</title>
+  </programme>
+  <programme start="20261111160000 +0000" stop="20261111170000 +0000" channel="LALIGATVBAR2.es">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261111160000 +0000" stop="20261111180000 +0000" channel="NOVASPORT3.cz">
     <desc lang="cs">Záznam 10. kola nejvyšší francouzské fotbalové ligy Ligue 1 McDonald's.</desc>
@@ -29246,6 +28420,11 @@ A Scottish Premiership clash at the Marbill Coaches Stadium sees St Mirren enter
     <desc lang="cs">Přímý přenos utkání základní skupiny basketbalové Ligy mistrů.</desc>
     <title lang="cs">SK Slavia Praha ERA NBK - Igokea m:tel</title>
   </programme>
+  <programme start="20261111170000 +0000" stop="20261111180000 +0000" channel="LALIGATVBAR2.es">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261111170000 +0000" stop="20261111184500 +0000" channel="MUTV.uk">
     <category lang="en">Sports</category>
     <category lang="en">Football</category>
@@ -29557,6 +28736,11 @@ Alle samenvattingen van de afgelopen speeldag uit de Duitse Bundesliga.</desc>
     <episode-num>E9</episode-num>
     <icon src="https://iptv-epg.org/images/LZuQtqlfr4IKG2Ir2_-N2RCFu-u2kF_ObTOKjbWCcD_u2dn2S74DY6Gsg6A9B9E9jgQOIuo7Ei0jl0yzl2xCtZ4WZCOcPDzVkPPxWycpG105fgOFe46dYFRDa1EIvqR2YkSxfvY2Mlzy1gjI6zPLMHlZdRQF08SfkxUZZthRxu_KR2aj37sRlBeec-0RFtYxITxrmm50Iu2P4oBnmfli-R-cPCNjZID23GYzvPzDqnRJl4g2-6TvZijHhrdLlwHZ0W4aqTyp7fJn9kGZNr6li58BWbpPfAWdlgObAuSrxg9TzEwr_oQ" />
     <title lang="nl">Bundesliga Highlights</title>
+  </programme>
+  <programme start="20261111180000 +0000" stop="20261111190000 +0000" channel="LALIGATVBAR2.es">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261111180000 +0000" stop="20261111181500 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
@@ -29929,6 +29113,11 @@ Verslag van de races gereden in het Superprestige veldrijden.</desc>
     <icon src="https://iptv-epg.org/images/tapK8sHqM5uQR4eUDx8SMPlEYCEbiay6AtwsuB9KPdtWS0jQtR4ijcFhlqCyGKMdc8ideNYUwNU4rz9b-Gby5GFFx1uoCkP0ZUBRpM9Ngvj-93bqc2ClR8ijR7ypUk3mwCNnbvqlBsHbeC1uFEKHc5OnzyqLELecej0MtabiJhznO5tCSt_-19z1BaeOCh7j1xepL0IW7bbtsTNQgFaipqdsqbpgUwANhqYFQn4d-cMsgsRBwYux8EfjykwZBX69hidqraKZtdvgfi10bhjN-cZKhATFyGMg2COYkTTD-m24H0UfNcg" />
     <title lang="nl">Superprestige Veldrijden</title>
   </programme>
+  <programme start="20261111190000 +0000" stop="20261111200000 +0000" channel="LALIGATVBAR2.es">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261111190000 +0000" stop="20261111193000 +0000" channel="NOVASPORT1.cz">
     <desc lang="cs">Dokument o extrémních sportech.</desc>
     <title lang="cs">Epic Series - SPAR Swiss Epis</title>
@@ -30227,6 +29416,11 @@ Derby County play host to Bolton Wanderers at Pride Park in the Sky Bet Champion
     <desc lang="en">Retrouvez les 10 plus beaux buts de Tony Vairelles en Ligue 1 McDonald's.</desc>
     <icon src="https://iptv-epg.org/images/HHnzUWzxUYlxcJh61ALOGD8t8Uvh_hdQE3r7kkWJSI7AzQ_w0J6qe3vSYsht23S6xG22WMtI522SYtApbiySyEJUAzEo-1qrqfzD9AUCRP1q1i-C0Gvr" />
     <title lang="en">Best of Ligue 1</title>
+  </programme>
+  <programme start="20261111200000 +0000" stop="20261111210000 +0000" channel="LALIGATVBAR2.es">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261111200000 +0000" stop="20261111200500 +0000" channel="NOVASPORT1.cz">
     <desc lang="cs">Přehled nejdůležitějších sportovních událostí doma i ve světě. Aktuální reportáže a Borec na konec.</desc>
@@ -30530,6 +29724,11 @@ Vanuit Old Trafford in Manchester, Engeland.</desc>
     <icon src="https://iptv-epg.org/images/zcDTT_WEyutVQLMjUDlqzaC6Uq_azEyjyY_ildXPX_uCJWxXpatb0RkTIcjxyAOrukktwC0YZPdP4EQ69ZWTuqVhJu5OLpC-PPj6hz-s6GVaQEhBZ5eEuMDFJxK1Qk_YQa0VQx45qAUlpnwwlH710LivoBajUbXE7w2FYULt5Zx5gOGlbc8AY1AuCSyXgWZKyckH78L09e1zozQmWnurKliwEnJyMpo-EZL321ZdC5nma_CUmvzBy9kcF-PCs-9pwRLudYq3D7sUMXgS_-ZnZP5ahGbS7_b0tMo0Mt_cYbSj0z9GqBc" />
     <title lang="nl">Premier League</title>
   </programme>
+  <programme start="20261111210000 +0000" stop="20261111220000 +0000" channel="LALIGATVBAR2.es">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261111210000 +0000" stop="20261112000000 +0000" channel="Ligue1+2.fr">
     <category lang="en">Magazine sportif</category>
     <category lang="en">Sports</category>
@@ -30762,6 +29961,11 @@ Highlights from some of the most exciting men's cycling races of the season, inc
 Verslag van de wedstrijd STVV - SK Brann, gespeeld in de competitiefase van de UEFA Conference League.</desc>
     <icon src="https://iptv-epg.org/images/2F_cDg2tu8tx6O-y9rU-ouSLH5lCXBFJWd0tLAq5FuRCTt_vrClFjL7nxO97N0TArcCyKHxvhTKBO5466c6QRBm_h30NSOC0lhz59IwnCnOt0Zym3aed65TcTrIS8bAei6fhb95j9X3WybMYqTWXeDHhTHEff4x8OOEaOYYHNpDLrMUb72K4jvbNQOVIf7TIo-YIRWHhxYNgekw32wv01oLAjHuTh2VXp6Vbtk18waFlkfBwxnFSY-UPVtsAhM0yMMktgLyT2P1J6qa-azYfQCq0RDhnxI_kiBL5-n648JSWWUbY3N8" />
     <title lang="nl">UEFA Conference League</title>
+  </programme>
+  <programme start="20261111220000 +0000" stop="20261111230000 +0000" channel="LALIGATVBAR2.es">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261111220000 +0000" stop="20261111224500 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
