@@ -431,10 +431,6 @@
   <programme start="20261114174800 +0000" stop="20261114180200 +0000" channel="CanalPlusSport.fr">
     <title>Fractionné F1</title>
   </programme>
-  <programme start="20261114180000 +0000" stop="20261114220000 +0000" channel="CANAL+ Sport 3 HD.sk">
-    <title>Dubaj Premier Padel P1 - semifinále mužů</title>
-    <desc>Dubaj Premier Padel P1 - semifinále mužů</desc>
-  </programme>
   <programme start="20261114180200 +0000" stop="20261114183500 +0000" channel="CanalPlusSport.fr">
     <title>On Board F1</title>
   </programme>
@@ -445,68 +441,8 @@
     <title>Championnat d'Austin</title>
     <desc>En Direct.</desc>
   </programme>
-  <programme start="20261114193000 +0000" stop="20261114220000 +0000" channel="CANAL+ Sport 2 HD.sk">
-    <title>Match Point: WTA Finals</title>
-    <desc>Match Point: WTA Finals</desc>
-  </programme>
-  <programme start="20261114200000 +0000" stop="20261114230000 +0000" channel="CANAL+ Sport 4 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261114200000 +0000" stop="20261114230000 +0000" channel="CANAL+ Sport 5 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261114200000 +0000" stop="20261114230000 +0000" channel="CANAL+ Sport 6 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261114200000 +0000" stop="20261114230000 +0000" channel="CANAL+ Sport 7 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261114200000 +0000" stop="20261114230000 +0000" channel="CANAL+ Sport 8 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261114220000 +0000" stop="20261115000000 +0000" channel="CANAL+ Sport 2 HD.sk">
-    <title>Match Point: WTA Finals</title>
-    <desc>Match Point: WTA Finals</desc>
-  </programme>
-  <programme start="20261114220000 +0000" stop="20261114230000 +0000" channel="CANAL+ Sport 3 HD.sk">
-    <title>Dubaj Premier Padel P1 - semifinále mužů</title>
-    <desc>Dubaj Premier Padel P1 - semifinále mužů</desc>
-  </programme>
   <programme start="20261114220000 +0000" stop="20261115000000 +0000" channel="CanalPlusSport.fr">
     <title>DP World Tour Championship</title>
-  </programme>
-  <programme start="20261114230000 +0000" stop="20261115020000 +0000" channel="CANAL+ Sport 3 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261114230000 +0000" stop="20261115020000 +0000" channel="CANAL+ Sport 4 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261114230000 +0000" stop="20261115020000 +0000" channel="CANAL+ Sport 5 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261114230000 +0000" stop="20261115020000 +0000" channel="CANAL+ Sport 6 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261114230000 +0000" stop="20261115020000 +0000" channel="CANAL+ Sport 7 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261114230000 +0000" stop="20261115020000 +0000" channel="CANAL+ Sport 8 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115000000 +0000" stop="20261115020000 +0000" channel="CANAL+ Sport 2 HD.sk">
-    <title>WTA Finals Indian Wells: Finále</title>
-    <desc>WTA Finals Indian Wells: Finále</desc>
   </programme>
   <programme start="20261115000000 +0000" stop="20261115050000 +0000" channel="CanalPlusPremierLeague.fr">
     <title>La Premier League sur Canal+</title>
@@ -779,34 +715,6 @@ Action from the series-deciding fifth ODI between New Zealand and India at the B
     <icon src="https://iptv-epg.org/images/g6PoS0_rOHUZRd9MgkwwajXeiCHnu93pL89lQsrFijXYTC9PCfg_fFc0Wl7cPx7DYj5wP32HVCr1tT7IaZMgaAs84Y-wf3HRfCH2HH68B_rGr3trLWzsAnVMU9VcO8KggxRkdB3QM8t12O2gxLzz9595dBOp8DoVE4clvXvHD0vtzGkyI1iTHrINxY8epcHsSsxCZW56qV-rmZd16llD1TUO1SlFbaKFiNSeM87ASgWcKGsAri0ywAQBtp-7kw0SaT65xoffWm2tShF8YvWiW3533YBrd8EzNAOT4hvJwowITF5IL5PaffRLSBM9m-Jd3A8YGtvu" />
     <title lang="en">One-Day International Cricket</title>
     <live />
-  </programme>
-  <programme start="20261115020000 +0000" stop="20261115040000 +0000" channel="CANAL+ Sport 2 HD.sk">
-    <title>WTA Finals Indian Wells: Finále čtyřhry</title>
-    <desc>WTA Finals Indian Wells: Finále čtyřhry</desc>
-  </programme>
-  <programme start="20261115020000 +0000" stop="20261115050000 +0000" channel="CANAL+ Sport 3 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115020000 +0000" stop="20261115050000 +0000" channel="CANAL+ Sport 4 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115020000 +0000" stop="20261115050000 +0000" channel="CANAL+ Sport 5 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115020000 +0000" stop="20261115050000 +0000" channel="CANAL+ Sport 6 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115020000 +0000" stop="20261115050000 +0000" channel="CANAL+ Sport 7 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115020000 +0000" stop="20261115050000 +0000" channel="CANAL+ Sport 8 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
   </programme>
   <programme start="20261115020000 +0000" stop="20261115023500 +0000" channel="MUTV.uk">
     <category lang="en">Sports</category>
@@ -1340,10 +1248,6 @@ Liverpool meet Manchester United in 2001, as a Michael Owen brace guided the hom
     <icon src="https://iptv-epg.org/images/79N5uOUFiaIy_jOS9Py-ZhSa7aFFQ_muvzQIAmEeKhl7lcSqqtLTtLtjk3Ublse8yU0LJo3yxZfhSSpJkyIiu3AUG1jxxxL0aXqkHwQvhEBIwcmLo7Zi" />
     <title lang="en">Les retrouvailles</title>
   </programme>
-  <programme start="20261115040000 +0000" stop="20261115070000 +0000" channel="CANAL+ Sport 2 HD.sk">
-    <title>WTA Finals Indian Wells: Finále</title>
-    <desc>WTA Finals Indian Wells: Finále</desc>
-  </programme>
   <programme start="20261115040000 +0000" stop="20261115060500 +0000" channel="M+LaLigaTV.es">
     <category lang="es">Deportes</category>
     <category lang="es">Sports</category>
@@ -1561,30 +1465,6 @@ Featuring all the action and highlights from Formula 1 racing.</desc>
 We revisit some of the most exciting women's cycling races of the season, including Binche Chimay Binche, the Grand Prix of Wallonia and the Eneco Tour.</desc>
     <icon src="https://iptv-epg.org/images/dTSg6cGUEZnsX9F_xFZ5wtYhiZuaWN14kKjL923hOeoR03zr2xTz3K4vqLzhgaCuoNGw5ky--Ck_LBEf76O5cJCT5jCr3dBAfFEUjv27BdxQSfIHkpmHs1cIPdkKuRdRroocoVn2eoN_9me3UuvsmP87iDaztdXqgX98A7nMz7W1ZQEOGwkIKUUy-69DJKfX1SVJDxo-yL_SyeDI6KgZIBtL_S4dl1L7BC445bFyLddFh4c2CIi1djLWJVRKiZLQ1oEotPbvG4xRT6U4btirCTcCfDilRbHGERHXKDZ_5UF4Uk3pQFkxWEIeUdQNAHMl8UGaK62N" />
     <title lang="en">UCI Women's Continental Circuits</title>
-  </programme>
-  <programme start="20261115050000 +0000" stop="20261115080000 +0000" channel="CANAL+ Sport 3 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115050000 +0000" stop="20261115080000 +0000" channel="CANAL+ Sport 4 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115050000 +0000" stop="20261115080000 +0000" channel="CANAL+ Sport 5 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115050000 +0000" stop="20261115080000 +0000" channel="CANAL+ Sport 6 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115050000 +0000" stop="20261115080000 +0000" channel="CANAL+ Sport 7 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115050000 +0000" stop="20261115080000 +0000" channel="CANAL+ Sport 8 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
   </programme>
   <programme start="20261115050000 +0000" stop="20261115080000 +0000" channel="CanalPlusPremierLeague.fr">
     <title>La Premier League sur Canal+</title>
@@ -2172,10 +2052,6 @@ Rewind to 2014 for a pulsating encounter between Manchester United and Chelsea a
     <icon src="https://iptv-epg.org/images/rITVF19f9oYaQbdZZdCefSSZLc5rEvXBRc1hYbHZxkXf0lP5nV08c0kKCl7awjngeoi9Tvaocp1f6sp_dXlAPNeF6aMvtslg7lhgTaUvTLWEQs6nitrE" />
     <title lang="en">Filipe Luis, un succès brésilien</title>
   </programme>
-  <programme start="20261115070000 +0000" stop="20261115090000 +0000" channel="CANAL+ Sport 2 HD.sk">
-    <title>WTA Finals Indian Wells: Semifinále dvouhry</title>
-    <desc>WTA Finals Indian Wells: Semifinále dvouhry</desc>
-  </programme>
   <programme start="20261115070000 +0000" stop="20261115080000 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
     <category lang="en">Football</category>
@@ -2442,30 +2318,6 @@ Vanuit de SNP Arena in Sinsheim, Duitsland.</desc>
     <icon src="https://iptv-epg.org/images/d2kk5rSBO2zLOs9EwTU70KOeo0dLfZbZa1aeLTKL-2Maa74NWY-z-QHDqENzBFPTH8YUUDVanjT5lcaR2iEg8h3DvcPOo4_BudiMseRmSbOcioYm_rg5XJB3DCLbmxn8eOHEDayjZY613bENKiie2JulYr_Ei8ocCOlpZ8scko8gclrUZBAJOqiu0uS0SzZY-MCMVKG35_D5I2Iiehcy2lNON8C4cEItt4v3M7Sq6_bXLWBJ9RsIXWPANifSBaHK94ynYAkpl4y1Cp9l5tUWVzllMUD2gVLvcDRKHPEcPFksmQ0cyMc" />
     <title lang="nl">Bundesliga</title>
   </programme>
-  <programme start="20261115080000 +0000" stop="20261115110000 +0000" channel="CANAL+ Sport 3 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115080000 +0000" stop="20261115110000 +0000" channel="CANAL+ Sport 4 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115080000 +0000" stop="20261115110000 +0000" channel="CANAL+ Sport 5 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115080000 +0000" stop="20261115110000 +0000" channel="CANAL+ Sport 6 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115080000 +0000" stop="20261115110000 +0000" channel="CANAL+ Sport 7 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115080000 +0000" stop="20261115110000 +0000" channel="CANAL+ Sport 8 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
   <programme start="20261115080000 +0000" stop="20261115110000 +0000" channel="CanalPlusPremierLeague.fr">
     <title>La Premier League sur Canal+</title>
     <desc>La Premier League sur Canal+.</desc>
@@ -2726,10 +2578,6 @@ Coverage of the first run of the men's slalom from Levi, Finland, as the 2026/27
     <desc lang="en">Ma Super Ligue 1 - Saison 2 Episode 4.</desc>
     <icon src="https://iptv-epg.org/images/GAqNxgcwzpfeiAI25173uFMRMdSW1IYGAQMFrqaLyk_DJFi-_ZIa8_4RgMlDCFQkSYJVMMoIpvQHm5hP5LUoPoo06sWxjGuBWG7S0uiz4Fr8zXFIK6OR" />
     <title lang="en">Ma super Ligue 1</title>
-  </programme>
-  <programme start="20261115090000 +0000" stop="20261115110000 +0000" channel="CANAL+ Sport 2 HD.sk">
-    <title>WTA Finals Indian Wells: Semifinále dvouhry</title>
-    <desc>WTA Finals Indian Wells: Semifinále dvouhry</desc>
   </programme>
   <programme start="20261115090000 +0000" stop="20261115101500 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
@@ -3156,34 +3004,6 @@ Coverage of the third leg of the 2026/2027 Longines FEI Jumping World Cup Wester
     <category lang="es">Sports</category>
     <desc lang="es">El Elche, tras cuatro encuentros de liga invicto, busca su primera victoria como local ante un Valencia en puestos de descenso. Los ché quieren su primer tirunfo con Javier Aguirre.</desc>
     <title lang="es">LALIGA EA SPORTS (T26/27): Elche CF - Valencia CF</title>
-  </programme>
-  <programme start="20261115110000 +0000" stop="20261115130000 +0000" channel="CANAL+ Sport 2 HD.sk">
-    <title>WTA Finals Indian Wells: Semifinále čtyřhry</title>
-    <desc>WTA Finals Indian Wells: Semifinále čtyřhry</desc>
-  </programme>
-  <programme start="20261115110000 +0000" stop="20261115140000 +0000" channel="CANAL+ Sport 3 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115110000 +0000" stop="20261115140000 +0000" channel="CANAL+ Sport 4 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115110000 +0000" stop="20261115140000 +0000" channel="CANAL+ Sport 5 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115110000 +0000" stop="20261115140000 +0000" channel="CANAL+ Sport 6 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115110000 +0000" stop="20261115140000 +0000" channel="CANAL+ Sport 7 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115110000 +0000" stop="20261115140000 +0000" channel="CANAL+ Sport 8 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
   </programme>
   <programme start="20261115110000 +0000" stop="20261115160000 +0000" channel="CanalPlusPremierLeague.fr">
     <title>La Premier League sur Canal+</title>
@@ -3789,10 +3609,6 @@ Action from the women's X2O Badkamers Trofee Hamme in Belgium, where the world's
   <programme start="20261115125700 +0000" stop="20261115130300 +0000" channel="CanalPlusSport.fr">
     <title>Zapsport 360</title>
   </programme>
-  <programme start="20261115130000 +0000" stop="20261115150000 +0000" channel="CANAL+ Sport 2 HD.sk">
-    <title>WTA Finals Indian Wells: Semifinále čtyřhry</title>
-    <desc>WTA Finals Indian Wells: Semifinále čtyřhry</desc>
-  </programme>
   <programme start="20261115130000 +0000" stop="20261115150000 +0000" channel="MUTV.uk">
     <category lang="en">Sports</category>
     <category lang="en">Football</category>
@@ -4051,30 +3867,6 @@ From Sheikh Zayed Stadium in Abu Dhabi, United Arab Emirates.</desc>
     <title>Fast Life Laurent Dupin</title>
     <desc>Le journaliste et rédacteur en chef F1 pour Canal+ Laurent Dupin se penche sur l'actualité de la Formule 1 et nous emmène dans les coulisses de la discipline. Actualités, rencontres avec les pilotes et les patrons d'écuries sont au programme de cette émission. Le Grand Prix de Singapour, qui s'est disputé le 11 octobre, devrait être au menu de cet épisode.</desc>
   </programme>
-  <programme start="20261115140000 +0000" stop="20261115160000 +0000" channel="CANAL+ Sport 3 HD.sk">
-    <title>Dubaj Premier Padel P1 - finále žen</title>
-    <desc>Dubaj Premier Padel P1 - finále žen</desc>
-  </programme>
-  <programme start="20261115140000 +0000" stop="20261115170000 +0000" channel="CANAL+ Sport 4 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115140000 +0000" stop="20261115170000 +0000" channel="CANAL+ Sport 5 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115140000 +0000" stop="20261115170000 +0000" channel="CANAL+ Sport 6 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115140000 +0000" stop="20261115170000 +0000" channel="CANAL+ Sport 7 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115140000 +0000" stop="20261115170000 +0000" channel="CANAL+ Sport 8 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
   <programme start="20261115140000 +0000" stop="20261115144500 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
     <category lang="en">Football</category>
@@ -4216,10 +4008,6 @@ Football : Ligue des champions féminine de la CAF.</desc>
     <date>2026</date>
     <icon src="https://iptv-epg.org/images/5_9GWjw_8tHybZsg5jz_FlAs7qeTAWHkHsqWEklAVbA0TYPDvBIXWYQ0HYOncegDQYatq5WPvdwpnF5Czy50ZUSeeE764Zkd5fF1Ck6aAvBj-6tbEsDgnHNfzWC71y45EJEom3haPHYS428p37c2-N2hhN5kB5KCSkue-5tKualnXtDt_mOIvBWcf8YDMPeJWz6T5iX4FbGQbcGLHBebKrSmwOt2arBBKHxRupJ6uo9J48p3JocUsMXQ2Iq7g1PuT35lumESPX_v5OaGw03j-qOCQnYxxkVqYueSWGWspcnxxhrg6cc" />
     <title lang="nl">FIM Motocross of Nations</title>
-  </programme>
-  <programme start="20261115150000 +0000" stop="20261115170000 +0000" channel="CANAL+ Sport 2 HD.sk">
-    <title>WTA Finals Indian Wells: Semifinále dvouhry</title>
-    <desc>WTA Finals Indian Wells: Semifinále dvouhry</desc>
   </programme>
   <programme start="20261115150000 +0000" stop="20261115160000 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
@@ -4458,10 +4246,6 @@ The best bits from TNT Sports over the last week, including exclusive interviews
     <date>2026</date>
     <icon src="https://iptv-epg.org/images/ZQV9mb_BaGmVkdlhaNnhVE9EQL-gpjKUEERg3lmbF1pIkykf2ccUEaLhdzc292Dpz7lLpBta89NF-OSAx-OAyc2CSmR7M2-Vf-ZGD-kFi_rQWiZEmoh5rya6NbFet8EVe2MwSzO5Jfydu_tOm167SA4d6WZwziZuHi7esMrjqerHgl_BKfAU3c3dJAB7PCDKsWXczchosT0-TYx1dc2oxfVlEDuuylxWw7x5dKdnKa86JwDpHPoCa-kO9sbyXGC1F2IdXRdO-g0G6FZjsZVPnJOpP86CulMt62Fr28uY6DwQuj-kC78" />
     <title lang="nl">FIM Motocross of Nations</title>
-  </programme>
-  <programme start="20261115160000 +0000" stop="20261115200000 +0000" channel="CANAL+ Sport 3 HD.sk">
-    <title>Dubaj Premier Padel P1 - finále mužů</title>
-    <desc>Dubaj Premier Padel P1 - finále mužů</desc>
   </programme>
   <programme start="20261115160000 +0000" stop="20261115200000 +0000" channel="CanalPlusPremierLeague.fr">
     <title>La Premier League sur Canal+</title>
@@ -4788,30 +4572,6 @@ At the 2013 ICC Women's Cricket World Cup in India, revisit England's contest wi
     <desc lang="nl">Een terugblik op de wedstrijden van het weekend in de Premier League, met alle doelpunten, nieuws en belangrijke gespreksonderwerpen uit de hoogste divisie.</desc>
     <icon src="https://iptv-epg.org/images/79rz945MOXtAQ1UtZTacyvpT6_-xWEnNYTbPBa3sJ2SeaREo9vOI09KUwxmvSlo2pb1EUhdt_nlKoYxs1_7RFqIObBH2Jt6AEKcngUWwNRA1XFj2zcA_BEJJVXrkSQTTm-Ng0yhlQlTCcOWa2hbmUMjRx0dVimcTy573X3vmKg_J8QmUrB8dDxSm0wtMMiKY9EhQklIl2OeZCn1ND4sP2reY6A1XYqS9iuunDVwD6T2M-tDWsMw2-mLkuYrcRGL0WW6t34fabx7VN1Q-H-kiKqgGTvg41lfGtLbHUc0kp-EO4NaGglQ" />
     <title lang="nl">Premier League Review</title>
-  </programme>
-  <programme start="20261115170000 +0000" stop="20261115190000 +0000" channel="CANAL+ Sport 2 HD.sk">
-    <title>WTA Finals Indian Wells: Semifinále dvouhry</title>
-    <desc>WTA Finals Indian Wells: Semifinále dvouhry</desc>
-  </programme>
-  <programme start="20261115170000 +0000" stop="20261115200000 +0000" channel="CANAL+ Sport 4 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115170000 +0000" stop="20261115200000 +0000" channel="CANAL+ Sport 5 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115170000 +0000" stop="20261115200000 +0000" channel="CANAL+ Sport 6 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115170000 +0000" stop="20261115200000 +0000" channel="CANAL+ Sport 7 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261115170000 +0000" stop="20261115200000 +0000" channel="CANAL+ Sport 8 HD.sk">
-    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
-    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
   </programme>
   <programme start="20261115170000 +0000" stop="20261115173000 +0000" channel="MUTV.uk">
     <category lang="en">Sports</category>
@@ -5406,10 +5166,6 @@ We sit down with Phallon Tullis-Joyce to discuss her love for her hometown of Ne
   <programme start="20261115184500 +0000" stop="20261115190000 +0000" channel="NOVASPORT6.cz">
     <desc lang="cs">(6) Magazín o českém automobilovém závodníkovi s pohledem do zákulisí Orion Racing Teamu.</desc>
     <title lang="cs">Sedmička Martina Doubka</title>
-  </programme>
-  <programme start="20261115190000 +0000" stop="20261115193000 +0000" channel="CANAL+ Sport 2 HD.sk">
-    <title>KANÁR+: E41</title>
-    <desc>KANÁR+: E41</desc>
   </programme>
   <programme start="20261115190000 +0000" stop="20261115215900 +0000" channel="CanalPlusSport.fr">
     <title>Championnat d'Austin</title>
@@ -15388,6 +15144,30 @@ We revisit UFC 70 in Manchester which featured the heavyweight bout between Gabr
     <icon src="https://iptv-epg.org/images/d4TDUiaYOGk22R7nzZCelhOmRn8tguFd84Dd6vTMfmgqHKE4-lkMmeuPCJtnxjKxHy7S0k1BguWjvyHvNaASXvKKva84XfMET1vDLMu5CCGT93YZo2lq_0xSfOpEYhd7_LacbR9LNQ6HphSggTBYpPueX1ZEIcm0-kAzEMxEUMR4f8prG7gyJJOfwH1lJXvzwoixkCLdPvPPSlIXByYO8DsSGSI5dIlWQgVlLEmmBTMnyqjT7xX9whKURnacX52jKqdXX8vsS5TYS3fvW7aEaq0jE12a3PaO16Dy79YpqGhNuOqgXwE9SeUMgV8BbY9wn2kD_HsD" />
     <title lang="en">UFC Reloaded</title>
   </programme>
+  <programme start="20261117030000 +0000" stop="20261117060000 +0000" channel="CANAL+ Sport 3 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117030000 +0000" stop="20261117060000 +0000" channel="CANAL+ Sport 4 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117030000 +0000" stop="20261117060000 +0000" channel="CANAL+ Sport 5 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117030000 +0000" stop="20261117060000 +0000" channel="CANAL+ Sport 6 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117030000 +0000" stop="20261117060000 +0000" channel="CANAL+ Sport 7 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117030000 +0000" stop="20261117060000 +0000" channel="CANAL+ Sport 8 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
   <programme start="20261117030000 +0000" stop="20261117040000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -15725,6 +15505,10 @@ We revisit the best action from the third ODI between India and West Indies.</de
     <desc lang="en">En compagnie de Félix Rouah, Franck Haise revient sur ses débuts comme formateur au Stade Rennais, déjà, il y a 20 ans. Des années qui ont forgé ses principes et lancé sa carrière. L'entraîneur rennais revient également sur l'actualité du club et détaille son management et sa communication.</desc>
     <icon src="https://iptv-epg.org/images/qeXI56QwrWTo1xIfK4KF424p9elf1Vm9cSZSBHbxBuTRfzmk1-5pvUR1LKCMFPK7k5-ZUai2x6yWSC0ykpthoBS6uEs7dq30PA8yKA9AwfRXnRVL2j81" />
     <title lang="en">Quand Franck Haise (se) formait</title>
+  </programme>
+  <programme start="20261117040000 +0000" stop="20261117060000 +0000" channel="CANAL+ Sport 2 HD.sk">
+    <title>WTA Finals Indian Wells: Zápas čtyřhry</title>
+    <desc>WTA Finals Indian Wells: Zápas čtyřhry</desc>
   </programme>
   <programme start="20261117040000 +0000" stop="20261117050000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
@@ -16348,6 +16132,34 @@ A preview of a cricket match.</desc>
     <icon src="https://iptv-epg.org/images/SYIdosE93vOqeoeGZCTM8B2cVGe3T7QQZa-OYytbMobmKXMiaSCavr31o_IdYi00ZIUehoColtBN1SZ8OETTx-opnvtiAiCwgLowYpNAr6I" />
     <title lang="en">Cricket Preview</title>
     <live />
+  </programme>
+  <programme start="20261117060000 +0000" stop="20261117080000 +0000" channel="CANAL+ Sport 2 HD.sk">
+    <title>WTA Finals Indian Wells: Zápas dvouhry</title>
+    <desc>WTA Finals Indian Wells: Zápas dvouhry</desc>
+  </programme>
+  <programme start="20261117060000 +0000" stop="20261117090000 +0000" channel="CANAL+ Sport 3 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117060000 +0000" stop="20261117090000 +0000" channel="CANAL+ Sport 4 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117060000 +0000" stop="20261117090000 +0000" channel="CANAL+ Sport 5 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117060000 +0000" stop="20261117090000 +0000" channel="CANAL+ Sport 6 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117060000 +0000" stop="20261117090000 +0000" channel="CANAL+ Sport 7 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117060000 +0000" stop="20261117090000 +0000" channel="CANAL+ Sport 8 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
   </programme>
   <programme start="20261117060000 +0000" stop="20261117070000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
@@ -17095,6 +16907,10 @@ A preview of a cricket match.</desc>
     <title lang="en">Cricket Preview</title>
     <live />
   </programme>
+  <programme start="20261117080000 +0000" stop="20261117100000 +0000" channel="CANAL+ Sport 2 HD.sk">
+    <title>WTA Finals Indian Wells: Zápas dvouhry</title>
+    <desc>WTA Finals Indian Wells: Zápas dvouhry</desc>
+  </programme>
   <programme start="20261117080000 +0000" stop="20261117110000 +0000" channel="CanalPlusPremierLeague.fr">
     <title>La Premier League sur Canal+</title>
     <desc>La Premier League sur Canal+.</desc>
@@ -17425,6 +17241,30 @@ A chance to relive some classic matches from the English Football League. Here, 
     <title lang="en">International Raceday</title>
     <live />
   </programme>
+  <programme start="20261117090000 +0000" stop="20261117120000 +0000" channel="CANAL+ Sport 3 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117090000 +0000" stop="20261117120000 +0000" channel="CANAL+ Sport 4 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117090000 +0000" stop="20261117120000 +0000" channel="CANAL+ Sport 5 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117090000 +0000" stop="20261117120000 +0000" channel="CANAL+ Sport 6 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117090000 +0000" stop="20261117120000 +0000" channel="CANAL+ Sport 7 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117090000 +0000" stop="20261117120000 +0000" channel="CANAL+ Sport 8 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
   <programme start="20261117090000 +0000" stop="20261117100000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -17716,6 +17556,10 @@ Relive some classic action from the English Football League. Here, Nottingham Fo
     <desc lang="en">Portrait du nouvel entraîneur toulousain, aux principes (et au discours) très offensifs.</desc>
     <icon src="https://iptv-epg.org/images/Qi67ec_BxbF7vCYbvhgL6XIEVJI0x25U63HfW32LPrVqir1LR4ahzZmKnTYN5c4yDqI7lwWUAv07hwHQYA6yr0o_TYgpDwJcVAwAZusG9D7_EHdaQQVB" />
     <title lang="en">Askou veut secouer Toulouse</title>
+  </programme>
+  <programme start="20261117100000 +0000" stop="20261117120000 +0000" channel="CANAL+ Sport 2 HD.sk">
+    <title>WTA Finals Indian Wells: Zápas čtyřhry</title>
+    <desc>WTA Finals Indian Wells: Zápas čtyřhry</desc>
   </programme>
   <programme start="20261117100000 +0000" stop="20261117110000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
@@ -18378,6 +18222,34 @@ Relive some classic matches in English football. Here, a West Yorkshire derby as
     <icon src="https://iptv-epg.org/images/iRwLCWp4iE47h38Zeq7HXAIWehsml_N373FzPQq3kNYF85OYO4WamThmxAgpnOGjGpnY35ItqtUtqwnI881wrufwe-JkLDJ0zC14p8VMkCrZk1q9aczR" />
     <title lang="en">Joueurs de légende</title>
   </programme>
+  <programme start="20261117120000 +0000" stop="20261117140000 +0000" channel="CANAL+ Sport 2 HD.sk">
+    <title>WTA Finals Indian Wells: Zápas čtyřhry</title>
+    <desc>WTA Finals Indian Wells: Zápas čtyřhry</desc>
+  </programme>
+  <programme start="20261117120000 +0000" stop="20261117150000 +0000" channel="CANAL+ Sport 3 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117120000 +0000" stop="20261117150000 +0000" channel="CANAL+ Sport 4 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117120000 +0000" stop="20261117150000 +0000" channel="CANAL+ Sport 5 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117120000 +0000" stop="20261117150000 +0000" channel="CANAL+ Sport 6 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117120000 +0000" stop="20261117150000 +0000" channel="CANAL+ Sport 7 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117120000 +0000" stop="20261117150000 +0000" channel="CANAL+ Sport 8 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
   <programme start="20261117120000 +0000" stop="20261117130000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -18996,6 +18868,10 @@ Wrexham play host to West Brom at the SToK Racecourse in the Sky Bet Championshi
     <icon src="https://iptv-epg.org/images/7UvpKJlg9SKbFeb-SrGTEEhPWLVKkGLmyFXqwOrySFaQ6ubl8nQkpNMlNdmn78MMLgNYR0DN7JT__TKS-CBpcU1g2FcsmON5Rjjj_TCqiNVPoCZL" />
     <title lang="es">Resúmenes LALIGA HyperMotion (T26/27): Albacete BP - RC Celta B</title>
   </programme>
+  <programme start="20261117140000 +0000" stop="20261117160000 +0000" channel="CANAL+ Sport 2 HD.sk">
+    <title>WTA Finals Indian Wells: Zápas dvouhry</title>
+    <desc>WTA Finals Indian Wells: Zápas dvouhry</desc>
+  </programme>
   <programme start="20261117140000 +0000" stop="20261117150000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -19311,6 +19187,30 @@ Queens Park Rangers play host to Derby County at Loftus Road in the Sky Bet Cham
     <desc lang="es">Semana exigente para los de Giráldez después de su estreno en UEL. Los cuatro puntos en liga y no conocer la victoria empiezan a presionar a los celestes. El acierto de Zabiri ha disparado el rendimiento de los de José Alberto.</desc>
     <icon src="https://iptv-epg.org/images/zfV_Qy7KDnzBOUnGli02JXtxHTGBFgUa27gVMm4s55DKDgYDqWKYSin_Vj3_K3OIWqbSf3zC_2omXIxOGoscCq3AgZ09JAC9hlK5fiMF9i1CiCEj" />
     <title lang="es">LALIGA EA SPORTS (T26/27): RC Celta - R. Racing Club</title>
+  </programme>
+  <programme start="20261117150000 +0000" stop="20261117180000 +0000" channel="CANAL+ Sport 3 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117150000 +0000" stop="20261117180000 +0000" channel="CANAL+ Sport 4 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117150000 +0000" stop="20261117180000 +0000" channel="CANAL+ Sport 5 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117150000 +0000" stop="20261117180000 +0000" channel="CANAL+ Sport 6 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117150000 +0000" stop="20261117180000 +0000" channel="CANAL+ Sport 7 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117150000 +0000" stop="20261117180000 +0000" channel="CANAL+ Sport 8 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
   </programme>
   <programme start="20261117150000 +0000" stop="20261117160000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
@@ -19744,6 +19644,10 @@ Suivez les matches de qualifications à la Coupe d'Afrique des Nations de footba
     <date>2026</date>
     <icon src="https://iptv-epg.org/images/G2Gm29YXpov08cu7E8PwIjl--CCPkIcp2yaXKknycZs_iDUeOL6mAxs7P0XR5f2TdBxaCFF1aBJ8mlSRmad038tD6GELMckLGWrHJKGqZ_yZKByCgbhRsWWv8MHfihlWXxfx-IAQnHzOdyqRvWiChZgXAh86AuK-fYzqx8A5rU_NZ9xSUZ-FdhZ-Qd_d3Yct0Uz5Ivr5nXBqAXobbyaFKQ-5p-dMQ8-J2GtiGE9LR0mCSH2sJseTBohqiRtdB5sEq4Lf1s7T3Mz9AYYGaFhlPOFbvV1kmrJYGyHSUlp91_gDM-yePEk" />
     <title lang="nl">FIM Motocross of Nations</title>
+  </programme>
+  <programme start="20261117160000 +0000" stop="20261117180000 +0000" channel="CANAL+ Sport 2 HD.sk">
+    <title>WTA Finals Indian Wells: Zápas dvouhry</title>
+    <desc>WTA Finals Indian Wells: Zápas dvouhry</desc>
   </programme>
   <programme start="20261117160000 +0000" stop="20261117170000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
@@ -20408,6 +20312,34 @@ Portsmouth play host to Sheffield United at Fratton Park in the Sky Bet Champion
     <icon src="https://iptv-epg.org/images/iRwLCWp4iE47h38Zeq7HXAIWehsml_N373FzPQq3kNYF85OYO4WamThmxAgpnOGjGpnY35ItqtUtqwnI881wrufwe-JkLDJ0zC14p8VMkCrZk1q9aczR" />
     <title lang="en">Joueurs de légende</title>
   </programme>
+  <programme start="20261117180000 +0000" stop="20261117193000 +0000" channel="CANAL+ Sport 2 HD.sk">
+    <title>WTA Finals Indian Wells: Zápas čtyřhry</title>
+    <desc>WTA Finals Indian Wells: Zápas čtyřhry</desc>
+  </programme>
+  <programme start="20261117180000 +0000" stop="20261117210000 +0000" channel="CANAL+ Sport 3 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117180000 +0000" stop="20261117210000 +0000" channel="CANAL+ Sport 4 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117180000 +0000" stop="20261117210000 +0000" channel="CANAL+ Sport 5 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117180000 +0000" stop="20261117210000 +0000" channel="CANAL+ Sport 6 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117180000 +0000" stop="20261117210000 +0000" channel="CANAL+ Sport 7 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117180000 +0000" stop="20261117210000 +0000" channel="CANAL+ Sport 8 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
   <programme start="20261117180000 +0000" stop="20261117190000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -20971,6 +20903,10 @@ Highlights of all the action from international cricket tournaments, where teams
     <desc lang="cs">Přímý přenos utkání základní skupiny basketbalové Ligy mistrů (v přest.: Sportovní noviny).</desc>
     <title lang="cs">Asisa Joventut - FC Porto</title>
   </programme>
+  <programme start="20261117193000 +0000" stop="20261117200000 +0000" channel="CANAL+ Sport 2 HD.sk">
+    <title>KANÁR+: E41</title>
+    <desc>KANÁR+: E41</desc>
+  </programme>
   <programme start="20261117193000 +0000" stop="20261117193500 +0000" channel="M+LaLigaTV.es">
     <category lang="es">Deportes</category>
     <category lang="es">Sports</category>
@@ -21148,6 +21084,10 @@ The latest from the Premier League.</desc>
     <desc lang="en">Les 10 plus beaux arrêts en Ligue 1 de Mickaël Landreau.</desc>
     <icon src="https://iptv-epg.org/images/iCP6TwJMj75bbASnkAJ2C7nxQX1CHCmC2YdKNKYaSVVlG72EQmcNEHvv3e4M9bOux0prD2zZ7Q7308QXHqUQRMAcmy277PfYz6BSgFYA3cpNvvFO9Ff5" />
     <title lang="en">Best of Ligue 1</title>
+  </programme>
+  <programme start="20261117200000 +0000" stop="20261117220000 +0000" channel="CANAL+ Sport 2 HD.sk">
+    <title>WTA Finals Indian Wells: Zápas čtyřhry</title>
+    <desc>WTA Finals Indian Wells: Zápas čtyřhry</desc>
   </programme>
   <programme start="20261117200000 +0000" stop="20261117210000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
@@ -21447,6 +21387,30 @@ Coverage of the first run of the men's slalom from Levi, Finland, as the 2026/27
 At the 2013 ICC Women's Cricket World Cup in India, revisit England's contest with Australia during the Super Six stage of the competition.</desc>
     <icon src="https://iptv-epg.org/images/80s_KtZZGDOP-Me2USJh1zbEL-SRDbRu8ttUogBMtPnxwWMeMREINujmqnzmqXYagFVY4jDUg3PktvzeWUKqogzW9d0YFoFITd9dxg4NOSi7H3Mqqir_nACg8AVWcJCJtP3MYUcWaS0fr-c73ZoPhJ9Biq34RN7g0fX4lpFFidTfwEXTCu-MNo7kiZeSHtuaji7HQ8Eb6VoS6bOFzf4uN1f2XVbFLv5SxRll6FgmI5p5GPyTbQiRKJnf508LK8aWjiiuWYcZSuUk6D06LYroEQeaHl0pwrKWivA_qRrIp8joJ-VQv7TvLcZ0zcN3oxvvmpL3QtUU" />
     <title lang="en">ICC Women's World Cup Cricket</title>
+  </programme>
+  <programme start="20261117210000 +0000" stop="20261118010000 +0000" channel="CANAL+ Sport 3 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117210000 +0000" stop="20261118010000 +0000" channel="CANAL+ Sport 4 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117210000 +0000" stop="20261118010000 +0000" channel="CANAL+ Sport 5 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117210000 +0000" stop="20261118010000 +0000" channel="CANAL+ Sport 6 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117210000 +0000" stop="20261118010000 +0000" channel="CANAL+ Sport 7 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261117210000 +0000" stop="20261118010000 +0000" channel="CANAL+ Sport 8 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
   </programme>
   <programme start="20261117210000 +0000" stop="20261117220000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
@@ -21776,6 +21740,10 @@ Bristol City play host to Blackburn Rovers at Ashton Gate in the Sky Bet Champio
     <desc lang="en">Retrouvez les 20 plus beaux buts des frères Kalou (Bonaventure et Salomon) en Ligue 1 McDonald's.</desc>
     <icon src="https://iptv-epg.org/images/ypF6nE7NdcCytBHdS0zh0LU_LdKkDblCzJjjL19TKUEoveR03pHJbu041wNPfNWpaoihjr1Bnl7erQ5fG_NsEmEFjwqyQ6EqdgP1FDyEBuVJfYT7KmAR" />
     <title lang="en">Best of Ligue 1</title>
+  </programme>
+  <programme start="20261117220000 +0000" stop="20261118000000 +0000" channel="CANAL+ Sport 2 HD.sk">
+    <title>WTA Finals Indian Wells: Zápas dvouhry</title>
+    <desc>WTA Finals Indian Wells: Zápas dvouhry</desc>
   </programme>
   <programme start="20261117220000 +0000" stop="20261117230000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
@@ -22436,6 +22404,10 @@ Verslag van de wedstrijd STVV - SK Brann, gespeeld in de competitiefase van de U
     <icon src="https://iptv-epg.org/images/XTwJzEbsxl2Wz_VTImT2NUc_KUBvVYZPnKIKmYlrP4ebllY_LE4qRtjD6nRmC3M1-PDTu95EyFmLtSWD9MdfN2kwvIwvUlhDxXj-bbRw2JLSX0IQ7yBy" />
     <title lang="en">Best of Ligue 1</title>
   </programme>
+  <programme start="20261118000000 +0000" stop="20261118020000 +0000" channel="CANAL+ Sport 2 HD.sk">
+    <title>WTA Finals Indian Wells: Zápas dvouhry</title>
+    <desc>WTA Finals Indian Wells: Zápas dvouhry</desc>
+  </programme>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -22794,6 +22766,30 @@ Some of darts' biggest names count down their favourite moments in the sport's h
     <icon src="https://iptv-epg.org/images/GEeoUUE-L37YJ1Ql_IkDiTYf_OsYk1Ioe5xzh6SZ_3noBf4FSRJpwWQHIQYhQZiZD1K2Iuo90nQc77hUJj1eZJ-9P9MJmXSGtCJfqwQMfbK79mBF317poC0QqD3NWA4ShNV2Ggct5TOxrW1mZ0kMFIvn9jt7idfRWE4wB7syzVCh58Ipvs04UJ45bNewTBoSVUO5e5mWnSSQXExu2Og1vG6QSOS38rMm19hDq-8vzhZWxgr-onfI6wY4ijWV4eC-K3Q-CJ5GWiHFpm_0mZmaL044zxA0xpU0Xot3QdVZHZhgNyqMWr_YFt3dd32DnNgWmhZHtTEu" />
     <title lang="en">Top 5 Moments</title>
   </programme>
+  <programme start="20261118010000 +0000" stop="20261118020000 +0000" channel="CANAL+ Sport 3 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261118010000 +0000" stop="20261118020000 +0000" channel="CANAL+ Sport 4 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261118010000 +0000" stop="20261118020000 +0000" channel="CANAL+ Sport 5 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261118010000 +0000" stop="20261118020000 +0000" channel="CANAL+ Sport 6 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261118010000 +0000" stop="20261118020000 +0000" channel="CANAL+ Sport 7 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261118010000 +0000" stop="20261118020000 +0000" channel="CANAL+ Sport 8 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
   <programme start="20261118010000 +0000" stop="20261118020000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -23023,6 +23019,34 @@ Highlights from round five of Ninja A-League Women, featuring Melbourne City v N
     <desc lang="en">Retrouvez les 10 plus beaux buts de Tony Vairelles en Ligue 1 McDonald's.</desc>
     <icon src="https://iptv-epg.org/images/HHnzUWzxUYlxcJh61ALOGD8t8Uvh_hdQE3r7kkWJSI7AzQ_w0J6qe3vSYsht23S6xG22WMtI522SYtApbiySyEJUAzEo-1qrqfzD9AUCRP1q1i-C0Gvr" />
     <title lang="en">Best of Ligue 1</title>
+  </programme>
+  <programme start="20261118020000 +0000" stop="20261118040000 +0000" channel="CANAL+ Sport 2 HD.sk">
+    <title>WTA Finals Indian Wells: Zápas čtyřhry</title>
+    <desc>WTA Finals Indian Wells: Zápas čtyřhry</desc>
+  </programme>
+  <programme start="20261118020000 +0000" stop="20261118050000 +0000" channel="CANAL+ Sport 3 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261118020000 +0000" stop="20261118050000 +0000" channel="CANAL+ Sport 4 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261118020000 +0000" stop="20261118050000 +0000" channel="CANAL+ Sport 5 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261118020000 +0000" stop="20261118050000 +0000" channel="CANAL+ Sport 6 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261118020000 +0000" stop="20261118050000 +0000" channel="CANAL+ Sport 7 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261118020000 +0000" stop="20261118050000 +0000" channel="CANAL+ Sport 8 HD.sk">
+    <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
+    <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
   </programme>
   <programme start="20261118020000 +0000" stop="20261118030000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
