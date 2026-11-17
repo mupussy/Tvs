@@ -425,80 +425,9 @@
     <display-name>ESPN+ 6 [1080p]</display-name>
     <icon src="https://m.media-amazon.com/images/I/41lChb5Q+KL.png" />
   </channel>
-  <programme start="20261115110000 +0000" stop="20261115160000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261115160000 +0000" stop="20261115200000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261115162200 +0000" stop="20261115180400 +0000" channel="CanalPlusSport.fr">
-    <title>Canterbury / Northland</title>
-  </programme>
-  <programme start="20261115180400 +0000" stop="20261115190000 +0000" channel="CanalPlusSport.fr">
-    <title>Grand Prix de Genève</title>
-  </programme>
-  <programme start="20261115190000 +0000" stop="20261115215900 +0000" channel="CanalPlusSport.fr">
-    <title>Championnat d'Austin</title>
-    <desc>En Direct.</desc>
-  </programme>
-  <programme start="20261115200000 +0000" stop="20261115220000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261115215900 +0000" stop="20261115235900 +0000" channel="CanalPlusSport.fr">
-    <title>Golf : DP World Tour Championship</title>
-  </programme>
-  <programme start="20261115220000 +0000" stop="20261115230000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261115234600 +0000" stop="20261116012800 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>Sunderland / Chelsea</title>
-    <desc>Football. Premier League. 10e journéeSunderland / Chelsea.</desc>
-  </programme>
-  <programme start="20261115235900 +0000" stop="20261116064400 +0000" channel="CanalPlusSport.fr">
-    <title>Fin des programmes</title>
-  </programme>
-  <programme start="20261116012800 +0000" stop="20261116050000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261116050000 +0000" stop="20261116080000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261116064400 +0000" stop="20261116084600 +0000" channel="CanalPlusSport.fr">
-    <title>Championnat d'Austin</title>
-  </programme>
-  <programme start="20261116080000 +0000" stop="20261116110000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261116084600 +0000" stop="20261116101100 +0000" channel="CanalPlusSport.fr">
-    <title>Génération Biétry</title>
-    <desc>Charles Biétry a durablement changé la manière de faire des émissions sportives à la télévision. De ses activités de journaliste en passant par celles de directeur des sports dans les chaînes (Canal+, Eurosport, France Télévisions, TF1, L'Equipe ou beIN SPORTS), ou comme dirigeant de club de football, il a su imposer ses projets tout en formant les nouvelles générations. De son scoop mondial à Mun</desc>
-  </programme>
-  <programme start="20261116101100 +0000" stop="20261116115400 +0000" channel="CanalPlusSport.fr">
-    <title>Toulouse / ASM Clermont</title>
-  </programme>
   <programme start="20261116110000 +0000" stop="20261116160000 +0000" channel="CanalPlusPremierLeague.fr">
     <title>La Premier League sur Canal+</title>
     <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261116115400 +0000" stop="20261116122400 +0000" channel="CanalPlusSport.fr">
-    <title>Més que une finale - 2016, le Top 14 illumine le Camp Nou</title>
-  </programme>
-  <programme start="20261116122400 +0000" stop="20261116140700 +0000" channel="CanalPlusSport.fr">
-    <title>Pau / Perpignan</title>
-  </programme>
-  <programme start="20261116140700 +0000" stop="20261116143500 +0000" channel="CanalPlusSport.fr">
-    <title>Fast Life Margot Laffite</title>
-    <desc>"Fast Live" suit Margot Laffite, figure incontournable du sport automobile français, dans une immersion intime et dynamique au coeur de son univers : la vitesse, la transmission et la passion. Le documentaire retrace son parcours depuis son enfance dans l'ombre des circuits, marquée par la présence de son père, Jacques Laffite, pilote de F1. On y découvre comment elle a dû se construire une identi</desc>
-  </programme>
-  <programme start="20261116143500 +0000" stop="20261116162100 +0000" channel="CanalPlusSport.fr">
-    <title>Grand Prix de Sao Paulo</title>
   </programme>
   <programme start="20261116160000 +0000" stop="20261116200000 +0000" channel="CanalPlusPremierLeague.fr">
     <title>La Premier League sur Canal+</title>
@@ -1041,6 +970,10 @@ Highlights of all the action from international cricket tournaments, where teams
     <previously-shown />
     <title lang="en">Cricket Highlights</title>
   </programme>
+  <programme start="20261116234600 +0000" stop="20261117012800 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>Sunderland / Chelsea</title>
+    <desc>Football. Premier League. 10e journéeSunderland / Chelsea.</desc>
+  </programme>
   <programme start="20261116235700 +0000" stop="20261117000000 +0000" channel="Ligue1+.fr">
     <category lang="en">Magazine sportif</category>
     <category lang="en">Sports</category>
@@ -1071,10 +1004,6 @@ Highlights of all the action from international cricket tournaments, where teams
   <programme start="20261117000000 +0000" stop="20261117030000 +0000" channel="CANAL+ Sport 8 HD.sk">
     <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
     <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261117000000 +0000" stop="20261117050000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
   </programme>
   <programme start="20261117000000 +0000" stop="20261117030000 +0000" channel="Ligue1+2.fr">
     <category lang="en">Magazine sportif</category>
@@ -1536,6 +1465,10 @@ Highlights of all the action from international cricket tournaments, where teams
 Featuring all the action and highlights from Formula 1 racing.</desc>
     <icon src="https://iptv-epg.org/images/SCLx_QRJASKyUWgkMIXZmyntMlp1_4uSoVJGucOcaEvO_tuSwdyVjeKBYuQOoDfvUWfsW6DKc8igz5GqJeVA41HcaRA-TpogIMhiA67aASNC5Yt5W1IDONDNu6mHd_YSgUNAPcYsukhx5AOcq8R7MWE-E4_O1NgL7U8ikJDJbKcWWF6AQ8S56GOah7fe6Waaj8BEIGiBKfKTgGbrBDc0uf6-FxQQen5uQyulEKeX6KkqxHb01xws0AP5DBmFLuEP1kt4CaR80xQJ9TqouD4FnWWDhH--hwTB2BmoFGAGyiqtQmZQZRCzezDaOZz9-BspSPoL51rT" />
     <title lang="en">Formula 1</title>
+  </programme>
+  <programme start="20261117012800 +0000" stop="20261117050000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>La Premier League sur Canal+</title>
+    <desc>La Premier League sur Canal+.</desc>
   </programme>
   <programme start="20261117013000 +0000" stop="20261117023000 +0000" channel="PremierSports1.uk">
     <category lang="en">Sports</category>
@@ -9054,6 +8987,10 @@ Verslag van de wedstrijd STVV - SK Brann, gespeeld in de competitiefase van de U
     <icon src="https://iptv-epg.org/images/pPH1cMqwsukoEutIpoZYG7d86_5VmRUW9OJv7HcBw4qnRGr04Wli4QfpN6PWMSG8lmABDfgj8MUdiEMlgM1Wo45ZW9kqFwzemYAVE_1W2ZhqGlyFRnz-jgXEsSF3L5otDhRWnZcdNwJsvQvuGXKtPq01u0EnSIlUmjS6UvXuuxvlAIOewn8GlPOYL71KlemjvJ0oRa0Vi5F4aHJGfAQXHHrumlkxrZWQsbmgBoKsqCJfXkzr-kAJYXKMBUSPkUZYCgSEzgBjee8vQsJeejLDEVK31B1EyG136r06gwAyJTh8MxVfIDgrbmzsbVrSRYgIzA" />
     <title lang="nl">Play Sports</title>
   </programme>
+  <programme start="20261118000000 +0000" stop="20261118050000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>La Premier League sur Canal+</title>
+    <desc>La Premier League sur Canal+.</desc>
+  </programme>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -10500,6 +10437,10 @@ At the 2013 ICC Women's Cricket World Cup in India, revisit England's contest wi
     <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
     <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
   </programme>
+  <programme start="20261118050000 +0000" stop="20261118080000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>La Premier League sur Canal+</title>
+    <desc>La Premier League sur Canal+.</desc>
+  </programme>
   <programme start="20261118050000 +0000" stop="20261118060000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -11521,6 +11462,10 @@ Vanuit het Volksparkstadion in Hamburg, Duitsland.</desc>
     <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
     <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
   </programme>
+  <programme start="20261118080000 +0000" stop="20261118110000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>La Premier League sur Canal+</title>
+    <desc>La Premier League sur Canal+.</desc>
+  </programme>
   <programme start="20261118080000 +0000" stop="20261118090000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -12443,6 +12388,10 @@ Temples of Sport is a series focusing on iconic sporting venues around the globe
   <programme start="20261118110000 +0000" stop="20261118140000 +0000" channel="CANAL+ Sport 8 HD.sk">
     <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
     <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
+  </programme>
+  <programme start="20261118110000 +0000" stop="20261118160000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>La Premier League sur Canal+</title>
+    <desc>La Premier League sur Canal+.</desc>
   </programme>
   <programme start="20261118110000 +0000" stop="20261118120000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
@@ -14054,6 +14003,10 @@ Southern Brave face Birmingham Phoenix in the Men's Hundred.</desc>
     <icon src="https://iptv-epg.org/images/tXEwZ8nFewJ2htZu7wPCDpKcI7FV03qBspV75t7RJr2R_DXWjoiiffiE8iVdIgT6EMrtqOk8nDVtkP1vVm3kyJ0RG_F-SQOpmJIgqq39jaUVsyg6HswA" />
     <title lang="en">Best of Ligue 1</title>
   </programme>
+  <programme start="20261118160000 +0000" stop="20261118200000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>La Premier League sur Canal+</title>
+    <desc>La Premier League sur Canal+.</desc>
+  </programme>
   <programme start="20261118160000 +0000" stop="20261118170000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -15490,6 +15443,10 @@ Pep Guardiola unpacks life as a top-flight manager by answering questions you've
     <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
     <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
   </programme>
+  <programme start="20261118200000 +0000" stop="20261118220000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>La Premier League sur Canal+</title>
+    <desc>La Premier League sur Canal+.</desc>
+  </programme>
   <programme start="20261118200000 +0000" stop="20261118210000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -16153,6 +16110,10 @@ A preview of a cricket match.</desc>
     <icon src="https://iptv-epg.org/images/SYIdosE93vOqeoeGZCTM8B2cVGe3T7QQZa-OYytbMobmKXMiaSCavr31o_IdYi00ZIUehoColtBN1SZ8OETTx-opnvtiAiCwgLowYpNAr6I" />
     <title lang="en">Cricket Preview</title>
     <live />
+  </programme>
+  <programme start="20261118220000 +0000" stop="20261118230000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>La Premier League sur Canal+</title>
+    <desc>La Premier League sur Canal+.</desc>
   </programme>
   <programme start="20261118220000 +0000" stop="20261118230000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
