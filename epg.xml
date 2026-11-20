@@ -425,64 +425,6 @@
     <display-name>ESPN+ 6 [1080p]</display-name>
     <icon src="https://m.media-amazon.com/images/I/41lChb5Q+KL.png" />
   </channel>
-  <programme start="20261118110000 +0000" stop="20261118160000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261118160000 +0000" stop="20261118200000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261118200000 +0000" stop="20261118220000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261118220000 +0000" stop="20261118230000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261119000000 +0000" stop="20261119050000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261119001700 +0000" stop="20261119020800 +0000" channel="CanalPlusSport.fr">
-    <title>La course</title>
-    <sub-title>Grand Prix Du Brésil</sub-title>
-    <desc>Le Grand Prix du Brésil se déroule sur le mythique Autodromo José Carlos Pace d'Interlagos. Cette épreuve s'annonce cruciale pour le jeune prodige italien Kimi Antonelli, qui domine largement le championnat du monde, au volant de sa Mercedes.</desc>
-  </programme>
-  <programme start="20261119020800 +0000" stop="20261119022800 +0000" channel="CanalPlusSport.fr">
-    <title>Le podium</title>
-    <sub-title>Emission Du 08 Nov. 2026</sub-title>
-    <desc>Les hymnes, la remise des trophées aux pilotes ayant terminé aux trois premières places, le traditionnel champagne qui coule à flots : toute la cérémonie du podium du Grand Prix de Formule 1 du jour à suivre avec les équipes de Canal+ !</desc>
-  </programme>
-  <programme start="20261119022800 +0000" stop="20261119024700 +0000" channel="CanalPlusSport.fr">
-    <title>Formula One, le mag</title>
-    <sub-title>Emission Du 08 Nov. 2026</sub-title>
-    <desc>"Formula One, le mag" présente les actualités de la Formule 1. Derniers résultats, prochaines courses, interviews des pilotes, analyses des résultats avec l'équipe des experts de la chaîne, tout est à découvrir dans "Formula One, le mag".</desc>
-  </programme>
-  <programme start="20261119024700 +0000" stop="20261119031400 +0000" channel="CanalPlusSport.fr">
-    <title>Lionceaux de la Teranga</title>
-    <sub-title>Doc. Sport</sub-title>
-    <desc>Ils s'appellent Léo, Naïm, Stelio, Axel, Matthias, Tiago, Timothée,... Ce sont peut-être les futures stars de la Ligue 1. En attendant, ils poursuivent leur formation chez les moins de 16 ans de l'Olympique Lyonnais. Pendant une semaine, ces jeunes footballeurs ont découvert le Sénégal. Entre plongée dans une nouvelle culture et péripéties sportives, récit d'un voyage inoubliable.</desc>
-  </programme>
-  <programme start="20261119031400 +0000" stop="20261119064200 +0000" channel="CanalPlusSport.fr">
-    <title>Fin des programmes</title>
-    <sub-title>Divers</sub-title>
-    <desc>Fermeture de l'antenne à la fin des diffusions de la journée.</desc>
-  </programme>
-  <programme start="20261119050000 +0000" stop="20261119080000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261119064200 +0000" stop="20261119083000 +0000" channel="CanalPlusSport.fr">
-    <title>Golf : WTGL</title>
-    <sub-title>Wtgl Boston Vs Detroit 18.11.26</sub-title>
-    <desc>La WTGL, nouvelle compétition féminine de golf par équipe, est inaugurée cette saison. L'équipe de Boston, emmenée notamment par Lottie Woad, accueille Détroit, qui peut compter de son côté sur Lexi Thompson et Jeen Thitikull.</desc>
-  </programme>
-  <programme start="20261119080000 +0000" stop="20261119110000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
-  </programme>
   <programme start="20261119081500 +0000" stop="20261119090000 +0000" channel="SkySportsF1.uk">
     <category lang="en">Sports</category>
     <category lang="en">Motorsport</category>
@@ -498,11 +440,6 @@ A selection of drivers speak ahead of this weekend's Formula 1 Grand Prix.</desc
     <desc lang="en">Ma Super Ligue 1 est une plongée au cœur de l'univers de la Ligue 1 McDonald's, spécialement imaginée pour les plus jeunes et construite avec leur regard. Chaque semaine, SoAnne entrainera les enfants au cœur du championnat de France et leur fera rencontrer des joueurs et équipes exceptionnels. Une fenêtre unique pour découvrir les coulisses du championnat, à hauteur d'enfants !</desc>
     <icon src="https://iptv-epg.org/images/GAqNxgcwzpfeiAI25173uFMRMdSW1IYGAQMFrqaLyk_DJFi-_ZIa8_4RgMlDCFQkSYJVMMoIpvQHm5hP5LUoPoo06sWxjGuBWG7S0uiz4Fr8zXFIK6OR" />
     <title lang="en">Ma super Ligue 1</title>
-  </programme>
-  <programme start="20261119083000 +0000" stop="20261119110300 +0000" channel="CanalPlusSport.fr">
-    <title>Le 5e tour</title>
-    <sub-title>Hatton Triomphe À Dubaï, McIlroy Remporte La Race To Dubai Pour La 8e Fois</sub-title>
-    <desc>Dans le magazine de golf "Le 5e tour", retour sur le plus beau tournoi américain ou européen du dernier week-end avec un résumé des trois premiers tours, un large résumé du dernier tour, accompagnés d'interviews et d'images. Ainsi, toutes les actualités du PGA Tour et du DP World Tour sont abordées dans ce rendez-vous des amateurs de la petite balle blanche et des circuits mondiaux de golf.</desc>
   </programme>
   <programme start="20261119083000 +0000" stop="20261119090000 +0000" channel="PremierSports2.uk">
     <category lang="en">Sports</category>
@@ -1189,11 +1126,6 @@ Action from Serie A, Italy's top division of football.</desc>
     <category lang="de">Sports</category>
     <title lang="de">blue Sport 1 Live</title>
   </programme>
-  <programme start="20261119110300 +0000" stop="20261119115700 +0000" channel="CanalPlusSport.fr">
-    <title>Les temps forts</title>
-    <sub-title>Grand Prix De Genève</sub-title>
-    <desc>Le Grand Prix de Genève s'est disputé les 19 et 20 septembre dans le cadre de la série SailGP. Déjà victorieuse à cinq reprises avant cette étape helvétique, l'Australie entendait confirmer sa domination sur le Lac Léman. L'Espagne et la Grande-Bretagne faisaient également partie des favorites à la victoire et à la course à la qualification pour la grande finale d'Abu Dhabi en fin d'année.</desc>
-  </programme>
   <programme start="20261119110600 +0000" stop="20261119111100 +0000" channel="M+LaLigaTV.es">
     <category lang="es">Deportes</category>
     <category lang="es">Sports</category>
@@ -1361,11 +1293,6 @@ A chance to relive a classic match from the EFL. Here, Reading host Cardiff City
     <category lang="es">Sports</category>
     <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
     <title lang="es">Resúmenes LALIGA HyperMotion (T26/27): CD Tenerife - Ceuta FC</title>
-  </programme>
-  <programme start="20261119115700 +0000" stop="20261119143000 +0000" channel="CanalPlusSport.fr">
-    <title>La super spéciale</title>
-    <sub-title>Rallye Italie Sardaigne</sub-title>
-    <desc>Alors que le champion du monde 2026 allait être sacré à l'issue du Rallye Italie Sardaigne, la dernière super spéciale allait offrir un suspense mémorable, et rentrer dans la légende du rallye.</desc>
   </programme>
   <programme start="20261119120000 +0000" stop="20261119124500 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
@@ -2067,11 +1994,6 @@ Coverage of motor racing action.</desc>
     <title lang="en">Ferrari Challenge Europe Motor Racing</title>
     <live />
   </programme>
-  <programme start="20261119143000 +0000" stop="20261119153300 +0000" channel="CanalPlusSport.fr">
-    <title>Golf+, le mag</title>
-    <sub-title>Hatton Triomphe À Dubaï, McIlroy Égale Montgomerie Avec Sa 8e Race</sub-title>
-    <desc>Toute l'actualité golfique des tours mondiaux : les plus beaux coups des circuits américain et européen, portraits de joueurs, analyses et résultats avec les journalistes et consultants de la rédaction. Toutes les informations du PGA Tour, du PGA Tour Champions et des tournois féminins sont également abordées dans le magazine, qui revient aussi sur les derniers résultats et les classements.</desc>
-  </programme>
   <programme start="20261119143000 +0000" stop="20261119163000 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
     <category lang="en">Football</category>
@@ -2395,11 +2317,6 @@ Coverage of the Sambo World Championships, showcasing elite competition in the c
 Action from the women's X2O Badkamers Trofee Hamme in Belgium, where the world's best cyclo-cross riders battle through a challenging circuit.</desc>
     <icon src="https://iptv-epg.org/images/u2puNgIWdz0_M02HwthjYIaG1RNfecreYJ8I6xU6vSnTjtNWHblmb8aqWkka8xtYMjg6azeSAKK7MeY7N8F7EKnkfTTcT-EXa54Q1Xf91eF8ItJMEuL_NQBP3jJvhmzgfoQqj_7Y2yUd4CyqwrNLjR9F_y7kOzgRAMad6lVHMlwmGLG_js2gCSQWWMlNldoqn2G9nM1fKDt0wPvPwcQyi86x5-Dx1dittcl6zB8lio6l7RTZDjUc0hDmsH8pln5tYzthF-vNYL2UvejfNnhxZPGmpekR2J1JTuGmd4YVG3A4cZ9oF1dBYi5tx9I-QmyLYQ7hhYji" />
     <title lang="en">Trophy Cyclo-Cross</title>
-  </programme>
-  <programme start="20261119153300 +0000" stop="20261119170700 +0000" channel="CanalPlusSport.fr">
-    <title>Histoire de champions rugby</title>
-    <sub-title>Emission Du 16 Avr. 2026</sub-title>
-    <desc>Histoire de champions rugby revisite les grandes figures et les moments marquants du rugby, en retraçant les parcours, exploits et épisodes qui ont façonné la légende de l'ovalie.</desc>
   </programme>
   <programme start="20261119154500 +0000" stop="20261119180000 +0000" channel="PremierSports2.uk">
     <category lang="en">Sports</category>
@@ -2840,11 +2757,6 @@ Action from Premiership Women's Rugby.</desc>
     <icon src="https://iptv-epg.org/images/UI3W2yGk6dWzFkL8vi_DaeU1Q9f31RF3w_oC5qbgbXwicvTpOa6beGR-iYgFQX1jCHkPHvfm10WCtgO66jJduZetgi_6xERsrTwhE3EnVV8rValm39pDS-ygNUz7FEE2ETcX_uSCiJyhnARO9JRx9jjEfMkYOavrJi9Cd4cHZnrrVMcjlBvKJso9x4bjx3GX_FaRJBaiAG1QMnWaeXkUeCcUe7aPjZZClejjopH3xFpjiag1FnJ86T6zPvw_FOWTFDXCCMQr2VOtTxXxDCPJSWgIWkzErDrs97aUBGcR95VuHSCZT5g0A5KzzuNBeRtuYDo3UGJr" />
     <title lang="en">Premiership Women's Rugby</title>
   </programme>
-  <programme start="20261119170700 +0000" stop="20261119184500 +0000" channel="CanalPlusSport.fr">
-    <title>Provence Rugby / Oyonnax</title>
-    <sub-title>Pro D2 10e Journée</sub-title>
-    <desc>Match au sommet et affiche de gala ce soir à Aix-en-Provence entre les deux équipes référence du championnat Pro D2, qui occupaient les deux premières places du classement à l'issue de la 6e journée.</desc>
-  </programme>
   <programme start="20261119171500 +0000" stop="20261119180000 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
     <category lang="en">Football</category>
@@ -3211,11 +3123,6 @@ Highlights of all the action from international cricket tournaments, where teams
     <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
     <title lang="es">Resúmenes LALIGA HyperMotion (T26/27): CD Eldense - CE Sabadell</title>
   </programme>
-  <programme start="20261119184500 +0000" stop="20261119195000 +0000" channel="CanalPlusSport.fr">
-    <title>Soir de rugby</title>
-    <sub-title>Provence En Tête De Pro D2, Les Bleus Se Préparent Face Aux Fidji</sub-title>
-    <desc>Tous les résumés des matches de Pro D2 de la soirée, des interviews et des analyses, avec les experts de la chaîne. Plus, avant chaque journée de Top 14, toutes les dernières infos et les compositions des équipes qui s'affrontent.</desc>
-  </programme>
   <programme start="20261119184500 +0000" stop="20261119191500 +0000" channel="SkySportPremierLeague.de">
     <category lang="de">Sport</category>
     <category>Sports</category>
@@ -3500,11 +3407,6 @@ We follow Nemanja Matić's journey from his upbringing in Serbia to Premier Leag
     <icon src="https://iptv-epg.org/images/qFLRAh2oC_3gm8E3u0sPqe_WeO0ehrjzk_jS0CcatMDQfPMfUkWPStqxsEcWM0PmS7mmnZbRJ7utVWYrj52ufOp4vNgQ0ruUIYA2vID9B_yF2mEKBVnxpFLypGNmjDo-Kr9bEOJ9eKM_NhuiiA1d8j99LRzODUg" />
     <title lang="de">PL: The Catch-Up Show</title>
   </programme>
-  <programme start="20261119195000 +0000" stop="20261119200000 +0000" channel="CanalPlusSport.fr">
-    <title>Avant-match Pro D2</title>
-    <sub-title>11e Journée : Grenoble Provence Rugby</sub-title>
-    <desc>Les ultimes informations avant le match de Pro D2, les compositions des équipes et les enjeux de la rencontre.</desc>
-  </programme>
   <programme start="20261119200000 +0000" stop="20261119230000 +0000" channel="CANAL+ Sport 3 HD.sk">
     <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
     <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
@@ -3532,11 +3434,6 @@ We follow Nemanja Matić's journey from his upbringing in Serbia to Premier Leag
   <programme start="20261119200000 +0000" stop="20261119220000 +0000" channel="CanalPlusPremierLeague.fr">
     <title>La Premier League sur Canal+</title>
     <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261119200000 +0000" stop="20261119215400 +0000" channel="CanalPlusSport.fr">
-    <title>Grenoble / Provence Rugby</title>
-    <sub-title>Pro D2 11e Journée</sub-title>
-    <desc>Après s'être emparé de la tête du championnat suite à son succès face à Oyonnax (32-23), Provence Rugby se déplace à Grenoble, 4e après un faux-pas à Soyaux-Angoulême (30-24). Dans leur duel à distance pour la suprématie en Pro D2 (alors que Oyonnax reçoit Brive dans le même temps), les hommes de Philippe Saint-André devront s'employer pour chercher la victoire au stade des Alpes, face à une formation iséroise bien décidée à reprendre sa marche en avant.</desc>
   </programme>
   <programme start="20261119200000 +0000" stop="20261119210000 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
@@ -4069,11 +3966,6 @@ New Zealand begin day two on 243 for five with Henry Nicholls and Glenn Phillips
     <title lang="en">Test Cricket</title>
     <live />
   </programme>
-  <programme start="20261119215400 +0000" stop="20261119220600 +0000" channel="CanalPlusSport.fr">
-    <title>Après-match Pro D2</title>
-    <sub-title>11e Journée : Grenoble Provence Rugby</sub-title>
-    <desc>Suite à la rencontre de Pro D2, le magazine passe en revue les dernières actualités, les réactions des joueurs et des coachs et propose les premières analyses d'après-match.</desc>
-  </programme>
   <programme start="20261119220000 +0000" stop="20261119230000 +0000" channel="CanalPlusPremierLeague.fr">
     <title>La Premier League sur Canal+</title>
     <desc>La Premier League sur Canal+.</desc>
@@ -4209,11 +4101,6 @@ Highlights of all the action from international cricket tournaments, where teams
   <programme start="20261119220000 +0000" stop="20261120020000 +0000" channel="blueSport2Live.ch">
     <category lang="de">Sports</category>
     <title lang="de">blue Sport 2 Live</title>
-  </programme>
-  <programme start="20261119220600 +0000" stop="20261120000900 +0000" channel="CanalPlusSport.fr">
-    <title>1er tour</title>
-    <sub-title>Open De Sea Island</sub-title>
-    <desc>Qui succèdera au Finlandais Sami Välimäki, vainqueur de l'épreuve il y a un an ? L'Open de Sea Island est le dernier rendez-vous de la FedExCup Fall, et cette première journée sera riche en enseignements.</desc>
   </programme>
   <programme start="20261119221000 +0000" stop="20261119235500 +0000" channel="CANAL+ Sport 2 HD.sk">
     <title>WTA Finals Indian Wells: Muchová - Svitolina, zápas dvouhry</title>
@@ -14421,7 +14308,7 @@ Scottish golfer and Major champion Catriona Matthew looks at the personalities t
     <icon src="https://iptv-epg.org/images/Nlj-JqHXJW2glk5NKTn5ktCZH4wtU1wJ3EFjaZ2qEAfSooQFt-9JLHVGTewHnyhGSQt8b0O9km1g_NO6liKnrNFh-jhvxaLWaRJQBaRCUDgL7upnlZtTBj4k5aEZubmYcALC9fxSFJmLO9KrZcI3tilG6fLKtA" />
     <title lang="de">PL: The Greatest Solo Goals</title>
   </programme>
-  <programme start="20261121052200 +0000" stop="20261121055400 +0000" channel="CanalPlusSport.fr">
+  <programme start="20261121052200 +0000" stop="20261121055300 +0000" channel="CanalPlusSport.fr">
     <title>Kimi Antonelli : La nouvelle étoile</title>
     <sub-title>Doc. Sport</sub-title>
     <desc>À 20 ans, Kimi Antonelli est devenu en 2026 le plus jeune champion du monde de l’histoire de la Formule 1, après seulement deux saisons. Retour sur la trajectoire exceptionnelle et fulgurante de ce gamin italien, couvé par Mercedes, aussi rapide que rayonnant.</desc>
@@ -14570,7 +14457,7 @@ Melbourne City, who are unbeaten so far in the Ninja A-League, make the trip to 
     <icon src="https://iptv-epg.org/images/DaccLb5lsQ-isxA1JxEH-mFoc0wEjt5tZDQeLapDaB0UVKzzx0hxFVgyC7EL2s5P3eJ6UBcA9lh1qZwOm3H0sDaz9JcP48m7N9vq0k-hpiPxXIvnRLIeV40vF6ScphdJOkEbxXuo_XGZZH9Ee5BmAOgGWtuhLeP0vzWCVUCAAWMKieNTRfeaELOIREfNE_5TfNGtgu-PnJbf5L3SR7pd1mbpPIhUg62s_dHjTV1xpPULxzd1v5j0_fTHfaTtYj8H3cyP7ZTYFRAG6Qx0VCRdqx_44bi0wvflaPzwJk1M_PRpXagFXVQD-o7T-FHlmFllFA" />
     <title lang="nl">Play Sports</title>
   </programme>
-  <programme start="20261121055400 +0000" stop="20261121062000 +0000" channel="CanalPlusSport.fr">
+  <programme start="20261121055300 +0000" stop="20261121062200 +0000" channel="CanalPlusSport.fr">
     <title>Formule 1 : La fabrique des rêves</title>
     <sub-title>Doc. Sport</sub-title>
     <desc>La Formule 1®, ce n’est pas seulement une course. C’est une histoire qui s’écrit avant même que les voitures ne prennent la piste. Une épopée racontée depuis 2013 et l’arrivée de la F1 sur Canal+ par le service des Bandes Annonces, désormais reconnu de tout le paddock grâce à ses concepts innovants et ses idées uniques. Au rythme des saisons, des batailles en piste et autres exploits historiques, plongez dans les coulisses de la " fabrique des rêves ".</desc>
@@ -14838,10 +14725,19 @@ Watford meet Fulham at Vicarage Road in October 2006 in a remarkable match that 
     <icon src="https://iptv-epg.org/images/jX1-HueO4vnYTI8ByX-GU-L7jnf73SG9XKKNUe-mYNcwYiwLSZyuwJe5RrVGyz3ohqskQJOsNrM-oryTjQ56iE6cW06gZIc48BRU8Rurm0EbzjezxHijYvRLaKXBvOMVvxDP6gGP16dMzewmYHaMx0JH5ebSsUSOKzP2eFqTROs-PlF36yxfhErTeWqAIMt4XWo7EM4RduAEE9eHYO9KjHTF_CD6ouWLph1evHmbarr728SN5hovnf4LAo-g8GwVetRlaqE9WgdUeXPfj4KEysDs_oeHKTt1KEOFQlV9TuaLib48JT51_sehpHGiQsYfzdBz_H1U" />
     <title lang="en">The Premier League's Greatest Games</title>
   </programme>
-  <programme start="20261121062000 +0000" stop="20261121063200 +0000" channel="CanalPlusSport.fr">
+  <programme start="20261121062200 +0000" stop="20261121062400 +0000" channel="CanalPlusSport.fr">
+    <title>Zapsport 360</title>
+    <desc>Le Zapsport 360 permet de retrouver toutes les images marquantes du sport des derniers jours, dans un format dynamique : résultats, compétitions du moment et séquences spectaculaires sont au rendez-vous.</desc>
+  </programme>
+  <programme start="20261121062400 +0000" stop="20261121062800 +0000" channel="CanalPlusSport.fr">
     <title>Fin des programmes</title>
     <sub-title>Divers</sub-title>
     <desc>Fermeture de l'antenne à la fin des diffusions de la journée.</desc>
+  </programme>
+  <programme start="20261121062800 +0000" stop="20261121081600 +0000" channel="CanalPlusSport.fr">
+    <title>2e tour. Featured Groups</title>
+    <sub-title>Open De Sea Island</sub-title>
+    <desc>L'Open de Sea Island, ou The RSM Classic, est un tournoi du circuit professionnel de golf du PGA Tour. Les meilleurs joueurs de la planète se retrouvent tous les ans au Sea Island Golf Club de St Simmons Island, en Géorgie aux Etats-Unis, pour essayer d'y remporter le trophée. Sa première édition a eu lieu en 2010.</desc>
   </programme>
   <programme start="20261121063000 +0000" stop="20261121070000 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
@@ -14909,11 +14805,6 @@ Highlights of all the action from international cricket tournaments, where teams
     <icon src="https://iptv-epg.org/images/hk4j4pBFSU5U06Ck4vlSBYOp97MpW8cNKzh5--Je622cf-2DsmyOG5sR6qBLVmAZAU5fp-4L1RwDJGU84atP-FjW9XJm683NRR8lBr4IcRA" />
     <previously-shown />
     <title lang="en">Cricket Highlights</title>
-  </programme>
-  <programme start="20261121063200 +0000" stop="20261121083100 +0000" channel="CanalPlusSport.fr">
-    <title>2e tour. Featured Groups</title>
-    <sub-title>Open De Sea Island</sub-title>
-    <desc>L'Open de Sea Island, ou The RSM Classic, est un tournoi du circuit professionnel de golf du PGA Tour. Les meilleurs joueurs de la planète se retrouvent tous les ans au Sea Island Golf Club de St Simmons Island, en Géorgie aux Etats-Unis, pour essayer d'y remporter le trophée. Sa première édition a eu lieu en 2010.</desc>
   </programme>
   <programme start="20261121064500 +0000" stop="20261121070000 +0000" channel="MUTV.uk">
     <category lang="en">Sports</category>
@@ -15284,7 +15175,7 @@ Vanuit de SNP Arena in Sinsheim, Duitsland.</desc>
     <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
     <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
   </programme>
-  <programme start="20261121080000 +0000" stop="20261121110000 +0000" channel="CanalPlusPremierLeague.fr">
+  <programme start="20261121080000 +0000" stop="20261121104900 +0000" channel="CanalPlusPremierLeague.fr">
     <title>La Premier League sur Canal+</title>
     <desc>La Premier League sur Canal+.</desc>
   </programme>
@@ -15524,6 +15415,11 @@ The 2026/27 women's FIS Alpine Skiing World Cup heads to the challenging Levi Bl
     <icon src="https://iptv-epg.org/images/nkKsX-yGw40l5HBzbAwNaMpozN7bODDXvKoYJ1SqRetCv5hTIcGFTfcmUd6bySwfymmzrQW6q783CGz5_6X_pu27kg0mw7HBvly2Rwtl2Bith58XD0TPqrzxuWv5ZUdJV-f1wYPrU0cAs1F-BFuILBzdRDWPOgG_zD7QGAbaREZiYywhxVAToOCeX8uqkAd4yLtLVYGNUafQ6iDD1bFyaYyamo1-Ckuk0rXpNzYdxYspJCyrvLJDxjGS1VYsmXbpJk_EA1Wnamwgmz78hmCqImQwo19rpSTI09Uh_ngo_udzv86UVdOu4qGL6Q4CYb_51BpahCXW" />
     <title lang="en">FIS World Cup Alpine Skiing</title>
   </programme>
+  <programme start="20261121081600 +0000" stop="20261121090400 +0000" channel="CanalPlusSport.fr">
+    <title>1re course</title>
+    <sub-title>Grand Prix De Las Vegas</sub-title>
+    <desc>Las Vegas accueille la dernière étape de la saison de F1 Academy. Si la Britannique Alisha Palmowski est déjà assurée du titre, la deuxième place du championnat fera l'objet d'une bataille entre la Néerlandais Nina Gademan et l'Autrichienne Emma Felbemayr. Les Françaises Lisa Billard et Jade Jacquet tenteront de finir sur une bonne note.</desc>
+  </programme>
   <programme start="20261121081900 +0000" stop="20261121083900 +0000" channel="Ligue1+.fr">
     <category lang="en">Magazine sportif</category>
     <category lang="en">Sports</category>
@@ -15582,11 +15478,6 @@ Action from the second practice session ahead of the 2026 Moto2 and Moto3 Grand 
     <icon src="https://iptv-epg.org/images/ziHfX6cgOS3jCvjWkWCdQtCbPCUSn07VuYATDQZVw3CNSf1M4LWKWV9fBe3ozzY6uz_Cucs74bfCUwYiY2tUfYsqONi1_7KDyowJL246XG8H4BrNT6uaa9zpaebLV4kFUiN7w23c_px-7MY9Ly6VEVgSaQbOT5VFRjPB6kMMR3OXjQbyAZf-LcPSVGhChJt9_nLPwRUgJz57VPNx76eN_WxlvbDeEc_SWbDnetyAiLl63t29rgR-3HXJ4XzCZ51Yqa_bBREfKTNA5R6PLoVreh2ybNVnk_TomKM_1ppX2JDR8FDQJTcqptXaS0NxnhRJLrWS2KEc" />
     <title lang="en">MotoGP</title>
     <live />
-  </programme>
-  <programme start="20261121083100 +0000" stop="20261121091700 +0000" channel="CanalPlusSport.fr">
-    <title>1re course</title>
-    <sub-title>Grand Prix De Las Vegas</sub-title>
-    <desc>Las Vegas accueille la dernière étape de la saison de F1 Academy. Si la Britannique Alisha Palmowski est déjà assurée du titre, la deuxième place du championnat fera l'objet d'une bataille entre la Néerlandais Nina Gademan et l'Autrichienne Emma Felbemayr. Les Françaises Lisa Billard et Jade Jacquet tenteront de finir sur une bonne note.</desc>
   </programme>
   <programme start="20261121083500 +0000" stop="20261121104500 +0000" channel="TNTSports5.uk">
     <category lang="en">Sports</category>
@@ -15778,6 +15669,11 @@ To celebrate all things great about the racehorse, four Sky Sports Racing presen
   <programme start="20261121090000 +0000" stop="20261121130000 +0000" channel="blueSport5Live.ch">
     <category lang="de">Sports</category>
     <title lang="de">blue Sport 5 Live</title>
+  </programme>
+  <programme start="20261121090400 +0000" stop="20261121091700 +0000" channel="CanalPlusSport.fr">
+    <title>Fractionné F1</title>
+    <sub-title>Visite Paddock Las Vegas</sub-title>
+    <desc>A la découverte des anecdotes surprenantes et des belles histoires liées au monde de la F1, chez les pilotes et chez les écuries, à travers le temps.</desc>
   </programme>
   <programme start="20261121091500 +0000" stop="20261121103000 +0000" channel="SkySportsF1.uk">
     <category lang="en">Sports</category>
@@ -16110,6 +16006,14 @@ Storied League Cup rivals Liverpool and Chelsea write the next chapter in their 
   <programme start="20261121104500 +0000" stop="20261121133500 +0000" channel="TNTSports5.uk">
     <title lang="en">Channel Off Air</title>
   </programme>
+  <programme start="20261121104900 +0000" stop="20261121105000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>Sommaire Premier League</title>
+    <desc>11e journéeSommaire Premier League.</desc>
+  </programme>
+  <programme start="20261121105000 +0000" stop="20261121114200 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>Premier League Review</title>
+    <desc>10e journéePremier League Review.</desc>
+  </programme>
   <programme start="20261121105000 +0000" stop="20261121114500 +0000" channel="NOVASPORT6.cz">
     <desc lang="cs">Přímý přenos kvalifikace třídy MotoGP (Autódromo Internacional do Algarve, Portugalsko).</desc>
     <title lang="cs">Repsol Grand Prix of Portugal (kvalifikace MotoGP)</title>
@@ -16142,11 +16046,7 @@ Storied League Cup rivals Liverpool and Chelsea write the next chapter in their 
     <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
     <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
   </programme>
-  <programme start="20261121110000 +0000" stop="20261121160000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261121110000 +0000" stop="20261121123000 +0000" channel="CanalPlusSport.fr">
+  <programme start="20261121110000 +0000" stop="20261121123200 +0000" channel="CanalPlusSport.fr">
     <title>1er jour</title>
     <sub-title>Grand Prix De Dubaï</sub-title>
     <desc>C'est la dernière ligne droite de la saison de SailGP, avec le Grand Prix de Dubaï, avant-dernière étape du calendrier, et qui déterminera les trois équipes qui se disputeront la finale à Abu Dhabi une semaine plus tard. L'Australie, l'Espagne, la Grande-Bretagne et la Nouvelle-Zélande sont les grands favoris, alors que l'équipage français tentera un coup d'éclat pour conclure au mieux sa campagne 2026.</desc>
@@ -16494,6 +16394,10 @@ Geert De Vlieger heeft een openhartig gesprek met Romelu Lukaku. De bonkige goal
     <icon src="https://iptv-epg.org/images/AcfQbeIS6imPSTLuqeo5toGR_NeKwwhXIoMVGF-HXbT7xnfWmiKSP4QxKDPmdIB42PCMTCB2KcMnw3OoYzT7_VmmMK5aKpChRhkCpL6u3_aD8A3a4l1P" />
     <title lang="en">Ligue 1 Show</title>
   </programme>
+  <programme start="20261121114200 +0000" stop="20261121120900 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>Sommaire Premier League</title>
+    <desc>11e journéeSommaire Premier League.</desc>
+  </programme>
   <programme start="20261121114400 +0000" stop="20261121123000 +0000" channel="M+LaLigaTV.es">
     <category lang="es">Deportes</category>
     <category lang="es">Sports</category>
@@ -16724,6 +16628,14 @@ From Doha, Qatar.</desc>
     <category lang="de">Sports</category>
     <title lang="de">blue Sport 4 Live</title>
   </programme>
+  <programme start="20261121120900 +0000" stop="20261121121000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>Sommaire Premier League</title>
+    <desc>11e journéeSommaire Premier League.</desc>
+  </programme>
+  <programme start="20261121121000 +0000" stop="20261121122500 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>Match of ze Day</title>
+    <desc>Match of ze Day.</desc>
+  </programme>
   <programme start="20261121121500 +0000" stop="20261121123000 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
     <category lang="en">Football</category>
@@ -16752,6 +16664,10 @@ Run two of the 2026/27 women's FIS Alpine Skiing World Cup in Gurgl, Austria.</d
     <title lang="de">Live PL: Manchester City - FC Fulham, 11. Spieltag</title>
     <live />
   </programme>
+  <programme start="20261121122500 +0000" stop="20261121143600 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>Manchester City / Fulham</title>
+    <desc>Football. Premier League. 11e journéeManchester City / Fulham.</desc>
+  </programme>
   <programme start="20261121122500 +0000" stop="20261121142500 +0000" channel="NOVASPORT4.cz">
     <desc lang="cs">Přímý přenos 16. kola druhé nejvyšší anglické fotbalové ligy EFL Championship.</desc>
     <title lang="cs">Millwall FC - Queens Park Rangers</title>
@@ -16765,11 +16681,6 @@ Run two of the 2026/27 women's FIS Alpine Skiing World Cup in Gurgl, Austria.</d
 Vanuit het Etihad Stadium in Manchester, Engeland.</desc>
     <icon src="https://iptv-epg.org/images/90ZvgHlHB-ydms0yURxaDWm3Mm1S2oE3sOLXvBA92PkUwYVUVeiTKhjyoW_zjJaMx0F3UiVbozECA_GxaNW2JU1nJ9eaikk0P_GHpms3CfKHX3ItAQlNzjEENyPV4JLq4B9kO2ytgPl3DRlFZtfolhcq8oQ6z_xp_mqJgSFEYeJ5fI31Z1J1_RkP4-R9Y3zLIGI8z3pXIl-kyqNcVCy4xtjzzliD6kkunBXyyGQ5RuTknz5iRUMIj9oISxjJ4a7WXqJssrH9Go2OWlBmjrabdhVPh_1GHRExv7tsPUG94xR4TZFxshE" />
     <title lang="nl">Premier League</title>
-  </programme>
-  <programme start="20261121123000 +0000" stop="20261121130200 +0000" channel="CanalPlusSport.fr">
-    <title>Intérieur sport</title>
-    <sub-title>Emission Du 31 Oct. 2026</sub-title>
-    <desc>Intérieur sport propose de s'immerger dans le quotidien des sportifs de haut niveau, que ce soit lors de leur préparation aux grands événements ou en pleine compétition.</desc>
   </programme>
   <programme start="20261121123000 +0000" stop="20261121143000 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
@@ -16845,6 +16756,11 @@ A look back at some of the best cricket action from around the world.</desc>
     <episode-num>S25 E220</episode-num>
     <icon src="https://iptv-epg.org/images/rxX_xuthGfjGKS2r0aYSyW2qdKq3UDy3snFQqzhrAS7RjeYqn_5XBevi_4_ivxJvMELthJzP4Duh4IwdGnVqdctYJ9stTbgm8e5gXr_CqEieE4-mCoOO_QGQ51RsXo6OsSboXjamNjPKew1soEsAavlCglA1Zn2FFCevRG_q84apFG9yX2kFSlwmbbm8d63qvJFuNRXDIZEP6C6H-FAovDjAHzPgP12l0NTicwjxuHq106QbM9LCRNj8JRoRhK4mFfAZbPw8QUdy3lNFNmlNCNHwRviu_7B8445r2axlENVi5h4VmNAvvPxbinXr7eVNy1sdNf6A" />
     <title lang="en">TNT Sports Cricket Reload</title>
+  </programme>
+  <programme start="20261121123200 +0000" stop="20261121130600 +0000" channel="CanalPlusSport.fr">
+    <title>Intérieur sport</title>
+    <sub-title>Emission Du 31 Oct. 2026</sub-title>
+    <desc>Intérieur sport propose de s'immerger dans le quotidien des sportifs de haut niveau, que ce soit lors de leur préparation aux grands événements ou en pleine compétition.</desc>
   </programme>
   <programme start="20261121123500 +0000" stop="20261121144500 +0000" channel="blueSport1Live.ch">
     <category lang="de">Sports</category>
@@ -16945,14 +16861,9 @@ Golfing coverage from the RSM Classic Tournament on the PGA Tour.</desc>
     <category lang="de">Sports</category>
     <title lang="de">blue Sport 5 Live</title>
   </programme>
-  <programme start="20261121130200 +0000" stop="20261121131000 +0000" channel="CanalPlusSport.fr">
+  <programme start="20261121130600 +0000" stop="20261121131400 +0000" channel="CanalPlusSport.fr">
     <title>Zapsport 360</title>
     <desc>Le Zapsport 360 permet de retrouver toutes les images marquantes du sport des derniers jours, dans un format dynamique : résultats, compétitions du moment et séquences spectaculaires sont au rendez-vous.</desc>
-  </programme>
-  <programme start="20261121131000 +0000" stop="20261121131600 +0000" channel="CanalPlusSport.fr">
-    <title>Fractionné F1</title>
-    <sub-title>Emission Du 01 Mai 2026</sub-title>
-    <desc>A la découverte des anecdotes surprenantes et des belles histoires liées au monde de la F1, chez les pilotes et chez les écuries, à travers le temps.</desc>
   </programme>
   <programme start="20261121131100 +0000" stop="20261121145500 +0000" channel="PlaySports3.be">
     <category lang="nl">Voetbal</category>
@@ -16968,7 +16879,12 @@ Wekelijkse podcast waarin Evert Winkelmans en Joris Brys een vooraanstaand figuu
     <icon src="https://iptv-epg.org/images/2FCSdfoKH_VKutGEOSD7y9fAp_RxA0T6bpH23K3GCnsRK16xn-fwKMriTzYs-aaAfC6EhoHwPqu_EYbVyY8GwYdvSw_5xRTeLZaFuk4i9TJuVMT8VDv1PseuZpgVqcP65g_0vHcltAdzZusN2FeIqx8os6bC6Er46BSB-U5rQ4AeKmU-77N3BeOEmYxA7k9Cno0svBnBRdpmYkp_jXmR0YTqVzLyNS3y_2MmtTi-JGgFzXvCt_sE9rhAS4s6qBzKDQ-iBmhyWMegdTcbX1Goh79S_l5dUilEEp1IUGemaBrsT2Fw2Ok" />
     <title lang="nl">MIDMID</title>
   </programme>
-  <programme start="20261121131600 +0000" stop="20261121135200 +0000" channel="CanalPlusSport.fr">
+  <programme start="20261121131400 +0000" stop="20261121132000 +0000" channel="CanalPlusSport.fr">
+    <title>Fractionné F1</title>
+    <sub-title>Emission Du 01 Mai 2026</sub-title>
+    <desc>A la découverte des anecdotes surprenantes et des belles histoires liées au monde de la F1, chez les pilotes et chez les écuries, à travers le temps.</desc>
+  </programme>
+  <programme start="20261121132000 +0000" stop="20261121135500 +0000" channel="CanalPlusSport.fr">
     <title>Kimi Antonelli : La nouvelle étoile</title>
     <sub-title>Doc. Sport</sub-title>
     <desc>À 20 ans, Kimi Antonelli est devenu en 2026 le plus jeune champion du monde de l’histoire de la Formule 1, après seulement deux saisons. Retour sur la trajectoire exceptionnelle et fulgurante de ce gamin italien, couvé par Mercedes, aussi rapide que rayonnant.</desc>
@@ -17033,7 +16949,7 @@ The best bits from TNT Sports over the last week, including exclusive interviews
     <icon src="https://iptv-epg.org/images/Ro-6afLAtgAGgUPpWqihXk3WCZ46kHHOrZcj9BHJC-4bnMtmvIVwJGb0z75GkQL0UQavYh6x6d85bTRk73XGS7TdXxdu8L4TUze8lfP-QcFo_LcjjDJAn2E7sl2n0sPROdKaW5wFUBISANVTZnP7OTNBJeFH9C9pG4xmVVu39Cz2IUJ0Go6_4lRfjYz1XbkIh0mRLXxOJyjHAtEmipZR3uOxM_qPFp9dCPLBT0d9vZ1WHIi0CKRTE06k8kis5dTzN2T749lUdebJ89bAxveltLh-9nh-lxqh3qlw9osEzEiJRro4RLzz7KJltDXZTzEy3zHX7npO" />
     <title lang="en">TNT Sports Reload</title>
   </programme>
-  <programme start="20261121135200 +0000" stop="20261121143800 +0000" channel="CanalPlusSport.fr">
+  <programme start="20261121135500 +0000" stop="20261121144300 +0000" channel="CanalPlusSport.fr">
     <title>1re course</title>
     <sub-title>Grand Prix De Las Vegas</sub-title>
     <desc>Las Vegas accueille la dernière étape de la saison de F1 Academy. Si la Britannique Alisha Palmowski est déjà assurée du titre, la deuxième place du championnat fera l'objet d'une bataille entre la Néerlandais Nina Gademan et l'Autrichienne Emma Felbemayr. Les Françaises Lisa Billard et Jade Jacquet tenteront de finir sur une bonne note.</desc>
@@ -17298,14 +17214,18 @@ Sprint race action from the 2026 MotoGP Grand Prix of Portugal at Autodromo Inte
     <title lang="en">MotoGP</title>
     <live />
   </programme>
-  <programme start="20261121143800 +0000" stop="20261121160500 +0000" channel="CanalPlusSport.fr">
-    <title>Essais libres 3</title>
-    <sub-title>Grand Prix De Las Vegas</sub-title>
-    <desc>Au coeur de la cité du Nevada qui ne dort jamais, le Grand Prix de Formule 1 de Las Vegas est le troisième grand prix qui se déroule aux USA, avec Austin et Miami.</desc>
+  <programme start="20261121143600 +0000" stop="20261121145900 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>Match of ze Day</title>
+    <desc>Match of ze Day.</desc>
   </programme>
   <programme start="20261121144000 +0000" stop="20261121154500 +0000" channel="NOVASPORT6.cz">
     <desc lang="cs">Přímý přenos sprintového závodu třídy MotoGP (Autódromo Internacional do Algarve, Portugalsko).</desc>
     <title lang="cs">Repsol Grand Prix of Portugal (Sprint race MotoGP)</title>
+  </programme>
+  <programme start="20261121144300 +0000" stop="20261121161100 +0000" channel="CanalPlusSport.fr">
+    <title>Essais libres 3</title>
+    <sub-title>Grand Prix De Las Vegas</sub-title>
+    <desc>Au coeur de la cité du Nevada qui ne dort jamais, le Grand Prix de Formule 1 de Las Vegas est le troisième grand prix qui se déroule aux USA, avec Austin et Miami.</desc>
   </programme>
   <programme start="20261121144500 +0000" stop="20261121151500 +0000" channel="PremierSports2.uk">
     <category lang="en">Sports</category>
@@ -17388,6 +17308,10 @@ Vanuit Stamford Bridge in Londen, Engeland.</desc>
 Vanuit het Villa Park in Birmingham, Engeland.</desc>
     <icon src="https://iptv-epg.org/images/owgrIviJbXSqwfbcVMa0KLxjS0aXh-drY5yHVv3-XC73cuoNHunhepTRCtraqftRuP5LV233qKm6bzQS5tQQsk-jOdH3f3DK3Mu_JCgIRMvf7LBXKgLMHOU00DKjg4KX9v3YTdbE9cxHRKD015h60TfVWewgylthkz6NMhB0kfnNmtSzhiAiF6_Z3y0suWXJ58ZgYWc0sGlaSh2BiWqSNywuvwIQMu_ILGpvDQFet4fSUrlCBOILUw7Tk9N2NAabfoc2Pgj97FGxz1K4K9apDjUlYQn4XOOII7ERu4hvOfLlDhXuOfs" />
     <title lang="nl">Premier League</title>
+  </programme>
+  <programme start="20261121145900 +0000" stop="20261121170100 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>Multiplex</title>
+    <desc>Football. Premier League. 11e journéeMultiplex.</desc>
   </programme>
   <programme start="20261121150000 +0000" stop="20261121160000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
@@ -17675,10 +17599,6 @@ Une immersion dans les compétitions nationales de foot-fauteuil, mettant en lum
     <title lang="fr">Foot fauteuil électrique : Championnat de France Division 1</title>
     <new />
   </programme>
-  <programme start="20261121160000 +0000" stop="20261121200000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
-  </programme>
   <programme start="20261121160000 +0000" stop="20261121170000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -17728,11 +17648,6 @@ England return to the MCG, where they claimed their only win of the 2025/26 Ashe
     <category lang="de">Sports</category>
     <title lang="de">blue Sport 4 Live</title>
   </programme>
-  <programme start="20261121160500 +0000" stop="20261121174700 +0000" channel="CanalPlusSport.fr">
-    <title>Essais qualificatifs</title>
-    <sub-title>Grand Prix De Las Vegas</sub-title>
-    <desc>Kimi Antonelli titré depuis le Mexique, la lutte se poursuit pour le titre honorifique de vice-champion derrière le pilote Mercedes. Max Verstappen (Red Bull), George Russell (Mercedes) et Lewis Hamilton (Ferrari) sont encore sur les rangs pour la deuxième place du championnat, et devraient se livrer une lutte sans merci sur The Strip, la ligne droite principale de Las Vegas, antépénultième rendez-vous de la saison avant le Qatar et Abu Dhabi.</desc>
-  </programme>
   <programme start="20261121160500 +0000" stop="20261121181500 +0000" channel="beINSPORTS3.us">
     <category lang="en">Sports</category>
     <category lang="en">Soccer</category>
@@ -17746,6 +17661,11 @@ From Allianz Riviera in Nice, Provence-Alpes-Cote d'Azur, France.</desc>
   <programme start="20261121161000 +0000" stop="20261121183000 +0000" channel="NOVASPORT5.cz">
     <desc lang="cs">Přímý přenos 11. kola nejvyšší francouzské fotbalové soutěže Ligue 1 McDonald's.</desc>
     <title lang="cs">OGC Nice - PSG</title>
+  </programme>
+  <programme start="20261121161100 +0000" stop="20261121180000 +0000" channel="CanalPlusSport.fr">
+    <title>Essais qualificatifs</title>
+    <sub-title>Grand Prix De Las Vegas</sub-title>
+    <desc>Kimi Antonelli titré depuis le Mexique, la lutte se poursuit pour le titre honorifique de vice-champion derrière le pilote Mercedes. Max Verstappen (Red Bull), George Russell (Mercedes) et Lewis Hamilton (Ferrari) sont encore sur les rangs pour la deuxième place du championnat, et devraient se livrer une lutte sans merci sur The Strip, la ligne droite principale de Las Vegas, antépénultième rendez-vous de la saison avant le Qatar et Abu Dhabi.</desc>
   </programme>
   <programme start="20261121161500 +0000" stop="20261121170000 +0000" channel="LFCTV.uk">
     <category lang="en">Football</category>
@@ -18000,6 +17920,10 @@ Diffusion d'un match de NCAA, le championnat universitaire de football américai
     <category lang="de">Sports</category>
     <title lang="de">blue Sport 5 Live</title>
   </programme>
+  <programme start="20261121170100 +0000" stop="20261121172500 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>Match of ze Day</title>
+    <desc>Match of ze Day.</desc>
+  </programme>
   <programme start="20261121171400 +0000" stop="20261121182900 +0000" channel="M+LaLigaTV.es">
     <category lang="es">Deportes</category>
     <category lang="es">Sports</category>
@@ -18094,6 +18018,10 @@ Suivez les plus belles affiches de la Bundesliga, le championnat de football all
     <icon src="https://iptv-epg.org/images/dnQTGRYhFrO7kanJM55hMhzK8o_uCXOBbvBbMtdlTByLSQeDqt7AMsWd5v3jWiO-_Vor6t5QXhWV-2WZWTZI7-aVQTjeDWFikAWIdCCNq7bW3tQsQmsV" />
     <title lang="fr">Football : Bundesliga</title>
     <live />
+  </programme>
+  <programme start="20261121172500 +0000" stop="20261121193000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>Newcastle United / Arsenal</title>
+    <desc>Football. Premier League. 11e journéeNewcastle United / Arsenal.</desc>
   </programme>
   <programme start="20261121172500 +0000" stop="20261121192500 +0000" channel="PlaySports1.be">
     <category lang="nl">Sport</category>
@@ -18285,6 +18213,11 @@ Retransmission d'un match de la Daikin StarLigue, la plus haute division du hand
     <desc lang="fr">beIN SPORTS, le plus grand des spectacles.</desc>
     <icon src="https://iptv-epg.org/images/xi2HXQdD_Q4ifcDgw_IsADpT-e9gGeIUDK7C1Zt-HCqQZgZFkF_Wdc3-OwgO6Z95-NcdHGIdj-0-AauFnCsZLTcFaPPcIQcnSehl5nhEwU8ecJh6qpO7" />
     <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+  </programme>
+  <programme start="20261121180000 +0000" stop="20261121210000 +0000" channel="CanalPlusSport.fr">
+    <title>3e tour</title>
+    <sub-title>Open De Sea Island</sub-title>
+    <desc>Les favoris vont tenter de se placer idéalement avant le quatrième et dernier tour du tournoi, disputé en Georgie, sur le parcours du Sea Island Golf Club.</desc>
   </programme>
   <programme start="20261121180000 +0000" stop="20261121190000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
@@ -18711,6 +18644,10 @@ Diffusion de matchs de Bundesliga 2, championnat antichambre de l'élite du foot
     <title lang="fr">Football : Bundesliga 2</title>
     <live />
   </programme>
+  <programme start="20261121193000 +0000" stop="20261121193100 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>Sommaire Premier League</title>
+    <desc>11e journéeSommaire Premier League.</desc>
+  </programme>
   <programme start="20261121193000 +0000" stop="20261121195400 +0000" channel="M+LaLigaTV.es">
     <category lang="es">Deportes</category>
     <category lang="es">Sports</category>
@@ -18769,6 +18706,10 @@ Rangers attempt to keep touch with Scottish Premiership leaders Celtic as Derek 
     <desc lang="fr">beIN SPORTS, le plus grand des spectacles.</desc>
     <icon src="https://iptv-epg.org/images/xi2HXQdD_Q4ifcDgw_IsADpT-e9gGeIUDK7C1Zt-HCqQZgZFkF_Wdc3-OwgO6Z95-NcdHGIdj-0-AauFnCsZLTcFaPPcIQcnSehl5nhEwU8ecJh6qpO7" />
     <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
+  </programme>
+  <programme start="20261121193100 +0000" stop="20261121211400 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>Chelsea / Leeds United</title>
+    <desc>Football. Premier League. 11e journéeChelsea / Leeds United.</desc>
   </programme>
   <programme start="20261121193400 +0000" stop="20261121211600 +0000" channel="PlaySports3.be">
     <category lang="nl">Sport</category>
@@ -19080,6 +19021,10 @@ The 2026 Longines Global Champions Tour individual season reaches a climax in Ve
     <title lang="en">Global Champions Tour</title>
     <live />
   </programme>
+  <programme start="20261121210000 +0000" stop="20261121210200 +0000" channel="CanalPlusSport.fr">
+    <title>Zapsport 360</title>
+    <desc>Le Zapsport 360 permet de retrouver toutes les images marquantes du sport des derniers jours, dans un format dynamique : résultats, compétitions du moment et séquences spectaculaires sont au rendez-vous.</desc>
+  </programme>
   <programme start="20261121210000 +0000" stop="20261121220000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -19229,6 +19174,19 @@ Premier League Stories presenteert de persoonlijkheden die vorm hebben gegeven a
     <episode-num>S6 E17</episode-num>
     <icon src="https://iptv-epg.org/images/BMBq3aNQR2Xd_MBGCO4E5i_9Zyjr2v4DIq3ychR4NAwyvkB8hKThVrgcj0eXNx-zAu4GC18xXYRWBRErIcC1OtSdGpwpbcRUUegNvQ7hS_40m6tZeB8CW2kIKXfQ02lAZGHAwQpdYrrC9awz4x3OBclH2YfnmJu0-T1sJ1ZfOE4JymXsjvVq2p8D0i49r9g2XU4JK6STp0Au7c7p2CQz3E1cnfUtrLReXd7ArC3F_0pz1WHBoLCbqB0UZSdejyIqtx8AwU-jL5ok2wtFGrecr3j5mFbU0ZkgbmgwHm5y1LLFb_ly3_E" />
     <title lang="nl">Premier League Stories</title>
+  </programme>
+  <programme start="20261121210200 +0000" stop="20261121224400 +0000" channel="CanalPlusSport.fr">
+    <title>Essais qualificatifs</title>
+    <sub-title>Grand Prix De Las Vegas</sub-title>
+    <desc>Kimi Antonelli titré depuis le Mexique, la lutte se poursuit pour le titre honorifique de vice-champion derrière le pilote Mercedes. Max Verstappen (Red Bull), George Russell (Mercedes) et Lewis Hamilton (Ferrari) sont encore sur les rangs pour la deuxième place du championnat, et devraient se livrer une lutte sans merci sur The Strip, la ligne droite principale de Las Vegas, antépénultième rendez-vous de la saison avant le Qatar et Abu Dhabi.</desc>
+  </programme>
+  <programme start="20261121211400 +0000" stop="20261121211500 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>Sommaire Premier League</title>
+    <desc>11e journéeSommaire Premier League.</desc>
+  </programme>
+  <programme start="20261121211500 +0000" stop="20261121225700 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>Football : Premier League</title>
+    <desc>Football. Premier League. 11e journéeFootball : Premier League.</desc>
   </programme>
   <programme start="20261121211600 +0000" stop="20261121231100 +0000" channel="PlaySports3.be">
     <category lang="nl">Sport</category>
@@ -19631,6 +19589,11 @@ Highlights of all the action from international cricket tournaments, where teams
     <icon src="https://iptv-epg.org/images/QBrlJsXjelqoGc5yxRd-UOPNixzYmMqQXrNUFlxhXqdphOYe8fZaYBIKmH83CMQ_3bKEYY5gaYr89E6NViB19SFFrRGb8Qq88w30yygsaI7pCOJMCws4" />
     <title lang="en">Ligue 1+ 2</title>
   </programme>
+  <programme start="20261121224400 +0000" stop="20261122001500 +0000" channel="CanalPlusSport.fr">
+    <title>1er jour</title>
+    <sub-title>Grand Prix De Dubaï</sub-title>
+    <desc>C'est la dernière ligne droite de la saison de SailGP, avec le Grand Prix de Dubaï, avant-dernière étape du calendrier, et qui déterminera les trois équipes qui se disputeront la finale à Abu Dhabi une semaine plus tard. L'Australie, l'Espagne, la Grande-Bretagne et la Nouvelle-Zélande sont les grands favoris, alors que l'équipage français tentera un coup d'éclat pour conclure au mieux sa campagne 2026.</desc>
+  </programme>
   <programme start="20261121224500 +0000" stop="20261121230000 +0000" channel="MUTV.uk">
     <category lang="en">Sports</category>
     <category lang="en">Football</category>
@@ -19656,6 +19619,14 @@ Action from Sky Bet League One.</desc>
   <programme start="20261121225500 +0000" stop="20261122070500 +0000" channel="NOVASPORT6.cz">
     <desc lang="cs">Záznam sprintového závodu třídy MotoGP (Autódromo Internacional do Algarve, Portugalsko).</desc>
     <title lang="cs">Repsol Grand Prix of Portugal (Sprint race MotoGP)</title>
+  </programme>
+  <programme start="20261121225700 +0000" stop="20261121225900 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>Sommaire Premier League</title>
+    <desc>11e journéeSommaire Premier League.</desc>
+  </programme>
+  <programme start="20261121225900 +0000" stop="20261121230000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>Tottenham / Ipswich Town</title>
+    <desc>Football. Premier League. 11e journéeTottenham / Ipswich Town.</desc>
   </programme>
   <programme start="20261121230000 +0000" stop="20261122020000 +0000" channel="CANAL+ Sport 3 HD.sk">
     <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
@@ -20233,6 +20204,11 @@ Former Bradford Bulls and St Helens star Leon Pryce discusses the individuals th
     <icon src="https://iptv-epg.org/images/uLc08yLlJ2kAt9TNy9Et04MVQ3HCcDTWeGfyoMORq-0UtmDyVjhSRoeRzu8WE6SnazGDti7zaM_tRRUE5lRzD6RFaTh6PL_HjrOsvS867caqAKB9GC0uOYEpHCRcTJYYQkTHHeCDIWruR5UHx8hzCAc0SkA9AImor_DPq3nMR_upkv5X3n8xXAVvxXmfgVPkAUJPDmr-wMCpc1G3pkDzowPYPD4MSzFAIeaIrQAGTPn0XQ694_GrPTFcfIJxLar8U3u_3afY-I3UGgzKW6tzb8cyiAWPrxMHzQBbWSEoedZCw2JKOju6jXqfDTFgUpeEIAV9iRHG" />
     <title lang="en">My Icon</title>
   </programme>
+  <programme start="20261122001500 +0000" stop="20261122010200 +0000" channel="CanalPlusSport.fr">
+    <title>2e course</title>
+    <sub-title>Grand Prix De Las Vegas</sub-title>
+    <desc>La saison de F1 Academy se conclut avec cette deuxième course dans les rues de Las Vegas, alors que la Britannique Alisha Palmowski, soutenue par Red Bull, était déjà sacrée en arrivant dans le Nevada. La bataille pour la deuxième place restait en revanche ouverte entre Nina Gademan et Emma Felbemayr.</desc>
+  </programme>
   <programme start="20261122001500 +0000" stop="20261122011500 +0000" channel="NOVASPORT5.cz">
     <desc lang="cs">Přímý přenos závodu ženského formulového šampionátu pod patronátem F1 v Las Vegas.</desc>
     <title lang="cs">F1 Academy - Velká cena Las Vegas 2026 (2. závod)</title>
@@ -20359,6 +20335,10 @@ Die Spieltags-Highlights der Premier League in kompakter Form.</desc>
     <episode-num>S2026</episode-num>
     <icon src="https://iptv-epg.org/images/PyIdxUQF0mX_28H2OW0wJGSnxkZ-pVEyZsg20bf3RKwmwtbQ-LeVx_2xI7Zll9JJge4D07b1cvcfIv49GVgwvbE1nNEIL5q5NVH6vH_PdeZOZuGNyEQVmT5l2-iF7zl8jKjzcPmbE06EDiC8xcEuDOjlA0sfPE8" />
     <title lang="de">PL: Highlights Samstag, 11. Spieltag</title>
+  </programme>
+  <programme start="20261122004000 +0000" stop="20261122050000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>La Premier League sur Canal+</title>
+    <desc>La Premier League sur Canal+.</desc>
   </programme>
   <programme start="20261122004500 +0000" stop="20261122010000 +0000" channel="SkySportsFootball.uk">
     <category lang="en">Sports</category>
@@ -20515,6 +20495,11 @@ Highlights of all the action from international cricket tournaments, where teams
     <icon src="https://iptv-epg.org/images/gJStwgQ29iOJa0EbAiG_dfz2dxmhtN0-DWOzqc1XLjyV96HmokwkZwjkxWojf5SPW6Kc8EjenXv9b63NXOGmPlnjAit2VGCHR90aHQKrSTU" />
     <title lang="en">SIGN OFF</title>
   </programme>
+  <programme start="20261122010200 +0000" stop="20261122014800 +0000" channel="CanalPlusSport.fr">
+    <title>Au micro ! Une nouvelle voix pour le foot</title>
+    <sub-title>Sélection Paris</sub-title>
+    <desc>En 2024/2025, la nouvelle formule de l’UEFA Champions League, avec encore plus de matches, sera diffusée en intégralité sur les chaînes CANAL+. Dans cette perspective, pour renforcer son équipe de commentateurs, CANAL+ s’est lancé à la recherche d’une nouvelle voix pour commenter le football sur ses antennes. Un processus de recrutement exceptionnel, en plusieurs étapes, ouvert pour la première fois à tous les amateurs et amatrices de football. Des concurrents âgés de 18 à 64 ans, de toutes catégories professionnelles et sociales.</desc>
+  </programme>
   <programme start="20261122010300 +0000" stop="20261122010400 +0000" channel="PlaySports1.be">
     <category lang="nl">Sport</category>
     <category>Sports</category>
@@ -20659,6 +20644,11 @@ Sprint race action from the 2026 MotoGP Grand Prix of Portugal at Autodromo Inte
 Action from Sky Bet League One.</desc>
     <icon src="https://iptv-epg.org/images/3uYIlT8ECONN0-qLppzD62L1IiOAdn8HFN-rMQ4aof46bw8oPFQvF_fc49Asywgol_rcK3eGrbPsP3JWmrZIPfYak_tKIvpZkeculq7KpXA419eEX5CXqd9NR_TsV--D3kw9WYWbfydu8aqQwA8o-fLQzfObk8Eq24lAXngoTM0fUSb54y-TUE05WhuD73ZRj1-1Mhqm8RjAGkECeYCIuGrw4pe8DPA8GFnqhYZbWhZC3Oqj75wQIfgsjE4N0mcWZlR0iKSvhYqPJOBO1oyCbsL45vRePZOOAEdnKf-FO4hmBTZzzg7WfsSBdRJSP3ndZwM66atJ" />
     <title lang="en">EFL League One</title>
+  </programme>
+  <programme start="20261122014800 +0000" stop="20261122023100 +0000" channel="CanalPlusSport.fr">
+    <title>Au micro ! Une nouvelle voix pour le foot</title>
+    <sub-title>Sélection Marseille</sub-title>
+    <desc>En 2024/2025, la nouvelle formule de l’UEFA Champions League, avec encore plus de matches, sera diffusée en intégralité sur les chaînes CANAL+. Dans cette perspective, pour renforcer son équipe de commentateurs, CANAL+ s’est lancé à la recherche d’une nouvelle voix pour commenter le football sur ses antennes. Un processus de recrutement exceptionnel, en plusieurs étapes, ouvert pour la première fois à tous les amateurs et amatrices de football. Des concurrents âgés de 18 à 64 ans, de toutes catégories professionnelles et sociales.</desc>
   </programme>
   <programme start="20261122015000 +0000" stop="20261122020100 +0000" channel="Ligue1+.fr">
     <category lang="en">Documentaire</category>
@@ -20926,6 +20916,11 @@ Highlights of all the action from international cricket tournaments, where teams
     <previously-shown />
     <title lang="en">Cricket Highlights</title>
   </programme>
+  <programme start="20261122023100 +0000" stop="20261122030700 +0000" channel="CanalPlusSport.fr">
+    <title>Au micro ! Une nouvelle voix pour le foot</title>
+    <sub-title>Sélection Lens</sub-title>
+    <desc>En 2024/2025, la nouvelle formule de l’UEFA Champions League, avec encore plus de matches, sera diffusée en intégralité sur les chaînes CANAL+. Dans cette perspective, pour renforcer son équipe de commentateurs, CANAL+ s’est lancé à la recherche d’une nouvelle voix pour commenter le football sur ses antennes. Un processus de recrutement exceptionnel, en plusieurs étapes, ouvert pour la première fois à tous les amateurs et amatrices de football. Des concurrents âgés de 18 à 64 ans, de toutes catégories professionnelles et sociales.</desc>
+  </programme>
   <programme start="20261122023500 +0000" stop="20261122060000 +0000" channel="NOVASPORT2.cz">
     <desc lang="cs">Záznam utkání základní skupiny basketbalové Ligy mistrů.</desc>
     <title lang="cs">AEK BC - Falco KC Szombathely</title>
@@ -21142,6 +21137,11 @@ Highlights of all the action from international cricket tournaments, where teams
   <programme start="20261122030500 +0000" stop="20261122060000 +0000" channel="NOVASPORT1.cz">
     <desc lang="cs">Přímý přenos utkání zámořské hokejové ligy NHL.</desc>
     <title lang="cs">Vancouver Canucks - Minnesota Wild</title>
+  </programme>
+  <programme start="20261122030700 +0000" stop="20261122055200 +0000" channel="CanalPlusSport.fr">
+    <title>Fin des programmes</title>
+    <sub-title>Divers</sub-title>
+    <desc>Fermeture de l'antenne à la fin des diffusions de la journée.</desc>
   </programme>
   <programme start="20261122031500 +0000" stop="20261122033000 +0000" channel="SkySportsPremierLeague.uk">
     <category lang="en">Sports</category>
@@ -21579,6 +21579,10 @@ Coverage of the FIS Ski Jumping World Cup.</desc>
     <icon src="https://iptv-epg.org/images/U3IikrEuhnlhTMu5QIbHisHXa12H0J_aE7Jngi6jCNHg_pRrI8r0Bxpj6_kcJU16NkFt79xGSgHVokzbOM2SetqTyGI8Rz-cRnANzjcFltI6ipvF9Ymn3qp9YK2cNmhMa13N98E4VSP_XsQFyVLUv1psJdMKWxyOoEGF-lcf9ehqrc2FVlRtsPkbFfl75sZmyTFdPPhEIfvldV34WL0yI8znz7hcJQRVWpk3NR3pbaAGO6L-ob-e5uFfVnWWzA8arSetoNTEIxB0r44PodmocRe9PV_mOzdRDUYFEpQCf8iAmblXq570dfQbt-MU-van03ljfbQr" />
     <title lang="en">FIS World Cup Ski Jumping</title>
   </programme>
+  <programme start="20261122050000 +0000" stop="20261122064400 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>La Premier League sur Canal+</title>
+    <desc>La Premier League sur Canal+.</desc>
+  </programme>
   <programme start="20261122050000 +0000" stop="20261122060000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -21793,6 +21797,11 @@ Former Liverpool striker Luis Suárez speaks exclusively to LFCTV about his feel
 Vanuit de Lotto Arena in Antwerpen, België.</desc>
     <icon src="https://iptv-epg.org/images/SIVQA9Y_RpKT9blvKClEQ-y6xdrRwT2gB69DPGBSx8pMgwiVYdlrI_LBPzkbsucK0ueT3HlHQzVkShSitIhtyRepp65K04PMc9e02YnDRLccmoa6YQAd7nk4Ge2T719-BzEB4bcGd3ELZqmCDGuzj345ybRSTs8uRuupoytbEBw_yhkg1bzT8a_D_7jJkxlI2K1PAerxgMYkaBb7zaJZVyLsAqeUFUaHxPHropSbb9q5F49fTO_Zb_p9JcHRa1Khtvd0CWPpH1Ngo56LRKFzFIzajJIq-XyX4i6D8-YRyBjV1QoAxqg" />
     <title lang="nl">BNXT League</title>
+  </programme>
+  <programme start="20261122055200 +0000" stop="20261122075300 +0000" channel="CanalPlusSport.fr">
+    <title>3e tour</title>
+    <sub-title>Open De Sea Island</sub-title>
+    <desc>Les favoris vont tenter de se placer idéalement avant le quatrième et dernier tour du tournoi, disputé en Georgie, sur le parcours du Sea Island Golf Club.</desc>
   </programme>
   <programme start="20261122060000 +0000" stop="20261122070000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
@@ -22193,6 +22202,14 @@ We uncover the untold stories of the FA Cup.</desc>
     <icon src="https://iptv-epg.org/images/hYhW-s1GsKs2C2nGLnrI-dhgNGJmRX4EOuZouuOV1ur4H0rH8UjmsRloJ0us-Z2BfMb7auJkJqjO0D6D8BsM1mEJ37hN34BX1IQ9_isdYH3FB3bMjL930KcuHlvBRt6pCmSPyntb9VYHyHzwOL1R9MXuHOihaJ4iyqrMfP0IeoF2RLVN5Wt3l1wHBkfMw58Mvl1b6N5AXtSbSvot86Nr60Pth7hOA5OO0yikyYjvderrC3eqnD-Z_8Q852cC9iu4tfLqKAB6XDiRfe5KX68SuaEBIjp8oZMvg4rIAT1z1AjUrhtEkVajf7sItjOVv3vSMg" />
     <title lang="nl">Play Sports</title>
   </programme>
+  <programme start="20261122064400 +0000" stop="20261122064500 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>Sommaire Premier League</title>
+    <desc>11e journéeSommaire Premier League.</desc>
+  </programme>
+  <programme start="20261122064500 +0000" stop="20261122082700 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>Tottenham / Ipswich Town</title>
+    <desc>Football. Premier League. 11e journéeTottenham / Ipswich Town.</desc>
+  </programme>
   <programme start="20261122064500 +0000" stop="20261122070000 +0000" channel="SkySportsFootball.uk">
     <category lang="en">Sports</category>
     <category lang="en">Football</category>
@@ -22576,6 +22593,11 @@ Action from cricket matches around the world.</desc>
     <title lang="en">Cricket Review</title>
     <live />
   </programme>
+  <programme start="20261122075300 +0000" stop="20261122084000 +0000" channel="CanalPlusSport.fr">
+    <title>2e course</title>
+    <sub-title>Grand Prix De Las Vegas</sub-title>
+    <desc>La saison de F1 Academy se conclut avec cette deuxième course dans les rues de Las Vegas, alors que la Britannique Alisha Palmowski, soutenue par Red Bull, était déjà sacrée en arrivant dans le Nevada. La bataille pour la deuxième place restait en revanche ouverte entre Nina Gademan et Emma Felbemayr.</desc>
+  </programme>
   <programme start="20261122075500 +0000" stop="20261122090500 +0000" channel="PlaySports4.be">
     <category lang="nl">Sport</category>
     <category lang="nl">Motorracen</category>
@@ -22876,6 +22898,14 @@ Featuring all the action and highlights from Formula 1 racing.</desc>
     <icon src="https://iptv-epg.org/images/DQskAVIyBazn1IvVAj_CXnHskTlTiWiqHFQ8MssaPN1BEqhdn0aAycM_50Vg-tVY0g2qNZtxJLZNi6YAMdtGosKswOGPoHCbMfb7vfGoQMwoHvuSYByQEumU7NsRsXXSzutc6UgWGN9WPWOUGs7nCTe1UU8pTlXKZAgzkTLsJEspr_pP_JOaSGxxw8SqzxXfSj4jlwWeE9S-Wc1xVv8syZyXgcT4V4R65EVYWmH2AqOMkstBMxLt-tvvp1Kh8TMWPpyhxw91WysXOjVeFjJS-PVXKP6A2A0wlOdiKpeWSwOBuQk1_5i8hNeGu_wzXKChjHrUL6BH" />
     <title lang="en">Formula 1</title>
   </programme>
+  <programme start="20261122082700 +0000" stop="20261122082900 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>Sommaire Premier League</title>
+    <desc>11e journéeSommaire Premier League.</desc>
+  </programme>
+  <programme start="20261122082900 +0000" stop="20261122101100 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>Chelsea / Leeds United</title>
+    <desc>Football. Premier League. 11e journéeChelsea / Leeds United.</desc>
+  </programme>
   <programme start="20261122083000 +0000" stop="20261122090000 +0000" channel="MUTV.uk">
     <category lang="en">Sports</category>
     <category lang="en">Football</category>
@@ -22951,6 +22981,11 @@ Vanuit de SNP Arena in Sinsheim, Duitsland.</desc>
 Vanuit de SNP Arena in Sinsheim, Duitsland.</desc>
     <icon src="https://iptv-epg.org/images/WiSRdhEScXVjKuiRgu3iM_4WBqIiuKMSAyQTA8a3mCx6NA4vawL6NeBYnnGWoBbuXlQZX89kYdInTA4ggy4KyLLerWyADsc9X8ih9M_B0HzbMutdGLkhwQ0e9eOHz54VE8oWLL_U7SZpkvEchOND655RMgQ2KPqbXBDvMfS8YRo4LQJ1NZ2WSzO_hdsp57vxUImgeXLH9BGwSXT29Fvn8B_sgd7HL0RP3oHlYXJfgBbhtFx0i-pmjCryVYsRQ6KZq_tVW1iUCK_kBpinsKF2oJUbHB5cQ4hTogOWr5V7wtID6Y4ULho" />
     <title lang="nl">Bundesliga</title>
+  </programme>
+  <programme start="20261122084000 +0000" stop="20261122102700 +0000" channel="CanalPlusSport.fr">
+    <title>La course</title>
+    <sub-title>Grand Prix De Las Vegas</sub-title>
+    <desc>Après sa troisième place au Grand Prix du Mexique, Kimi Antonelli est devenu le plus jeune champion du monde de l'histoire de la Formule 1. Après sa troisième place sur ce circuit la saison dernière, il débarque sans pression, le meilleur moyen de démontrer toutes ses qualités. Vainqueur l'an dernier, Max Verstappen tentera de sauver les meubles après la déception de la perte des deux derniers titres de champions.</desc>
   </programme>
   <programme start="20261122084500 +0000" stop="20261122090000 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
@@ -23384,6 +23419,14 @@ Comienza una nueva temporada de Universo Valdano y lo hace por todo lo alto. Kyl
     <episode-num>S9</episode-num>
     <icon src="https://iptv-epg.org/images/C00JXuiHZzvh_g0mAO78SyVnqnv3wzzHMELlzFOA459aqtFcBjxXQdahoQBTpIu5FYcWXtrDCnMPCAAz8mtGyu9XOtmlcnRW49bI8OYomJaPumjTI9QCcAMk0tLVUXW65gDpgyrG" />
     <title lang="es">Universo Valdano</title>
+  </programme>
+  <programme start="20261122101100 +0000" stop="20261122101300 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>Sommaire Premier League</title>
+    <desc>11e journéeSommaire Premier League.</desc>
+  </programme>
+  <programme start="20261122101300 +0000" stop="20261122115500 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>Newcastle United / Arsenal</title>
+    <desc>Football. Premier League. 11e journéeNewcastle United / Arsenal.</desc>
   </programme>
   <programme start="20261122101500 +0000" stop="20261122103000 +0000" channel="MUTV.uk">
     <category lang="en">Sports</category>
