@@ -25028,6 +25028,9 @@ Highlights from the Dubai T100 Triathlon, featuring a scenic coastal course at A
     <icon src="https://iptv-epg.org/images/9-5eECuNkn6TLr2KmBYLqgOFIWLuK_NNCr_YnLRk2BdjJNISxTXEP5Krauj_PnRss6ffnznCaI_mj6ni0Lc_50VB09XcmKzaPwfWdHlnAHdDym8GV3MSIgMK_-k1_pc5zMCl" />
     <title lang="es">Informe Plus+. Paulo Futre, El Portugués</title>
   </programme>
+  <programme start="20261124170800 +0000" stop="20261124173500 +0000" channel="CanalPlusSport.fr">
+    <title>Fractionné Rugby</title>
+  </programme>
   <programme start="20261124171000 +0000" stop="20261124173000 +0000" channel="NOVASPORT4.cz">
     <desc lang="cs">Ohlédnutí za výjezdem štábu do Madridu na zápas Atlética s Getafe.</desc>
     <title lang="cs">LaLiga Experience - Atlético Madrid</title>
@@ -25176,6 +25179,10 @@ Action from cricket matches around the world.</desc>
     <title lang="en">Cricket Review</title>
     <live />
   </programme>
+  <programme start="20261124173500 +0000" stop="20261124174500 +0000" channel="CanalPlusSport.fr">
+    <title>Plateau avant-match UEFA Champions League</title>
+    <desc>En Direct. Avant les rencontres d'UEFA Champions League, toutes les dernières informations sur les clubs engagés, les compositions d'équipes et l'ambiance au bord de la pelouse.</desc>
+  </programme>
   <programme start="20261124173500 +0000" stop="20261124194000 +0000" channel="PlaySports3.be">
     <category lang="nl">Sport</category>
     <category lang="nl">Voetbal</category>
@@ -25195,6 +25202,10 @@ Verslag van de wedstrijd Galatasaray - Aston Villa, gespeeld in de competitiefas
 Verslag van de wedstrijd FK Bodø/Glimt - LASK Linz, gespeeld in de competitiefase van de UEFA Champions League.</desc>
     <icon src="https://iptv-epg.org/images/qnbNqdWHqgzEAKTs07DUTQSmelHSlETotyZ5zXZlDz9uP5f3c-NIA_TI_fNz7UuOb6-Ghp5g2K8cytns9vlHqDcCmBwJsLbrEJDBK_YFmvB15SsxWpoIsm2LXPzNonGkgDMQD2adBLxK5ELnQszl97RRxgwOHgrVE0g8hKH03mOmxImrSfuyJxGoF-QJTcPUks1xa8_enZthpLKQP5tyZauNRk6T66JAGkDDRw04ktlzmqtxjiUysAx7YoyOTyAL2a1g5azooyC63Z_qaxzBMc_4ccG3Yl5sgZG-7QCCt5poUAPL-gE" />
     <title lang="nl">UEFA Champions League</title>
+  </programme>
+  <programme start="20261124174500 +0000" stop="20261124195000 +0000" channel="CanalPlusSport.fr">
+    <title>Bodø/Glimt / LASK Linz</title>
+    <desc>En Direct.</desc>
   </programme>
   <programme start="20261124174500 +0000" stop="20261124180000 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
@@ -25929,6 +25940,10 @@ We've gone through the MUTV archives to present our greatest Premier League goal
     <icon src="https://iptv-epg.org/images/04CRYHy4cUxv5m1HZ-7uubX64Aywz1Iv8pvYyxKv35jZCRbkE6nzK5VPnbjZ3vWpTlXPmpomWvOmIoS9FQR15HVSpwpVzSMTf1P2DXniM3xuekOSNLVtgQcPyg6okBPXJTFB0WDpBU8I5I173CWKhhKDNLEXepyHXHqciD4Ih6QuQY04PtOYmfJfu_c3Of_13VeS_Ftb8O61nAWE3sni0yt0oWt7dms6_BBK7l-BfmNyVjZfxPhFNstjzkRtvKEHLH1UfiwEZP2y3oe__TCcfGgeg2N8kdOxTUvBu7K8nPhm8skXo-_yxWyAwO6ljighgqSt0a5jcEZzie0SM0wsbcE" />
     <title lang="en">Simon &amp; Naomi with Liam Lawson</title>
   </programme>
+  <programme start="20261124195000 +0000" stop="20261124200000 +0000" channel="CanalPlusSport.fr">
+    <title>Plateau avant-match UEFA Champions League</title>
+    <desc>En Direct. Avant les rencontres d'UEFA Champions League, toutes les dernières informations sur les clubs engagés, les compositions d'équipes et l'ambiance au bord de la pelouse.</desc>
+  </programme>
   <programme start="20261124195000 +0000" stop="20261124195500 +0000" channel="M+LaLigaTV.es">
     <category lang="es">Deportes</category>
     <category lang="es">Sports</category>
@@ -25988,6 +26003,10 @@ Retransmission d'un match de 2e division du championnat d'Angleterre, appelé EF
     <icon src="https://iptv-epg.org/images/Y9BgBaPdxFNV_tvAPUOYNf2R8UccTa9SbmZ0sMzL5_KEajlBtYmlemRvE4w2YCwClTFnOA4NiRTHIRFJGDmM-ZQq0DIzC4eMdCp1wY0AWoBwIN1Vy8QF" />
     <title lang="fr">Football : EFL Championship</title>
     <live />
+  </programme>
+  <programme start="20261124200000 +0000" stop="20261124220100 +0000" channel="CanalPlusSport.fr">
+    <title>Real Madrid / PSV Eindhoven</title>
+    <desc>En Direct.</desc>
   </programme>
   <programme start="20261124200000 +0000" stop="20261124210000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
