@@ -505,131 +505,9 @@
     <title>La Premier League sur Canal+</title>
     <desc>La Premier League sur Canal+.</desc>
   </programme>
-  <programme start="20261122142400 +0000" stop="20261122163000 +0000" channel="beINSPORTSMAX4.fr">
-    <category lang="fr">Football</category>
-    <category>Sports</category>
-    <desc lang="fr">Augsbourg v Mayence
-Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne.</desc>
-    <icon src="https://iptv-epg.org/images/dnQTGRYhFrO7kanJM55hMhzK8o_uCXOBbvBbMtdlTByLSQeDqt7AMsWd5v3jWiO-_Vor6t5QXhWV-2WZWTZI7-aVQTjeDWFikAWIdCCNq7bW3tQsQmsV" />
-    <title lang="fr">Football : Bundesliga</title>
-    <live />
-  </programme>
-  <programme start="20261122142500 +0000" stop="20261122163000 +0000" channel="blueSport3Live.ch">
-    <category lang="de">Sports</category>
-    <date>2026</date>
-    <desc lang="de">Women's Super League (11. Spieltag).</desc>
-    <title lang="de">Arsenal FC - West Ham United</title>
-    <live />
-  </programme>
-  <programme start="20261122143000 +0000" stop="20261122161000 +0000" channel="SkySportBundesliga2.de">
-    <date>2005</date>
-    <desc lang="de">Aktuell liegt eine Sendepause vor und alle Übertragungen sind vorübergehend eingestellt.</desc>
-    <icon src="https://iptv-epg.org/images/JM2JU9mePoFGHNriITcIYXrXVPPcuH7-YAko3cyRr7zjhQ8JFMHUFjX0ifAYKE6JIMo741qzIDh8rOra0lEGnEcvE6JgYqNdmGgl7Y7X5fV2Xnnwj8beaHTOPe0lj3Wj6VScI9yWmknqUMasiiCR_Byj5No1" />
-    <title lang="de">Sendepause</title>
-  </programme>
-  <programme start="20261122143000 +0000" stop="20261122155500 +0000" channel="beINSPORTSMAX5.fr">
-    <category lang="fr">Magazine sportif</category>
-    <desc lang="fr">beIN SPORTS, le plus grand des spectacles.</desc>
-    <icon src="https://iptv-epg.org/images/xi2HXQdD_Q4ifcDgw_IsADpT-e9gGeIUDK7C1Zt-HCqQZgZFkF_Wdc3-OwgO6Z95-NcdHGIdj-0-AauFnCsZLTcFaPPcIQcnSehl5nhEwU8ecJh6qpO7" />
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-  </programme>
-  <programme start="20261122144500 +0000" stop="20261122150500 +0000" channel="M+LaLigaTV.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <date>2026</date>
-    <desc lang="es">R. Racing Club - Real Sociedad
-Previa Liga Española. 1ª División.</desc>
-    <icon src="https://iptv-epg.org/images/IjnY7hwAkxahijHQwe4JulBwqdR5Cyfgk1EXp79wJ3yYzw2MtVx6oYn1dvfebekt-Y58Fh_9ouINN5XtRdcqcaMrkZXAbn273uBugzef4yE51BHj" />
-    <title lang="es">La Casa del Fútbol Previa (T26/27)</title>
-  </programme>
-  <programme start="20261122150000 +0000" stop="20261122180000 +0000" channel="Ligue1+2.fr">
-    <category lang="en">Magazine sportif</category>
-    <category lang="en">Sports</category>
-    <icon src="https://iptv-epg.org/images/QBrlJsXjelqoGc5yxRd-UOPNixzYmMqQXrNUFlxhXqdphOYe8fZaYBIKmH83CMQ_3bKEYY5gaYr89E6NViB19SFFrRGb8Qq88w30yygsaI7pCOJMCws4" />
-    <title lang="en">Ligue 1+ 2</title>
-  </programme>
-  <programme start="20261122150000 +0000" stop="20261122180000 +0000" channel="Ligue1+3.fr">
-    <category lang="en">Magazine sportif</category>
-    <category lang="en">Sports</category>
-    <icon src="https://iptv-epg.org/images/HkJYEeN5i7Hsupb-8gDjUbRYxn5q7ol_5DYbB7ru7oJeR4EWSE-n483uDAWbIElR4XjyLoN9kiyfiwzw5Tak9FhoBgwWO5LfhUaor_eCYpY-1AL9eNXY" />
-    <title lang="en">Ligue 1+ 3</title>
-  </programme>
-  <programme start="20261122150000 +0000" stop="20261122180000 +0000" channel="Ligue1+4.fr">
-    <category lang="en">Magazine sportif</category>
-    <category lang="en">Sports</category>
-    <icon src="https://iptv-epg.org/images/DlqhsYZyJzbC_7H--qyv8onP5-nMtf3vYQaHWOvyQ058QsThrF3vhWUjc5u6onoup7WvKnarSDGP82q5lwt691-llnqh09Av9Ho14GMGxVbmdoWF7pZP" />
-    <title lang="en">Ligue 1+ 4</title>
-  </programme>
-  <programme start="20261122150000 +0000" stop="20261122180000 +0000" channel="Ligue1+5.fr">
-    <category lang="en">Magazine sportif</category>
-    <category lang="en">Sports</category>
-    <icon src="https://iptv-epg.org/images/9nvOX4eLlxEczSpgzpZ0br3ivfyC1SM9-iZOrAZCOFxF2XwnMHsF6y-dksz6FMQXwaNq9rXgx5BUp4kK_vu3rEAlw7dYi7bSpwCli-mOd9Krc3EKf8kF" />
-    <title lang="en">Ligue 1+ 5</title>
-  </programme>
-  <programme start="20261122150500 +0000" stop="20261122171700 +0000" channel="M+LaLigaTV.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <desc lang="es">Tras vencer a domicilio por primera vez en liga, el Rácing regresa al Sardinero para jugar ante una Real que solo suma una derrota en sus últimos nueve partidos oficiales.</desc>
-    <title lang="es">LALIGA EA SPORTS (T26/27): R. Racing Club - Real Sociedad</title>
-  </programme>
-  <programme start="20261122150500 +0000" stop="20261122182000 +0000" channel="blueSport1Live.ch">
-    <category lang="de">Sports</category>
-    <date>2026</date>
-    <desc lang="de">Brack Super League, 14. Spieltag - Deutsch/Italienisch.</desc>
-    <title lang="de">FC Lausanne-Sport - FC Vaduz</title>
-    <live />
-  </programme>
-  <programme start="20261122150500 +0000" stop="20261122182000 +0000" channel="blueSport2Live.ch">
-    <category lang="de">Sports</category>
-    <date>2026</date>
-    <desc lang="de">Brack Super League, 14. Spieltag - Deutsch/Italienisch\r\nAlle Spiele, alle Tore folgt im Anschluss.</desc>
-    <title lang="de">FC Basel 1893 - FC Luzern</title>
-    <live />
-  </programme>
-  <programme start="20261122155000 +0000" stop="20261122160000 +0000" channel="Ligue1+.fr">
-    <category lang="en">Documentaire sportif</category>
-    <category lang="en">Sports</category>
-    <desc lang="en">Benjamin Nivet, ancien capitaine de Troyes, est parti à la rencontre d'Antoine Mille, révélation de l'Estac cette saison. L'élégant milieu de terrain nous raconte son parcours et détaille son jeu.</desc>
-    <icon src="https://iptv-epg.org/images/0v0FpLq9fJA3yUxrDKZgFslqK3SX2Ig7SY5OYP7cgTf81_iOzHDCGH6jQ89RifHyGVn8SRrm_vlOFRCRJhJpSBlMQQU8Se1-N43CyZhKBLagHKglXOnk" />
-    <title lang="en">La révélation Antoine Mille par Benjamin Nivet</title>
-  </programme>
-  <programme start="20261122155500 +0000" stop="20261122180000 +0000" channel="beINSPORTSMAX5.fr">
-    <category lang="fr">Football</category>
-    <category>Sports</category>
-    <desc lang="fr">Trabzonspor v Eyupspor
-Retransmission d'un match du championnat de Turquie de football, appelé Süper Lig.</desc>
-    <icon src="https://iptv-epg.org/images/Ecqtw1AZ4vi4gDKtVaD1XeDdre6TYsrtSmkd76gJyHdMJXfTnf9aEn_6xchmD_XiuNNLzOf20pUnS51tZKCz76nY1Hj6WsZZjIL2D1kKTSA8e3ZBIiMG" />
-    <title lang="fr">Football : Süper Lig</title>
-    <live />
-  </programme>
   <programme start="20261122160000 +0000" stop="20261122200000 +0000" channel="CanalPlusPremierLeague.fr">
     <title>La Premier League sur Canal+</title>
     <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261122160000 +0000" stop="20261122183000 +0000" channel="SkySportPremierLeague.de">
-    <category lang="de">Sport</category>
-    <category>Sports</category>
-    <date>2026</date>
-    <desc lang="de">Aus dem Anfield in Liverpool, Merseyside, England.</desc>
-    <icon src="https://iptv-epg.org/images/vb7DSK9aRzA97JsjqehYSfVAL2FpmVVP_cfyNb36Egilk2SbPxDFmctJpe3XE8Aea8VUOWzc353NCuzKpjIgHP9cshBQUvlK1zYlhMaGyBESUQYig5yIpHx4VmSu6jYBX4sEWT46PcKpHymwCqRFfxt2OrfWZPA" />
-    <title lang="de">Live PL: FC Liverpool - Manchester United, Match of the Week, 11. Spieltag</title>
-    <live />
-  </programme>
-  <programme start="20261122160000 +0000" stop="20261122200000 +0000" channel="beINSPORTSMAX8.fr">
-    <category lang="fr">Magazine sportif</category>
-    <desc lang="fr">beIN SPORTS, le plus grand des spectacles.</desc>
-    <icon src="https://iptv-epg.org/images/xi2HXQdD_Q4ifcDgw_IsADpT-e9gGeIUDK7C1Zt-HCqQZgZFkF_Wdc3-OwgO6Z95-NcdHGIdj-0-AauFnCsZLTcFaPPcIQcnSehl5nhEwU8ecJh6qpO7" />
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-  </programme>
-  <programme start="20261122160000 +0000" stop="20261122183000 +0000" channel="beINSPORTSMAX9.fr">
-    <category lang="fr">Magazine sportif</category>
-    <desc lang="fr">beIN SPORTS, le plus grand des spectacles.</desc>
-    <icon src="https://iptv-epg.org/images/xi2HXQdD_Q4ifcDgw_IsADpT-e9gGeIUDK7C1Zt-HCqQZgZFkF_Wdc3-OwgO6Z95-NcdHGIdj-0-AauFnCsZLTcFaPPcIQcnSehl5nhEwU8ecJh6qpO7" />
-    <title lang="fr">beIN SPORTS, le plus grand des spectacles</title>
-  </programme>
-  <programme start="20261122160000 +0000" stop="20261122200000 +0000" channel="blueSport4Live.ch">
-    <category lang="de">Sports</category>
-    <title lang="de">blue Sport 4 Live</title>
   </programme>
   <programme start="20261122161000 +0000" stop="20261122163000 +0000" channel="SkySportBundesliga2.de">
     <category lang="de">Unterhaltung</category>
@@ -5538,11 +5416,6 @@ We rewind to experience the most exhilarating moments from the Superbike World C
     <title>Coventry / Crystal Palace</title>
     <desc>Football. Premier League. 11e journéeCoventry / Crystal Palace.</desc>
   </programme>
-  <programme start="20261123130000 +0000" stop="20261123140000 +0000" channel="LALIGATVBAR2.es">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261123130000 +0000" stop="20261123134500 +0000" channel="LFCTV.uk">
     <category lang="en">Football</category>
     <category>Sports</category>
@@ -5828,11 +5701,6 @@ We rewind to experience the most exhilarating moments from the Superbike World C
   <programme start="20261123140000 +0000" stop="20261123170000 +0000" channel="CANAL+ Sport 8 HD.sk">
     <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
     <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
-  </programme>
-  <programme start="20261123140000 +0000" stop="20261123150000 +0000" channel="LALIGATVBAR2.es">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261123140000 +0000" stop="20261123160000 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
@@ -28705,6 +28573,11 @@ Verslag van de wedstrijd Feyenoord - Excelsior uit de 13e speelronde van de Vrie
     <icon src="https://iptv-epg.org/images/taXYCd6YIUZptQnfq3IifKemRlClxQ4fwrs5kfHD4huBmuYSABu4RCNqVL4KgJLpvR_RgwqDZ_ac-12gnjIMg6eYWVXex-ChEwldW8KeSBUzBh_I4RF8U_K7lHD7iHLlOZ5obJHE0KUqJB4zvP5iceTdWU8O7qlcJEeYqBvzKOnZ-3ZNQcMLXP3xgTdzC8qyDByNm1HRg-HxcdCkVzPltDIvrwYUH1ltgq8c_GUviwObEjiej5a9rnr7Vw1mjKv7z-MxeouF5NEkOVfWtWfkj2OLySYnp0onPXZFW8nogpPjCBuTGX4" />
     <title lang="nl">Eredivisie</title>
   </programme>
+  <programme start="20261126130000 +0000" stop="20261126140000 +0000" channel="LALIGATVBAR2.es">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261126130000 +0000" stop="20261126133000 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
     <category lang="en">Football</category>
@@ -29027,6 +28900,11 @@ Portsmouth play host to West Ham at Fratton Park in the Sky Bet Championship.</d
   <programme start="20261126135000 +0000" stop="20261126154000 +0000" channel="NOVASPORT4.cz">
     <desc lang="cs">Záznam 11. kola nejvyšší francouzské fotbalové ligy Ligue 1 McDonald's.</desc>
     <title lang="cs">Lille OSC - Olympique Lyon</title>
+  </programme>
+  <programme start="20261126140000 +0000" stop="20261126150000 +0000" channel="LALIGATVBAR2.es">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261126140000 +0000" stop="20261126160000 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
