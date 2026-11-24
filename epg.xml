@@ -22720,6 +22720,10 @@ Action from the Betfred Women's Super League, as St Helens and Leeds Rhinos clas
     <icon src="https://iptv-epg.org/images/JB3boRVJ2XELj7l9SmqCgn3G-CA4Tslhr-UIY64lcGL4GgFvN_3NkXDMPZknfPo5JIW7n1jAS-ZnygYFXJefzG-5D6xaq0ZVmQHd1u4taU6xIWrmmZzp2I4IIe5nDQxHpO1-ZBsKq6y94dCfjc2pNu7cP37WpHzE2OMER9y-rD_en9wq6Whn6rfyfiUpc1chkTGfiCRRpl6hmT6HdYVhaNGE6zZRi7yU_K0ddDSnB_Dnd8b_HFpASzKmx1UdW4j7kDa3dOaL46Ilsyq0OKulLdCXs7IhxIDfjhm41cELoEjhsojIoMLm5-x0_6wiqoAEEUdLL-M7" />
     <title lang="en">RFL Women's Super League</title>
   </programme>
+  <programme start="20261126173000 +0000" stop="20261126174500 +0000" channel="CanalPlusSport.fr">
+    <title>Plateau avant-match UEFA Conference League</title>
+    <desc>En Direct. Avant les rencontres d'UEFA Conference League, toutes les dernières informations sur les clubs engagés, les compositions d'équipes et l'ambiance au bord de la pelouse.</desc>
+  </programme>
   <programme start="20261126173000 +0000" stop="20261126174500 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
     <category lang="en">Football</category>
@@ -22848,6 +22852,10 @@ Action from cricket matches around the world.</desc>
     <icon src="https://iptv-epg.org/images/58PenteVA3IaazCl5uyBo6rPmrn1ksq46zRNq3nLSydcv8zUx5iJee4jN5cxClfvdWTn3ktQWzSDbTvxO99aaFfGXpWdEj48voglvQF9kXA" />
     <title lang="en">Cricket Review</title>
     <live />
+  </programme>
+  <programme start="20261126174500 +0000" stop="20261126195000 +0000" channel="CanalPlusSport.fr">
+    <title>Heart of Midlothian / Monaco</title>
+    <desc>En Direct.</desc>
   </programme>
   <programme start="20261126174500 +0000" stop="20261126180000 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
