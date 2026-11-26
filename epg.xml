@@ -425,108 +425,9 @@
     <display-name>ESPN+ 6 [1080p]</display-name>
     <icon src="https://m.media-amazon.com/images/I/41lChb5Q+KL.png" />
   </channel>
-  <programme start="20261124110000 +0000" stop="20261124160000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261124160000 +0000" stop="20261124200000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261124162100 +0000" stop="20261124163300 +0000" channel="CanalPlusSport.fr">
-    <title>Le Podium</title>
-  </programme>
-  <programme start="20261124163300 +0000" stop="20261124170800 +0000" channel="CanalPlusSport.fr">
-    <title>Formula One, le mag</title>
-  </programme>
-  <programme start="20261124170800 +0000" stop="20261124173500 +0000" channel="CanalPlusSport.fr">
-    <title>Fractionné Rugby</title>
-  </programme>
-  <programme start="20261124173500 +0000" stop="20261124174500 +0000" channel="CanalPlusSport.fr">
-    <title>Plateau avant-match UEFA Champions League</title>
-    <desc>En Direct. Avant les rencontres d'UEFA Champions League, toutes les dernières informations sur les clubs engagés, les compositions d'équipes et l'ambiance au bord de la pelouse.</desc>
-  </programme>
-  <programme start="20261124174500 +0000" stop="20261124195000 +0000" channel="CanalPlusSport.fr">
-    <title>Bodø/Glimt / LASK Linz</title>
-    <desc>En Direct.</desc>
-  </programme>
-  <programme start="20261124195000 +0000" stop="20261124200000 +0000" channel="CanalPlusSport.fr">
-    <title>Plateau avant-match UEFA Champions League</title>
-    <desc>En Direct. Avant les rencontres d'UEFA Champions League, toutes les dernières informations sur les clubs engagés, les compositions d'équipes et l'ambiance au bord de la pelouse.</desc>
-  </programme>
-  <programme start="20261124200000 +0000" stop="20261124220000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261124200000 +0000" stop="20261124220100 +0000" channel="CanalPlusSport.fr">
-    <title>Real Madrid / PSV Eindhoven</title>
-    <desc>En Direct.</desc>
-  </programme>
-  <programme start="20261124220000 +0000" stop="20261124230000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261124220100 +0000" stop="20261124223300 +0000" channel="CanalPlusSport.fr">
-    <title>Kimi Antonelli, la nouvelle étoile</title>
-  </programme>
-  <programme start="20261124223300 +0000" stop="20261124231000 +0000" channel="CanalPlusSport.fr">
-    <title>Fast Life Laurent Dupin</title>
-    <desc>Le journaliste et rédacteur en chef F1 pour Canal+ Laurent Dupin se penche sur l'actualité de la Formule 1 et nous emmène dans les coulisses de la discipline. Actualités, rencontres avec les pilotes et les patrons d'écuries sont au programme de cette émission. Le Grand Prix de Singapour, qui s'est disputé le 11 octobre, devrait être au menu de cet épisode.</desc>
-  </programme>
-  <programme start="20261124231000 +0000" stop="20261125000800 +0000" channel="CanalPlusSport.fr">
-    <title>Golf+, le mag</title>
-  </programme>
-  <programme start="20261125000000 +0000" stop="20261125050000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261125000800 +0000" stop="20261125004300 +0000" channel="CanalPlusSport.fr">
-    <title>Benzema : une saison en or au Real Madrid</title>
-  </programme>
-  <programme start="20261125004300 +0000" stop="20261125062900 +0000" channel="CanalPlusSport.fr">
-    <title>Fin des programmes</title>
-  </programme>
-  <programme start="20261125050000 +0000" stop="20261125080000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261125062900 +0000" stop="20261125081500 +0000" channel="CanalPlusSport.fr">
-    <title>Grand Prix de Las Vegas</title>
-  </programme>
-  <programme start="20261125080000 +0000" stop="20261125110000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261125081500 +0000" stop="20261125082600 +0000" channel="CanalPlusSport.fr">
-    <title>Le Podium</title>
-  </programme>
-  <programme start="20261125082600 +0000" stop="20261125085700 +0000" channel="CanalPlusSport.fr">
-    <title>Formula One, le mag</title>
-  </programme>
-  <programme start="20261125085700 +0000" stop="20261125094300 +0000" channel="CanalPlusSport.fr">
-    <title>Grand Prix de Las Vegas</title>
-  </programme>
-  <programme start="20261125094300 +0000" stop="20261125095400 +0000" channel="CanalPlusSport.fr">
-    <title>Fractionné F1</title>
-  </programme>
-  <programme start="20261125095400 +0000" stop="20261125113800 +0000" channel="CanalPlusSport.fr">
-    <title>Biarritz / Narbonne</title>
-  </programme>
   <programme start="20261125110000 +0000" stop="20261125160000 +0000" channel="CanalPlusPremierLeague.fr">
     <title>La Premier League sur Canal+</title>
     <desc>La Premier League sur Canal+.</desc>
-  </programme>
-  <programme start="20261125113800 +0000" stop="20261125123900 +0000" channel="CanalPlusSport.fr">
-    <title>Golf+, le mag</title>
-  </programme>
-  <programme start="20261125123900 +0000" stop="20261125135500 +0000" channel="CanalPlusSport.fr">
-    <title>Cesta Punta : Open international</title>
-  </programme>
-  <programme start="20261125135500 +0000" stop="20261125144800 +0000" channel="CanalPlusSport.fr">
-    <title>Rallye : WRC, Rallye d'Arabie saoudite</title>
-  </programme>
-  <programme start="20261125144800 +0000" stop="20261125163100 +0000" channel="CanalPlusSport.fr">
-    <title>Rugby : Pro D2</title>
   </programme>
   <programme start="20261125160000 +0000" stop="20261125200000 +0000" channel="CanalPlusPremierLeague.fr">
     <title>La Premier League sur Canal+</title>
@@ -1201,6 +1102,10 @@ Highlights of all the action from international cricket tournaments, where teams
     <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
     <title lang="es">Resúmenes LALIGA EA Sports (T26/27): R. Racing Club - Real Sociedad</title>
   </programme>
+  <programme start="20261125233900 +0000" stop="20261126050000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>La Premier League sur Canal+</title>
+    <desc>La Premier League sur Canal+.</desc>
+  </programme>
   <programme start="20261125234700 +0000" stop="20261126021500 +0000" channel="CanalPlusSport.fr">
     <title>Le 5e tour</title>
   </programme>
@@ -1209,10 +1114,6 @@ Highlights of all the action from international cricket tournaments, where teams
     <category lang="es">Sports</category>
     <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
     <title lang="es">Resúmenes LALIGA EA Sports (T26/27): Rayo Vallecano - Valencia CF</title>
-  </programme>
-  <programme start="20261126000000 +0000" stop="20261126050000 +0000" channel="CanalPlusPremierLeague.fr">
-    <title>La Premier League sur Canal+</title>
-    <desc>La Premier League sur Canal+.</desc>
   </programme>
   <programme start="20261126000000 +0000" stop="20261126020000 +0000" channel="LFCTV.uk">
     <category lang="en">Sports</category>
@@ -12217,6 +12118,10 @@ The penultimate round of the F2 season begins in Lusail. With championship leade
     <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
     <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
   </programme>
+  <programme start="20261127110000 +0000" stop="20261127160000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>La Premier League sur Canal+</title>
+    <desc>La Premier League sur Canal+.</desc>
+  </programme>
   <programme start="20261127110000 +0000" stop="20261127120000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -13922,6 +13827,10 @@ La previa de cada jornada de LaLiga. Además, el espacio se complementa con entr
     <icon src="https://iptv-epg.org/images/-JJ4rQ1eBBbfd157M6OdfcYkVpcslW--AYguBn8Fvo28bbxJm1jCoXD6T_jIF1qoNoeWpKlO2mKKQ0KDp33KwkbzGl3aWo68GqGmNeZPSaoz7SFJxYXkbttgN_A" />
     <title lang="es">LALIGA Show (T26/27)</title>
   </programme>
+  <programme start="20261127160000 +0000" stop="20261127200000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>La Premier League sur Canal+</title>
+    <desc>La Premier League sur Canal+.</desc>
+  </programme>
   <programme start="20261127160000 +0000" stop="20261127170000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -15570,6 +15479,10 @@ Retransmission d'un match de 2e division du championnat d'Angleterre, appelé EF
     <title>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</title>
     <desc>CANAL+ Sport - přestávka ve vysílání - Přestávka ve vysílání</desc>
   </programme>
+  <programme start="20261127200000 +0000" stop="20261127220000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>La Premier League sur Canal+</title>
+    <desc>La Premier League sur Canal+.</desc>
+  </programme>
   <programme start="20261127200000 +0000" stop="20261127210000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -16144,6 +16057,10 @@ Test match cricket action from New Zealand.</desc>
   <programme start="20261127220000 +0000" stop="20261127230000 +0000" channel="CANAL+ Sport 4 HD.sk">
     <title>GNP Mexico Major Premier Padel: čtvrtfinále žen</title>
     <desc>GNP Mexico Major Premier Padel: čtvrtfinále žen</desc>
+  </programme>
+  <programme start="20261127220000 +0000" stop="20261127230000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>La Premier League sur Canal+</title>
+    <desc>La Premier League sur Canal+.</desc>
   </programme>
   <programme start="20261127220000 +0000" stop="20261127230000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
@@ -16790,6 +16707,10 @@ On Friday Night Football, Nottingham Forest play host to Chelsea at the City Gro
   <programme start="20261128000000 +0000" stop="20261128020000 +0000" channel="CANAL+ Sport 3 HD.sk">
     <title>GNP Mexico Major Premier Padel: semifinále mužů</title>
     <desc>GNP Mexico Major Premier Padel: semifinále mužů</desc>
+  </programme>
+  <programme start="20261128000000 +0000" stop="20261128050000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>La Premier League sur Canal+</title>
+    <desc>La Premier League sur Canal+.</desc>
   </programme>
   <programme start="20261128000000 +0000" stop="20261128010000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
@@ -18119,6 +18040,10 @@ Action from the 2026 bp Adelaide Grand Final and race 36 of the Repco Supercars 
     <title lang="en">Australia Championship Supercars</title>
     <live />
   </programme>
+  <programme start="20261128050000 +0000" stop="20261128080000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>La Premier League sur Canal+</title>
+    <desc>La Premier League sur Canal+.</desc>
+  </programme>
   <programme start="20261128050000 +0000" stop="20261128060000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -19044,6 +18969,10 @@ Action from cricket matches around the world.</desc>
 A look at Jimmy Anderson's 500th England wicket, taken during the 2017 Test against the Windies at Lord's.</desc>
     <icon src="https://iptv-epg.org/images/G6et6bZKPlnayGCqYKm14WMUNYJ1A3kKc7K0pJ77XNQ3JgbusR3piQr9sn7pzkfiSVuTIfNClqPidFfn02gkAIVXkUQQFKBGcpUTyH3wEntxguZkBx54DWmYEXRWFf2Z8pfu0SE7xRmW34mjU0vqy1ZPib-prBYFZ4i-rTJu2hpemBvNE-dn7uLs6B7yjUc2Ppx-JaGdMIoYvuYMzgKFoSlo-2fLEsvptTmiYrn8jHWKF_zAGBlLBbkbXJ1axbwXhmGsJMaOtSVrwEPgQ3Xx8TamAaeb3sjS9tkl5yNkXb860FU_nZln1XW8pCu2haJDbPK07wi2" />
     <title lang="en">The Best of Sky Sports Cricket</title>
+  </programme>
+  <programme start="20261128080000 +0000" stop="20261128110000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>La Premier League sur Canal+</title>
+    <desc>La Premier League sur Canal+.</desc>
   </programme>
   <programme start="20261128080000 +0000" stop="20261128090000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
@@ -19979,6 +19908,10 @@ Live coverage of the U18s game against Leeds United.</desc>
     <desc lang="de">Informationen zu diesem Programm folgen in Kürze.</desc>
     <icon src="https://iptv-epg.org/images/m3Be6gnCKx315ov6p5Cgz8YoCJqi7OnREV6aSVcGx_NGUWBeY-JVK-JhOXZnVPawdlcJ0miQvhfqxeQkoT4m3qil7n5lBbupO7ktqfLR5VN7SUCVuW-bivQxfOMeIixNQ7JOXbgfSdAF2PHyDxTTCRY8u_bQpFM" />
     <title lang="de">PL: Classic Match: FC Arsenal - Manchester City (2000/2001)</title>
+  </programme>
+  <programme start="20261128110000 +0000" stop="20261128160000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>La Premier League sur Canal+</title>
+    <desc>La Premier League sur Canal+.</desc>
   </programme>
   <programme start="20261128110000 +0000" stop="20261128120000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
@@ -21416,6 +21349,10 @@ Découvrez les plus belles affiches de la prestigieuse Ligue des champions de la
   <programme start="20261128155500 +0000" stop="20261128190000 +0000" channel="blueSport1Live.ch">
     <category lang="de">Sports</category>
     <title lang="de">blue Sport 1 Live</title>
+  </programme>
+  <programme start="20261128160000 +0000" stop="20261128200000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>La Premier League sur Canal+</title>
+    <desc>La Premier League sur Canal+.</desc>
   </programme>
   <programme start="20261128160000 +0000" stop="20261128170000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
