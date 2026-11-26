@@ -22526,6 +22526,10 @@ Coverage of the Top 14, the top-tier league in French rugby.</desc>
     <title lang="en">Top 14</title>
     <live />
   </programme>
+  <programme start="20261128200000 +0000" stop="20261128220000 +0000" channel="CanalPlusPremierLeague.fr">
+    <title>La Premier League sur Canal+</title>
+    <desc>La Premier League sur Canal+.</desc>
+  </programme>
   <programme start="20261128200000 +0000" stop="20261128210000 +0000" channel="LALIGATVBAR2.es">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
